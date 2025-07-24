@@ -105,23 +105,13 @@ public class GameManager : MonoBehaviour
     }
     private IEnumerator ExplodeSequence()
     {
-        //float elapsed = 0f;
-        //float duration = 1f;
         Time.timeScale = 0f;
         yield return new WaitForSecondsRealtime(1f);
-        //Time.timeScale = 1f;
-        /*while (elapsed < duration)
-        {
-            float t = Mathf.Clamp01(elapsed / duration);
-            GameOverImage.color = Color.Lerp(Color.clear, Color.white, t);
-
-            Time.timeScale = 1f - t;
-            elapsed += Time.unscaledDeltaTime;
-            yield return null;
-        }*/
         GameOverImage.color = Color.white;
         spawner.StopSpawning();
-        if (score >= 50 && score < 100)
+        if (score < 50)
+            Coin = 0;
+        else if (score >= 50 && score < 100)
             Coin = 1;
         else if (score < 150)
             Coin = 2;
