@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hambuger_0: 8388100693756106458
+      Hambuger_1: -7258795113703359243
+      Hambuger_10: -2808907522649527006
+      Hambuger_11: -5386537440278392930
+      Hambuger_12: 8866405534437498166
+      Hambuger_13: -4279218556942981790
+      Hambuger_14: -6324547281472500710
+      Hambuger_15: 3176211914307973091
+      Hambuger_16: -7380977522139811125
+      Hambuger_2: 6434216857106762842
+      Hambuger_3: -858028304549272051
+      Hambuger_4: -3777975839271316611
+      Hambuger_5: -220926909021168117
+      Hambuger_6: 1197689719061278750
+      Hambuger_7: -3489352827886442823
+      Hambuger_8: -3422679588730274255
+      Hambuger_9: -349708113496075311
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

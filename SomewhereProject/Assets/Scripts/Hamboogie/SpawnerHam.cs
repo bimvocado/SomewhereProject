@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+public class SpawnerHam : MonoBehaviour
 {
     public GameObject Hamboogie;
     public GameObject Gamza;
