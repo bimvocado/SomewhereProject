@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dragonfruit_top_0: 6556179168882315538
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
