@@ -1,15 +1,11 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class Food : MonoBehaviour
+public class Trash : MonoBehaviour
 {
-    private ScoreCount ScoreCount;
     private Heart Heart;
 
     private void Start()
     {
-        ScoreCount = FindObjectOfType<ScoreCount>();
         Heart = FindObjectOfType<Heart>();
     }
 
@@ -17,13 +13,12 @@ public class Food : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            ScoreCount.GetScore();
+            Heart.turnOffHeart();
             Destroy(gameObject);
         }
         
         if (other.CompareTag("Ground"))
         {
-            Heart.turnOffHeart();
             Destroy(gameObject);
         }
     }

@@ -7,17 +7,27 @@ public class ScoreCount : MonoBehaviour
 {
     public TMP_Text ScoreText;
     public TMP_Text CoinText;
+
     public int Score;
     public int Coin;
-    
 
-    void Update()
+    private void Start()
     {
-        if (Score % 10 == 0)
-            Coin = Score % 10;
-        
+        SetText();
+    }
+
+
+    public void SetText()
+    {
         ScoreText.text = "Score: " + Score;
         CoinText.text = "Coin: " + Coin;
+    }
+
+    public void GetScore()
+    {
+        Score += 1;
+        Coin = Score / 10;
+        SetText();
     }
     
 }

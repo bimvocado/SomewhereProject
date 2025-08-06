@@ -13,13 +13,13 @@ public class Spawner : MonoBehaviour
     void Start()
     {
         // 음식
-        InvokeRepeating("SpawnHamboogie", 2f, 6f);    // 2, 8, 14...
-        InvokeRepeating("SpawnGamza",     4f, 6.5f);  // 4, 10.5, 17...
-        InvokeRepeating("SpawnCoke",      6f, 7f);    // 6, 13, 20...
+        InvokeRepeating("SpawnHamboogie", 2f, 12f);    
+        InvokeRepeating("SpawnGamza",     6f, 12f);  
+        InvokeRepeating("SpawnCoke",      10f, 12f);    
 
         // 쓰레기 (초기)
-        InvokeRepeating("SpawnTrash01", 9f, 9f);      // 9, 18, 27...
-        InvokeRepeating("SpawnTrash02", 13f, 10f);    // 13, 23, 33...
+        InvokeRepeating("SpawnTrash01", 9f, 13f);      
+        InvokeRepeating("SpawnTrash02", 13f, 13f);   
     }
     
     void SpawnHamboogie()

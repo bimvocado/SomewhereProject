@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 9126902987273059854}
   - component: {fileID: 4087875973045668829}
   - component: {fileID: 7054785602483954046}
-  - component: {fileID: -5081400527330411730}
+  - component: {fileID: -6667313328506858139}
   m_Layer: 0
   m_Name: Trash02
-  m_TagString: Untagged
+  m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-5081400527330411730
+--- !u!114 &-6667313328506858139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,6 +162,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6275279893544188122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61c26f94ba99a83409153d404410ea96, type: 3}
+  m_Script: {fileID: 11500000, guid: 06f0d78ffe52e5b4c99eea0d9c34355c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Hambuger
   - Ground
+  - Trash
+  - Food
   layers:
   - Default
   - TransparentFX
