@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: t_3
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: "\uC5EC\uC8FC"
+    line: "\u201C\uB8E8\uCE74 \uC548\uB155! \uB108\uB3C4 \uCD95\uC81C \uAD6C\uACBD
+      \uC911\uC774\uC57C? \uBB54\uAC00 \uC758\uC678\uB124, \uC774\uB7F0 \uAC70 \uC2EB\uC5B4\uD560
+      \uC904.\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uBCC4\uB85C \uC88B\uC544\uD558\uC9C4 \uC54A\uC544\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uB798? \uC88B\uC544\uD558\uB294 \uC5F0\uC608\uC778\uC774\uB77C\uB3C4
+      \uC640? \uB204\uAD6C?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uADF8\uB7F0 \uAC70 \uC544\uB2C8\uC5D0\uC694. \uADF8\uB0E5\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBB54\uAC00 \uB738\uC744 \uB4E4\uC778\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uC774\uB7F0 \uCD95\uC81C\uB294 \uCC98\uC74C\uC774\uB77C\uC11C\uC694\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "1\uD559\uB144\uC778\uB370 \uBCF4\uD1B5\uC740 \uADF8\uB807\uC9C0 \uC54A\uB098?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\u201C\uC544, \uD558\uAE34 \uB2E4\uB978 \uD559\uAD50 \uCD95\uC81C \uAC00\uBD24\uC744
+      \uC218\uB3C4 \uC788\uAE34 \uD558\uACA0\uB2E4.\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC124\uB81C\uAD6C\uB098!! \uAE30\uB300\uD588\uC9C0? \uADF8\uB798\uC11C
+      \uC628 \uAC70\uC9C0??"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB300\uB2F5\uC774 \uC5C6\uB2E4. \uC815\uB2F5\uC778\uAC00 \uBD10!"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC0DD\uAC01\uBCF4\uB2E4 \uADC0\uC5EC\uC6B4 \uAD6C\uC11D\uB3C4 \uC788\uB124."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uC220 \uB4DC\uC168\uC5B4\uC694?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC548 \uB9C8\uC168\uC5B4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC548 \uBBFF\uB294\uB4EF\uD55C \uC5BC\uAD74\uC774\uB2E4. \uC9C4\uC9E0\uB370\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uBB34\uB300 \uBCF4\uB7EC \uC548 \uAC00?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uC544\uB1E8, \uAC70\uAE30\uAE4C\uC9C4\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\u201C\uC65C, \uADF8\uB798\uB3C4 \uC628 \uAE40\uC5D0 \uAD6C\uACBD\uD558\uACE0
+      \uAC00\uC790.\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC870\uAE08 \uB9DD\uC124\uC774\uB358 \uB8E8\uCE74\uAC00 \uAC00\uBCCD\uAC8C
+      \uACE0\uAC1C\uB97C \uB044\uB355\uC600\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\u201C\uC544, \uB09C \uBA3C\uC800 \uAC00\uBCFC\uAC8C!\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC774\uC81C \uB2E4\uC2DC \uACF5\uC5F0\uC7A5\uC73C\uB85C \uB3CC\uC544\uAC00\uC790."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

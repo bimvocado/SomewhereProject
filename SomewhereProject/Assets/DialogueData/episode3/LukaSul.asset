@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: LukaSul
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC220\uC744 \uC26C\uC9C0 \uC54A\uACE0 \uB9C8\uC154\uC11C \uCDE8\uD588\uB294\uC9C0,
+      \uC606\uC5D0 \uC9C0\uB098\uAC00\uB358 \uB8E8\uCE74\uB791 \uBD80\uB52A\uD600\uC11C
+      \uC220\uC744 \uC3DF\uC558\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB8E8\uCE74\uD55C\uD14C."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uD5D0, \uBBF8\uC548\uD574. \uAC70\uAE30 \uC788\uB294\uC9C0 \uBAB0\uB790\uC5B4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uAD1C\uCC2E\uC2B5\uB2C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB8E8\uCE74\uAC00 \uC790\uCF13 \uC548\uC8FC\uBA38\uB2C8\uC5D0\uC11C \uC190\uC218\uAC74\uC744
+      \uAEBC\uB0C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uADF8 \uBAA8\uC2B5\uC744 \uBCF4\uACE0 \uC0C8\uC0BC \uB3C4\uB828\uB2D8
+      \uAC19\uB2E4\uB294 \uC0DD\uAC01\uC774 \uB4E4\uC5C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uADF8\uB098\uC800\uB098 \uBD84\uBA85 \uC6C3\uACE0 \uC788\uB294\uB370
+      \uC6C3\uB294 \uAC8C \uC544\uB2CC \uB290\uB08C\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC800\uBC88\uBD80\uD130 \uC790\uAFB8 \uBB54\uAC00 \uC0AC\uACFC\uD560
+      \uC77C\uC774 \uC0DD\uAE30\uB294 \uAC83 \uAC19\uB124."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uC7A5\uB09C\uC2DD\uC73C\uB85C \uB118\uC5B4\uAC00\uB824 \uD55C\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 5fc3c434d98bd6e449510f3528bd27cf
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: -5
+      targetCharacterForAffection: "\uB8E8\uCE74"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uBBF8\uC548\uD55C \uB9C8\uC74C\uC5D0 \uB2E4\uC2DC \uD55C\uBC88 \uC0AC\uACFC\uD55C\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 9efbb87a08c87014c82ac7efbc33d892
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uBED4\uBED4\uD558\uAC8C \uBC00\uACE0 \uB098\uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: a15692d477a28cb44906d4d1fd7a96a1
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 4
+      targetCharacterForAffection: "\uB8E8\uCE74"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  nextDialogueOnCompletion:
+    m_AssetGUID: a7a0d253fe3a933479ab5f32d96248b0
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

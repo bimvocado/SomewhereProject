@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 1-3-3-2
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: "\uBB38\uC774\uD604"
+    line: "\uC790\uB9AC\uAC00 \uC5EC\uAE30\uBC16\uC5D0 \uC5C6\uB124... \uB098\uB294
+      \uADF8\uB0E5 \uB2E4\uB978 \uB370 \uAC00\uBCFC\uAC8C\uC694."
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC544, \uAD1C\uCC2E\uC544\uC694. \uAC19\uC774 \uC549\uC544\uC11C \uBA39\uC5B4\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB0B4 \uB9D0\uC5D0 \uC0B4\uC9DD \uB180\uB780 \uB4EF \uC6C3\uC73C\uBA70
+      \uC120\uBC30\uB2D8\uC774 \uACE0\uAC1C\uB97C \uB044\uB355\uC600\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uBB38\uC774\uD604"
+    line: "\uADF8\uB7FC \uB0B4\uAC00 \uBC25 \uC0AC\uC904\uAC8C\uC694."
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: c737a5cb902de5a49a19538aed45cb1f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

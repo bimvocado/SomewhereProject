@@ -7,6 +7,19 @@ public class SaveNSettingUI : MonoBehaviour
     [SerializeField] private GameObject settingCanvas;
     [SerializeField] private GameObject saveCanvas;
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void Start()
     {
         settingCanvas.SetActive(false);

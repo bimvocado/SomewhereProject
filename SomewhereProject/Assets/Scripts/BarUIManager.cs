@@ -55,4 +55,9 @@ public class BarUIManager : MonoBehaviour
             backPanel.SetActive(false);
         }
     }
+
+    public bool IsPhoneUIShowing()
+    {
+        return backPanel != null && backPanel.activeSelf;
+    }
 }

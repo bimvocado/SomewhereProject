@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 4-3
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\"\uC7A0\uAE50 \uC549\uC544\uC11C \uC815\uB9AC\uB9CC \uD558\uB824\uACE0
+      \uD588\uB294\uB370, \uC2DC\uAC04\uC774 \uD6C5 \uC9C0\uB098\uBC84\uB838\uB2E4.\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB4DC\uB514\uC5B4 \uC81C\uC77C \uC911\uC694\uD55C \uC804\uACF5\uACFC\uBAA9\uC758
+      \uC911\uAC04\uACE0\uC0AC \uB0A0\uC774\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\u201C\uAC00\uC7A5 \uC5F4\uC2EC\uD788 \uC900\uBE44\uD55C \uACFC\uBAA9\uC778
+      \uB9CC\uD07C, \uAE34\uC7A5\uB3C4 \uB9CE\uC774 \uB410\uB2E4.\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uAC15\uC758\uC2E4\uC5D0 \uB4E4\uC5B4\uC624\uB2C8 \uB2E4\uB4E4 \uB4B7\uC790\uB9AC\uC5D0
+      \uC549\uACA0\uB2E4\uACE0 \uB208\uCE58 \uBCF4\uBA70 \uC11C\uC131\uAC70\uB9B0\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC790\uB9AC \uC5B4\uB514 \uC549\uB294 \uAC8C \uBB50 \uADF8\uB807\uAC8C
+      \uC911\uC694\uD558\uB2E4\uACE0 \uC2DC\uD5D8 \uC804\uBD80\uD130 \uC65C \uC774\uB9AC
+      \uC815\uC2E0\uC774 \uC5C6\uB294 \uAC74\uC9C0\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\u201C\uC549\uC744 \uC790\uB9AC\uB97C \uCC3E\uB358 \uB3C4\uC911, \uB208\uC5D0
+      \uC775\uC740 \uC5BC\uAD74\uC774 \uBCF4\uC5EC \uADF8\uCABD\uC73C\uB85C \uB2E4\uAC00\uAC00
+      \uBCF8\uB2E4.\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\u201C\uC740\uC131\uC774"
+      nextDialogue:
+        m_AssetGUID: fbf35655b00ecf04e99d851c0859fcad
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 3
+      targetCharacterForAffection: "\uC774\uC740\uC131"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uC138\uD558 \uC624\uBE60"
+      nextDialogue:
+        m_AssetGUID: 14956f0e5a88e304389d391969ea3776
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\u201D"
+      nextDialogue:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

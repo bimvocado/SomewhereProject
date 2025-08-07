@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 2-1-E
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC220\uD310\uC744 \uBC8C\uC774\uACE0 \uC788\uB294 \uB3D9\uAE30\uB4E4\uACFC
+      \uC120\uBC30\uB4E4 \uC0AC\uC774...\n\uB098\uB294 \uC548\uC8FC\uB9CC \uBA39\uACE0
+      \uC788\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB0B4\uC77C\uAE4C\uC9C0\uC778 \uACFC\uC81C\uB97C \uC544\uC9C1 \uC548
+      \uB05D\uB0B4\uC11C \uB9E8\uC815\uC2E0\uC73C\uB85C \uC9D1\uC5D0 \uAC00\uC57C
+      \uD558\uAE30 \uB54C\uBB38\uC5D0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB0B4\uAC00 \uC65C \uBBF8\uB918\uC9C0..."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC220\uC8FC\uC815\uAFBC\uB4E4 \uC0AC\uC774\uC5D0\uC11C \uC0AC\uC774\uB2E4\uB85C
+      \uC5F0\uBA85\uD558\uACE0 \uC788\uB294 \uC640\uC911,\n\uB2E4\uB978 \uD14C\uC774\uBE14\uC5D0\uC11C
+      \uC628 \uB3D9\uAE30\uB4E4 \uC0AC\uC774\uC5D0 \uC11C \uC788\uB294 \uC740\uC131\uACFC
+      \uB208\uC774 \uB9C8\uC8FC\uCE5C\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uC5B4? [\uC5EC\uC8FC\uC57C]... \uB108\uB3C4 \uC5EC\uAE30 \uC788\uC5C8\uC5B4?"
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC220\uC5D0 \uCDE8\uD588\uB294\uC9C0 \uC5BC\uAD74\uC774 \uC0C8\uBE68\uAC1B\uB2E4.\n\uBC1C\uC74C\uB3C4
+      \uC870\uAE08 \uAF2C\uC774\uB294 \uAC83 \uAC19\uACE0..."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB0B4 \uC606\uC790\uB9AC\uB97C \uAC00\uB9AC\uD0A4\uBA70 \uB098\uB97C
+      \uBE64\uD788 \uCCD0\uB2E4\uBCF8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uB098 \uC5EC\uAE30 \uC549\uC544\uB3C4 \uB3FC?"
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uC9D1\uC5D0 \uAC00\uB77C\uACE0 \uD55C\uB2E4"
+      nextDialogue:
+        m_AssetGUID: c8f486b8742345747bef8db6cf89486a
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: -2
+      targetCharacterForAffection: "\uC774\uC740\uC131"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uC549\uC73C\uB77C\uACE0 \uD55C\uB2E4"
+      nextDialogue:
+        m_AssetGUID: e2efafcf4a34eb44faa2cb5d7168263c
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 3
+      targetCharacterForAffection: "\uC774\uC740\uC131"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

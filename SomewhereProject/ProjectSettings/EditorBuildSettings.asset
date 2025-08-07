@@ -24,5 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/HambugerHow.unity
     guid: 0561cffe24a143742bf15667ef6ae675
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 99b2ccdf867aaee479929f1ccf07270d, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

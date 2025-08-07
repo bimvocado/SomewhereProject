@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: backto05-1-1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC774\uD604 \uC120\uBC30\uC640 \uC804\uD654\uB97C \uB04A\uACE0 \uD559\uAD50
+      \uBC34\uB4DC\uC758 \uBB34\uB300\uB97C \uBCF4\uB2E4 \uBCF4\uB2C8 \uC5B4\uB290\uC0C8
+      7\uC2DC 20\uBD84\uC774\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uADF8\uB54C \uC120\uBC30\uC5D0\uAC8C \uC804\uD654\uAC00 \uAC78\uB824
+      \uC654\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC5EC\uBCF4\uC138\uC694?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uBB38\uC774\uD604"
+    line: "\uACFC\uC81C \uBE68\uB9AC \uB05D\uB098\uC11C \uBC14\uB85C \uC654\uC5B4.
+      \uBB34\uB300 \uCABD\uC5D0 \uC788\uB294 \uAC70\uC9C0? \uADF8\uB9AC\uB85C \uAC08\uAC8C."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC557, \uB124! \uC800\uB3C4 \uADF8\uB7FC \uC785\uAD6C \uCABD\uC73C\uB85C
+      \uAC08\uAC8C\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBB34\uB300 \uAC1D\uC11D\uC744 \uB098\uC640 \uC785\uAD6C \uCABD\uC73C\uB85C
+      \uAC00\uC790, \uC775\uC219\uD55C \uC774\uD604 \uC120\uBC30\uC758 \uC2E4\uB8E8\uC5E3\uC774
+      \uBCF4\uC600\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uCD95\uC81C \uBCF4\uB294 \uAC70 \uC88B\uC544\uD558\uC138\uC694?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uBB38\uC774\uD604"
+    line: "\uC544, \uC0AC\uC2E4 \uB098... \uCD95\uC81C \uC640\uBCF8 \uC801 \uC5C6\uC5B4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uB7FC, \uC800\uB791 \uC624\uB298 \uBB34\uB300 \uBCF4\uB7EC \uAC00\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

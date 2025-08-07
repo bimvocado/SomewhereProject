@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: LS_three
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC6D0\uB798 \uBB3C\uC5D0 \uC816\uC740 \uB0A8\uC790\uAC00 \uB354 \uC544\uB984\uB2E4\uC6B4
+      \uAC70\uC57C."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uBB3C\uC778\uAC00\uC694. \uC548 \uADF8\uB798 \uBCF4\uC774\uB294\uB370."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uBB50, \uADF8\uAC70\uB098 \uADF8\uAC70\uB098\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uD669\uB2F9\uD574\uD558\uB294 \uC5BC\uAD74\uC774 \uBCF4\uC778\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC77C\uBD80\uB7EC \uBFCC\uB838\uB2E4\uB294 \uAC74 \uC544\uB2C8\uACE0\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uC790\uC8FC \uD574\uBCF4\uC168\uB098 \uBD10\uC694. \uBCC0\uBA85\uC774
+      \uC775\uC219\uD574 \uBCF4\uC774\uC2DC\uB294\uB370."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uB7F4 \uB9AC\uAC00 \uC5C6\uC796\uC544!?!"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: 
+    eventName: laugh
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB8E8\uCE74\uAC00 \uC18C\uB9AC \uB0B4 \uC6C3\uC5C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC774\uB807\uAC8C \uC6C3\uB294 \uAC74 \uCC98\uC74C \uBCF4\uB294 \uB4EF\uD55C
+      \uB290\uB08C\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC0C8\uC0BC\uC2A4\uB7FD\uC9C0\uB9CC \uC815\uB9D0 \uC798 \uC0DD\uACBC\uB124\u2026"
+    eventName: 
+    conditionType: 1
+    conditionKey: OT_Luka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uBB3C \uD6C4\uAD11\uD6A8\uACFC \uC9C4\uC9DC \uC788\uB098?"
+    eventName: 
+    conditionType: 1
+    conditionKey: OT_Luka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uB9CE\uC774 \uCDE8\uD558\uC168\uB098 \uBD10\uC694."
+    eventName: 
+    conditionType: 1
+    conditionKey: OT_Luka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC544\uB2C8\uC57C, \uADF8\uB807\uAC8C \uB9CE\uC774 \uC548 \uB9C8\uC168\uC5B4.
+      \n\uADF8\uB098\uC800\uB098 \uC9C4\uC9DC \uC798\uC0DD\uACBC\uB2E4, \uB108."
+    eventName: 
+    conditionType: 1
+    conditionKey: OT_Luka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uB124, \uAC10\uC0AC\uD574\uC694. \n\uCC98\uC74C \uB9CC\uB0AC\uC744 \uB54C\uB3C4
+      \uB9D0\uD558\uC168\uC5B4\uC694, \uADF8\uAC70."
+    eventName: 
+    conditionType: 1
+    conditionKey: OT_Luka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uB7AC\uB098? \uADF8\uB7AC\uB124."
+    eventName: 
+    conditionType: 1
+    conditionKey: OT_Luka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uBB3C\uC774\uB77C\uB3C4 \uAC00\uC838\uB2E4 \uB4DC\uB9B4\uAE4C\uC694?"
+    eventName: 
+    conditionType: 1
+    conditionKey: OT_Luka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uB9CC\uB09C \uAE40\uC5D0 \uAC19\uC774 \uC0B0\uCC45\uD558\uC790\uACE0
+        \uB9D0\uD574\uBCF8\uB2E4"
+      nextDialogue:
+        m_AssetGUID: f9b17a6b1cb9a064aae578b2f09dacb0
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 5
+      targetCharacterForAffection: "\uB8E8\uCE74"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uBB3C\uC744 \uAC00\uC838\uB2E4 \uB2EC\uB77C\uACE0 \uD55C\uB2E4"
+      nextDialogue:
+        m_AssetGUID: f2325a17ce3b6cd47b46bbe48e3aec2b
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 3
+      targetCharacterForAffection: "\uB8E8\uCE74"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

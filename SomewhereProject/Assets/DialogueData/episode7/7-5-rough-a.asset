@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 7-5-rough-a
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC544\uBB34\uB798\uB3C4 \uC5EC\uBD84 \uC637\uB3C4 \uC218\uAC74\uB3C4
+      \uC5C6\uC73C\uB2C8 \uBC1C \uB2F4\uADF8\uB294 \uAC83\uB3C4 \uBB34\uB9AC\uACA0\uC9C0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC740\uC131\uC774\uB3C4 \uC800 \uC791\uC740 \uAC00\uBC29\uC5D0 \uBB58
+      \uB9CE\uC774 \uCC59\uACBC\uC744 \uB9AC\uB3C4 \uC5C6\uACE0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC544\uC26C\uC6B4 \uB9C8\uC74C\uC5D0 \uBAA8\uB798\uC0AC\uC7A5\uB9CC \uB6AB\uC5B4\uC838\uB77C
+      \uCCD0\uB2E4\uBCF4\uB2E4\uAC00, \uB098\uBB47\uAC00\uC9C0 \uD558\uB098\uB97C
+      \uC8FC\uC6E0\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBAA8\uB798\uC5D0 \uAE00\uC528\uB77C\uB3C4 \uC368\uC57C\uC9C0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBB34\uC2A8 \uAE00\uC528\uB97C \uC4F8\uAE4C?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uC774\uC740\uC131 \uBC14\uBCF4"
+      nextDialogue:
+        m_AssetGUID: 107cfd6a11ad4c043b955469ba9bafa9
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 5
+      targetCharacterForAffection: "\uC774\uC740\uC131"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uB098\u2661\uC740\uC131"
+      nextDialogue:
+        m_AssetGUID: 1150d205a36ace8449b763f6d5f29de3
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 3
+      targetCharacterForAffection: false
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

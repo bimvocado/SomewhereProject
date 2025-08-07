@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: backto4-2-1-2
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uADF8\uB7EC\uB294 \uC0AC\uC774 \uD504\uB9B0\uD130 \uC2E4\uC5D0 \uB3C4\uCC29\uD588\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBB34\uC0AC\uD788 \uACFC\uC81C \uCD9C\uB825\uC744 \uB9C8\uCE58\uACE0
+      \uBCF4\uB2C8 \uACE7 \uC218\uC5C5 \uC2DC\uAC04\uC774\uC5C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC624\uB298 \uACE0\uB9C8\uC6E0\uC5B4! \uB0B4\uAC00 \uC774\uC81C \uC218\uC5C5\uC774
+      \uC788\uC5B4\uC11C \uAC00\uBD10\uC57C \uD558\uAC70\uB4E0?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uB2E4\uC74C\uC5D0 \uBC25\uC774\uB4E0 \uCEE4\uD53C\uB4E0 \uC0AC\uC904\uAC8C!!"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\u201C\uB124, \uAE30\uB300\uD558\uC8E0.\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB9AC\uD3EC\uD2B8\uB97C \uC18C\uC911\uD788 \uD488\uC5D0 \uC548\uACE0
+      \uAC15\uC758\uC2E4\uB85C \uD5A5\uD588\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 26c86f1cf965e0048879153a57aa00ec
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

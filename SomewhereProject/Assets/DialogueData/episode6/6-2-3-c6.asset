@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 6-2-3-c6
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC790\uC720\uB86D\uB2E4\uB2C8, \uADF8\uB7FC \uAC10\uC2DC\uB2F9\uD55C\uB2E4\uB294
+      \uAC74\uAC00?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uB7FC\xB7\xB7\xB7 \uAC10\uC2DC\uB2F9\uD558\uB294 \uAC70\uC57C?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uAC10\uC2DC\uB77C\uACE0 \uD560 \uAC83\uAE4C\uC9C4 \uC5C6\uC9C0\uB9CC\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uC6B4\uC804\uAE30\uC0AC\uBD84\uC740 \uC5B4\uCC0C \uB410\uB4E0 \uC81C\uAC00
+      \uC544\uB2C8\uB77C, \uC81C \uC544\uBC84\uC9C0\uB97C \uC704\uD574 \uC77C\uD558\uC2DC\uB294
+      \uBD84\uC774\uB2C8\uAE4C\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uB7FC \uB9E4\uBC88 \uC5B4\uB514 \uAC08 \uB54C\uB9C8\uB2E4 \uC544\uBC84\uB2D8\uAED8
+      \uC5F0\uB77D\uC774 \uAC00?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uC544\uB9C8\uB3C4\uC694. \uC9C1\uC811 \uD655\uC778\uD55C \uC801\uC740
+      \uC5C6\uC9C0\uB9CC\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC6B0\uC640\xB7\xB7\xB7"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uAD73\uC774 \uBE44\uBC00\uB85C \uD574\uC57C \uD558\uB294 \uD589\uC120\uC9C0\uAC00
+      \uC788\uB294 \uAC74 \uC544\uB2C8\uC9C0\uB9CC, \uAD73\uC774 \uC54C\uB824\uC57C
+      \uD560 \uC774\uC720\uB3C4 \uC5C6\uB2E4\uB294 \uC0DD\uAC01\uC774 \uB4E4\uC5B4\uC11C\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uBB34\uC2A8 \uB290\uB08C\uC778\uC9C0\uB294 \uC54C \uAC83 \uAC19\uB124\xB7\xB7\xB7."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: ca80d5fa670d09743a3cbc8bf1ea85e8
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

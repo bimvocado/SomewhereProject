@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 2-1-L-1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uCE58! \uD5D0, \uC6B0\uB9AC \uC5E0\uD2F0 \uBC14\uB2E4\uB85C \uBABB
+      \uAC00\uB098? \uAC00\uC11C \uD68C \uBA39\uC73C\uBA74 \uC88B\uACA0\uB2E4..."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uD559\uC0DD\uD68C\uD55C\uD14C \uC774\uC57C\uAE30 \uD574 \uBCF4\uC138\uC694.
+      \uC7A5\uC18C\uB294 \uC544\uC9C1 \uC548 \uC815\uD574\uC9C0\uC9C0 \uC54A\uC558\uC744\uAE4C\uC694?"
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC640 \uADF8\uB7F4\uAE4C? \uC544\uB2C8 \uADFC\uB370 \uC5E0\uD2F0 \uC9C4\uC9DC
+      \uAE30\uB300\uB418\uC9C0 \uC54A\uC544? \uAC08 \uAC70\uC57C?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uAC00\uC57C\uC8E0. \uCC98\uC74C\uC778\uB370."
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uCE58!! \uB300\uD559 \uC0DD\uD65C\uC758 \uAF43\uC774\uB77C\uACE0
+      \uD558\uC796\uC544."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uAE30\uB300\uB418\uB124\uC694."
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: b17e5a2fbb0ca6b418c954ad76e83551
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

@@ -203,7 +203,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 630733865}
         m_TargetAssemblyTypeName: UIManagerProxy, Assembly-CSharp
-        m_MethodName: ShowSettingUI
+        m_MethodName: ShowSaveUI
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -538,7 +538,7 @@ MonoBehaviour:
   pools:
   - tag: ChoiceButton
     prefab: {fileID: 2931726060788057354, guid: 79a08f74eb54bc6449f1ff891c77cf0d, type: 3}
-    size: 5
+    size: 6
 --- !u!4 &461215575
 Transform:
   m_ObjectHideFlags: 0
@@ -927,13 +927,25 @@ MonoBehaviour:
   characterColors:
   - characterName: "\uC5EC\uC8FC"
     backgroundColor: {r: 1, g: 0.82075465, b: 0.82075465, a: 1}
-    textColor: {r: 0, g: 0, b: 0, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
   - characterName: "\uC774\uC740\uC131"
-    backgroundColor: {r: 1, g: 0.86840385, b: 0.46855342, a: 1}
-    textColor: {r: 0, g: 0, b: 0, a: 1}
+    backgroundColor: {r: 0.7637316, g: 0.62279963, b: 0.84276724, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  - characterName: "\uAC15\uC8FC\uC740"
+    backgroundColor: {r: 0.64779866, g: 0.35241872, b: 0.6452123, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  - characterName: "\uBB38\uC774\uD604"
+    backgroundColor: {r: 0.2636771, g: 0.38364768, b: 0.2569715, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  - characterName: "\uC815\uC6B0\uC9C4"
+    backgroundColor: {r: 0.2040465, g: 0.23717055, b: 0.3584906, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+  - characterName: "\uAC15\uC138\uD558"
+    backgroundColor: {r: 0.7735849, g: 0.3527352, b: 0.39673698, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
   defaultColor:
     characterName: 
-    backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 1, g: 0.86477983, b: 0.9590113, a: 1}
     textColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &591981896
 Transform:
@@ -1684,6 +1696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ff42c7ee7abdc4bad5e384552c41f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueUIPrefab: {fileID: 2833255005653112370, guid: 661145f762b105b45b411c38fdfba5da, type: 3}
   go_DialogueBar: {fileID: 1387828185}
   autoModeDelay: 2
 --- !u!1 &1048131142
@@ -1952,6 +1965,7 @@ GameObject:
   - component: {fileID: 1166564065}
   - component: {fileID: 1166564064}
   - component: {fileID: 1166564068}
+  - component: {fileID: 1166564069}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -2059,6 +2073,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backPanel: {fileID: 2048367392}
   phone: {fileID: 1177509626}
+--- !u!225 &1166564069
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166564062}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1177509626
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,7 +2420,7 @@ GameObject:
   - component: {fileID: 1333445809}
   - component: {fileID: 1333445810}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: Managers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2419,7 +2445,6 @@ Transform:
   - {fileID: 591981896}
   - {fileID: 2018265012}
   - {fileID: 1007077204}
-  - {fileID: 2065871855}
   - {fileID: 661148599}
   - {fileID: 190543885}
   - {fileID: 630733864}
@@ -2434,7 +2459,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1333445808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0da8b4ffb968e4d46adbbcf99d010e64, type: 3}
+  m_Script: {fileID: 11500000, guid: 42127151ca927114e9e1aa2d31db52d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1387828185 stripped
@@ -2870,13 +2895,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1705271329}
+        m_TargetAssemblyTypeName: SceneLoaderButton, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1270362741}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3642,50 +3679,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -128.66907, y: -109.27249, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1333445809}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2065871853
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2065871855}
-  - component: {fileID: 2065871854}
-  m_Layer: 0
-  m_Name: GameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2065871854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065871853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43b28684d1b2e7e409a363209268a846, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &2065871855
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065871853}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 331.65186, y: 207.52579, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

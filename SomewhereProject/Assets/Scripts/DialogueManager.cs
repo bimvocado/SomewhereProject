@@ -13,6 +13,9 @@ public class DialogueManager : MonoBehaviour
     public static event Action OnDialogueAdvanced;
     public static DialogueManager Instance { get; private set; }
 
+    [Header("Dialogue UI Prefab")]
+    [SerializeField] private GameObject dialogueUIPrefab;
+
     [Header("UI Components")]
     [SerializeField] private GameObject go_DialogueBar;
     private GameObject go_NameBar;
@@ -22,6 +25,9 @@ public class DialogueManager : MonoBehaviour
     private Image img_DialogueBackground;
     private Image img_NameBackground;
     private GameObject nextIndicator;
+
+
+    private GameObject instantiatedDialogueUI;
 
     private DialogueData _currentDialogueData;
     private Dialogue[] currentDialogues;
@@ -58,12 +64,47 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        if (dialogueUIPrefab != null)
+        {
+            instantiatedDialogueUI = Instantiate(dialogueUIPrefab);
+            DontDestroyOnLoad(instantiatedDialogueUI);
+
+            go_DialogueBar = instantiatedDialogueUI.transform.Find("UI_Dialogue/DialogueBar")?.gameObject;
+            go_NameBar = instantiatedDialogueUI.transform.Find("UI_Dialogue/NameBar")?.gameObject;
+            choicePanel = instantiatedDialogueUI.transform.Find("UI_Dialogue/ChoicePanel");
+            nextIndicator = instantiatedDialogueUI.transform.Find("UI_Dialogue/NextIndicator")?.gameObject;
+
+            if (go_DialogueBar != null)
+            {
+                txt_dialogue = go_DialogueBar.GetComponentInChildren<TMP_Text>();
+                img_DialogueBackground = go_DialogueBar.GetComponentInChildren<Image>();
+            }
+            if (go_NameBar != null)
+            {
+                txt_name = go_NameBar.GetComponentInChildren<TMP_Text>();
+                img_NameBackground = go_NameBar.GetComponentInChildren<Image>();
+            }
+
+            if (nextIndicator != null) nextIndicator.SetActive(false);
+            if (choicePanel != null) choicePanel.gameObject.SetActive(false);
+            if (go_DialogueBar != null) go_DialogueBar.SetActive(false);
+            if (go_NameBar != null) go_NameBar.SetActive(false);
+        }
+        else
+        {
+            Debug.LogError("DialogueUI «¡∏Æ∆’¿Ã DialogueManagerø° «“¥Á æ»µ ");
+        }
+
         typingSpeed = PlayerPrefs.GetFloat("TypingSpeed", 0.05f);
         if (nextIndicator != null) nextIndicator.SetActive(false);
     }
 
     private void Update()
     {
+        if (BarUIManager.Instance != null && BarUIManager.Instance.IsPhoneUIShowing())
+        {
+            return;
+        }
         if (isAutoMode && !isTyping && !isWaitingForChoiceClick && go_DialogueBar.activeSelf)
         {
             autoModeTimer += Time.deltaTime;
@@ -88,7 +129,32 @@ public class DialogueManager : MonoBehaviour
         else
         {
             if (!go_DialogueBar.activeSelf || choicePanel.gameObject.activeSelf) return;
-            if (Input.GetMouseButtonDown(0) || Input.GetAxis("Mouse ScrollWheel") != 0f || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (EventSystem.current != null)
+                {
+                    PointerEventData eventData = new PointerEventData(EventSystem.current);
+                    eventData.position = Input.mousePosition;
+                    List<RaycastResult> results = new List<RaycastResult>();
+                    EventSystem.current.RaycastAll(eventData, results);
+
+                    bool clickedOnDialogueBar = false;
+                    foreach (RaycastResult result in results)
+                    {
+                        if (result.gameObject == go_DialogueBar || result.gameObject.transform.IsChildOf(go_DialogueBar.transform))
+                        {
+                            clickedOnDialogueBar = true;
+                            break;
+                        }
+                    }
+
+                    if (clickedOnDialogueBar)
+                    {
+                        DisplayNext();
+                    }
+                }
+            }
+            else if (Input.GetAxis("Mouse ScrollWheel") != 0f || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
             {
                 DisplayNext();
             }
@@ -507,21 +573,6 @@ public class DialogueManager : MonoBehaviour
                 EndDialogue();
             }
         };
-    }
-
-    public void RegisterDialogueUI(DialogueUI_Registrar registrar)
-    {
-        go_DialogueBar = registrar.dialogueBar;
-        go_NameBar = registrar.nameBar;
-        txt_dialogue = registrar.dialogueText;
-        txt_name = registrar.nameText;
-        choicePanel = registrar.choicePanel;
-        img_DialogueBackground = registrar.dialogueBackground;
-        img_NameBackground = registrar.nameBackground;
-        nextIndicator = registrar.nextIndicator;
-
-        if (nextIndicator != null) nextIndicator.SetActive(false);
-        if (choicePanel != null) choicePanel.gameObject.SetActive(false);
     }
 
     public void SetPlayerName(string firstName, string lastName)

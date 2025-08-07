@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 5-1-2-1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uBB38\uC790\uBCF4\uB2E8 \uC804\uD654\uAC00 \uD655\uC778\uC774 \uBE60\uB974\uACA0\uC9C0?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC740\uC131\uC5D0\uAC8C \uC804\uD654\uB97C \uAC78\uC5C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\u201C\uC740\uC131\uC544, \uD639\uC2DC \uC9C0\uAE08 \uCD95\uC81C \uC640
+      \uC788\uC5B4?\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\u2018\uC5B4, [\uC5EC\uC8FC\uC57C]! \uB098 \uC9C0\uAE08 \uCD95\uC81C\u2026
+      \uC7A0\uC2DC\uB9CC\uC694!\u2019"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\u2018[\uC5EC\uC8FC\uC57C] \uBBF8\uC548\uD574, \uB098 \uC9C0\uAE08 \uBC14\uBE60\uC11C
+      \uC774\uB530\uAC00 \uB2E4\uC2DC \uC804\uD654\uD560\uAC8C!\u2019"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 7b6c4dda421d15b4eb02cc32c0866e4c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
