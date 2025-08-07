@@ -51,8 +51,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC740\uC131\uC740 \uB180\uB780 \uB4EF\uD55C \uD45C\uC815\uC744 \uC9C0\uC5C8\uB2E4\uAC00
-      \uC0B4\uC9DD \uBBF8\uC18C\uB97C \uC9C0\uC5C8\uB2E4."
+    line: "\uC740\uC131\uC774\uB294 \uB180\uB780 \uB4EF\uD55C \uD45C\uC815\uC744
+      \uC9C0\uC5C8\uB2E4\uAC00 \uC0B4\uC9DD \uBBF8\uC18C\uB97C \uC9C0\uC5C8\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -61,7 +61,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uBC29\uAE08 \uC880 \uC6C3\uC73C\uC2E0 \uAC70 \uB9DE\uACA0\uC9C0?"
+    line: "\uBC29\uAE08 \uC880 \uC6C3\uC740 \uAC70 \uB9DE\uACA0\uC9C0?"
     eventName: 
     conditionType: 0
     conditionKey: 

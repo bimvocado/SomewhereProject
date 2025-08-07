@@ -14,17 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
-    line: "\u201C\uC5F4\uB78C\uC2E4\uC774 \uD3C9\uC18C\uBCF4\uB2E4 \uD6E8\uC52C \uBD90\uBE44\uB294
-      \uAC78 \uBCF4\uB2C8 \n\uB2E4\uB4E4 \uC911\uAC04\uACE0\uC0AC\uB97C \uC55E\uB450\uACE0
-      \uC5F4\uC2EC\uD788 \uC900\uBE44 \uC911\uC778\uAC00 \uBD10\u2026\u201D"
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: 
     line: "\uC624\uC804 \uAC15\uC758\uB97C \uB4E4\uC73C\uB7EC \uD559\uAD50\uB85C
       \uD5A5\uD588\uB2E4."
     eventName: 
@@ -126,7 +115,7 @@ MonoBehaviour:
     choices:
     - text: "\u201C\uB3C4\uC11C\uAD00 \uCABD\uC73C\uB85C \uAC04\uB2E4"
       nextDialogue:
-        m_AssetGUID: 0e40588b28ba12144bbdec36b6f85d45
+        m_AssetGUID: b9951dd538ae95943b8df6daf41c3391
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
@@ -143,7 +132,7 @@ MonoBehaviour:
       conditionValue: 0
     - text: "1\uCE35 \uB77C\uC6B4\uC9C0 \uCABD\uC73C\uB85C \uAC04\uB2E4"
       nextDialogue:
-        m_AssetGUID: ec42e80f2fdba384c8193165bf745e44
+        m_AssetGUID: f0b672e006c67314e94831880f953b83
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 

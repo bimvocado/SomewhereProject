@@ -87,7 +87,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC740\uC131\uC774 \uC5BC\uAD74\uC744 \uC0B4\uC9DD \uB4E4\uC774\uBBFC\uB2E4."
+    line: "\uC740\uC131\uC774\uAC00 \uC5BC\uAD74\uC744 \uC0B4\uC9DD \uB4E4\uC774\uBBFC\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 

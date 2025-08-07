@@ -2197,6 +2197,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterRenderers: []
+  cubismRenderers: []
+  fadeDuration: 0.5
+  fadeEaseType: 3
+  moveDuration: 0.8
+  moveEaseType: 6
+  offscreenLeftX: -10
+  offscreenRightX: 10
 --- !u!1 &4096249321944646729
 GameObject:
   m_ObjectHideFlags: 0

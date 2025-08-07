@@ -159,7 +159,7 @@ MonoBehaviour:
     choices:
     - text: "\u201C\uC54C\uAE30 \uC27D\uB2E4\uACE0 \uD55C\uB2E4"
       nextDialogue:
-        m_AssetGUID: 14a5a342fda62724995a887511efbd22
+        m_AssetGUID: a8a95c0bdb2201d44a25a6a7fa83e554
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
@@ -176,7 +176,7 @@ MonoBehaviour:
       conditionValue: 0
     - text: "\uAD00\uC2EC \uC5C6\uB2E4\uACE0 \uD55C\uB2E4"
       nextDialogue:
-        m_AssetGUID: d832c5b258337154ca38c82ecc668f29
+        m_AssetGUID: e112a3826f0cd6d4981df95f162021bc
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
@@ -193,7 +193,7 @@ MonoBehaviour:
       conditionValue: 0
     - text: "\uB9DE\uB2E4\uACE0 \uD55C\uB2E4"
       nextDialogue:
-        m_AssetGUID: cba2b5047ec040f429855a44305ac04e
+        m_AssetGUID: 4bbbbb763c005f14fa8af00ffa019591
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 

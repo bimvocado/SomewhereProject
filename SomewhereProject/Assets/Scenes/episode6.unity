@@ -14196,7 +14196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingDialogueRef:
-    m_AssetGUID: 6ce4639485ab2564c896972fdb9635c5
+    m_AssetGUID: 79d4da3ca4f7f7147b42f69c215cde03
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

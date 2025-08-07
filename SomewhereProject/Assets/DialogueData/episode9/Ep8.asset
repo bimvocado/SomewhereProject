@@ -10,12 +10,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
-  m_Name: 4-5
+  m_Name: Ep8
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
-    line: "\u201C\uACE0\uAC1C\uB97C \uB4E4\uC5B4 \uC8FC\uC704\uB97C \uB458\uB7EC\uBCF4\uB2C8,
-      \uC775\uC219\uD55C \uB4B7\uBAA8\uC2B5\uC774 \uB208\uC5D0 \uB4E4\uC5B4\uC654\uB2E4.\u201D"
+    line: "\uBC29\uD559\uC774\uB77C \uADF8\uB7F0\uAC00, \uC2DC\uAC04\uC774 \uC720\uB09C\uD788
+      \uBE68\uB9AC \uD758\uB7EC\uAC00\uB294 \uB4EF\uD558\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC21C\uC2DD\uAC04\uC5D0 8\uC6D4 \uB9D0\uC774 \uB2E4\uAC00\uC654\uB2E4.
+      \uBC8C\uC368 \uC218\uAC15 \uC2E0\uCCAD\uC744 \uD560 \uB54C\uAC00 \uC628 \uAC74\uAC00."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "1\uD559\uAE30 \uB54C \uC778\uAE30 \uAC15\uC88C\uC5D0\uC11C \uAD11\uD0C8\uB2F9\uD588\uB358
+      \uC545\uBABD\uC774\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC218\uAC15 \uC2E0\uCCAD \uAFC0\uD301 \uAC19\uC740 \uAC78 \uB4E4\uC5B4\uB450\uBA74
+      \uC88B\uC744\uAE4C?"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -23,15 +53,15 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\u201C\uC6B0\uC9C4 \uC120\uBC30\uC5D0\uAC8C \uAC04\uB2E4"
+    - text: "\uC88B\uC744 \uAC83 \uAC19\uB2E4"
       nextDialogue:
-        m_AssetGUID: a02c226065c61ab4eb695a6b639c58b3
+        m_AssetGUID: cc49cea49ff356d46b6017a13c6e0141
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
-      affectionChange: 10
-      targetCharacterForAffection: "\uC815\uC6B0\uC9C4"
+      affectionChange: 0
+      targetCharacterForAffection: 
       resetsAffection: 0
       requiredCoin: 0
       flagToSet: 
@@ -40,26 +70,9 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
-    - text: "\uC774\uD604 \uC120\uBC30\uC5D0\uAC8C \uAC04\uB2E4"
+    - text: "\uB4E3\uC9C0 \uC54A\uC544\uB3C4 \uB420 \uAC83 \uAC19\uB2E4"
       nextDialogue:
-        m_AssetGUID: 38d0950e3b802ae45969e140baf6019f
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
-        m_EditorAssetChanged: 0
-      affectionChange: 5
-      targetCharacterForAffection: "\uBB38\uC774\uD604"
-      resetsAffection: 0
-      requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
-      conditionType: 0
-      conditionKey: 
-      conditionTargetCharacter: 
-      conditionValue: 0
-    - text: "\u201D"
-      nextDialogue:
-        m_AssetGUID: 
+        m_AssetGUID: aa64f9e7352bd454aab5747a92c7376f
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 

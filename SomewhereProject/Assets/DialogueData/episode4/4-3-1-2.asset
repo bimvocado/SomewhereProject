@@ -117,7 +117,7 @@ MonoBehaviour:
     choices:
     - text: "\u201C\uBC14\uC058\uB2E4\uACE0 \uD55C\uB2E4"
       nextDialogue:
-        m_AssetGUID: dd013683c29a4274b9bbaf7170c2684b
+        m_AssetGUID: f594a8350aa51f7478aeb01ead3c5dad
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
@@ -134,7 +134,7 @@ MonoBehaviour:
       conditionValue: 0
     - text: "\uC88B\uB2E4\uACE0 \uD55C\uB2E4"
       nextDialogue:
-        m_AssetGUID: a333ac08ddeb30849ad28342fb76af41
+        m_AssetGUID: f66ac702e547a24439b7953466ef8512
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 

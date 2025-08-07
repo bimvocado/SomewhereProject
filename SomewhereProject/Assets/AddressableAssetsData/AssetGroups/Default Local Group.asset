@@ -45,12 +45,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 01de0a95445790b4eaed3a690fac9e0c
-    m_Address: Assets/DialogueData/episode4/backto4-3-2.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 02d6ec83645567946aff23c7986b3d5c
     m_Address: Assets/DialogueData/episode6/6-1-3-c2.asset
     m_ReadOnly: 0
@@ -135,14 +129,14 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0e40588b28ba12144bbdec36b6f85d45
-    m_Address: Assets/DialogueData/episode4/04-2-1.asset
+  - m_GUID: 0eb2fe1321bb5344496a5908e3797559
+    m_Address: Assets/DialogueData/episode6/6-2-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0eb2fe1321bb5344496a5908e3797559
-    m_Address: Assets/DialogueData/episode6/6-2-2.asset
+  - m_GUID: 0ee0412f8589d3d47b33158190730a96
+    m_Address: Assets/DialogueData/4-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -207,14 +201,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 14956f0e5a88e304389d391969ea3776
-    m_Address: Assets/DialogueData/episode4/04-3-2.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 14a5a342fda62724995a887511efbd22
-    m_Address: Assets/DialogueData/episode4/4-2-1-2-1.asset
+  - m_GUID: 14ce61a50bcdab44e8762f90b5c3eca9
+    m_Address: Assets/DialogueData/backto4-3.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -267,14 +255,14 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1be0b706388bca848a58f94b3e3d10c6
-    m_Address: Assets/DialogueData/episode8/Organize1.asset
+  - m_GUID: 1b8bae9e57a45db4ab90242dacb8071e
+    m_Address: Assets/DialogueData/4-3-2-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1cb61a8ab9ae05341816b0ec770df77e
-    m_Address: Assets/DialogueData/episode4/4-3-2-2.asset
+  - m_GUID: 1be0b706388bca848a58f94b3e3d10c6
+    m_Address: Assets/DialogueData/episode8/Organize1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -293,12 +281,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1e8f3d9e2b02f1b458b7634604ffe855
     m_Address: Assets/DialogueData/episode1/1-1-S.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1f42f31900fa2dd4ab1501a90d3be24d
-    m_Address: Assets/DialogueData/episode4/4-4.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -357,12 +339,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 26c86f1cf965e0048879153a57aa00ec
-    m_Address: Assets/DialogueData/episode4/4-3.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 273ae48671d4ef94cbf3d2a8e7616bd1
     m_Address: Assets/DialogueData/episode1/1-1-L-4.asset
     m_ReadOnly: 0
@@ -417,18 +393,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2ae44aaf826fadf4685e41d9ceb6de87
-    m_Address: Assets/DialogueData/episode4/backto4-1.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 30be634dfd0033146b8eddbedea51166
-    m_Address: Assets/DialogueData/episode4/4-1.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 33128a87c2d77a74798fbf11210fb1cc
     m_Address: Assets/DialogueData/episode5/5-1-1-2.asset
     m_ReadOnly: 0
@@ -453,8 +417,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 36aab221e0a55eb40986adad8b4ade56
-    m_Address: Assets/DialogueData/episode4/4-2.asset
+  - m_GUID: 3672526900ebbe84a9c3350f0d1512a6
+    m_Address: Assets/DialogueData/4-3-2-1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -479,12 +443,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 38c0e76cd3b075348bc4e79b8ec59324
     m_Address: Assets/DialogueData/episode6/6-1-1-c2.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 38d0950e3b802ae45969e140baf6019f
-    m_Address: Assets/DialogueData/episode4/04-1-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -561,6 +519,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4758caa1c5570f542bd8066ff956bca2
+    m_Address: Assets/DialogueData/backto4-2-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 48045091a76dd4a4ab3722d353beb3c0
     m_Address: Assets/DialogueData/episode7/7-5-large-a.asset
     m_ReadOnly: 0
@@ -587,6 +551,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4b3d496c73a19ac479d928958a7e647f
     m_Address: Assets/DialogueData/episode2/2-1-E.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bbbbb763c005f14fa8af00ffa019591
+    m_Address: Assets/DialogueData/4-2-1-2-3.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -621,6 +591,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fe19574d41c5d0489dd42b3f366e2d7
+    m_Address: Assets/DialogueData/04-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 519a4b4e1b5521b4c9598e8bf4f4b059
     m_Address: Assets/DialogueData/episode6/6-2-3-b.asset
     m_ReadOnly: 0
@@ -635,6 +611,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 53800292505bba44e80939f42083801c
     m_Address: Assets/DialogueData/episode10/WJ_end.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 564a392edbca7ce4f964a17e84484544
+    m_Address: Assets/DialogueData/04-3-1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -665,12 +647,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5c0d9b1089dcc984fb1ab3a48040895e
     m_Address: Assets/DialogueData/episode6/6-1-a.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5cdbaeb21a3c39244b2b9f91484382d0
-    m_Address: Assets/DialogueData/episode4/4-5.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -855,12 +831,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 77f2b44f219cd4a43843f5f7ab2a1dd3
-    m_Address: Assets/DialogueData/episode4/4-3-2-1.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 78048495d247a994c9469d67e40bfe03
     m_Address: Assets/DialogueData/episode10/SH_end.asset
     m_ReadOnly: 0
@@ -869,6 +839,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 78eb81c8e891d6a478d39ff12a95d67e
     m_Address: Assets/DialogueData/episode5/bbackto05-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79c53d933ced0cf449a70e6ca1f27a59
+    m_Address: Assets/DialogueData/backto4-3-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -893,12 +869,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7ad1ddffe0338ca49b411b8bb00a0c27
     m_Address: Assets/DialogueData/episode1/1-1-End.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7b61db935b2922c4e8e7f5822cb2936a
-    m_Address: Assets/DialogueData/episode4/4-3-1-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1107,20 +1077,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 94b4a0632a6155f4da6a261e58df3a93
-    m_Address: Assets/DialogueData/episode9/Ep11.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9586c107477220248a4b786eef9931dd
     m_Address: Assets/DialogueData/episode3/YH_one.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 95a93cab5c8fb384cb08dfdeef0c9503
-    m_Address: Assets/DialogueData/episode4/backto4-2-1-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1145,6 +1103,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 99aa86d22644c3041bc57ad8cc6fb1d1
     m_Address: Assets/DialogueData/episode1/1-4-Main-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aa3d284474f10c4da4a6616889e92e4
+    m_Address: Assets/DialogueData/4-3-1-1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1203,12 +1167,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a02c226065c61ab4eb695a6b639c58b3
-    m_Address: Assets/DialogueData/episode4/04-1-1.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a15692d477a28cb44906d4d1fd7a96a1
     m_Address: Assets/DialogueData/episode3/LS_three.asset
     m_ReadOnly: 0
@@ -1217,12 +1175,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a18f74ac405c108458145e387887481a
     m_Address: Assets/DialogueData/episode10/BFF.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a333ac08ddeb30849ad28342fb76af41
-    m_Address: Assets/DialogueData/episode4/4-3-1-2-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1265,6 +1217,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a3fda09c6e37a1c4ebb3a880d582dcba
     m_Address: Assets/DialogueData/episode7/7-1-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a41b37f96d5cfa54c83c32e722763b44
+    m_Address: Assets/DialogueData/4-3.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1323,6 +1281,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8a95c0bdb2201d44a25a6a7fa83e554
+    m_Address: Assets/DialogueData/4-2-1-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8acb68cc549ccd468a78cdffb59e552
+    m_Address: Assets/DialogueData/backto4-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a91d46f05254bc94ab9dafc2b942adf2
     m_Address: Assets/DialogueData/episode6/6-1-2-c4.asset
     m_ReadOnly: 0
@@ -1349,6 +1319,18 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ade0a873933c920439f689cd3ee63c16
     m_Address: Assets/DialogueData/episode6/6-2-5-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af3d9c0f45d77464a9663c1b746583c1
+    m_Address: Assets/DialogueData/4-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afa70d624009c8f408c218b5296fb97d
+    m_Address: Assets/DialogueData/4-2-1-1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1401,12 +1383,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b459cf67357b0474f821f5e7d7469466
-    m_Address: Assets/DialogueData/episode4/4-6.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b61eda01e6048e04e9aeece1da106ef6
     m_Address: Assets/DialogueData/episode1/1-2-1.asset
     m_ReadOnly: 0
@@ -1433,6 +1409,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b828804d8bb5d9443b8796e2e388d629
     m_Address: Assets/DialogueData/episode5/5-1-1-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9951dd538ae95943b8df6daf41c3391
+    m_Address: Assets/DialogueData/04-2-1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1569,12 +1551,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c844e26bfa7632c4eb0ed4f641759b5d
-    m_Address: Assets/DialogueData/episode9/Ep10.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c84a1c08e18f2e741a4a972c05c6087f
     m_Address: Assets/DialogueData/episode5/5-1-2-3.asset
     m_ReadOnly: 0
@@ -1619,12 +1595,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ca9318d78bc880f48864de1c7cdffc79
     m_Address: Assets/DialogueData/episode5/05-3-6.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: cba2b5047ec040f429855a44305ac04e
-    m_Address: Assets/DialogueData/episode4/4-2-1-2-3.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1677,14 +1647,14 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d1c6cfd1c31ca8c4e81a4064de7505cf
-    m_Address: Assets/DialogueData/episode2/2-3-1-1.asset
+  - m_GUID: d0ea1a8b115e4ab419e96e3438add148
+    m_Address: Assets/DialogueData/4-2-1-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d36d9df741d8ac647ab33aed2a3bc612
-    m_Address: Assets/DialogueData/episode4/4-3-1-1.asset
+  - m_GUID: d1c6cfd1c31ca8c4e81a4064de7505cf
+    m_Address: Assets/DialogueData/episode2/2-3-1-1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1719,14 +1689,14 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d7acdcffca3bdd549962a46be22671fb
-    m_Address: Assets/DialogueData/episode6/6-2-1-c2.asset
+  - m_GUID: d7341e85af2cf2b4ba1353bd9c288ce5
+    m_Address: Assets/DialogueData/04-3-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d832c5b258337154ca38c82ecc668f29
-    m_Address: Assets/DialogueData/episode4/4-2-1-2-2.asset
+  - m_GUID: d7acdcffca3bdd549962a46be22671fb
+    m_Address: Assets/DialogueData/episode6/6-2-1-c2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1791,12 +1761,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: dd013683c29a4274b9bbaf7170c2684b
-    m_Address: Assets/DialogueData/episode4/4-3-1-2-1.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dd03f86c229302f4d82ed6b1a2e3cd35
     m_Address: Assets/DialogueData/episode7/7-2-c3.asset
     m_ReadOnly: 0
@@ -1811,6 +1775,18 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e10c19c19bb952c459b6fddce4eb5532
     m_Address: Assets/DialogueData/episode3/YH_nohi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e112a3826f0cd6d4981df95f162021bc
+    m_Address: Assets/DialogueData/4-2-1-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1742b49d3bcb814e9e2b72ec955d99b
+    m_Address: Assets/DialogueData/4-3-1-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -1905,18 +1881,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: eaa2469dcf0215a4fb96a6faa4d2eb94
-    m_Address: Assets/DialogueData/episode4/backto4-3.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ec42e80f2fdba384c8193165bf745e44
-    m_Address: Assets/DialogueData/episode4/04-2-2.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ee848d6bc929a514a8f13ffdad09e11f
     m_Address: Assets/DialogueData/episode8/Organize2.asset
     m_ReadOnly: 0
@@ -1955,6 +1919,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f0a3b9c643bd89a4ab491dd9cbe2eec5
     m_Address: Assets/DialogueData/episode9/GoodMoon1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0b672e006c67314e94831880f953b83
+    m_Address: Assets/DialogueData/04-2-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -2001,8 +1971,20 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f38aa8c9518453d4ab5c83d0e8da1185
+    m_Address: Assets/DialogueData/04-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f4acafccb2b9b2642883184d3b52822d
     m_Address: Assets/DialogueData/episode7/7-5-cafeES-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f594a8350aa51f7478aeb01ead3c5dad
+    m_Address: Assets/DialogueData/4-3-1-2-1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -2019,6 +2001,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f66ac702e547a24439b7953466ef8512
+    m_Address: Assets/DialogueData/4-3-1-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f699f2c39aeff7946b9237ca30aaeb27
     m_Address: Assets/DialogueData/episode1/1-1-2-3.asset
     m_ReadOnly: 0
@@ -2027,12 +2015,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f6b6d83cf800d8448943925f6541ccbb
     m_Address: Assets/DialogueData/episode8/Dog.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f78632ca936efb048b4c9946db45786a
-    m_Address: Assets/DialogueData/episode4/4-2-1-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
@@ -2049,18 +2031,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fb59f463ccd9b0b4891ba87da52eff03
-    m_Address: Assets/DialogueData/episode9/Ep9.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fbf35655b00ecf04e99d851c0859fcad
-    m_Address: Assets/DialogueData/episode4/04-3-1.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fcc1d9ec20d846b419330371aa607037
     m_Address: Assets/DialogueData/episode8/SmallDog_Cat.asset
     m_ReadOnly: 0
@@ -2069,12 +2039,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fde01a64d8f3d434e8583ebb6c33d6dd
     m_Address: Assets/DialogueData/episode6/6-2-5-c1.asset
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Dialogue
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fdf0f7ff42d748142bfa76bd37196548
-    m_Address: Assets/DialogueData/episode4/4-2-1-1.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue

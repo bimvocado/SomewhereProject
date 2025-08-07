@@ -82,7 +82,7 @@ MonoBehaviour:
     choices:
     - text: "\u201C\uAE34\uC7A5\uD55C \uD2F0\uB97C \uB0B8\uB2E4"
       nextDialogue:
-        m_AssetGUID: 77f2b44f219cd4a43843f5f7ab2a1dd3
+        m_AssetGUID: 3672526900ebbe84a9c3350f0d1512a6
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
@@ -99,7 +99,7 @@ MonoBehaviour:
       conditionValue: 0
     - text: "\uC5EC\uC720\uB97C \uBD80\uB9B0\uB2E4"
       nextDialogue:
-        m_AssetGUID: 1cb61a8ab9ae05341816b0ec770df77e
+        m_AssetGUID: 1b8bae9e57a45db4ab90242dacb8071e
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 

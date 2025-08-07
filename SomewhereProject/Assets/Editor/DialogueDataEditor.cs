@@ -26,7 +26,7 @@ public class DialogueDataEditor : Editor
         EditorGUILayout.Space();
 
 
-        EditorGUILayout.PropertyField(dialoguesProp, new GUIContent("대사 목록"), true);
+        EditorGUILayout.PropertyField(dialoguesProp, new GUIContent("line list"), true);
 
         EditorGUILayout.Space();
 

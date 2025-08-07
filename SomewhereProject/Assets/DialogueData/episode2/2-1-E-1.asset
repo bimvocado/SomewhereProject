@@ -52,7 +52,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC740\uC131\uC774 \uD574\uB9D1\uAC8C \uC6C3\uC5B4\uBCF4\uC600\uB2E4."
+    line: "\uC740\uC131\uC774\uAC00 \uD574\uB9D1\uAC8C \uC6C3\uC5B4\uBCF4\uC600\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -108,7 +108,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uACE0\uBBFC\uD558\uACE0 \uC788\uB294 \uC0AC\uC774 \uB3D9\uAE30 \uD55C
-      \uBA85\uC774 \uC740\uC131\uC744 \uBD99\uC7A1\uB294\uB2E4."
+      \uBA85\uC774 \uC740\uC131\uC774\uB97C \uBD99\uC7A1\uB294\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 

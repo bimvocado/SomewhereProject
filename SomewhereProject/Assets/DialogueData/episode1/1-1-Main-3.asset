@@ -129,7 +129,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC2E4 \uC5C6\uB294 \uC0DD\uAC01\uC744 \uD558\uB294 \uC0AC\uC774, \uB098\uBA38\uC9C0
+    line: "\uC2E4\uC5C6\uB294 \uC0DD\uAC01\uC744 \uD558\uB294 \uC0AC\uC774, \uB098\uBA38\uC9C0
       \uC138 \uBA85\uC740 \uC778\uC0AC\uB97C \uC8FC\uACE0\uBC1B\uB294 \uB4EF\uD588\uB2E4."
     eventName: 
     conditionType: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uAC15\uC138\uD558"
-    line: "\uC2A4\uBB3C\uD55C \uC0B4 \uAC15\uC138\uD558\uC785\uB2C8\uB2E4."
+    line: "\uC2A4\uBB3C\uB450 \uC0B4 \uAC15\uC138\uD558\uC785\uB2C8\uB2E4."
     eventName: smile
     conditionType: 0
     conditionKey: 
@@ -406,7 +406,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB180\uB77C\uC11C \uC55E\uC744 \uBCF4\uC790, \uC120\uBC30 \uD55C \uBD84\uAED8\uC11C
-      \uBA38\uC4F1\uD55C \uB4EF \uB9C8\uC774\uD06C\uB97C \uB044\uC168\uB2E4."
+      \uBBFC\uB9DD\uD55C \uB4EF \uB9C8\uC774\uD06C\uB97C \uB044\uC168\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 

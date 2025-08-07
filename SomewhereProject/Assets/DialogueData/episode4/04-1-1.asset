@@ -13,6 +13,15 @@ MonoBehaviour:
   m_Name: 04-1-1
   m_EditorClassIdentifier: 
   dialogues:
+  - speaker: "\uC5EC\uC8FC"
+    line: "\u201C\uC800\uAE30, \uD639\uC2DC\u2026\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "[\uC5EC\uC8FC]? \uACF5\uBD80\uD558\uB7EC \uC654\uC5B4?"
     eventName: 
@@ -160,7 +169,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 2ae44aaf826fadf4685e41d9ceb6de87
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

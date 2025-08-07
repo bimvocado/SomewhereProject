@@ -32,7 +32,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC740\uC131\uC774 \uC606\uC790\uB9AC\uC5D0 \uD480\uC369 \uC549\uC558\uB2E4."
+    line: "\uC740\uC131\uC774\uAC00 \uC606\uC790\uB9AC\uC5D0 \uD480\uC369 \uC549\uC558\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -78,8 +78,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC740\uC131\uC740 \uC810\uC810 \uC870\uC6A9\uD574\uC9C0\uB354\uB2C8 \uB0B4
-      \uC5B4\uAE68\uC5D0 \uAE30\uB314\uB2E4."
+    line: "\uC740\uC131\uC774\uB294 \uC810\uC810 \uC870\uC6A9\uD574\uC9C0\uB354\uB2C8
+      \uB0B4 \uC5B4\uAE68\uC5D0 \uAE30\uB314\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -97,7 +97,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uADF8\uB7EC\uB2E4 \uB3D9\uAE30 \uD55C \uBA85\uC774 \uC740\uC131\uC744
+    line: "\uADF8\uB7EC\uB2E4 \uB3D9\uAE30 \uD55C \uBA85\uC774 \uC740\uC131\uC774\uB97C
       \uC77C\uC73C\uCF1C \uC138\uC6B4\uB2E4."
     eventName: 
     conditionType: 0

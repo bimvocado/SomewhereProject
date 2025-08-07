@@ -23,6 +23,99 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+  - speaker: 
+    line: "\u201C\uC5F4\uB78C\uC2E4\uC774 \uD3C9\uC18C\uBCF4\uB2E4 \uD6E8\uC52C \uBD90\uBE44\uB294
+      \uAC78 \uBCF4\uB2C8 \n\uB2E4\uB4E4 \uC911\uAC04\uACE0\uC0AC\uB97C \uC55E\uB450\uACE0
+      \uC5F4\uC2EC\uD788 \uC900\uBE44 \uC911\uC778\uAC00 \uBD10\u2026\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\"\uC7A0\uAE50 \uC549\uC544\uC11C \uC815\uB9AC\uB9CC \uD558\uB824\uACE0
+      \uD588\uB294\uB370, \uC2DC\uAC04\uC774 \uD6C5 \uC9C0\uB098\uBC84\uB838\uB2E4.\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\u201C\uADFC\uB370\u2026 \uC774 \uBB38\uC81C, \uB3C4\uC800\uD788 \uBAA8\uB974\uACA0\uB2E4.
+      \n\uB0B4\uAC00 \uC798\uBABB \uC774\uD574\uD55C \uAC74\uAC00? \uD544\uAE30\uAC00
+      \uC798\uBABB\uB41C \uAC74\uAC00?\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\u201C\uACE0\uAC1C\uB97C \uB4E4\uC5B4 \uC8FC\uC704\uB97C \uB458\uB7EC\uBCF4\uB2C8,
+      \uC775\uC219\uD55C \uB4B7\uBAA8\uC2B5\uC774 \uB208\uC5D0 \uB4E4\uC5B4\uC654\uB2E4.\u201D"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\u201C\uC6B0\uC9C4 \uC120\uBC30\uC5D0\uAC8C \uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 4fe19574d41c5d0489dd42b3f366e2d7
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 10
+      targetCharacterForAffection: "\uC815\uC6B0\uC9C4"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uC774\uD604 \uC120\uBC30\uC5D0\uAC8C \uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: f38aa8c9518453d4ab5c83d0e8da1185
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 5
+      targetCharacterForAffection: "\uBB38\uC774\uD604"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\u201D"
+      nextDialogue:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 
