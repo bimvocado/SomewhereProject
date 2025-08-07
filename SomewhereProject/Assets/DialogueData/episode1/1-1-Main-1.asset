@@ -107,7 +107,7 @@ MonoBehaviour:
       \uB4B7\uC790\uB9AC\uC5D0\uB294 \uC798\uC0DD\uAE34 \uB0A8\uC790\uAC00 \uC549\uC544
       \uC788\uC5C8\uB2E4.\n\uB418\uAC8C \uC5B4\uB824 \uBCF4\uC774\uB294\uB370, \uB300\uD559\uC0DD
       \uB9DE\uC544?"
-    eventName: 
+    eventName: AppearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -118,7 +118,7 @@ MonoBehaviour:
     line: "\uC911\uC559\uC5D4 \uC608\uC058\uAC8C \uC0DD\uAE34 \uB0A8\uC790\uAC00
       \uC549\uC544 \uC788\uC5C8\uB2E4.\n\uBBF8\uC18C \uC9C0\uC740 \uC5BC\uAD74\uC774
       \uCE5C\uC808\uD574 \uBCF4\uC778\uB2E4."
-    eventName: 
+    eventName: AppearLuka
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -128,7 +128,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC624\uB978\uCABD\uC5D0 \uC549\uC740 \uB0A8\uC790\uB294...\n\uC8C4\uC1A1\uD558\uC9C0\uB9CC
       \uBB54\uAC00 \uC131\uACA9 \uC548 \uC88B\uC744 \uAC83\uAC19\uC774 \uC0DD\uAE30\uC168\uB124..."
-    eventName: 
+    eventName: AppearEunsung
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

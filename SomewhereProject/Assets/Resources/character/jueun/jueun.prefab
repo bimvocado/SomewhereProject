@@ -1843,6 +1843,7 @@ GameObject:
   - component: {fileID: 6448988263818550595}
   - component: {fileID: 421717508898653053}
   - component: {fileID: 3129879505196264376}
+  - component: {fileID: 3635933839924158174}
   m_Layer: 0
   m_Name: jueun
   m_TagString: Untagged
@@ -1919,7 +1920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Opacity: 1
-  _lastOpacity: 0
+  _lastOpacity: 1
   _isOverriddenModelMultiplyColors: 0
   _isOverriddenModelScreenColors: 0
   _modelMultiplyColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1971,7 +1972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967223d908bf07b4f90945995bdca68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maskTexture: {fileID: 0}
+  _maskTexture: {fileID: 11400000, guid: 16bf142754640ab4487bb625c30931fd, type: 2}
 --- !u!114 &1632362618098400920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2034,7 +2035,7 @@ Animator:
   m_GameObject: {fileID: 4049501618304134569}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89920f0515c9fdd488cc0acf90158e4c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2058,7 +2059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd9e6647bfff7542acb0200ab74bdd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubismFadeMotionList: {fileID: 0}
+  CubismFadeMotionList: {fileID: 11400000, guid: 3b3de520073703f43887721978cdfdab, type: 2}
 --- !u!114 &3129879505196264376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2184,6 +2185,18 @@ MonoBehaviour:
     Gravity: {x: 0, y: -1}
     Wind: {x: 0, y: 0}
     Fps: 60
+--- !u!114 &3635933839924158174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4049501618304134569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4096249321944646729
 GameObject:
   m_ObjectHideFlags: 0

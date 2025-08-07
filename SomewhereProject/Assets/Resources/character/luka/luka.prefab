@@ -1999,6 +1999,7 @@ GameObject:
   - component: {fileID: 7844042695586860050}
   - component: {fileID: 2752635865906382747}
   - component: {fileID: 6244735381750514725}
+  - component: {fileID: 934971707806942411}
   m_Layer: 0
   m_Name: luka
   m_TagString: Untagged
@@ -2075,7 +2076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Opacity: 1
-  _lastOpacity: 0
+  _lastOpacity: 1
   _isOverriddenModelMultiplyColors: 0
   _isOverriddenModelScreenColors: 0
   _modelMultiplyColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2141,7 +2142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967223d908bf07b4f90945995bdca68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maskTexture: {fileID: 0}
+  _maskTexture: {fileID: 11400000, guid: 16bf142754640ab4487bb625c30931fd, type: 2}
 --- !u!114 &3762352781851480783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2204,7 +2205,7 @@ Animator:
   m_GameObject: {fileID: 4740501805876332779}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f1e83494e767c2744af1e4470b54b5bf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2228,7 +2229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd9e6647bfff7542acb0200ab74bdd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubismFadeMotionList: {fileID: 0}
+  CubismFadeMotionList: {fileID: 11400000, guid: f06d3f35481d60543a9fc3975914cba1, type: 2}
 --- !u!114 &6244735381750514725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2354,6 +2355,26 @@ MonoBehaviour:
     Gravity: {x: 0, y: -1}
     Wind: {x: 0, y: 0}
     Fps: 60
+--- !u!114 &934971707806942411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740501805876332779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterRenderers: []
+  cubismRenderers: []
+  fadeDuration: 0.5
+  fadeEaseType: 3
+  moveDuration: 0.8
+  moveEaseType: 6
+  offscreenLeftX: -10
+  offscreenRightX: 10
 --- !u!1 &4817396132320864801
 GameObject:
   m_ObjectHideFlags: 0
