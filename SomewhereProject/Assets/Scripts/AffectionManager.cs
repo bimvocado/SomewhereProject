@@ -9,18 +9,14 @@ public class AffectionManager : MonoBehaviour
     private Dictionary<string, int> affections = new Dictionary<string, int>();
     private int defaultAffection = 0;
 
-    private void Awake()
+    private void Start()
     {
-        if (Instance == null)
+        if (EventManager.Instance != null)
         {
-            Instance = this;
             EventManager.Instance.StartListening("ResetAffection", ResetAllAffections);
         }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
+
 
     public void ChangeAffection(string characterName, int amount)
     {

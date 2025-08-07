@@ -4,8 +4,9 @@ public class SaveNSettingUI : MonoBehaviour
 {
     public static SaveNSettingUI Instance { get; private set; }
 
-    [SerializeField] private GameObject settingCanvas;
-    [SerializeField] private GameObject saveCanvas;
+    [SerializeField] private GameObject settingUI;
+    [SerializeField] private GameObject saveUI;
+
 
     private void Awake()
     {
@@ -20,19 +21,15 @@ public class SaveNSettingUI : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        settingCanvas.SetActive(false);
-        saveCanvas.SetActive(false);
-    }
+
 
     public void ShowSettingUI()
     {
-        settingCanvas.SetActive(true);
+        settingUI.SetActive(true);
     }
 
     public void ShowSaveUI ()
     {
-        saveCanvas.SetActive(true);
+        saveUI.SetActive(true);
     } 
 }
