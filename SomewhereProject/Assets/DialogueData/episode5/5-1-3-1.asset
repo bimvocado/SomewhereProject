@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 5-1-3-1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uBA54\uC2E0\uC800\uB97C \uCF1C\uC11C \uC5F0\uB77D\uC744 \uD574\uBCF8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 6e928fbea9377ff4f8b61f5f0caa6858
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

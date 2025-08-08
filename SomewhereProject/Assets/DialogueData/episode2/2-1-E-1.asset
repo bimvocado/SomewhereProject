@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 2-1-E-1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC870\uAE08 \uBD80\uB2F4\uC2A4\uB7EC\uC6B4\uB370..."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uB108 \uB108\uBB34 \uCDE8\uD55C \uAC70 \uC544\uB2C8\uC57C? \uC5EC\uAE30
+      \uC549\uB294 \uAC8C \uC544\uB2C8\uB77C \uC9D1\uC5D0 \uAC00\uC57C \uD560 \uAC83
+      \uAC19\uC740\uB370."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uB098 \uAC71\uC815\uD574 \uC8FC\uB294 \uAC70\uC57C?"
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uC548 \uD574\uB3C4 \uB3FC! \uB098 \uAD1C\uCC2E\uC544!"
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC740\uC131\uC774\uAC00 \uD574\uB9D1\uAC8C \uC6C3\uC5B4\uBCF4\uC600\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "...\uC804\uD600 \uC548 \uAD1C\uCC2E\uC544 \uBCF4\uC778\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uADF8\uAC83\uBCF4\uB2E4 \uB098 [\uC5EC\uC8FC\uC774] \uB108\uB791 \uCE5C\uD574\uC9C0\uACE0
+      \uC2F6\uC740\uB370..."
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uC5EC\uAE30 \uC549\uC73C\uBA74 \uC548 \uB3FC?"
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uAC04\uC808\uD55C \uB208\uBE5B\uC73C\uB85C \uB098\uB97C \uB0B4\uB824\uB2E4\uBCF8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC5B4\uB5A1\uD558\uC9C0..."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uACE0\uBBFC\uD558\uACE0 \uC788\uB294 \uC0AC\uC774 \uB3D9\uAE30 \uD55C
+      \uBA85\uC774 \uC740\uC131\uC774\uB97C \uBD99\uC7A1\uB294\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 5d0614db22c4b04488b298dd1734c3f3
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

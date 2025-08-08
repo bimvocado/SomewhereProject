@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: BadLukaO1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "...\uB2F5\uC774 \uC5C6\uB2E4"
+    eventName: 
+    conditionType: 1
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC598\uB294 \uD734\uB300\uD3F0\uC774 \uC7A5\uC2DD\uC778\uAC00?"
+    eventName: 
+    conditionType: 1
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC81C\uB300\uB85C \uB2F5\uC7A5\uD558\uB294 \uAC78 \uBCF8 \uC801\uC774
+      \uC5C6\uB294 \uAC83 \uAC19\u2026"
+    eventName: 
+    conditionType: 1
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uADF8\uB54C \uC804\uD654\uAC00 \uAC78\uB824 \uC654\uB2E4."
+    eventName: 
+    conditionType: 1
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBC1C\uC2E0\uC790... \uB8E8\uCE74?"
+    eventName: 
+    conditionType: 1
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uD638\uB791\uC774\uB3C4 \uC81C \uB9D0 \uD558\uBA74 \uC628\uB2E4\uB354\uB2C8."
+    eventName: 
+    conditionType: 1
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uAC11\uC790\uAE30 \uC804\uD654? \uC870\uAE08 \uB2F9\uD669\uC2A4\uB7FD\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 7a13538dc3382a446bf63335c6579c21
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 5
+      targetCharacterForAffection: "\uB8E8\uCE74"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uB531 \uC88B\uC740 \uD0C0\uC774\uBC0D\uC774\uB124"
+      nextDialogue:
+        m_AssetGUID: a35246e3cd7142140973736cf1313d45
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 4
+      targetCharacterForAffection: "\uB8E8\uCE74"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  - speaker: 
+    line: "\uC0DD\uAC01\uBCF4\uB2E4 \uAE08\uBC29 \uB2F5\uC7A5\uC774 \uC654\uB2E4."
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uBB34\uC2A8 \uC77C \uC788\uC73C\uC2E0\uAC00\uC694?"
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC544\uB2C8 \uADF8\uB0E5 \uC218\uAC15 \uC2E0\uCCAD \uC5B4\uB5BB\uAC8C
+      \uD560 \uAC74\uC9C0 \uBB3C\uC5B4\uBCF4\uACE0 \uC2F6\uC5B4\uC11C!"
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uADF8\uB0E5 \uC9D1\uC5D0\uC11C \uD558\uACA0\uC8E0."
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uB7FC \uB098\uB791 \uAC19\uC774 \uD53C\uC2DC\uBC29 \uAC08\uB798?"
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uBB3C\uB860 \uB124\uAC00 \uD559\uAD50 \uADFC\uCC98\uB85C \uC640\uC57C
+      \uD558\uACA0\uC9C0\uB9CC\u2026"
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC7A0\uC2DC \uB2F5\uC774 \uC5C6\uC5C8\uB2E4."
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC5ED\uC2DC \uADC0\uCC2E\uC73C\uB824\uB098?"
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uADF8\uB7EC\uC8E0."
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uAC00\uB054 \uBCF4\uBA74 \uD574\uB2EC\uB77C\uB294 \uAC74 \uC740\uADFC\uD788
+      \uB2E4 \uD574\uC8FC\uB294 \uAC83 \uAC19\uB2E8 \uB9D0\uC774\uC57C."
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uB7FC, \uADF8\uB0A0 \uC544\uCE68\uC5D0 \uBCF4\uC790!"
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uB0B4\uAC00 \uD53C\uC2DC\uBC29 \uCC3E\uC544\uBCF4\uACE0 \uC54C\uB824\uC904\uAC8C."
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uB124."
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBC14\uB85C \uC778\uD130\uB137\uC744 \uCF1C \uD559\uAD50 \uADFC\uCC98
+      \uD53C\uC2DC\uBC29\uC744 \uAC80\uC0C9\uD574 \uBD24\uB2E4."
+    eventName: 
+    conditionType: 2
+    conditionKey: festival_LK
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

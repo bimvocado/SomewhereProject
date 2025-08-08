@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 6-2-3-c5
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC0DD\uAC01\uD574 \uBCF4\uB2C8 \uC6B4\uC804 \uC2E4\uB825\uC744 \uBAA8\uB974\uB124."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB9C9, \uB098 \uD0DC\uC6E0\uB2E4\uACE0 \uB09C\uD3ED \uC6B4\uC804\uD558\uACE0
+      \uADF8\uB7EC\uB294 \uAC74 \uC544\uB2C8\uACA0\uC9C0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\xB7\xB7\xB7 \uBB50 \uD558\uB098 \uBB3C\uC5B4\uBCF4\uACE0 \uC2F6\uC740\uB370."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uB9D0\uC500\uD558\uC138\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uB531\uD788 \uB110 \uC758\uC2EC\uD558\uB294 \uAC74 \uC544\uB2CC\uB370."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uBB50\uAE38\uB798 \uADF8\uB807\uAC8C \uB738 \uB4E4\uC774\uC2DC\uB098\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uB098\xB7\xB7\xB7 \uC0B4\uC544\uC11C \uC9D1 \uB3C4\uCC29\uD560 \uC218
+      \uC788\uB294 \uAC70\uC9C0?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uD5DB\uC6C3\uC74C \uCE58\uB294 \uC18C\uB9AC\uAC00 \uB4E4\uB838\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uAC71\uC815 \uB9C8\uC138\uC694. \uC800\uB3C4 \uC81C \uBAA9\uC228\uC740
+      \uC18C\uC911\uD788 \uC5EC\uAE30\uAC70\uB4E0\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC5ED\uC2DC \uADF8\uB807\uC9C0? \uD558\uD558\uD558\xB7\xB7\xB7"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB8E8\uCE74\uAC00 \uAE30\uC5B4\uB97C \uBC14\uAFB8\uACE0, \uC561\uC140\uC744
+      \uBC1F\uC790 \uCC28\uAC00 \uCD9C\uBC1C\uD588\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBD80\uB4DC\uB7FD\uAC8C \uCD9C\uBC1C\uD558\uB294 \uAC8C\xB7\xB7\xB7 \uC2B9\uCC28\uAC10\uC774
+      \uC88B\uB124."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBE44\uC2FC \uCC28\uB77C \uADF8\uB7F0\uAC00?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC6B4\uC804 \uC790\uC8FC \uD574 \uBD24\uC5B4?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uC790\uC8FC\xB7\xB7\xB7 \uAE4C\uC9C4 \uC544\uB2C8\uB354\uB77C\uB3C4,
+      \uB098\uB984 \uC775\uC219\uD558\uB2E4\uACE0 \uC0DD\uAC01\uD574\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uB2A5\uC219\uD558\uAE34 \uD558\uB124."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uB178\uB825\uD588\uC8E0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uADF8\uB798 \uBCF4\uC774\uB124\xB7\xB7\xB7."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: ca80d5fa670d09743a3cbc8bf1ea85e8
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

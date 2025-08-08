@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 7-5-rough-c1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC774\uC740\uC131 \uBC14\uBCF4\uB77C\uACE0 \uC37C\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC740\uC131\uC774 \uADF8\uAC78 \uBCF4\uB354\uB2C8, \uC606\uC5D0 \uAC19\uC774
+      \uC549\uC544"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "[\uC5EC\uC8FC] \uBC14\uBCF4\uB77C\uACE0 \uC801\uC5C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uADF8 \uBAA8\uC2B5\uC774 \uC6C3\uACA8\uC11C \uAE00\uC528\uB97C \uC4F0\uACE0
+      \uC788\uB294 \uC740\uC131\uC774\uC758 \uC0AC\uC9C4\uC744 \uCC0D\uC5C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uBB50\uC57C?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADC0\uC5EC\uC6CC\uC11C."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC6C3\uC73C\uBA70 \uBC14\uB2E4 \uC0AC\uC9C4\uC744 \uCC0D\uB294 \uCC99
+      \uC740\uC131\uC774\uC758 \uC0AC\uC9C4\uB3C4 \uCC0D\uACE0 \uC788\uC790\uB2C8\xB7\xB7\xB7"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB0B4 \uC0AC\uC9C4\uC744 \uC548 \uCC0D\uC5C8\uB124."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: c82e92daf5f24614c81af956baaf8906
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

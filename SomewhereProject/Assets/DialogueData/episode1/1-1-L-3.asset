@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 1-1-L-3
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uD559\uAD50\uC0DD\uD65C \uAE30\uB300\uB418\uC9C0 \uC54A\uC544? \uC218\uAC15\uC2E0\uCCAD\uC740
+      \uC798\uD588\uC5B4? \uB09C \uB4E3\uACE0 \uC2F6\uC740 \uC218\uC5C5 \uC788\uC5C8\uB294\uB370
+      \uD558\uB098 \uB193\uCCE4\uAC70\uB4E0..."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uC800\uB294 \uC804\uACF5\uB9CC \uB2F4\uC544\uC11C\uC694, \uD544\uC694\uD55C
+      \uAC74 \uB2E4 \uC131\uACF5\uD588\uC5B4\uC694."
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uAD50\uC591 \uC548 \uB4E3\uAC8C? \uC804\uACF5\uB9CC \uB4E4\uC73C\uBA74
+      \uD798\uB4E4\uB2E4\uB294 \uB9D0 \uB9CE\uB358\uB370."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uD574\uBCF4\uACE0 \uD310\uB2E8\uD558\uB824\uACE0\uC694."
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uADF8\uAC83\uB3C4 \uADF8\uB807\uAE34 \uD558\uB124."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 273ae48671d4ef94cbf3d2a8e7616bd1
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

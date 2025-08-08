@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 7-5-c3-b
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uB098\uB294 \uD578\uB4DC\uD3F0\uC744 \uC0B4\uC9DD \uB3CC\uB824 \uC5EC\uD589\uC9C0
+      \uBAA9\uB85D\uC744 \uBCF4\uC5EC\uC92C\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uB0B4\uB824\uC11C \uC5B4\uB514 \uAC08\uC9C0 \uBCF4\uACE0 \uC788\uC5C8\uC5B4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uB9CE\uC774 \uCC3E\uC544\uB480\uB124."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uB098\uB3C4 \uCC3E\uC544\uB450\uAE34 \uD588\uB294\uB370, \uB108 \uAC00\uACE0
+      \uC2F6\uC740 \uACF3\uC73C\uB85C \uAC00\uC790."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 5fa02c2facb4dad42a74db0d89226b9a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

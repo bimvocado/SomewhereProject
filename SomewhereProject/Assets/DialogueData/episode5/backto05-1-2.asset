@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: backto05-1-2
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC0DD\uAC01\uD574 \uBCF4\uB2C8 \uC740\uC131\uC774\uB294 \uD559\uC0DD\uD68C\uC600\uC9C0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB9DE\uB2E4\u2026 \uC5B4\uB5A1\uD558\uC9C0? \uD63C\uC790 \uB2E4\uB2D0\uAE4C?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC544\uB2C8\uBA74 \uB2E4\uB978 \uC0AC\uB78C\uD55C\uD14C\uB77C\uB3C4 \uC5F0\uB77D\uD560\uAE4C?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\u201C\uD63C\uC790 \uB2E4\uB2CC\uB2E4"
+      nextDialogue:
+        m_AssetGUID: c84a1c08e18f2e741a4a972c05c6087f
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uB2E4\uB978 \uC0AC\uB78C\uC5D0\uAC8C \uC5F0\uB77D\uD55C\uB2E4"
+      nextDialogue:
+        m_AssetGUID: a52c0b6129f9d354ea3f36644d3307a6
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: -5
+      targetCharacterForAffection: "\uC774\uC740\uC131"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\u201D"
+      nextDialogue:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

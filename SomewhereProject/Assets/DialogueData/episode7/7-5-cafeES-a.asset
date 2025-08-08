@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 7-5-cafeES-a
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uB514\uC800\uD2B8 \uBA39\uC790!"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uC6B0\uB9AC\xB7\xB7\xB7 \uB9CE\uC774 \uBA39\uC9C0 \uC54A\uC558\uC5B4?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uB354 \uBA39\uC5B4. \uB09C \uAC00\uB2A5."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uCC98\uC74C \uBD24\uC744 \uB54C\uBD80\uD130 \uAC00\uACE0 \uC2F6\uB358
+      \uACF3\uC774\uC57C."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uADF8\uB7FC \uAC00\uC790."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC774\uC0C9 \uB514\uC800\uD2B8\uB85C \uC720\uBA85\uD55C \uCE74\uD398!"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBC14\uB85C \uC55E\uC5D0 \uBC14\uB2E4\uB3C4 \uBCF4\uC774\uACE0 \uB9C8\uCE68
+      \uB178\uC744\uB3C4 \uC838 \uBD84\uC704\uAE30\uB3C4 \uC88B\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uCC3D\uAC00\uC5D0 \uC549\uC544 \uC8FC\uBB38\uD55C \uB514\uC800\uD2B8\uB97C
+      \uD55C \uC785 \uBA39\uC5C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: '?'
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC9DC\uB2E4\xB7\xB7\xB7"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uBC14\uB2E4 \uB9DB \uD478\uB529\uC774\uB77C\uACE0 \uD574\uC11C \uC0C0\uB294\uB370,
+      \uC9C4\uC9DC \uBC14\uB2E4 \uB9DB\uC77C \uC904\uC774\uC57C."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC740\uC131\uC774 \uBA39\uC5EC\uC57C\uC9C0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC740\uC131\uC544, \uC774\uAC70 \uD55C\uC785 \uBA39\uC5B4\uBD10."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uD55C \uC21F\uAC08 \uB5A0\uC11C \uC740\uC131\uC774\uC758 \uC785\uC548\uC5D0
+      \uC6B1\uC5EC\uB123\uC5C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB9DB\uC744 \uBCF8 \uC740\uC131\uC774\uC758 \uBBF8\uAC04\uC774 \uAD6C\uACA8\uC84C\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uC774\uAC70 \uBB50\uC57C? \uC9E0\uB370?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uBC14\uB2E4\uC785\uB2C8\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB098\uB294 \uD478\uB529\uC744 \uD754\uB4E4\uC5B4 \uBCF4\uC600\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uADFC\uB370 \uC74C\uB8CC\uB791 \uAC19\uC774 \uBA39\uC73C\uB2C8 \uB098\uC058\uC9C0
+      \uC54A\uC740\uB370?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB2E8\uC9E0\uB2E8\uC9E0\xB7\xB7\xB7"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\xB7\xB7\xB7"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB178\uC744\uACFC \uBC14\uB2E4\uB97C \uAD6C\uACBD\uD558\uBA70 \uD55C\uCC3D
+      \uBA39\uACE0 \uC788\uB294\uB370, \uC740\uC131\uC774 \uC9C8\uBB38\uD588\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC774\uC740\uC131"
+    line: "\uC624\uB298 \uC5EC\uD589 \uC5B4\uB560\uC5B4?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uB9DB\uC788\uB294 \uAC70 \uB9CE\uC774 \uBA39\uC5B4\uC11C \uC88B\uC558\uB2E4"
+      nextDialogue:
+        m_AssetGUID: f4acafccb2b9b2642883184d3b52822d
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 2
+      targetCharacterForAffection: "\uC774\uC740\uC131"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uB108\uB791 \uC788\uC5B4\uC11C \uC7AC\uBC0C\uC5C8\uB2E4"
+      nextDialogue:
+        m_AssetGUID: ff2752f9747c09c448b37af303214c87
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 5
+      targetCharacterForAffection: "\uC774\uC740\uC131"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

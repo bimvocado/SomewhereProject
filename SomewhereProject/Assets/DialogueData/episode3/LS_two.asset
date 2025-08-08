@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: LS_two
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC9C4\uC9DC \uBBF8\uC548\u2026 \uB9CE\uC774 \uC816\uC5C8\uC5B4?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC138\uD0C1\uBE44 \uC904\uAE4C? \uAC10\uAE30\uB77C\uB3C4 \uAC78\uB9AC\uBA74
+      \uC5B4\uB5A1\uD574\u2026"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uC2E0\uACBD \uC4F0\uC9C0 \uC54A\uC73C\uC154\uB3C4 \uB3FC\uC694. \uBCC4\uB85C
+      \uB9CE\uC774 \uC816\uC740 \uAC83\uB3C4 \uC544\uB2C8\uACE0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC800\uCABD\uC5D0 \uBD88 \uD53C\uC6CC\uB454 \uAC70 \uC544\uC9C1 \uC788\uC744
+      \uD150\uB370 \uAC00\uC11C \uC637\uC774\uB77C\uB3C4 \uC880 \uB9D0\uB9B4\uB798?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uB124, \uADF8\uB7EC\uC8E0."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

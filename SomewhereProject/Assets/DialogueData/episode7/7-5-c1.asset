@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 7-5-c1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC5B4\uCC28\uD53C \uB2F9\uC77C\uCE58\uAE30\uC778\uB370 \uAD73\uC774 \uAF3C\uAF3C\uD558\uAC8C
+      \uCC59\uAE38 \uD544\uC694\uB294 \uC5C6\uACA0\uC9C0?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB300\uCDA9 \uBB3C\uC774\uB791 \uBCF4\uC870\uBC30\uD130\uB9AC, \uBE44\uC0C1\uC57D\xB7\xB7\xB7"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uAC04\uC2DD\uC740 \uAC00\uBA74\uC11C \uC0B4\uAE4C?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB300\uCDA9 \uC774 \uC815\uB3C4\uBA74 \uB418\uACA0\uC9C0!"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uAC00\uBC29\uC774 \uAC00\uBCBC\uC6CC\uC11C \uB2E4\uB2C8\uAE30\uB294 \uAD1C\uCC2E\uACA0\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: cef919bceb01a5e40bc207ecf05cb9cb
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 1-3-1-1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC800... \uD639\uC2DC \uC5EC\uAE30 \uC549\uC544\uB3C4 \uB420\uAE4C\uC694?"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: ???
+    line: "\uB124? \uC544... \uB124\uB124! \uC549\uC73C\uC138\uC694."
+    eventName: smile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC5BC\uAD74\uC744 \uB9C8\uC8FC\uBCF4\uB2C8 \uC624\uD2F0\uC5D0\uC11C \uBD40\uB358
+      \uC6B0\uB9AC \uACFC \uC120\uBC30\uB2D8\uC774 \uB9DE\uC73C\uC2E0 \uAC83 \uAC19\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB208\uAF2C\uB9AC\uAC00 \uC0B4\uC9DD \uC62C\uB77C\uAC00 \uC788\uC5B4
+      \uB0A0\uCE74\uB85C\uC6CC \uBCF4\uC774\uB294\uB370, \uD45C\uC815\uC740 \uC5B4\uB518\uAC00
+      \uAE34\uC7A5\uD55C \uB4EF \uBCF4\uC5EC\uC11C \uC870\uAE08 \uC758\uC678\uC600\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB2F9\uD669\uD55C \uB4EF \uD588\uC9C0\uB9CC \uB4E3\uAE30 \uD3B8\uC548\uD55C
+      \uBAA9\uC18C\uB9AC\uC600\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: 9ab6f9dff09847e4baafb14186450dae
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

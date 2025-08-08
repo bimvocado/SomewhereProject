@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: 4-2-1-1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: 
+    line: "\uC5B4\uCC28\uD53C \uC608\uC758\uC0C1 \uD558\uB294 \uB9D0\uC774\uACA0\uC9C0?
+      /n\uAD73\uC774 \uD504\uB9B0\uD2B8 \uD558\uB098 \uD558\uACA0\uB2E4\uACE0 \uAC19\uC774
+      \uAC00\uC904 \uD544\uC694\uB3C4 \uC5C6\uACE0"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC544\uB0D0 \uAD1C\uCC2E\uC544 \uC54C\uB824\uC918\uC11C \uACE0\uB9C8\uC6CC.
+      \uB9C8\uC8FC\uCCD0\uC11C \uB2E4\uD589\uC774\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uB8E8\uCE74"
+    line: "\uADF8\uB7FC \uC88B\uC740 \uD558\uB8E8 \uBCF4\uB0B4\uC138\uC694."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uAFB8\uBC85 \uC778\uC0AC\uD558\uACE0 \uB8E8\uCE74\uAC00 \uBA40\uC5B4\uC9C4\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB8E8\uCE74\uAC00 \uC54C\uB824\uC900 \uB300\uB85C \uCC3E\uC544\uAC00\uC11C
+      \uBB34\uC0AC\uD788 \uD504\uB9B0\uD2B8\uB97C \uB9C8\uCCE4\uB2E4!"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uB9AC\uD3EC\uD2B8\uB97C \uC18C\uC911\uD788 \uD488\uC5D0 \uC548\uACE0
+      \uAC15\uC758\uC2E4\uB85C \uD5A5\uD588\uB2E4."
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  nextDialogueOnCompletion:
+    m_AssetGUID: a41b37f96d5cfa54c83c32e722763b44
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

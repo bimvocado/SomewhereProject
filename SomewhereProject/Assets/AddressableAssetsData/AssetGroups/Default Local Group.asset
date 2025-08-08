@@ -1,0 +1,2063 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: a9dd46fce7776374587e1793ec4b1830
+  m_SerializeEntries:
+  - m_GUID: 008dc070ab2c5f24e971b1f24dcc1c66
+    m_Address: Assets/DialogueData/episode3/YH_two.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00d7e6aa00dee43488b3eede9bc4bd26
+    m_Address: Assets/DialogueData/episode6/6-2-1-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 011ef0cd5e2cc8e49ae7a90bc1be5f14
+    m_Address: Assets/DialogueData/episode3/EunSul.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01b269f6f045155478a3b26fe2c88186
+    m_Address: Assets/DialogueData/episode10/ES_end.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01d64a51513f8a145a51e97e9adc1294
+    m_Address: Assets/DialogueData/episode3/ES_four.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02d6ec83645567946aff23c7986b3d5c
+    m_Address: Assets/DialogueData/episode6/6-1-3-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05fd16ebe8f1e0a43bb45aa37455c025
+    m_Address: Assets/DialogueData/episode5/t_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0617516193c663b4897ba1cf71cde829
+    m_Address: Assets/DialogueData/episode1/1-1-L-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 065a4290bb1e7df4688ed77df71a3f12
+    m_Address: Assets/DialogueData/episode3/SehaSul.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06cce833c6aa75a4bae6e7c92952a10e
+    m_Address: Assets/DialogueData/episode3/threeup.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0779ada5c3e71a04899f111016880f7c
+    m_Address: Assets/DialogueData/episode7/7-1-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 087f785fe90ba124682660f5fcef4987
+    m_Address: Assets/DialogueData/episode5/05-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0884ebbcaec57564f8af1f37cb4c6e87
+    m_Address: Assets/DialogueData/episode5/05-3-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a95bd27bf397e04db137307ef3d14f3
+    m_Address: Assets/DialogueData/episode7/7-5-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c1da009d50ca2b419e0aa0d3c24a23d
+    m_Address: Assets/DialogueData/episode6/6-2-3-c4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c78e958a0fff7f4b86db8ae8902a422
+    m_Address: Assets/DialogueData/episode7/7-5-cafeES-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d4b32737705f844389a9e9676f39371
+    m_Address: Assets/DialogueData/episode10/WJEy.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e17a75a62c9ec94c92eec9949de415a
+    m_Address: Assets/DialogueData/episode2/2-1-S-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e23210d9c96bce49ab6e74b9cc370f5
+    m_Address: Assets/DialogueData/episode10/LK_end.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0eb2fe1321bb5344496a5908e3797559
+    m_Address: Assets/DialogueData/episode6/6-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ee0412f8589d3d47b33158190730a96
+    m_Address: Assets/DialogueData/4-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 101ec6a8d550cec47ad0d52e9ec0575c
+    m_Address: Assets/DialogueData/episode1/1-1-2-3-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10463633bdf83dc40a81ca652e100395
+    m_Address: Assets/DialogueData/episode5/5-1-2-3-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 107cfd6a11ad4c043b955469ba9bafa9
+    m_Address: Assets/DialogueData/episode7/7-5-rough-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 109f549cb7486324e8b053b6e4c34312
+    m_Address: Assets/DialogueData/episode1/1-1-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 114d5ec84132d40409fd51253ea1cc24
+    m_Address: Assets/DialogueData/episode3/EunSuloo.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1150d205a36ace8449b763f6d5f29de3
+    m_Address: Assets/DialogueData/episode7/7-5-rough-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11eb6ebab6a21d8478f84c3d725ab2f2
+    m_Address: Assets/DialogueData/episode7/7-5-rough-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12396fd0a71224447a88647b91ae2925
+    m_Address: Assets/DialogueData/episode7/7-2-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13449346a8395f64ab7b0bf168b44426
+    m_Address: Assets/DialogueData/episode5/bbackto5-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13cdf2fe397f7834c8c509e793e25e91
+    m_Address: Assets/DialogueData/episode2/2-3-Main.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14ce61a50bcdab44e8762f90b5c3eca9
+    m_Address: Assets/DialogueData/backto4-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15d4c1b21d22a164296368814e717e73
+    m_Address: Assets/DialogueData/episode2/2-4-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 162d1b4fe66bef44089d29f4994f0c5b
+    m_Address: Assets/DialogueData/episode7/7-2-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1645524238b390d4daa0324a7603b973
+    m_Address: Assets/DialogueData/episode9/BadLuka1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1646bbc54473b5e4587c14435669beea
+    m_Address: Assets/DialogueData/episode10/Friend.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16f32ad0b83037f47b5d7c5c21b74d79
+    m_Address: Assets/DialogueData/episode6/6-1-2-c.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17dc9c26987373e4587f82302ed9b74e
+    m_Address: Assets/DialogueData/episode9/GoodMoon2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19cd7012d895f0447b910d9b341af683
+    m_Address: Assets/DialogueData/episode7/7-2-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b48652fad912874bad77babd7e63fef
+    m_Address: Assets/DialogueData/episode1/1-1-Main-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b8bae9e57a45db4ab90242dacb8071e
+    m_Address: Assets/DialogueData/4-3-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1be0b706388bca848a58f94b3e3d10c6
+    m_Address: Assets/DialogueData/episode8/Organize1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e76b15ab07eb3347a06e0836049c7a7
+    m_Address: Assets/DialogueData/episode6/6-2-4-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e7f2d04cc24f424caabc009fbd47517
+    m_Address: Assets/DialogueData/episode3/Ep3-2-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e8f3d9e2b02f1b458b7634604ffe855
+    m_Address: Assets/DialogueData/episode1/1-1-S.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fa086404b0de4947bac631cab29c573
+    m_Address: Assets/DialogueData/episode7/7-5-large-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ff7794c4dd23ce42a59e27eab09f079
+    m_Address: Assets/DialogueData/episode7/7-1-c3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21a9d9fb29bc21c44b1847e5144b005b
+    m_Address: Assets/DialogueData/episode6/6-1-2-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2212fae236c163849a95bc3742843c90
+    m_Address: Assets/DialogueData/episode1/1-3-3-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 224565b7832f63347a6769775b471d1a
+    m_Address: Assets/DialogueData/episode8/SmallDog2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23e9522db0121df4b8279aa4df902319
+    m_Address: Assets/DialogueData/episode6/6-2-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 247e574c0e886b841aaf790a3df291e1
+    m_Address: Assets/DialogueData/episode1/1-4-Main-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25395f64aa311634ab0b292a9832a31e
+    m_Address: Assets/DialogueData/episode9/BadLeeMy.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 255e2f0729f3cce47a7644c68c9cca7d
+    m_Address: Assets/DialogueData/episode6/6-1-2-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 273ae48671d4ef94cbf3d2a8e7616bd1
+    m_Address: Assets/DialogueData/episode1/1-1-L-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2757e604eb36b86478d0177444675f19
+    m_Address: Assets/DialogueData/episode8/SmallDog1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27e3bf83668410845b54ffd507fcca46
+    m_Address: Assets/DialogueData/episode6/6-1-4-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27fc54875d4a1994b9d980d2e8316a23
+    m_Address: Assets/DialogueData/episode6/6-1-4-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29138b59951e7ba46b6cc4b1186573b8
+    m_Address: Assets/DialogueData/episode7/7-5-c3-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29495778152f20e4b9f510f34a8fbb1c
+    m_Address: Assets/DialogueData/episode7/7-5-cafeES-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 298049c5d6368d14da6a1d6bff4616d2
+    m_Address: Assets/DialogueData/episode9/GoodJungFloor.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29f68ab2c54f3604eadea00644974323
+    m_Address: Assets/DialogueData/episode6/6-2-4-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a9e30f9d7f490242b1f1c22a3f13566
+    m_Address: Assets/DialogueData/episode1/1-4-T-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33128a87c2d77a74798fbf11210fb1cc
+    m_Address: Assets/DialogueData/episode5/5-1-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33c2b73064eb9cd469417a52c13041eb
+    m_Address: Assets/DialogueData/episode1/1-1-2-3-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3454bd7ab8d500648951c03822177096
+    m_Address: Assets/DialogueData/episode7/7-3-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35b314b6aeccfb64e818a5dd4a56b544
+    m_Address: Assets/DialogueData/episode2/2-3-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3672526900ebbe84a9c3350f0d1512a6
+    m_Address: Assets/DialogueData/4-3-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36dad390771d7b941b134d1fe0b74ddd
+    m_Address: Assets/DialogueData/episode8/Organize_More.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3701dde6f92e26d46ba9d7c1b768b923
+    m_Address: Assets/DialogueData/episode2/2-1-Y-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37c4ae3633c7a1540bc7bf01851fa5a5
+    m_Address: Assets/DialogueData/episode6/6-1-3-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38c0e76cd3b075348bc4e79b8ec59324
+    m_Address: Assets/DialogueData/episode6/6-1-1-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39e4046d7eb43f043ba59f1ebdc33f5e
+    m_Address: Assets/DialogueData/episode3/Ep3-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a0563c4635b4f247a5c86029b15fd6f
+    m_Address: Assets/DialogueData/episode6/6-2-5-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a31513282f67914b9c7bda3ac605572
+    m_Address: Assets/DialogueData/episode6/6-2-1-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3adc724288126b4418d2caafc5a86c24
+    m_Address: Assets/DialogueData/episode3/straw.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cb08e0db214d0c4faad99d924da500d
+    m_Address: Assets/DialogueData/episode8/Ep8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d4316c390a5e994da20f76e37874232
+    m_Address: Assets/DialogueData/episode6/6-2-3-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4090d6111f2134643afda670c990b53f
+    m_Address: Assets/DialogueData/episode7/7-1-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40e031cea7976d1439fb08c1b28ec51e
+    m_Address: Assets/DialogueData/episode9/BadLukaO2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 414d4a574980878458de5c5290810d8f
+    m_Address: Assets/DialogueData/episode9/BadLee1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4422959448c5d3e49b56aae678e22e8d
+    m_Address: Assets/DialogueData/episode5/05-3-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45ec6212c4c43a94d9f9f1a609779cf3
+    m_Address: Assets/DialogueData/episode1/1-4-T.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46776ee44ae04f448b265af3b0bd9ca3
+    m_Address: Assets/DialogueData/episode5/5-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4758caa1c5570f542bd8066ff956bca2
+    m_Address: Assets/DialogueData/backto4-2-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48045091a76dd4a4ab3722d353beb3c0
+    m_Address: Assets/DialogueData/episode7/7-5-large-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4845b548deadf5e42a6e5d40451f425a
+    m_Address: Assets/DialogueData/episode2/2-4-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 499d91679e9932943a740ee16b0aef7b
+    m_Address: Assets/DialogueData/episode6/6-1-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4acaf652eace18640b1c2ecbbf30f13e
+    m_Address: Assets/DialogueData/episode7/7-3-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b3d496c73a19ac479d928958a7e647f
+    m_Address: Assets/DialogueData/episode2/2-1-E.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4bbbbb763c005f14fa8af00ffa019591
+    m_Address: Assets/DialogueData/4-2-1-2-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cf2d89dc24280047aa2991aea1413f3
+    m_Address: Assets/DialogueData/episode3/ohoh.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dc1d2a2f5268f942b3f53e063438c79
+    m_Address: Assets/DialogueData/episode6/6-1-5-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dc75608c97520940a752cc2d0895b0a
+    m_Address: Assets/DialogueData/episode8/BigDog.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4eb8849071c01e146b20a440bbbee5b1
+    m_Address: Assets/DialogueData/episode7/7-1-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f3f85f75db05c542abef80ada2e1f82
+    m_Address: Assets/DialogueData/episode6/6-2-3-c3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fe19574d41c5d0489dd42b3f366e2d7
+    m_Address: Assets/DialogueData/04-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 519a4b4e1b5521b4c9598e8bf4f4b059
+    m_Address: Assets/DialogueData/episode6/6-2-3-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 520b08612e316b24b93b044daa7ab4d4
+    m_Address: Assets/DialogueData/episode3/Ep3-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53800292505bba44e80939f42083801c
+    m_Address: Assets/DialogueData/episode10/WJ_end.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 564a392edbca7ce4f964a17e84484544
+    m_Address: Assets/DialogueData/04-3-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 580409e46bdca0c4ea58749f8923809a
+    m_Address: Assets/DialogueData/episode8/BigCat.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59c48e723eb6acd4494514b60a0bec0d
+    m_Address: Assets/DialogueData/episode3/Ep3-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a9a275b790973e45b92dcf0fffb3f66
+    m_Address: Assets/DialogueData/episode2/2-4-Main.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b7e4402192775c41ab8ba795687d04e
+    m_Address: Assets/DialogueData/episode9/BadLukaO1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c0d9b1089dcc984fb1ab3a48040895e
+    m_Address: Assets/DialogueData/episode6/6-1-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d0614db22c4b04488b298dd1734c3f3
+    m_Address: Assets/DialogueData/episode2/2-1-E-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d96f9ccdcc1a5646bf6b5e770bdbed2
+    m_Address: Assets/DialogueData/episode2/2-2-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d9c2f60213f5b440800a7589457f8a0
+    m_Address: Assets/DialogueData/episode5/5-1-3-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e11096feb1ab8a4ba6c10ffb0dd7291
+    m_Address: Assets/DialogueData/episode3/LukaSul.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e1f31defcbbff44fa62b829237923d4
+    m_Address: Assets/DialogueData/episode3/YH_go.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fa02c2facb4dad42a74db0d89226b9a
+    m_Address: Assets/DialogueData/episode7/7-5-c.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fbf4fc074539c14d8fd2677d99f8c86
+    m_Address: Assets/DialogueData/episode2/2-2-1-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fc3c434d98bd6e449510f3528bd27cf
+    m_Address: Assets/DialogueData/episode3/LS_one.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fc6cd758c7d61747b53bdc0f0cd56b4
+    m_Address: Assets/DialogueData/episode7/7-4-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60b54f8362f353d4a860e15dcc939c01
+    m_Address: Assets/DialogueData/episode1/1-4-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61bf1608d374a6349bb7584b887ca83e
+    m_Address: Assets/DialogueData/episode2/2-1-Y-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 634e3502714e0e04b85cbd689eebcf32
+    m_Address: Assets/DialogueData/episode3/EunSulo.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66f554777dcb76a4591334184ddc33db
+    m_Address: Assets/DialogueData/episode5/5-1-3-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 670c61c23cb8b6746939dc43cf5c24c5
+    m_Address: Assets/DialogueData/episode7/7-3-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6725ff6010eb54e4abf462743a653bd3
+    m_Address: Assets/DialogueData/episode5/5-1-3-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67a4e9c3933240243844b2cd032d2e42
+    m_Address: Assets/DialogueData/episode3/Ep3-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69a8dafe01a2a4748b31665e86306f28
+    m_Address: Assets/DialogueData/episode1/1-1-L-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ce4639485ab2564c896972fdb9635c5
+    m_Address: Assets/DialogueData/episode1/1-1-Main-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d15a57b07ff37541855a4c3ba7f4a9a
+    m_Address: Assets/DialogueData/episode7/7-4-c3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e14b5cd4a089ab44b07001cd72a9eb8
+    m_Address: Assets/DialogueData/episode9/BadSeha.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e928fbea9377ff4f8b61f5f0caa6858
+    m_Address: Assets/DialogueData/episode5/backto05-1-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f0bffd884d04944fa7f3ab0e9732a07
+    m_Address: Assets/DialogueData/episode7/7-2-d.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f1404dcc6f8cc1468a678f2ed8ae6ef
+    m_Address: Assets/DialogueData/episode10/WJEaa.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 708b83f7e39b5a846a10909132591470
+    m_Address: Assets/DialogueData/episode6/6-1-2-c3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73854b9662df367418322e85134c99c7
+    m_Address: Assets/DialogueData/episode5/5-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 744d7954ed59fd9499184ced08c1dfe3
+    m_Address: Assets/DialogueData/episode5/05-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74fb7ff7fbbaba949a2729f6bc28f189
+    m_Address: Assets/DialogueData/episode1/1-2-Main.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76593546655910040907c659659ea35e
+    m_Address: Assets/DialogueData/episode7/7-5-d.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 771be1dfb1b403f48bbf69c52a0a114c
+    m_Address: Assets/DialogueData/episode1/1-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7796c201e6e77d047804c2d2c9c1a072
+    m_Address: Assets/DialogueData/episode2/2-1-L-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78048495d247a994c9469d67e40bfe03
+    m_Address: Assets/DialogueData/episode10/SH_end.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78eb81c8e891d6a478d39ff12a95d67e
+    m_Address: Assets/DialogueData/episode5/bbackto05-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79c53d933ced0cf449a70e6ca1f27a59
+    m_Address: Assets/DialogueData/backto4-3-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79d4da3ca4f7f7147b42f69c215cde03
+    m_Address: Assets/DialogueData/episode6/6-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a13538dc3382a446bf63335c6579c21
+    m_Address: Assets/DialogueData/episode9/BadLukaOOh.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a8614dc071c15b4cb034b8583afcabf
+    m_Address: Assets/DialogueData/episode5/t_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ad1ddffe0338ca49b411b8bb00a0c27
+    m_Address: Assets/DialogueData/episode1/1-1-End.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b6747d1ab87ad141a8b07253a3b25c9
+    m_Address: Assets/DialogueData/episode1/1-4-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b6c4dda421d15b4eb02cc32c0866e4c
+    m_Address: Assets/DialogueData/episode5/backto05-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c3c65ba4631a474ca02366aef9b3314
+    m_Address: Assets/DialogueData/episode1/1-4-T-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c42c60c3d3bca84683ff5f00889e981
+    m_Address: Assets/DialogueData/episode3/YH_nogo.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c6d45eced2e72b4885a8e2fb861574e
+    m_Address: Assets/DialogueData/episode2/2-2-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dc4e760d52ec1e4489aef783b412afd
+    m_Address: Assets/DialogueData/episode9/BadLee2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e7164c0fc6461a45b700330d6b0f79d
+    m_Address: Assets/DialogueData/episode5/backto5-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e895765cdd1fe047a607d25df585846
+    m_Address: Assets/DialogueData/episode5/5-1-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ebfee29c63e3984bba7c067d556d7ea
+    m_Address: Assets/DialogueData/episode5/5-1-3-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 805b046f4b53ba648ba01de19dfd96a1
+    m_Address: Assets/DialogueData/episode6/6-2-2-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81411b5b4a8455b4287cc2209b98510d
+    m_Address: Assets/DialogueData/episode1/1-1-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 829db7cbfd24d9a48862e42b61323f9a
+    m_Address: Assets/DialogueData/episode5/5-1-2-3-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83218eb6f1df48e47bde2a623fa3159b
+    m_Address: Assets/DialogueData/episode2/2-4-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 836166797d8c4464f938ffe18ac71a7f
+    m_Address: Assets/DialogueData/episode3/YH_hi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8753b83687e399343a6e86f6cdc32709
+    m_Address: Assets/DialogueData/episode7/7-5-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87d764102136e104ebb79c5f8f86844d
+    m_Address: Assets/DialogueData/episode2/2-1-L.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87e613206bb301a408f8ef2efac7ca15
+    m_Address: Assets/DialogueData/episode6/6-2-1-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ab13fb1fd70dc2498d0e6149ff1ac8b
+    m_Address: Assets/DialogueData/episode1/1-1-E.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b2bb2608b003fd4eb2ddb2022440813
+    m_Address: Assets/DialogueData/episode10/WJEl.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b730e360b3e6da4f92c633d8003a5c5
+    m_Address: Assets/DialogueData/episode5/t_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ced6872bfe9c0e438a106a4f65c9b3b
+    m_Address: Assets/DialogueData/episode2/2-2-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d837286016363b4297420b163240955
+    m_Address: Assets/DialogueData/episode6/6-1-5-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dafb117cf56eb84db4b3fdd3e06e37a
+    m_Address: Assets/DialogueData/episode1/1-1-L.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ddf8844227e3bf429092ab5143e8f1d
+    m_Address: Assets/DialogueData/episode2/2-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e251c892179bcc4184c86d0aac1c237
+    m_Address: Assets/DialogueData/episode7/7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fbafe824c170b24c9f9caa26a6b82d4
+    m_Address: Assets/DialogueData/episode6/6-2-5-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fc4baabf1ccf4b4ea31b043fdd73a64
+    m_Address: Assets/DialogueData/episode10/MegaBFF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90a9011eabc4ef441af66f1bfd6f804e
+    m_Address: Assets/DialogueData/episode1/1-1-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90e80ef6d47752d429e4f39d47194a46
+    m_Address: Assets/DialogueData/episode2/2-1-Y-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 910e9e74ed71d184db895a8d26155cc7
+    m_Address: Assets/DialogueData/episode10/JE_end.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 915dbd6f70726e94bbd8b78f9999b446
+    m_Address: Assets/DialogueData/episode5/05-3-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9289dfa381e1c0145821d5b9f0cafcf5
+    m_Address: Assets/DialogueData/episode10/WJ_endo.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92e38e3138643674ab881b2dd8db537d
+    m_Address: Assets/DialogueData/episode1/1-3-Main-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94acfc7c36eeb2e4fbed0f8edac256e0
+    m_Address: Assets/DialogueData/episode3/Ep3-4-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9586c107477220248a4b786eef9931dd
+    m_Address: Assets/DialogueData/episode3/YH_one.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 965d34b0582c660468de7a88f792cfd8
+    m_Address: Assets/DialogueData/episode6/6-1-3-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97e40b798cf811b43af9a7d90feabb47
+    m_Address: Assets/DialogueData/episode1/1-1-2-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 999dda73a8776d546a6c64feac04ac75
+    m_Address: Assets/DialogueData/episode7/7-5-yacht.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99aa86d22644c3041bc57ad8cc6fb1d1
+    m_Address: Assets/DialogueData/episode1/1-4-Main-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aa3d284474f10c4da4a6616889e92e4
+    m_Address: Assets/DialogueData/4-3-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ab6f9dff09847e4baafb14186450dae
+    m_Address: Assets/DialogueData/episode1/1-3-Main-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ae22089a99dcfe42854874677f71078
+    m_Address: Assets/DialogueData/episode6/6-2-3-c7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b9a196a526b406479f78a3c07673835
+    m_Address: Assets/DialogueData/episode1/1-1-2-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c4217ac54e282547be933931edfc44c
+    m_Address: Assets/DialogueData/episode5/backto05-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c5a32737146cad4f8c5dfff1d447372
+    m_Address: Assets/DialogueData/episode1/1-3-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ef57e2cb54e3394a8520d047ca932e2
+    m_Address: Assets/DialogueData/episode2/2-1-S.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9efbb87a08c87014c82ac7efbc33d892
+    m_Address: Assets/DialogueData/episode3/LS_two.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f158be44a9f2434bba26b3e257d3540
+    m_Address: Assets/DialogueData/episode5/backto5-1-2-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0150dd67fcc5674c9e10c6b937aa2e1
+    m_Address: Assets/DialogueData/episode1/1-1-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a15692d477a28cb44906d4d1fd7a96a1
+    m_Address: Assets/DialogueData/episode3/LS_three.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a18f74ac405c108458145e387887481a
+    m_Address: Assets/DialogueData/episode10/BFF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a35246e3cd7142140973736cf1313d45
+    m_Address: Assets/DialogueData/episode9/BadLukaOGood.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a359be259ebab8443b59178fe691cc01
+    m_Address: Assets/DialogueData/episode3/ha.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a38c0390a50ca8044bfa6beba583f3d9
+    m_Address: Assets/DialogueData/episode2/2-1-LS.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3c8593e9c7f11c45a940a66feae04a6
+    m_Address: Assets/DialogueData/episode6/6-1-3-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3d602af6871a45499af8e624321d49d
+    m_Address: Assets/DialogueData/episode3/Ep3-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3fbf62cae9cb81439924070ac67b0a7
+    m_Address: Assets/DialogueData/episode2/2-1-S-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3fda09c6e37a1c4ebb3a880d582dcba
+    m_Address: Assets/DialogueData/episode7/7-1-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a41b37f96d5cfa54c83c32e722763b44
+    m_Address: Assets/DialogueData/4-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a426716ef9c22394aaeb5a5631e993c4
+    m_Address: Assets/DialogueData/episode5/5-1-2-3-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a52c0b6129f9d354ea3f36644d3307a6
+    m_Address: Assets/DialogueData/episode5/Controlblock.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a625471698e61c54ab079e3e8890084f
+    m_Address: Assets/DialogueData/episode7/7-4-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a64c5a1993abb1f48ab893559f0eb99b
+    m_Address: Assets/DialogueData/episode7/7-1-c4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6fe485136a6a2b4aa7f4bd081bddd92
+    m_Address: Assets/DialogueData/episode9/Ep12.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a71e38b46669ad341ac16e9d87a0a360
+    m_Address: Assets/DialogueData/episode3/Ep3-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7a0d253fe3a933479ab5f32d96248b0
+    m_Address: Assets/DialogueData/episode3/Ep3-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7c658dc0a7a010438daed8510994315
+    m_Address: Assets/DialogueData/episode7/7-4-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a88c1ed26c4e78b499defb86fb620a6c
+    m_Address: Assets/DialogueData/episode7/7-5-e.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8a95c0bdb2201d44a25a6a7fa83e554
+    m_Address: Assets/DialogueData/4-2-1-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8acb68cc549ccd468a78cdffb59e552
+    m_Address: Assets/DialogueData/backto4-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a91d46f05254bc94ab9dafc2b942adf2
+    m_Address: Assets/DialogueData/episode6/6-1-2-c4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa27773d8decda2449c42be67da014c5
+    m_Address: Assets/DialogueData/episode1/1-3-Main-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa64f9e7352bd454aab5747a92c7376f
+    m_Address: Assets/DialogueData/episode9/Bad.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaef2631078681b469d1cc9ae20955b4
+    m_Address: Assets/DialogueData/episode3/choco.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ade0a873933c920439f689cd3ee63c16
+    m_Address: Assets/DialogueData/episode6/6-2-5-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af3d9c0f45d77464a9663c1b746583c1
+    m_Address: Assets/DialogueData/4-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afa70d624009c8f408c218b5296fb97d
+    m_Address: Assets/DialogueData/4-2-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afe3d2fa36631cb418a12161d1050498
+    m_Address: Assets/DialogueData/episode9/GoodJungSofa.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b00a860e8b4aa554182cdba8653ab078
+    m_Address: Assets/DialogueData/episode9/GoodJung2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0f84b42894b76448a518b186ca86044
+    m_Address: Assets/DialogueData/episode7/7-2-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b143d9f5bbcf6974b835b02045a548e1
+    m_Address: Assets/DialogueData/episode5/bbbackto5-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b17e5a2fbb0ca6b418c954ad76e83551
+    m_Address: Assets/DialogueData/episode2/2-1-LS-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b20fca71d27287e4a92607a96d21d239
+    m_Address: Assets/DialogueData/episode2/2-3-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b37914fece1f9c7408552b4c86cb61d9
+    m_Address: Assets/DialogueData/episode7/7-5-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b458c98ceee16ee42a63a79ff81b8f9d
+    m_Address: Assets/DialogueData/episode2/2-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b61eda01e6048e04e9aeece1da106ef6
+    m_Address: Assets/DialogueData/episode1/1-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6d7f84c604e2d44aac2252fadd1cd82
+    m_Address: Assets/DialogueData/episode1/1-1-Main-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7730640f76113a40b1033c4ecd4a806
+    m_Address: Assets/DialogueData/episode7/7-5-c3-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7bf68688d35dda419b61a31990361aa
+    m_Address: Assets/DialogueData/episode6/6-2-3-c5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b828804d8bb5d9443b8796e2e388d629
+    m_Address: Assets/DialogueData/episode5/5-1-1-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9951dd538ae95943b8df6daf41c3391
+    m_Address: Assets/DialogueData/04-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9b7f502bab50f143be188fa67de8555
+    m_Address: Assets/DialogueData/episode1/1-3-3-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba358597dbb66864fba65e740e3e7c89
+    m_Address: Assets/DialogueData/episode7/7-5-yacht-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: babae27d4d2765046952b45ba9c1f2b6
+    m_Address: Assets/DialogueData/episode6/6-2-5-c3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bac32e000b3e9314aae481c502944ad7
+    m_Address: Assets/DialogueData/episode7/7-3-c3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbf1c06a93cea31489eaee3bc3a145f9
+    m_Address: Assets/DialogueData/episode5/5-1-1-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcc3b1157cdcb9b479b4b6f237ba0509
+    m_Address: Assets/DialogueData/episode3/earl.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcf6e43fe74a04b40968e403f768d3d6
+    m_Address: Assets/DialogueData/episode3/aa.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd4d89b0d9be7e54ca6566830e3fccdb
+    m_Address: Assets/DialogueData/episode3/good.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be1bda1c14bc42847b8a42f17734983e
+    m_Address: Assets/DialogueData/episode1/1-3-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be69c2c9e82375a4d9f0a5a3fbe3914c
+    m_Address: Assets/DialogueData/episode2/2-4-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf50372207d5a5242b491879792eade0
+    m_Address: Assets/DialogueData/episode3/oneup.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf9cde585c29add458243506b68557d2
+    m_Address: Assets/DialogueData/episode2/2-1-Y-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfb3d88b6a1ea5f44a78646b2c9ed996
+    m_Address: Assets/DialogueData/episode6/6-2-4-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c13d8c0fbf7d2d545bd568258b3bccf3
+    m_Address: Assets/DialogueData/episode1/1-1-L-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c312da9aab45d634a92baf25ee2a6d03
+    m_Address: Assets/DialogueData/episode5/bbackto5-1-2-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4a1fd1545c8c214fa511281b6e39c89
+    m_Address: Assets/DialogueData/episode5/05-1-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4d05bbd546c1c24c9e8edd04ad6d179
+    m_Address: Assets/DialogueData/episode6/6-2-2-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c649fb79a21ee50499c3fb96e675b880
+    m_Address: Assets/DialogueData/episode6/6-2-5-c4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c737a5cb902de5a49a19538aed45cb1f
+    m_Address: Assets/DialogueData/episode1/1-3-Main-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7ffa5442e2c7b141ae0b6240ca62eb3
+    m_Address: Assets/DialogueData/episode7/7-1-c.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c82e92daf5f24614c81af956baaf8906
+    m_Address: Assets/DialogueData/episode7/7-5-rough-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c83d0ab627d7a3a429f01fb185ac96bf
+    m_Address: Assets/DialogueData/episode6/6-2-3-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c84a1c08e18f2e741a4a972c05c6087f
+    m_Address: Assets/DialogueData/episode5/5-1-2-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8838043cf57cd145b15a2a1af20c072
+    m_Address: Assets/DialogueData/episode6/6-2-5-c5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8ab67ec1f6454e489ce747d304eb79a
+    m_Address: Assets/DialogueData/episode3/ES_two.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8f486b8742345747bef8db6cf89486a
+    m_Address: Assets/DialogueData/episode2/2-1-E-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c92a710acedbf9847bf7e0446b2763a4
+    m_Address: Assets/DialogueData/episode5/5-1-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9be72331b6a97c47bbbe4615a8cb4b1
+    m_Address: Assets/DialogueData/episode1/1-3-3-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca80d5fa670d09743a3cbc8bf1ea85e8
+    m_Address: Assets/DialogueData/episode6/6-2-3-c.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca9318d78bc880f48864de1c7cdffc79
+    m_Address: Assets/DialogueData/episode5/05-3-6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc49cea49ff356d46b6017a13c6e0141
+    m_Address: Assets/DialogueData/episode9/Good.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd8a2add984acd44eb1bee844417bf62
+    m_Address: Assets/DialogueData/episode2/2-1-Main.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd8c9ab8b6ec64b4eb79400f95243570
+    m_Address: Assets/DialogueData/episode5/5-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdf370d2e5a4ddc42b4bfe6df3e13557
+    m_Address: Assets/DialogueData/episode2/2-4-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cef919bceb01a5e40bc207ecf05cb9cb
+    m_Address: Assets/DialogueData/episode7/7-5-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf4c1285cc0030949addbe3d643cb984
+    m_Address: Assets/DialogueData/episode1/1-1-2-3-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfef01c1c10c46140beab33ed355a21e
+    m_Address: Assets/DialogueData/episode6/6-2-4-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0741803255dc2945afd35472b6c0c15
+    m_Address: Assets/DialogueData/episode6/6-1-5-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0ea1a8b115e4ab419e96e3438add148
+    m_Address: Assets/DialogueData/4-2-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1c6cfd1c31ca8c4e81a4064de7505cf
+    m_Address: Assets/DialogueData/episode2/2-3-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3a27c6ec83c7fc4e942d1484d637488
+    m_Address: Assets/DialogueData/episode5/5-1-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d52413c622230eb49b89351d18b344c9
+    m_Address: Assets/DialogueData/episode9/GoodMoonRice.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d65b1a72ef320d84bb9e72437f762421
+    m_Address: Assets/DialogueData/episode7/7-5-c3-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6a232970a2e091488f9e95921593a5c
+    m_Address: Assets/DialogueData/episode5/bbbackto05-1-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d72c00b7b3845924eadac498ff512767
+    m_Address: Assets/DialogueData/episode7/7-5-c4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7341e85af2cf2b4ba1353bd9c288ce5
+    m_Address: Assets/DialogueData/04-3-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7acdcffca3bdd549962a46be22671fb
+    m_Address: Assets/DialogueData/episode6/6-2-1-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8aa918fb3f34634ba5c9ea9cd76d98b
+    m_Address: Assets/DialogueData/episode3/ES_three.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8c33cbf572db9c4997692f5d1e9a327
+    m_Address: Assets/DialogueData/episode10/FriendUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9122098842640944ba1236569e56b98
+    m_Address: Assets/DialogueData/episode1/1-3-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d963b9be84444054981e1272d5f9a9e9
+    m_Address: Assets/DialogueData/episode2/2-1-Y.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da322fb985a23aa49b3b5552a8892cdc
+    m_Address: Assets/DialogueData/episode10/WJEj.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db49702df46c4e1419811dd34a5a8ca6
+    m_Address: Assets/DialogueData/episode3/subak.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc14e415856fe864ba0ec0089e79100e
+    m_Address: Assets/DialogueData/episode8/SmallCat.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc41cb220e83f904698e13bf7e5a1ca9
+    m_Address: Assets/DialogueData/episode6/6-2-3-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc58999f9e5746847ba7dc76971b6228
+    m_Address: Assets/DialogueData/episode6/6-1-5-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcd29ee29b0fa3d4383b3db550a7ab0e
+    m_Address: Assets/DialogueData/episode6/6-2-5-c.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd03f86c229302f4d82ed6b1a2e3cd35
+    m_Address: Assets/DialogueData/episode7/7-2-c3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de756d28712108446a32b8dc83a44180
+    m_Address: Assets/DialogueData/episode2/2-1-End.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e10c19c19bb952c459b6fddce4eb5532
+    m_Address: Assets/DialogueData/episode3/YH_nohi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e112a3826f0cd6d4981df95f162021bc
+    m_Address: Assets/DialogueData/4-2-1-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1742b49d3bcb814e9e2b72ec955d99b
+    m_Address: Assets/DialogueData/4-3-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e19a016eb685867459ecad1c9d877486
+    m_Address: Assets/DialogueData/episode9/BadLeeYou.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1c0d22e65201e948ac1e691193b948a
+    m_Address: Assets/DialogueData/episode2/2-2-Main.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e28f21d0ef2fe6546a124118920b9686
+    m_Address: Assets/DialogueData/episode9/GoodMoonBread.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2efafcf4a34eb44faa2cb5d7168263c
+    m_Address: Assets/DialogueData/episode2/2-1-E-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e303869fc91db4f41a510523326ca3b4
+    m_Address: Assets/DialogueData/episode7/7-5-large-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3cccd53ddf03ff45b20e4c0d40f60b6
+    m_Address: Assets/DialogueData/episode9/BadLuka2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e54e5922ba91d8840bac362ced5bae7e
+    m_Address: Assets/DialogueData/episode7/7-5-large-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5819429b5f80874a96a08abfa668391
+    m_Address: Assets/DialogueData/episode8/Cat.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e58d2a5b6a300964baa4e3bc01d2ce18
+    m_Address: Assets/DialogueData/episode2/2-1-L-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e63ed6f6c440ea54b9a581e8e943efa9
+    m_Address: Assets/DialogueData/episode1/1-1-2-3-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6dd3c8fefba61d4ea4e42d95b034887
+    m_Address: Assets/DialogueData/episode7/7-5-yacht-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7acbfbdf28a0d94d82eac531f26790a
+    m_Address: Assets/DialogueData/episode7/7-5-c3-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e832911db3a6b1841af6b7acfcbbd970
+    m_Address: Assets/DialogueData/episode6/6-1-4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e93a0df7a3c985a4ca5e35a5f596b355
+    m_Address: Assets/DialogueData/episode8/SmallDog_Dog.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9c723453d8dfe344b21078b4bd51e2f
+    m_Address: Assets/DialogueData/episode10/Ep10.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee848d6bc929a514a8f13ffdad09e11f
+    m_Address: Assets/DialogueData/episode8/Organize2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef0ff44834377e74ebd1c30a334f1e56
+    m_Address: Assets/DialogueData/episode7/7-2-c.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef83550e4f92d1445b8a7e064878768b
+    m_Address: Assets/DialogueData/episode6/6-1-2-b.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efabe6aecf7ba5e4183799e53c7a67b2
+    m_Address: Assets/DialogueData/episode10/ES_endo.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efb9c8e3d16c2b94c93aec69be4f99ee
+    m_Address: Assets/DialogueData/episode2/2-3-1-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f01dc57e777f87d4c96917812a0dc97a
+    m_Address: Assets/DialogueData/episode3/ES_one.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0a3b9c643bd89a4ab491dd9cbe2eec5
+    m_Address: Assets/DialogueData/episode9/GoodMoon1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0b672e006c67314e94831880f953b83
+    m_Address: Assets/DialogueData/04-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0bcefb6f205ab94ab1c44913807c35a
+    m_Address: Assets/DialogueData/episode5/05-3-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0fde8219226ca048b97d2a089e4767d
+    m_Address: Assets/DialogueData/episode2/2-3-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f19120e0190f1e6439359ac4d68db13a
+    m_Address: Assets/DialogueData/episode6/6-1-2-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2325a17ce3b6cd47b46bbe48e3aec2b
+    m_Address: Assets/DialogueData/episode3/LST_two.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f24d51f5a6e1c7241a6c6fc0b9b48b00
+    m_Address: Assets/DialogueData/episode6/6-2-3-c6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f27cb987dee854544b69392f6283b1be
+    m_Address: Assets/DialogueData/episode1/1-3-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f388631546a02224790882b411cf8938
+    m_Address: Assets/DialogueData/episode7/7-3-a.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f38aa8c9518453d4ab5c83d0e8da1185
+    m_Address: Assets/DialogueData/04-1-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4acafccb2b9b2642883184d3b52822d
+    m_Address: Assets/DialogueData/episode7/7-5-cafeES-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f594a8350aa51f7478aeb01ead3c5dad
+    m_Address: Assets/DialogueData/4-3-1-2-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f61444d93afa41a40a3eb0e8a88c4341
+    m_Address: Assets/DialogueData/episode5/05-3-5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6532da161847df44a2c567be453964c
+    m_Address: Assets/DialogueData/episode5/5-1-2-3-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f66ac702e547a24439b7953466ef8512
+    m_Address: Assets/DialogueData/4-3-1-2-2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f699f2c39aeff7946b9237ca30aaeb27
+    m_Address: Assets/DialogueData/episode1/1-1-2-3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6b6d83cf800d8448943925f6541ccbb
+    m_Address: Assets/DialogueData/episode8/Dog.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f87de1515ad754d48b2fa9e8d3b89917
+    m_Address: Assets/DialogueData/episode10/YH_end.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9b17a6b1cb9a064aae578b2f09dacb0
+    m_Address: Assets/DialogueData/episode3/LST_one.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcc1d9ec20d846b419330371aa607037
+    m_Address: Assets/DialogueData/episode8/SmallDog_Cat.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fde01a64d8f3d434e8583ebb6c33d6dd
+    m_Address: Assets/DialogueData/episode6/6-2-5-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff2752f9747c09c448b37af303214c87
+    m_Address: Assets/DialogueData/episode7/7-5-cafeES-c2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff94d1999c9824349a6b5e9fb3b41307
+    m_Address: Assets/DialogueData/episode9/GoodJung1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ff2c7a69545f4ba42bc24076102ef041, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 724cc17779f779c479f79cd7f22df67c, type: 2}
+    - {fileID: 11400000, guid: 7042043874814704992bf215d2e87fb8, type: 2}
