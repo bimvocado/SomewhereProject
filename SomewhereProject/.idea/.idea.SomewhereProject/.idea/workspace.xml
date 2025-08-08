@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee30841-f986-46b8-91ab-eb7b16e14680" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SomewhereProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SomewhereProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hambuger/Scene/HambugerGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hambuger/Scene/HambugerGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hambuger/Scripts/Heart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hambuger/Scripts/Heart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hambuger/Scripts/PauseButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hambuger/Scripts/PauseButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hambuger/Scripts/ScoreCount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hambuger/Scripts/ScoreCount.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/과일실험실/과일Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/과일실험실/과일Script/GameManager.cs" afterDir="false" />
-    </list>
+    <list default="true" id="9ee30841-f986-46b8-91ab-eb7b16e14680" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +121,7 @@
       <workItem from="1754484655512" duration="121000" />
       <workItem from="1754484803835" duration="1415000" />
       <workItem from="1754624302595" duration="142000" />
-      <workItem from="1754660829899" duration="1927000" />
+      <workItem from="1754660829899" duration="2247000" />
     </task>
     <servers />
   </component>
