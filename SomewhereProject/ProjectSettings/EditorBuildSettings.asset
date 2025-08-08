@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/episode1.unity
     guid: 492c55afae70f5442b8982df2107e49e
   - enabled: 1
-    path: Assets/Scenes/HambugerGame.unity
+    path: Assets/Hambuger/Scene/HambugerGame.unity
     guid: 252ef056987d08e4b9f62d0d6fc5ea4d
   - enabled: 1
-    path: Assets/Scenes/HambbugerMenu.unity
+    path: Assets/Hambuger/Scene/HambbugerMenu.unity
     guid: b89c6c04fb481fb418c40eb50f081cbc
   - enabled: 1
-    path: Assets/Scenes/HambugerHow.unity
+    path: Assets/Hambuger/Scene/HambugerHow.unity
     guid: 0561cffe24a143742bf15667ef6ae675
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 99b2ccdf867aaee479929f1ccf07270d, type: 2}
