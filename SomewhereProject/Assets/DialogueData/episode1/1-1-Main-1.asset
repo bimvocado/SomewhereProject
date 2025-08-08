@@ -156,7 +156,7 @@ MonoBehaviour:
     choices: []
   - speaker: ???
     line: "\uC548\uB155\uD558\uC138\uC694!"
-    eventName: smile
+    eventName: AppearJueun
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -244,7 +244,7 @@ MonoBehaviour:
     line: "OT\uB97C \uB2F4\uB2F9\uD558\uC2E0 \uC120\uBC30\uB2D8\uAED8\uC11C \uC774\uB7F0\uC800\uB7F0
       \uC774\uC57C\uAE30\uB97C \uD574\uC8FC\uC168\uB2E4.\n\uC54C\uC544\uB450\uBA74
       \uD53C\uC640 \uC0B4\uC774 \uB420 \uADF8\uB7F0 \uC870\uC5B8\uB4E4\uC774\uC5C8\uACA0\uC9C0\uB9CC..."
-    eventName: 
+    eventName: DisappearJueun
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -317,7 +317,7 @@ MonoBehaviour:
       \uACE0\uAC1C\uB97C \uB3CC\uB9AC\uC790\n\uAC15\uC758\uC2E4\uC5D0 \uB4E4\uC5B4\uC624\uBA70
       \uB208\uC5D0 \uB744\uC5C8\uB358 \uC5B4\uB824 \uBCF4\uC774\uB294 \uB0A8\uC790\uAC00
       \uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: AppearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

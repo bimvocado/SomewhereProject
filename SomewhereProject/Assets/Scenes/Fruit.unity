@@ -2638,8 +2638,8 @@ MonoBehaviour:
   bombChance: 0.05
   minSpawnDelay: 0.25
   maxSpawnDelay: 1
-  minAngle: -16
-  maxAngle: 16
+  minAngle: -13
+  maxAngle: 13
   minForce: 9
   maxForce: 16
   maxLifetime: 5
@@ -2734,7 +2734,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 110
   m_Time: 0.2
   m_PreviewTimeScale: 1
   m_Parameters:
@@ -2745,7 +2745,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.73809433
+        value: 0.4943428
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2753,8 +2753,8 @@ TrailRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.4324341
-        value: 0.3571416
+        time: 0.43743137
+        value: 0.24463856
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2912,7 +2912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score 50 = 1 Coin ! '
+  m_text: 'Score 30 = 1 Coin ! '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

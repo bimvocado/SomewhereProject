@@ -4647,6 +4647,9 @@ MonoBehaviour:
   - characterName: "\uAC15\uC138\uD558"
     backgroundColor: {r: 0.7735849, g: 0.3527352, b: 0.39673698, a: 1}
     textColor: {r: 1, g: 1, b: 1, a: 1}
+  - characterName: "\uB8E8\uCE74"
+    backgroundColor: {r: 0.78431374, g: 0.8627451, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
   defaultColor:
     characterName: 
     backgroundColor: {r: 1, g: 0.86477983, b: 0.9590113, a: 1}
