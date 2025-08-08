@@ -72,7 +72,7 @@ public class DialogueManager : MonoBehaviour
             go_DialogueBar = instantiatedDialogueUI.transform.Find("UI_Dialogue/DialogueBar")?.gameObject;
             go_NameBar = instantiatedDialogueUI.transform.Find("UI_Dialogue/NameBar")?.gameObject;
             choicePanel = instantiatedDialogueUI.transform.Find("UI_Dialogue/ChoicePanel");
-            nextIndicator = instantiatedDialogueUI.transform.Find("UI_Dialogue/NextIndicator")?.gameObject;
+            nextIndicator = instantiatedDialogueUI.transform.Find("UI_Dialogue/nextIndicator")?.gameObject;
 
             if (go_DialogueBar != null)
             {
@@ -92,7 +92,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("DialogueUI «¡∏Æ∆’¿Ã DialogueManagerø° «“¥Á æ»µ ");
+            Debug.LogError("DialogueUI «¡∏Æ∆’ DialogueManagerø° «“¥Á æ»µ ");
         }
 
         typingSpeed = PlayerPrefs.GetFloat("TypingSpeed", 0.05f);
