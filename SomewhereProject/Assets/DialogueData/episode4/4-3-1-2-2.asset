@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
-    line: "\u201C\uC5B4\uCC28\uD53C \uB05D\uB098\uACE0 \uD560 \uAC83\uB3C4 \uC5C6\uACE0,
+    line: "\uC5B4\uCC28\uD53C \uB05D\uB098\uACE0 \uD560 \uAC83\uB3C4 \uC5C6\uACE0,
       \uC624\uB298\uB530\uB77C \uD63C\uC790 \uBC25 \uBA39\uAE30\uB3C4 \uC2EB\uC73C\uB2C8\uAE4C
-      \uAC19\uC774 \uBC25 \uBA39\uC5B4\uC57C\uC9C0.\u201D"
+      \uAC19\uC774 \uBC25 \uBA39\uC5B4\uC57C\uC9C0."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -34,7 +34,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC774\uC740\uC131"
-    line: "\u201C\uADF8\uB798, \uBA3C\uC800 \uB05D\uB098\uBA74 \uAE30\uB2E4\uB9B4\uAC8C.\u201D"
+    line: "\uADF8\uB798, \uBA3C\uC800 \uB05D\uB098\uBA74 \uAE30\uB2E4\uB9B4\uAC8C."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -111,7 +111,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC740\uC131\uC544, \uB05D\uB0AC\uC5B4?\u201D"
+    line: "\uC740\uC131\uC544, \uB05D\uB0AC\uC5B4?"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -120,7 +120,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC774\uC740\uC131"
-    line: "\u201C\uC751, \uB108 \uAE30\uB2E4\uB9AC\uB294 \uC911\uC774\uC57C.\u201D"
+    line: "\uC751, \uB108 \uAE30\uB2E4\uB9AC\uB294 \uC911\uC774\uC57C."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -166,7 +166,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uBB50\uC57C, \uC5B8\uC81C \uC654\uC5B4.\u201D"
+    line: "\uBB50\uC57C, \uC5B8\uC81C \uC654\uC5B4."
     eventName: 
     conditionType: 0
     conditionKey: 

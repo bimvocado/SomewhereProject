@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904b355334636e946ab2403d734d3acb, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  EpisodeDescription: "3. MT\n\n\uC790\uACE0\uB85C \uB300\uD559\uC5D0 \uC654\uC73C\uBA74,\nMT
+    \uC815\uB3C4\uB294 \uC640 \uC918\uC57C\uC9C0.\n\uC0AC\uB78C\uB4E4\uACFC \uAE4A\uC740
+    \uC6B0\uC815\uC744 \uC313\uC744 \uC218 \uC788\uC744\uC9C0\uB3C4?!\n"

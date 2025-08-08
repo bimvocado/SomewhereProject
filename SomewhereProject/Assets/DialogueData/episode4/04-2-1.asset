@@ -34,8 +34,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u201C\uADF8\uB54C, \uB9DE\uC740\uD3B8\uC5D0\uC11C \uAC78\uC5B4\uC624\uB294
-      \uC775\uC219\uD55C \uC5BC\uAD74\uC774 \uBCF4\uC778\uB2E4.\u201D"
+    line: "\uADF8\uB54C, \uB9DE\uC740\uD3B8\uC5D0\uC11C \uAC78\uC5B4\uC624\uB294
+      \uC775\uC219\uD55C \uC5BC\uAD74\uC774 \uBCF4\uC778\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -81,7 +81,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uB8E8\uCE74"
-    line: "\u201C\uC548\uB155\uD558\uC138\uC694,\u201D"
+    line: "\uC548\uB155\uD558\uC138\uC694,"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -108,8 +108,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uADF8\uB798\uC11C \uB9D0\uC778\uB370, \uD639\uC2DC \uC774 \uADFC\uCC98\uC5D0
-      \uD504\uB9B0\uD130 \uC5B4\uB514 \uC788\uB294\uC9C0 \uC54C\uC544??\u201D"
+    line: "\uADF8\uB798\uC11C \uB9D0\uC778\uB370, \uD639\uC2DC \uC774 \uADFC\uCC98\uC5D0
+      \uD504\uB9B0\uD130 \uC5B4\uB514 \uC788\uB294\uC9C0 \uC54C\uC544??"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -136,7 +136,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\u201C\uAC70\uC808\uD55C\uB2E4"
+    - text: "\uAC70\uC808\uD55C\uB2E4"
       nextDialogue:
         m_AssetGUID: afa70d624009c8f408c218b5296fb97d
         m_SubObjectName: 
@@ -162,23 +162,6 @@ MonoBehaviour:
         m_EditorAssetChanged: 0
       affectionChange: 4
       targetCharacterForAffection: "\uB8E8\uCE74"
-      resetsAffection: 0
-      requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
-      conditionType: 0
-      conditionKey: 
-      conditionTargetCharacter: 
-      conditionValue: 0
-    - text: "\u201D"
-      nextDialogue:
-        m_AssetGUID: 
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
-        m_EditorAssetChanged: 0
-      affectionChange: 0
-      targetCharacterForAffection: 
       resetsAffection: 0
       requiredCoin: 0
       flagToSet: 

@@ -58,15 +58,6 @@ MonoBehaviour:
     conditionValue: 40
     hasChoices: 0
     choices: []
-  - speaker: 
-    line: 
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
   nextDialogueOnCompletion:
     m_AssetGUID: 79d4da3ca4f7f7147b42f69c215cde03
     m_SubObjectName: 

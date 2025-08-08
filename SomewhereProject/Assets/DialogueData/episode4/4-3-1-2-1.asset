@@ -24,8 +24,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uB05D\uB098\uB3C4 \uC57D\uC18D \uC788\uC5B4\uC11C, \uB2E4\uC74C\uC5D0
-      \uBA39\uC790!\u201D"
+    line: "\uB05D\uB098\uB3C4 \uC57D\uC18D \uC788\uC5B4\uC11C, \uB2E4\uC74C\uC5D0
+      \uBA39\uC790!"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -34,7 +34,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC774\uC740\uC131"
-    line: "\u201C\uC751, \uC54C\uACA0\uC5B4!\u201D"
+    line: "\uC751, \uC54C\uACA0\uC5B4!"
     eventName: 
     conditionType: 0
     conditionKey: 

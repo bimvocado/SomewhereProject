@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
-    line: "\u201C\uC120\uBC30\uC5D0\uAC8C \uB3C4\uC6C0\uB3C4 \uBC1B\uACE0, \uBB54\uAC00
-      \uC774\uBC88 \uC2DC\uD5D8 \uC608\uAC10\uC774 \uC88B\uB2E4.\u201D"
+    line: "\uC120\uBC30\uC5D0\uAC8C \uB3C4\uC6C0\uB3C4 \uBC1B\uACE0, \uBB54\uAC00
+      \uC774\uBC88 \uC2DC\uD5D8 \uC608\uAC10\uC774 \uC88B\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -24,7 +24,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 0ee0412f8589d3d47b33158190730a96
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

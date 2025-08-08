@@ -42,8 +42,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uAC15\uC138\uD558"
-    line: "\u201C\uC5F4\uC2EC\uD788 \uD558\uB294 \uAC74 \uC544\uB2CC\uB370, \uC548
-      \uD558\uBA74 \uCC1D\uCC1D\uD558\uC796\uC544.\u201D"
+    line: "\uC5F4\uC2EC\uD788 \uD558\uB294 \uAC74 \uC544\uB2CC\uB370, \uC548 \uD558\uBA74
+      \uCC1D\uCC1D\uD558\uC796\uC544."
     eventName: 
     conditionType: 0
     conditionKey: 

@@ -303,7 +303,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: a3d602af6871a45499af8e624321d49d
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

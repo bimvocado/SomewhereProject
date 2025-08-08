@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uB8E8\uCE74 \uC548\uB155! \uB108\uB3C4 \uCD95\uC81C \uAD6C\uACBD
-      \uC911\uC774\uC57C? \uBB54\uAC00 \uC758\uC678\uB124, \uC774\uB7F0 \uAC70 \uC2EB\uC5B4\uD560
-      \uC904.\u201D"
+    line: "\uB8E8\uCE74 \uC548\uB155! \uB108\uB3C4 \uCD95\uC81C \uAD6C\uACBD \uC911\uC774\uC57C?
+      \uBB54\uAC00 \uC758\uC678\uB124, \uC774\uB7F0 \uAC70 \uC2EB\uC5B4\uD560 \uC904."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -80,8 +79,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC544, \uD558\uAE34 \uB2E4\uB978 \uD559\uAD50 \uCD95\uC81C \uAC00\uBD24\uC744
-      \uC218\uB3C4 \uC788\uAE34 \uD558\uACA0\uB2E4.\u201D"
+    line: "\uC544, \uD558\uAE34 \uB2E4\uB978 \uD559\uAD50 \uCD95\uC81C \uAC00\uBD24\uC744
+      \uC218\uB3C4 \uC788\uAE34 \uD558\uACA0\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -172,8 +171,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC65C, \uADF8\uB798\uB3C4 \uC628 \uAE40\uC5D0 \uAD6C\uACBD\uD558\uACE0
-      \uAC00\uC790.\u201D"
+    line: "\uC65C, \uADF8\uB798\uB3C4 \uC628 \uAE40\uC5D0 \uAD6C\uACBD\uD558\uACE0
+      \uAC00\uC790."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -192,7 +191,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC544, \uB09C \uBA3C\uC800 \uAC00\uBCFC\uAC8C!\u201D"
+    line: "\uC544, \uB09C \uBA3C\uC800 \uAC00\uBCFC\uAC8C!"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -210,7 +209,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: 46776ee44ae04f448b265af3b0bd9ca3
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

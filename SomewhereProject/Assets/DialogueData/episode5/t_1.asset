@@ -24,8 +24,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uBB38\uC774\uD604"
-    line: "\u201C\uC544, \uB098\uB294 \uB3C4\uC11C\uAD00\uC5D0\uC11C \uACFC\uC81C
-      \uD558\uB2E4\uAC00 \uC7A0\uAE50 \uAD6C\uACBD\uD558\uB7EC \uB098\uC654\uC5B4.\u201D"
+    line: "\uC544, \uB098\uB294 \uB3C4\uC11C\uAD00\uC5D0\uC11C \uACFC\uC81C \uD558\uB2E4\uAC00
+      \uC7A0\uAE50 \uAD6C\uACBD\uD558\uB7EC \uB098\uC654\uC5B4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -53,7 +53,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uBB38\uC774\uD604"
-    line: "\uC751\uC751 \uC7AC\uBC0C\uAC8C \uBD10~."
+    line: "\uC751\uC751, \uC7AC\uBC0C\uAC8C \uBD10~."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -82,7 +82,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: 46776ee44ae04f448b265af3b0bd9ca3
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

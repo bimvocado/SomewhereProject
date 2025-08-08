@@ -51,8 +51,17 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+  - speaker: 
+    line: 
+    eventName: LoadEpisode7
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 8e251c892179bcc4184c86d0aac1c237
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

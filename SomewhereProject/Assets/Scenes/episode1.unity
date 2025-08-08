@@ -13027,6 +13027,52 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1316873374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1316873376}
+  - component: {fileID: 1316873377}
+  m_Layer: 0
+  m_Name: SceneEventLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1316873376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316873374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.8938, y: 2.1475153, z: 10.881641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1316873377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316873374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16de01d728a0928478a89b7f44bb5d78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: episode2
+  episodeData: {fileID: 11400000, guid: 0cacba8cc324a7d43b7c90480ba60c73, type: 2}
 --- !u!43 &1336860122
 Mesh:
   m_ObjectHideFlags: 0
@@ -13717,6 +13763,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventMappings:
+  - eventName: LoadEpisode2
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1316873377}
+          m_TargetAssemblyTypeName: SceneEventLoader, Assembly-CSharp
+          m_MethodName: LoadSceneEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "\uC548\uB155\uD558\uC2DC\uC624"
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventName: AppearSeha
     onEventTriggered:
       m_PersistentCalls:
@@ -18069,3 +18131,4 @@ SceneRoots:
   - {fileID: 834903592}
   - {fileID: 207554941}
   - {fileID: 1983177692}
+  - {fileID: 1316873376}

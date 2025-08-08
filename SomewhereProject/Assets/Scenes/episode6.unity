@@ -3257,17 +3257,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &297500772 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 934971707806942411, guid: 12f8a60a24882e54abc5fe02a48a29cd, type: 3}
-  m_PrefabInstance: {fileID: 834903592}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &332026169
 Mesh:
   m_ObjectHideFlags: 0
@@ -7401,17 +7390,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &825536103 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8269816544397936322, guid: 83feb29eb99d5394e9a8dec534d63570, type: 3}
-  m_PrefabInstance: {fileID: 673983035}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &834903592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10706,17 +10684,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &1053821477 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7354929170543366701, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
-  m_PrefabInstance: {fileID: 156759514}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1062933034
 Mesh:
   m_ObjectHideFlags: 0
@@ -11377,6 +11344,52 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1146897372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1146897374}
+  - component: {fileID: 1146897373}
+  m_Layer: 0
+  m_Name: SceneEventLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1146897373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146897372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16de01d728a0928478a89b7f44bb5d78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: episode7
+  episodeData: {fileID: 11400000, guid: 2395d41b8b598474caf3ac26408ad715, type: 2}
+--- !u!4 &1146897374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146897372}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.8938, y: 2.1475153, z: 10.881641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1152001370
 Mesh:
   m_ObjectHideFlags: 0
@@ -13717,13 +13730,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventMappings:
-  - eventName: AppearSeha
+  - eventName: AffectionHighest
     onEventTriggered:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 825536103}
-          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
-          m_MethodName: Appear
+        - m_Target: {fileID: 2003741027}
+          m_TargetAssemblyTypeName: AffectionDialogueStarter, Assembly-CSharp
+          m_MethodName: StartHighestAffectionRoute
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -13733,13 +13746,13 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - eventName: AppearLuka
+  - eventName: LoadEpisode7
     onEventTriggered:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 297500772}
-          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
-          m_MethodName: Appear
+        - m_Target: {fileID: 1146897373}
+          m_TargetAssemblyTypeName: SceneEventLoader, Assembly-CSharp
+          m_MethodName: LoadSceneEvent
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -13747,78 +13760,6 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 825536103}
-          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
-          m_MethodName: Disappear
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventName: AppearEunsung
-    onEventTriggered:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 297500772}
-          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
-          m_MethodName: Disappear
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1053821477}
-          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
-          m_MethodName: Appear
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventName: PopupOn
-    onEventTriggered:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1983177691}
-          m_TargetAssemblyTypeName: PopupEventBridge, Assembly-CSharp
-          m_MethodName: ShowTxtPopupEvt
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "\uC548\uB155\uD558\uC2DC\uC624"
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventName: CBtoOS
-    onEventTriggered:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1007628052}
-          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
-          m_MethodName: ChangeBackground
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 2964674117934512361, guid: 0f8c64df64d093648b3002bb7aa7e45f, type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "\uC548\uB155\uD558\uC2DC\uC624"
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!4 &1398141799
@@ -17065,6 +17006,86 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &2003741026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2003741028}
+  - component: {fileID: 2003741027}
+  m_Layer: 0
+  m_Name: AffectionDialogueStarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2003741027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003741026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4639c6877ffcfa841bd50bad702e3e05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterRoutes:
+  - characterName: "\uC815\uC6B0\uC9C4"
+    dialogueRef:
+      m_AssetGUID: 3a31513282f67914b9c7bda3ac605572
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - characterName: "\uBB38\uC774\uD604"
+    dialogueRef:
+      m_AssetGUID: 0eb2fe1321bb5344496a5908e3797559
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - characterName: "\uB8E8\uCE74"
+    dialogueRef:
+      m_AssetGUID: dc41cb220e83f904698e13bf7e5a1ca9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - characterName: "\uAC15\uC138\uD558"
+    dialogueRef:
+      m_AssetGUID: 29f68ab2c54f3604eadea00644974323
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - characterName: "\uC774\uC740\uC131"
+    dialogueRef:
+      m_AssetGUID: 3a0563c4635b4f247a5c86029b15fd6f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+--- !u!4 &2003741028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003741026}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 274.98773, y: 319.1467, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2004273780
 Mesh:
   m_ObjectHideFlags: 0
@@ -18064,8 +18085,10 @@ SceneRoots:
   - {fileID: 1482610976}
   - {fileID: 1398141799}
   - {fileID: 994277377}
+  - {fileID: 2003741028}
   - {fileID: 156759514}
   - {fileID: 673983035}
   - {fileID: 834903592}
   - {fileID: 207554941}
   - {fileID: 1983177692}
+  - {fileID: 1146897374}

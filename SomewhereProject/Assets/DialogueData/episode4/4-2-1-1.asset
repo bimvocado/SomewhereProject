@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uC5B4\uCC28\uD53C \uC608\uC758\uC0C1 \uD558\uB294 \uB9D0\uC774\uACA0\uC9C0?
-      /n\uAD73\uC774 \uD504\uB9B0\uD2B8 \uD558\uB098 \uD558\uACA0\uB2E4\uACE0 \uAC19\uC774
+      \n\uAD73\uC774 \uD504\uB9B0\uD2B8 \uD558\uB098 \uD558\uACA0\uB2E4\uACE0 \uAC19\uC774
       \uAC00\uC904 \uD544\uC694\uB3C4 \uC5C6\uACE0"
     eventName: 
     conditionType: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: a41b37f96d5cfa54c83c32e722763b44
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

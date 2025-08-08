@@ -14,9 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
-    line: "\u201C\uC2DC\uD5D8\uB3C4 \uB05D\uB0AC\uACE0, \uBB54\uAC00 \uC870\uAE08\uC740
-      \uB9C8\uBB34\uB9AC\uB41C \uAE30\uBD84\uC774\uB2E4.\u201D"
+    line: "\uC2DC\uD5D8\uB3C4 \uB05D\uB0AC\uACE0, \uBB54\uAC00 \uC870\uAE08\uC740
+      \uB9C8\uBB34\uB9AC\uB41C \uAE30\uBD84\uC774\uB2E4."
     eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: LoadEpisode5
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

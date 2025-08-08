@@ -98,7 +98,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\u201C\uC120\uBC30 \uD0D3\uC744 \uD55C\uB2E4"
+    - text: "\uC120\uBC30 \uD0D3\uC744 \uD55C\uB2E4"
       nextDialogue:
         m_AssetGUID: f61444d93afa41a40a3eb0e8a88c4341
         m_SubObjectName: 
@@ -118,23 +118,6 @@ MonoBehaviour:
     - text: "\uC218\uAE0D\uD55C\uB2E4"
       nextDialogue:
         m_AssetGUID: ca9318d78bc880f48864de1c7cdffc79
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
-        m_EditorAssetChanged: 0
-      affectionChange: 0
-      targetCharacterForAffection: 
-      resetsAffection: 0
-      requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
-      conditionType: 0
-      conditionKey: 
-      conditionTargetCharacter: 
-      conditionValue: 0
-    - text: "\u201D"
-      nextDialogue:
-        m_AssetGUID: 
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 

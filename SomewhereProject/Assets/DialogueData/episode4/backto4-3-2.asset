@@ -23,7 +23,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uAE00\uC384, \uBC14\uB85C \uC9D1 \uAC00\uB824\uB098. \uC65C?\u201D"
+    line: "\uAE00\uC384, \uBC14\uB85C \uC9D1 \uAC00\uB824\uB098. \uC65C?"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -142,8 +142,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC751, \uACE0\uB9C8\uC6CC. \uC624\uBE60\uB3C4 \uC2DC\uD5D8 \uC798
-      \uBD10.\u201D"
+    line: "\uC751, \uACE0\uB9C8\uC6CC. \uC624\uBE60\uB3C4 \uC2DC\uD5D8 \uC798 \uBD10."
     eventName: 
     conditionType: 0
     conditionKey: 

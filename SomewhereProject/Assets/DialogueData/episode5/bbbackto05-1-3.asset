@@ -42,8 +42,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u201C\uB8E8\uCE74\uB791 \uACF5\uC5F0\uC744 \uC990\uAE30\uB358 \uC911,
-      \uD654\uC7A5\uC2E4\uC774 \uAC00\uACE0 \uC2F6\uC5B4\uC84C\uB2E4.\u201D"
+    line: "\uB8E8\uCE74\uB791 \uACF5\uC5F0\uC744 \uC990\uAE30\uB358 \uC911, \uD654\uC7A5\uC2E4\uC774
+      \uAC00\uACE0 \uC2F6\uC5B4\uC84C\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -52,8 +52,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u201C\uACF5\uC5F0\uC7A5\uC744 \uB098\uC640 \uD654\uC7A5\uC2E4\uB85C \uAC78\uC5B4\uAC00\uB294\uB370,
-      \uC775\uC219\uD55C \uB4A4\uD1B5\uC218\uAC00 \uBCF4\uC778\uB2E4.\u201D"
+    line: "\uACF5\uC5F0\uC7A5\uC744 \uB098\uC640 \uD654\uC7A5\uC2E4\uB85C \uAC78\uC5B4\uAC00\uB294\uB370,
+      \uC775\uC219\uD55C \uB4A4\uD1B5\uC218\uAC00 \uBCF4\uC778\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -61,7 +61,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\u201C\uC774\uD604 \uC120\uBC30"
+    - text: "\uC774\uD604 \uC120\uBC30"
       nextDialogue:
         m_AssetGUID: 7a8614dc071c15b4cb034b8583afcabf
         m_SubObjectName: 
@@ -87,23 +87,6 @@ MonoBehaviour:
         m_EditorAssetChanged: 0
       affectionChange: 1
       targetCharacterForAffection: "\uC774\uC740\uC131"
-      resetsAffection: 0
-      requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
-      conditionType: 0
-      conditionKey: 
-      conditionTargetCharacter: 
-      conditionValue: 0
-    - text: "\u201D"
-      nextDialogue:
-        m_AssetGUID: 
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
-        m_EditorAssetChanged: 0
-      affectionChange: 0
-      targetCharacterForAffection: 
       resetsAffection: 0
       requiredCoin: 0
       flagToSet: 

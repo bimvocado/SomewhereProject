@@ -12,6 +12,33 @@ EditorBuildSettings:
     path: Assets/Scenes/episode1.unity
     guid: 492c55afae70f5442b8982df2107e49e
   - enabled: 1
+    path: Assets/Scenes/episode2.unity
+    guid: 49d9728729ff38e4c98abd5a33ca3188
+  - enabled: 1
+    path: Assets/Scenes/episode3.unity
+    guid: 351c04189fbb7854ebfbc91d29d2ce99
+  - enabled: 1
+    path: Assets/Scenes/episode4.unity
+    guid: cc6b577b24c1c574a82d28e06c73a6b4
+  - enabled: 1
+    path: Assets/Scenes/episode5.unity
+    guid: 2d195ed15607d474daf447d85106e401
+  - enabled: 1
+    path: Assets/Scenes/episode6.unity
+    guid: daa4d495b152c6644a3072864dca855c
+  - enabled: 1
+    path: Assets/Scenes/episode7.unity
+    guid: 5df39ef13f8e41542a98eba4365ccd24
+  - enabled: 1
+    path: Assets/Scenes/episode8.unity
+    guid: e28eea68139c236419fb251d056db70b
+  - enabled: 1
+    path: Assets/Scenes/episode9.unity
+    guid: a5878d24c8878134f8af792ef2cda760
+  - enabled: 1
+    path: Assets/Scenes/episode10.unity
+    guid: 80d2fef0617f44d48a5f81eb699c31e5
+  - enabled: 1
     path: Assets/Hambuger/Scene/HambugerGame.unity
     guid: 252ef056987d08e4b9f62d0d6fc5ea4d
   - enabled: 1

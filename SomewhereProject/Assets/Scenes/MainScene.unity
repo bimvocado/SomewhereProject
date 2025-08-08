@@ -3714,7 +3714,7 @@ GameObject:
   - component: {fileID: 902397075}
   - component: {fileID: 902397074}
   - component: {fileID: 902397073}
-  - component: {fileID: 902397072}
+  - component: {fileID: 902397076}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3742,19 +3742,6 @@ RectTransform:
   m_AnchoredPosition: {x: -189, y: -123}
   m_SizeDelta: {x: 160, y: 84.252}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &902397072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902397070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 104520e9e972b20409ef8e468a3efae7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadSceneName: MainScene
 --- !u!114 &902397073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3799,9 +3786,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 902397072}
-        m_TargetAssemblyTypeName: SceneLoaderButton, Assembly-CSharp
-        m_MethodName: LoadScene
+      - m_Target: {fileID: 902397076}
+        m_TargetAssemblyTypeName: SceneEventLoader, Assembly-CSharp
+        m_MethodName: LoadSceneEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3861,6 +3848,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902397070}
   m_CullTransparentMesh: 1
+--- !u!114 &902397076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902397070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16de01d728a0928478a89b7f44bb5d78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: MainScene
+  episodeData: {fileID: 0}
 --- !u!1 &903975953
 GameObject:
   m_ObjectHideFlags: 0
@@ -4988,11 +4989,11 @@ Transform:
   m_GameObject: {fileID: 1120731552}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -128.66907, y: -109.27249, z: 0}
+  m_LocalPosition: {x: 642.14294, y: 304.62817, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1171538955}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1120731554
 MonoBehaviour:
@@ -5042,7 +5043,7 @@ Transform:
   - {fileID: 44127857}
   - {fileID: 1906128344}
   - {fileID: 445313907}
-  - {fileID: 1120731553}
+  - {fileID: 1343913183}
   - {fileID: 252797524}
   - {fileID: 323246017}
   - {fileID: 1353555436}
@@ -5883,6 +5884,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324556754}
   m_CullTransparentMesh: 1
+--- !u!1 &1343913182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1343913183}
+  - component: {fileID: 1343913184}
+  m_Layer: 0
+  m_Name: NameInputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1343913183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343913182}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1171538955}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1343913184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343913182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a7250973c8d84d449c91ef47699a825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastNameInputField: {fileID: 0}
+  firstNameInputField: {fileID: 0}
+  confirmButton: {fileID: 0}
+  nameInputPanel: {fileID: 0}
 --- !u!1 &1353555435
 GameObject:
   m_ObjectHideFlags: 0
@@ -8087,6 +8136,7 @@ SceneRoots:
   - {fileID: 403185185}
   - {fileID: 1750113602}
   - {fileID: 82477575}
+  - {fileID: 1120731553}
   - {fileID: 1206153904}
   - {fileID: 1171538955}
   - {fileID: 1263676946}

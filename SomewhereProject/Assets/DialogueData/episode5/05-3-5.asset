@@ -78,7 +78,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u201C\uBB50\uC57C, \uC774\uB7F0 \uC9C8\uBB38\uC744 \uD55C\uB2E4\uACE0?\u201D"
+    line: "\uBB50\uC57C, \uC774\uB7F0 \uC9C8\uBB38\uC744 \uD55C\uB2E4\uACE0?"
     eventName: 
     conditionType: 0
     conditionKey: 

@@ -40,7 +40,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\u201C\uD63C\uC790 \uB2E4\uB2CC\uB2E4"
+    - text: "\uD63C\uC790 \uB2E4\uB2CC\uB2E4"
       nextDialogue:
         m_AssetGUID: c84a1c08e18f2e741a4a972c05c6087f
         m_SubObjectName: 
@@ -66,23 +66,6 @@ MonoBehaviour:
         m_EditorAssetChanged: 0
       affectionChange: -5
       targetCharacterForAffection: "\uC774\uC740\uC131"
-      resetsAffection: 0
-      requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
-      conditionType: 0
-      conditionKey: 
-      conditionTargetCharacter: 
-      conditionValue: 0
-    - text: "\u201D"
-      nextDialogue:
-        m_AssetGUID: 
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
-        m_EditorAssetChanged: 0
-      affectionChange: 0
-      targetCharacterForAffection: 
       resetsAffection: 0
       requiredCoin: 0
       flagToSet: 

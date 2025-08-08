@@ -80,8 +80,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC544\uAE4C \uBD24\uC744 \uB54C \uC904 \uC548 \uC11C \uC788\uC5C8\uC73C\uB2C8\uAE4C,
-      \uC0AC\uB78C \uC5C6\uC744 \uB54C \uBE68\uB9AC \uAC00\uC790!\u201D"
+    line: "\uC544\uAE4C \uBD24\uC744 \uB54C \uC904 \uC548 \uC11C \uC788\uC5C8\uC73C\uB2C8\uAE4C,
+      \uC0AC\uB78C \uC5C6\uC744 \uB54C \uBE68\uB9AC \uAC00\uC790!"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -108,9 +108,9 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u201C\uD3EC\uD1A0 \uBD80\uC2A4\uAC00 \uC788\uB294 \uCABD\uC73C\uB85C
-      \uAC00\uB2C8, \uC0AC\uB78C\uC774 \uBCC4\uB85C \uC5C6\uC5B4\uC11C \uBC14\uB85C
-      \uBD80\uC2A4\uB85C \uB4E4\uC5B4\uAC14\uB2E4.\u201D"
+    line: "\uD3EC\uD1A0 \uBD80\uC2A4\uAC00 \uC788\uB294 \uCABD\uC73C\uB85C \uAC00\uB2C8,
+      \uC0AC\uB78C\uC774 \uBCC4\uB85C \uC5C6\uC5B4\uC11C \uBC14\uB85C \uBD80\uC2A4\uB85C
+      \uB4E4\uC5B4\uAC14\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -256,7 +256,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC774\uC740\uC131"
-    line: "\u201C[\uC5EC\uC8FC\uC57C], \uACF5\uC5F0 \uBCFC \uAC70\uC57C?\u201D"
+    line: "[\uC5EC\uC8FC\uC57C], \uACF5\uC5F0 \uBCFC \uAC70\uC57C?"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -274,7 +274,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC774\uC740\uC131"
-    line: "\u201C\uC65C, \uC6B0\uB9AC\uAC00 \uC5F4\uC2EC\uD788 \uC12D\uC678\uD588\uB294\uB370!\u201D"
+    line: "\uC65C, \uC6B0\uB9AC\uAC00 \uC5F4\uC2EC\uD788 \uC12D\uC678\uD588\uB294\uB370!"
     eventName: 
     conditionType: 0
     conditionKey: 

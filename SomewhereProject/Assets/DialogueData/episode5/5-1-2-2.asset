@@ -33,8 +33,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC740\uC131\uC544, \uD639\uC2DC \uC9C0\uAE08 \uCD95\uC81C \uC640
-      \uC788\uC5B4?\u201D"
+    line: "\uC740\uC131\uC544, \uD639\uC2DC \uC9C0\uAE08 \uCD95\uC81C \uC640 \uC788\uC5B4?"
     eventName: 
     conditionType: 0
     conditionKey: 

@@ -22,7 +22,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\"\uC774\uD604 \uC120\uBC30"
+    - text: "\uC774\uD604 \uC120\uBC30"
       nextDialogue:
         m_AssetGUID: 744d7954ed59fd9499184ced08c1dfe3
         m_SubObjectName: 
@@ -42,23 +42,6 @@ MonoBehaviour:
     - text: "\uB8E8\uCE74"
       nextDialogue:
         m_AssetGUID: c4a1fd1545c8c214fa511281b6e39c89
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
-        m_EditorAssetChanged: 0
-      affectionChange: 0
-      targetCharacterForAffection: 
-      resetsAffection: 0
-      requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
-      conditionType: 0
-      conditionKey: 
-      conditionTargetCharacter: 
-      conditionValue: 0
-    - text: "\u201D"
-      nextDialogue:
-        m_AssetGUID: 
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 

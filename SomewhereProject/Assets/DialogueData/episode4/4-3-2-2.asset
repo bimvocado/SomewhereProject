@@ -23,7 +23,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uAC15\uC138\uD558"
-    line: "\u201C\uC624, \uC790\uC2E0 \uC788\uB098 \uBCF4\uB124?\u201D"
+    line: "\uC624, \uC790\uC2E0 \uC788\uB098 \uBCF4\uB124?"
     eventName: 
     conditionType: 0
     conditionKey: 

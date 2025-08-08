@@ -32,8 +32,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uBB38\uC774\uD604"
-    line: "\u201C\uC544, \uC774\uAC70 \uB0B4\uAC00 \uC791\uB144\uC5D0 \uD588\uB358
-      \uAC70\uB124.\u201D"
+    line: "\uC544, \uC774\uAC70 \uB0B4\uAC00 \uC791\uB144\uC5D0 \uD588\uB358 \uAC70\uB124."
     eventName: 
     conditionType: 0
     conditionKey: 

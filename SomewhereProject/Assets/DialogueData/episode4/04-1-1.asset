@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC800\uAE30, \uD639\uC2DC\u2026\u201D"
+    line: "\uC800\uAE30, \uD639\uC2DC\u2026"
     eventName: 
     conditionType: 0
     conditionKey: 

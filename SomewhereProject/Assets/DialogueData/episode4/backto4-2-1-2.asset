@@ -52,7 +52,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uB8E8\uCE74"
-    line: "\u201C\uB124, \uAE30\uB300\uD558\uC8E0.\u201D"
+    line: "\uB124, \uAE30\uB300\uD558\uC8E0."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -71,7 +71,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: a41b37f96d5cfa54c83c32e722763b44
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

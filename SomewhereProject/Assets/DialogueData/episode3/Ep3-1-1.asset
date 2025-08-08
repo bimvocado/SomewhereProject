@@ -24,7 +24,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: 520b08612e316b24b93b044daa7ab4d4
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

@@ -133,7 +133,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\u201C\uBCF4\uB0B8\uB2E4"
+    - text: "\uBCF4\uB0B8\uB2E4"
       nextDialogue:
         m_AssetGUID: a426716ef9c22394aaeb5a5631e993c4
         m_SubObjectName: 
@@ -153,23 +153,6 @@ MonoBehaviour:
     - text: "\uB9CC\uB2E4"
       nextDialogue:
         m_AssetGUID: 829db7cbfd24d9a48862e42b61323f9a
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
-        m_EditorAssetChanged: 0
-      affectionChange: 0
-      targetCharacterForAffection: 
-      resetsAffection: 0
-      requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
-      conditionType: 0
-      conditionKey: 
-      conditionTargetCharacter: 
-      conditionValue: 0
-    - text: "\u201D"
-      nextDialogue:
-        m_AssetGUID: 
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 

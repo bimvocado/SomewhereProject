@@ -23,8 +23,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u201C\uC5B4, \uADFC\uB370 \uC800\uAE30 \uC9C0\uB098\uAC00\uB294 \uB4A4\uD1B5\uC218\uAC00
-      \uC775\uC219\uD558\uB2E4.\u201D"
+    line: "\uC5B4, \uADFC\uB370 \uC800\uAE30 \uC9C0\uB098\uAC00\uB294 \uB4A4\uD1B5\uC218\uAC00
+      \uC775\uC219\uD558\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -51,7 +51,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uB8E8\uCE74"
-    line: "\u201C\uC548\uB155\uD558\uC138\uC694,\u201D"
+    line: "\uC548\uB155\uD558\uC138\uC694,"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -78,7 +78,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\uC751. \uC5F0\uB77D \uC548\uBCF4\uB354\uB77C?"
+    line: "\uC751. \uC5F0\uB77D \uC548 \uBCF4\uB354\uB77C?"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -199,8 +199,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uB8E8\uCE74"
-    line: "\u201C\uCE5C\uAD6C \uB9CE\uC73C\uC2DC\uC796\uC544\uC694. \uAD73\uC774
-      \uC800 \uC544\uB2C8\uC5B4\uB3C4,\u201D"
+    line: "\uCE5C\uAD6C \uB9CE\uC73C\uC2DC\uC796\uC544\uC694. \uAD73\uC774 \uC800
+      \uC544\uB2C8\uC5B4\uB3C4,"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -247,8 +247,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC544\uB2C8 \uC774\uAC8C \uC911\uC694\uD55C \uAC8C \uC544\uB2C8\uB77C,
-      \uC544\uBB34\uD2BC \uAD6C\uACBD\uD558\uC790!\u201D"
+    line: "\uC544\uB2C8 \uC774\uAC8C \uC911\uC694\uD55C \uAC8C \uC544\uB2C8\uB77C,
+      \uC544\uBB34\uD2BC \uAD6C\uACBD\uD558\uC790!"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -303,7 +303,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uB8E8\uCE74"
-    line: "\u201C\uADF8\uB7FC \uAD73\uC774,\u201D"
+    line: "\uADF8\uB7FC \uAD73\uC774,"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -312,7 +312,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\u201C\uC640 \uD5D0, \uC800\uAC70 \uB9DB\uC788\uACA0\uB2E4!! \uAC00\uBCF4\uC790!\u201D"
+    line: "\uC640 \uD5D0, \uC800\uAC70 \uB9DB\uC788\uACA0\uB2E4!! \uAC00\uBCF4\uC790!"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -331,8 +331,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u201C\uC606\uC5D0\uC11C \uD55C\uC228 \uC26C\uB294 \uC18C\uB9AC\uAC00
-      \uB4E4\uB838\uC9C0\uB9CC, \uBABB \uB4E4\uC740 \uAC70\uB85C \uD558\uC790.\u201D"
+    line: "\uC606\uC5D0\uC11C \uD55C\uC228 \uC26C\uB294 \uC18C\uB9AC\uAC00 \uB4E4\uB838\uC9C0\uB9CC,
+      \uBABB \uB4E4\uC740 \uAC70\uB85C \uD558\uC790."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -350,9 +350,9 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u201C\uB9DB\uC788\uB294 \uAC83\uB3C4 \uB9CE\uC774 \uBA39\uACE0, \uBD80\uC2A4
+    line: "\uB9DB\uC788\uB294 \uAC83\uB3C4 \uB9CE\uC774 \uBA39\uACE0, \uBD80\uC2A4
       \uCCB4\uD5D8\uB3C4 \uD558\uACE0\u2026 \uC990\uAC70\uC6B4 \uC2DC\uAC04\uC744
-      \uBCF4\uB0C8\uB2E4.\u201D"
+      \uBCF4\uB0C8\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -361,9 +361,9 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u201C\uB8E8\uCE74\uB3C4 \uB9D0\uC740 \uC544\uB2C8\uB77C\uACE0 \uD588\uC73C\uBA74\uC11C,
+    line: "\uB8E8\uCE74\uB3C4 \uB9D0\uC740 \uC544\uB2C8\uB77C\uACE0 \uD588\uC73C\uBA74\uC11C,
       \uB9C9\uC0C1 \uB370\uB9AC\uACE0 \uB2E4\uB2C8\uB2C8\uAE4C \uC7AC\uBC0C\uC5B4\uD558\uB294
-      \uAC83 \uAC19\uC558\uACE0.\""
+      \uAC83 \uAC19\uC558\uACE0."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -371,7 +371,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\u201C\uC7AC\uBC0C\uC5C8\uB294\uC9C0 \uBB3C\uC5B4\uBCF4\uC790"
+    - text: "\uC7AC\uBC0C\uC5C8\uB294\uC9C0 \uBB3C\uC5B4\uBCF4\uC790"
       nextDialogue:
         m_AssetGUID: 5d9c2f60213f5b440800a7589457f8a0
         m_SubObjectName: 
@@ -391,23 +391,6 @@ MonoBehaviour:
     - text: "\uBB3C\uC5B4\uBCF4\uC9C0 \uB9D0\uC790"
       nextDialogue:
         m_AssetGUID: 66f554777dcb76a4591334184ddc33db
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
-        m_EditorAssetChanged: 0
-      affectionChange: 0
-      targetCharacterForAffection: 
-      resetsAffection: 0
-      requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
-      conditionType: 0
-      conditionKey: 
-      conditionTargetCharacter: 
-      conditionValue: 0
-    - text: "\u201D"
-      nextDialogue:
-        m_AssetGUID: 
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
