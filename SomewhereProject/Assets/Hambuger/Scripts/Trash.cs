@@ -6,7 +6,7 @@ public class Trash : MonoBehaviour
 
     private void Start()
     {
-        Heart = FindObjectOfType<Heart>();
+        Heart = FindFirstObjectByType<Heart>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)

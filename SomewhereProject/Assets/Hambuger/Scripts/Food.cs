@@ -9,8 +9,8 @@ public class Food : MonoBehaviour
 
     private void Start()
     {
-        ScoreCount = FindObjectOfType<ScoreCount>();
-        Heart = FindObjectOfType<Heart>();
+        ScoreCount = FindFirstObjectByType<ScoreCount>();
+        Heart = FindFirstObjectByType<Heart>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)

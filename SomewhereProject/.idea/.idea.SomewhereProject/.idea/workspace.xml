@@ -6,23 +6,214 @@
   <component name="ChangeListManager">
     <list default="true" id="9ee30841-f986-46b8-91ab-eb7b16e14680" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SomewhereProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SomewhereProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Coke.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Coke.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gamza.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gamza.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hamboogie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hamboogie.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trash01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trash01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trash02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trash02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hambbuger.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hambbuger.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Food.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Food.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreCount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreCount.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hambuger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hambuger.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Heart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Clipping/Clipping.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Clipping/Clipping.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Clipping/Clipping.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Clipping/Clipping.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Koharu/Koharu.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Koharu/Koharu.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Koharu/Koharu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Koharu/Koharu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/Mao.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/Mao.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/Mao.expressionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/Mao.expressionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/Mao.fadeMotionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/Mao.fadeMotionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/Mao.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/Mao.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_01.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_01.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_02.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_02.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_03.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_03.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_04.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_04.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_05.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_05.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_06.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_06.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_07.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_07.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_08.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/expressions/exp_08.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_01.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_01.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_01.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_01.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_02.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_02.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_03.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_03.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_03.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_04.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_04.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_04.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/mtn_04.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/sample_01.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/sample_01.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/sample_01.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/sample_01.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_01.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_01.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_01.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_01.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_02.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_02.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_03.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_03.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Mao/motions/special_03.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/Natori.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/Natori.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/Natori.expressionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/Natori.expressionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/Natori.fadeMotionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/Natori.fadeMotionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/Natori.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/Natori.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_00.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_00.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_01.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_01.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_02.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_02.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_03.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_03.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_04.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_04.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_05.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_05.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_06.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_06.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_07.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_07.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_08.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_08.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_09.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_09.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_10.exp3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/exp/exp_10.exp3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_00.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_00.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_00.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_00.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_01.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_01.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_01.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_01.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_02.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_02.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_03.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_03.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_03.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_04.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_04.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_04.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_04.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_05.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_05.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_05.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_05.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_06.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_06.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_06.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_06.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_07.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_07.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_07.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_07.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_08.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_08.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_08.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Natori/motions/mtn_08.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/Rice.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/Rice.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/Rice.fadeMotionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/Rice.fadeMotionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/Rice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/Rice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_00.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_00.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_00.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_00.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_01.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_01.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_01.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_01.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_02.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_02.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_03.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_03.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Live2D/Cubism/Samples/Models/Rice/motions/mtn_03.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Coke.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Coke.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gamza.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gamza.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hamboogie.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hamboogie.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trash01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trash01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trash02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trash02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/eunsung.fadeMotionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/eunsung.fadeMotionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyung.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyung.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyung.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyung.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/difficult.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/difficult.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/difficult.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/difficult.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/idle.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/idle.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/no.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/no.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/no.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/no.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/ok.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/ok.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/ok.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/ok.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/sad.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/sad.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/sad.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/sad.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/saying.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/saying.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/saying.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/saying.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/serious.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/serious.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/serious.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/serious.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/shy.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/shy.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/shy.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/shy.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/smile.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/smile.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/smile.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyungAction/smile.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.fadeMotionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.fadeMotionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/annoyed.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/annoyed.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/annoyed.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/annoyed.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/idle.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/idle.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/no.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/no.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/no.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/no.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/ok.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/ok.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/ok.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/ok.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/saying.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/saying.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/saying.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/saying.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/serious.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/serious.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/serious.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/serious.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/shy.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/shy.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/shy.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/shy.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/smile.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/smile.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/smile.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/smile.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/surprised.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/surprised.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/surprised.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/surprised.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.fadeMotionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.fadeMotionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/annoyed.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/annoyed.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/annoyed.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/annoyed.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/difficult.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/difficult.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/difficult.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/difficult.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/idle.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/idle.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/no.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/no.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/no.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/no.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/ok.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/ok.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/ok.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/ok.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/sad.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/sad.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/sad.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/sad.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/saying.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/saying.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/saying.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/saying.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/serious.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/serious.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/serious.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/serious.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/shy.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/shy.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/shy.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/shy.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/sigh.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/sigh.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/sigh.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/sigh.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/smile.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/smile.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/smile.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/smile.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/surprised.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/surprised.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/surprised.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/lukaaction/surprised.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.fadeMotionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.fadeMotionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/embarrassed.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/embarrassed.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/embarrassed.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/embarrassed.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/flushed.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/flushed.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/flushed.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/flushed.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/idle.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/idle.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/no.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/no.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/no.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/no.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/ok.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/ok.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/ok.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/ok.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/saying.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/saying.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/saying.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/saying.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/serious.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/serious.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/serious.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/serious.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/smile.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/smile.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/smile.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/smile.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/surprised.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/surprised.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/surprised.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/surprised.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/upset.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/upset.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/upset.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/sehaAction/upset.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HambbugerMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HambbugerMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HambugerGame.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HambugerGame.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HambugerHow.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HambugerHow.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/ButtonHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/ButtonHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/Food.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/Food.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/Heart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/Heart.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/PauseButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/PauseButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/PlayerCtrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/PlayerCtrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/ScoreCount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/ScoreCount.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/SpawnerHam.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/SpawnerHam.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/Trash.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hamboogie/Trash.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +241,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Yuri&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Unity.exe" />
@@ -139,6 +330,7 @@
       <workItem from="1754482772098" duration="1360000" />
       <workItem from="1754484655512" duration="121000" />
       <workItem from="1754484803835" duration="1415000" />
+      <workItem from="1754624302595" duration="142000" />
     </task>
     <servers />
   </component>
