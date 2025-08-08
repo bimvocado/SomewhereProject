@@ -5,11 +5,18 @@ using TMPro;
 
 public class ScoreCount : MonoBehaviour
 {
+    public static ScoreCount instance;
+    
     public TMP_Text ScoreText;
     public TMP_Text CoinText;
 
     public int Score;
     public int Coin;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {
@@ -23,6 +30,16 @@ public class ScoreCount : MonoBehaviour
         CoinText.text = "Coin: " + Coin;
     }
 
+    public string GetFinalScore()
+    {
+        return ScoreText.text;
+    }
+
+    public string GetFinalCoin()
+    {
+        return CoinText.text;
+    }
+    
     public void GetScore()
     {
         Score += 1;
