@@ -137,7 +137,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC9C0\uC815\uB41C \uC790\uB9AC\uB97C \uCC3E\uC544\uC11C \uC549\uC558\uB2E4."
-    eventName: 
+    eventName: DisappearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

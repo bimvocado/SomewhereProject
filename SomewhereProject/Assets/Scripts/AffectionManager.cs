@@ -15,11 +15,9 @@ public class AffectionManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            Debug.Log($"[AffectionManager] Awake 호출됨. Instance 설정 완료: {gameObject.name}");
         }
         else
         {
-            Debug.LogWarning($"[AffectionManager] 중복된 인스턴스 발견: {gameObject.name} 파괴됨.");
             Destroy(gameObject);
         }
     }
@@ -29,11 +27,6 @@ public class AffectionManager : MonoBehaviour
         if (EventManager.Instance != null)
         {
             EventManager.Instance.StartListening("ResetAffection", ResetAllAffections);
-            Debug.Log($"[AffectionManager] Start 호출됨. EventManager에 구독 완료.");
-        }
-        else
-        {
-            Debug.LogError("[AffectionManager] Start()에서 EventManager.Instance를 찾을 수 없습니다! EventManager가 올바르게 초기화되지 않았거나 스크립트 실행 순서에 문제가 있을 수 있습니다.");
         }
     }
 
