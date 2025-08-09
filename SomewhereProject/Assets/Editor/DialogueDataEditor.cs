@@ -18,11 +18,11 @@ public class DialogueDataEditor : Editor
     {
         serializedObject.Update();
 
-        EditorGUILayout.LabelField("Dialogue Data ¿¡µğÅÍ", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Dialogue Data ì—ë””í„°", EditorStyles.boldLabel);
         EditorGUILayout.Space();
 
-        EditorGUILayout.PropertyField(nextDialogueOnCompletionProp, new GUIContent("¿Ï·á ÈÄ ´ÙÀ½ ´ëÈ­"));
-        EditorGUILayout.HelpBox("ÇöÀç ´ëÈ­°¡ ³¡³ª°í ÀÚµ¿À¸·Î Àç»ıµÉ ´ÙÀ½ DialogueData ÁöÁ¤(addressable data)\ncsv¿¡¼­ ÁöÁ¤Çß´Ù¸é ÀÚµ¿ µî·Ï / ¼±ÅÃÁöÀÇ °æ¿ì µî·Ï ¾ÈÇØµµ ¤¡¤º", MessageType.Info);
+        EditorGUILayout.PropertyField(nextDialogueOnCompletionProp, new GUIContent("ì™„ë£Œ í›„ ë‹¤ìŒ ëŒ€í™”"));
+        EditorGUILayout.HelpBox("í˜„ì¬ ëŒ€í™”ê°€ ëë‚˜ê³  ìë™ìœ¼ë¡œ ì¬ìƒë  ë‹¤ìŒ DialogueData ì§€ì •(addressable data)\ncsvì—ì„œ ì§€ì •í–ˆë‹¤ë©´ ìë™ ë“±ë¡ / ì„ íƒì§€ì˜ ê²½ìš° ë“±ë¡ ì•ˆí•´ë„ ã„±ã…Š", MessageType.Info);
         EditorGUILayout.Space();
 
 

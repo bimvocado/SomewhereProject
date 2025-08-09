@@ -43,13 +43,13 @@ public class DialogueImporter : EditorWindow
     private void OnGUI()
     {
         EditorGUILayout.LabelField("CSV to DialogueData Importer", EditorStyles.boldLabel);
-        csvFile = (TextAsset)EditorGUILayout.ObjectField("CSV 파일", csvFile, typeof(TextAsset), false);
-        savePath = EditorGUILayout.TextField("저장 경로", savePath);
-        fileName = EditorGUILayout.TextField("파일 이름 (groupId 없을 시)", fileName);
-        createSeparateFiles = EditorGUILayout.Toggle("그룹별로 파일 분리", createSeparateFiles);
+        csvFile = (TextAsset)EditorGUILayout.ObjectField("CSV     ", csvFile, typeof(TextAsset), false);
+        savePath = EditorGUILayout.TextField("        ", savePath);
+        fileName = EditorGUILayout.TextField("      見  (groupId        )", fileName);
+        createSeparateFiles = EditorGUILayout.Toggle(" 瀏罹�         龜 ", createSeparateFiles);
         EditorGUILayout.Space();
         GUI.enabled = csvFile != null;
-        if (GUILayout.Button("가져오기 (Import)"))
+        if (GUILayout.Button("         (Import)"))
         {
             ImportCSV();
         }
