@@ -37,7 +37,7 @@ public class CharacterAnimationController : MonoBehaviour
             characterRenderers = GetComponentsInChildren<Renderer>(true);
             if (characterRenderers.Length == 0)
             {
-                Debug.LogWarning($"{gameObject.name}: Renderer ÄÄÆ÷³ÍÆ® ¾øÀ½");
+                Debug.LogWarning($"{gameObject.name}: Renderer ì»´í¬ë„ŒíŠ¸ ì—†ìŒ");
             }
         }
 
@@ -46,7 +46,7 @@ public class CharacterAnimationController : MonoBehaviour
             cubismRenderers = GetComponentsInChildren<CubismRenderer>(true);
             if (cubismRenderers.Length == 0 && characterRenderers.Length == 0)
             {
-                Debug.LogWarning($"{gameObject.name}: CubismRenderer ¾øÀ½");
+                Debug.LogWarning($"{gameObject.name}: CubismRenderer ì—†ìŒ");
             }
         }
 
@@ -133,7 +133,7 @@ public class CharacterAnimationController : MonoBehaviour
 
 
         appearSequence.OnComplete(() => {
-            Debug.Log($"{gameObject.name} µîÀå");
+            Debug.Log($"{gameObject.name} ë“±ì¥");
         });
 
         appearSequence.Play();
@@ -146,7 +146,7 @@ public class CharacterAnimationController : MonoBehaviour
 
         disappearSequence.OnComplete(() => {
             gameObject.SetActive(false);
-            Debug.Log($"{gameObject.name} »ç¶óÁü");
+            Debug.Log($"{gameObject.name} ì‚¬ë¼ì§");
         });
         disappearSequence.Play();
     }
@@ -154,21 +154,21 @@ public class CharacterAnimationController : MonoBehaviour
     public void MoveLeft()
     {
         transform.DOMoveX(offscreenLeftX, moveDuration).SetEase(moveEaseType).OnComplete(() => {
-            Debug.Log($"{gameObject.name} ¿ŞÂÊÀ¸·Î ÀÌµ¿");
+            Debug.Log($"{gameObject.name} ì™¼ìª½ìœ¼ë¡œ ì´ë™");
         });
     }
 
     public void MoveRight()
     {
         transform.DOMoveX(offscreenRightX, moveDuration).SetEase(moveEaseType).OnComplete(() => {
-            Debug.Log($"{gameObject.name} ¿À¸¥ÂÊÀ¸·Î ÀÌµ¿");
+            Debug.Log($"{gameObject.name} ì˜¤ë¥¸ìª½ìœ¼ë¡œ ì´ë™");
         });
     }
 
     public void MoveToCenter()
     {
         transform.DOMoveX(originalPosition.x, moveDuration).SetEase(moveEaseType).OnComplete(() => {
-            Debug.Log($"{gameObject.name} Áß¾ÓÀ¸·Î ÀÌµ¿");
+            Debug.Log($"{gameObject.name} ì¤‘ì•™ìœ¼ë¡œ ì´ë™");
         });
     }
 

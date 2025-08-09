@@ -18,11 +18,11 @@ public class SaveSlotButton : MonoBehaviour
         GameData data = SaveLoadManager.Instance.GetSaveDataInfo(slotIndex);
         if (data != null)
         {
-            slotInfoText.text = $"½½·Ô {slotIndex + 1}\n{data.playerLastName}{data.playerFirstName}";
+            slotInfoText.text = $"ìŠ¬ë¡¯ {slotIndex + 1}\n{data.playerLastName}{data.playerFirstName}";
         }
         else
         {
-            slotInfoText.text = $"½½·Ô {slotIndex + 1}\n(ºñ¾îÀÖÀ½)";
+            slotInfoText.text = $"ìŠ¬ë¡¯ {slotIndex + 1}\n(ë¹„ì–´ìˆìŒ)";
         }
     }
 
@@ -30,12 +30,12 @@ public class SaveSlotButton : MonoBehaviour
     {
         SaveLoadManager.Instance.SaveGame(slotIndex);
         UpdateSlotInfo();
-        Debug.Log($"{slotIndex}¹ø ½½·Ô¿¡ ÀúÀå ½Ãµµ");
+        Debug.Log($"{slotIndex}ë²ˆ ìŠ¬ë¡¯ì— ì €ì¥ ì‹œë„");
     }
 
     public void OnLoadButtonClick()
     {
         SaveLoadManager.Instance.LoadGame(slotIndex);
-        Debug.Log($"{slotIndex}¹ø ½½·Ô¿¡¼­ ºÒ·¯¿À±â ½Ãµµ");
+        Debug.Log($"{slotIndex}ë²ˆ ìŠ¬ë¡¯ì—ì„œ ë¶ˆëŸ¬ì˜¤ê¸° ì‹œë„");
     }
 }

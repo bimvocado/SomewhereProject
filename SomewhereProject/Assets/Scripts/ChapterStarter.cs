@@ -21,7 +21,7 @@ public class ChapterStarter : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("´ÙÀÌ¾ó·Î±× ¿¬°á ¾È µÊ");
+            Debug.LogWarning("ë‹¤ì´ì–¼ë¡œê·¸ ì—°ê²° ì•ˆ ë¨");
         }
     }
 }

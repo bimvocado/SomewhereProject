@@ -21,7 +21,7 @@ public class SceneLoader : MonoBehaviour
     {
         if (string.IsNullOrEmpty(sceneName))
         {
-            Debug.LogError("ºÒ·¯¿Ã ¾À ÀÌ¸§ÀÌ ºñ¾î ÀÖÀ½");
+            Debug.LogError("ë¶ˆëŸ¬ì˜¬ ì”¬ ì´ë¦„ì´ ë¹„ì–´ ìˆìŒ");
             return;
         }
         StartCoroutine(LoadSceneAsync(sceneName, episodeData));

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq; // LINQ¸¦ À§ÇØ ÇÊ¿äÇÕ´Ï´Ù.
+using System.Linq; // LINQë¥¼ ìœ„í•´ í•„ìš”í•©ë‹ˆë‹¤.
 
 public class AffectionManager : MonoBehaviour
 {
@@ -39,13 +39,13 @@ public class AffectionManager : MonoBehaviour
             affections[characterName] = defaultAffection;
         }
         affections[characterName] += amount;
-        Debug.Log($"Ä³¸¯ÅÍ '{characterName}'ÀÇ È£°¨µµ {amount} º¯°æ, ÇöÀç È£°¨µµ: {affections[characterName]}");
+        Debug.Log($"ìºë¦­í„° '{characterName}'ì˜ í˜¸ê°ë„ {amount} ë³€ê²½, í˜„ì¬ í˜¸ê°ë„: {affections[characterName]}");
     }
 
     public void ResetAllAffections()
     {
         affections = new Dictionary<string, int>();
-        Debug.Log("¸ğµç Ä³¸¯ÅÍÀÇ È£°¨µµ°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.");
+        Debug.Log("ëª¨ë“  ìºë¦­í„°ì˜ í˜¸ê°ë„ê°€ ì´ˆê¸°í™”ë˜ì—ˆìŠµë‹ˆë‹¤.");
     }
 
     public void ResetAffection(string characterName)

@@ -22,8 +22,8 @@ public class NameInputManager : MonoBehaviour
 
     void Start()
     {
-        lastNameInputField.text = "±è";
-        firstNameInputField.text = "¿©ÁÖ";
+        lastNameInputField.text = "ê¹€";
+        firstNameInputField.text = "ì—¬ì£¼";
         confirmButton.onClick.AddListener(OnConfirmButtonClick);
     }
 

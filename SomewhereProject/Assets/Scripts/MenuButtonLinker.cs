@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections; // CoroutineÀ» À§ÇØ Ãß°¡
+using System.Collections; // Coroutineì„ ìœ„í•´ ì¶”ê°€
 
-// ÀÌ ½ºÅ©¸³Æ®¸¦ ¿É¼Ç/ÀúÀå ¹öÆ°¿¡ ºÙÀÔ´Ï´Ù.
+// ì´ ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì˜µì…˜/ì €ì¥ ë²„íŠ¼ì— ë¶™ì…ë‹ˆë‹¤.
 public class MenuButtonLinker : MonoBehaviour
 {
     public enum ButtonAction { ShowSettings, ShowSave }
@@ -16,7 +16,7 @@ public class MenuButtonLinker : MonoBehaviour
         thisButton = GetComponent<Button>();
         if (thisButton == null)
         {
-            Debug.LogError($"{gameObject.name}: Button ÄÄÆ÷³ÍÆ®¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù!");
+            Debug.LogError($"{gameObject.name}: Button ì»´í¬ë„ŒíŠ¸ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤!");
             enabled = false;
             return;
         }
@@ -45,7 +45,7 @@ public class MenuButtonLinker : MonoBehaviour
                 thisButton.onClick.AddListener(() => SaveNSettingUI.Instance.ShowSaveUI());
                 break;
             default:
-                Debug.LogWarning($"{gameObject.name}: ¾Ë ¼ö ¾ø´Â µ¿ÀÛ: {actionToPerform}");
+                Debug.LogWarning($"{gameObject.name}: ì•Œ ìˆ˜ ì—†ëŠ” ë™ì‘: {actionToPerform}");
                 break;
         }
     }

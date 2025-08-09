@@ -31,7 +31,7 @@ public class BackgroundManager : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("È°¼ºÈ­µÈ BackgroundController ¾øÀ½");
+            Debug.LogWarning("í™œì„±í™”ëœ BackgroundController ì—†ìŒ");
         }
     }
 }

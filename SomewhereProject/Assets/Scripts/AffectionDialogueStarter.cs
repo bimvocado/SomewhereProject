@@ -11,7 +11,7 @@ public class AffectionDialogueStarter : MonoBehaviour
         public AssetReferenceT<DialogueData> dialogueRef;
     }
 
-    [Header("Ä³¸¯ÅÍº° ½ºÅä¸® ·çÆ®")]
+    [Header("ìºë¦­í„°ë³„ ìŠ¤í† ë¦¬ ë£¨íŠ¸")]
     public List<CharacterRoute> characterRoutes;
 
     private Dictionary<string, AssetReferenceT<DialogueData>> routeDictionary;

@@ -1,4 +1,4 @@
-// EventManager.cs
+Ôªø// EventManager.cs
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
@@ -41,7 +41,7 @@ public class EventManager : MonoBehaviour
         if (eventDictionary.TryGetValue(eventName, out UnityEvent thisEvent))
         {
             thisEvent.Invoke();
-            Debug.Log($"¿Ã∫•∆Æ Ω««‡: {eventName}");
+            Debug.Log($"Ïù¥Î≤§Ìä∏ Ïã§Ìñâ: {eventName}");
         }
     }
 }

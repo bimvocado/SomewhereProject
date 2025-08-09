@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+ï»¿using System.Collections.Generic;
 
 [System.Serializable]
 public class GameData
@@ -21,7 +21,7 @@ public class GameData
         currentDialogueAssetKey = null;
         currentDialogueIndex = 0;
         readDialogueLog = new HashSet<string>();
-        playerFirstName = "¿©ÁÖ";
-        playerLastName = "±è";
+        playerFirstName = "ì—¬ì£¼";
+        playerLastName = "ê¹€";
     }
 }

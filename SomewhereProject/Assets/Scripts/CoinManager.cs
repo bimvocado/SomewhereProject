@@ -27,7 +27,7 @@ public class CoinManager : MonoBehaviour
     {
         if (amount <= 0) return;
         PlayerCoin += amount;
-        Debug.Log($"ÄÚÀÎ {amount} È¹µæ. ÇöÀç ÄÚÀÎ: {PlayerCoin}");
+        Debug.Log($"ì½”ì¸ {amount} íšë“. í˜„ì¬ ì½”ì¸: {PlayerCoin}");
     }
 
     public bool SpendCoin(int amount)
@@ -37,11 +37,11 @@ public class CoinManager : MonoBehaviour
         if (PlayerCoin >= amount)
         {
             PlayerCoin -= amount;
-            Debug.Log($"ÄÚÀÎ {amount} »ç¿ë. ÇöÀç ÄÚÀÎ: {PlayerCoin}");
+            Debug.Log($"ì½”ì¸ {amount} ì‚¬ìš©. í˜„ì¬ ì½”ì¸: {PlayerCoin}");
             return true;
         }
 
-        Debug.Log("ÄÚÀÎÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+        Debug.Log("ì½”ì¸ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
         return false;
     }
 

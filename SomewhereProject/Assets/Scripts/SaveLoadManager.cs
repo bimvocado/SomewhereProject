@@ -37,7 +37,7 @@ public class SaveLoadManager : MonoBehaviour
         }
         else
         {
-            Debug.Log($"½½·Ô {slotIndex}¿¡ ÀúÀåµÈ ÆÄÀÏÀÌ ¾ø½À´Ï´Ù.");
+            Debug.Log($"ìŠ¬ë¡¯ {slotIndex}ì— ì €ì¥ëœ íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤.");
         }
     }
 
@@ -59,7 +59,7 @@ public class SaveLoadManager : MonoBehaviour
         ReadLogManager.Instance.LoadReadLog(data.readDialogueLog);
         DialogueManager.Instance.LoadDialogueState(data.currentDialogueAssetKey, data.currentDialogueIndex);
 
-        Debug.Log("Àû¿ë¿Ï·á");
+        Debug.Log("ì ìš©ì™„ë£Œ");
     }
 
     private string GetPathForSlot(int slotIndex)
@@ -98,7 +98,7 @@ public class SaveLoadManager : MonoBehaviour
         string json = JsonUtility.ToJson(gameData, true);
         string savePath = GetPathForSlot(slotIndex);
         File.WriteAllText(savePath, json);
-        Debug.Log($"°ÔÀÓ µ¥ÀÌÅÍ ÀúÀå ¿Ï·á (½½·Ô {slotIndex}): {savePath}");
+        Debug.Log($"ê²Œì„ ë°ì´í„° ì €ì¥ ì™„ë£Œ (ìŠ¬ë¡¯ {slotIndex}): {savePath}");
     }
 
 }

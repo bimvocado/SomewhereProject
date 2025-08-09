@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -41,8 +41,8 @@ public class DialogueManager : MonoBehaviour
     private string _currentDialogueAssetKey;
 
     private float typingSpeed = 0.05f;
-    private string playerLastName = "±è";
-    private string playerFirstName = "¿©ÁÖ";
+    private string playerLastName = "ê¹€";
+    private string playerFirstName = "ì—¬ì£¼";
 
     private float lastInteractionTime = 0f;
     private const float interactionCooldown = 0.2f;
@@ -92,7 +92,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            Debug.LogError("DialogueUI ÇÁ¸®ÆÕ DialogueManager¿¡ ÇÒ´ç ¾ÈµÊ");
+            Debug.LogError("DialogueUI í”„ë¦¬íŒ¹ DialogueManagerì— í• ë‹¹ ì•ˆë¨");
         }
 
         typingSpeed = PlayerPrefs.GetFloat("TypingSpeed", 0.05f);
@@ -257,7 +257,7 @@ public class DialogueManager : MonoBehaviour
                 ReadLogManager.Instance.MarkAsRead(_currentDialogueAssetKey, dialogueIndex);
                 ApplyCharacterColors(line.speaker);
 
-                if (line.speaker == "¿©ÁÖ")
+                if (line.speaker == "ì—¬ì£¼")
                 {
                     go_NameBar.SetActive(true);
                     txt_name.text = playerLastName + playerFirstName;
@@ -310,21 +310,21 @@ public class DialogueManager : MonoBehaviour
     private string ProcessLinePlaceholders(string line)
     {
         string processedLine = line;
-        if (processedLine.Contains("[¿©ÁÖ"))
+        if (processedLine.Contains("[ì—¬ì£¼"))
         {
-            processedLine = processedLine.Replace("[¿©ÁÖ´Â]", KoreanPostpositionHelper.Josa(playerFirstName, "ÀÌ´Â/´Â"));
-            processedLine = processedLine.Replace("[¿©ÁÖ°¡]", KoreanPostpositionHelper.Josa(playerFirstName, "ÀÌ°¡/°¡"));
-            processedLine = processedLine.Replace("[¿©ÁÖ¸¦]", KoreanPostpositionHelper.Josa(playerFirstName, "ÀÌ¸¦/¸¦"));
-            processedLine = processedLine.Replace("[¿©ÁÖ¾ß]", KoreanPostpositionHelper.Josa(playerFirstName, "¾Æ/¾ß"));
-            processedLine = processedLine.Replace("[¿©ÁÖ¿¹¿ä]", KoreanPostpositionHelper.Josa(playerFirstName, "ÀÌ¿¡¿ä/¿¹¿ä"));
-            processedLine = processedLine.Replace("[¿©ÁÖ°í]", KoreanPostpositionHelper.Josa(playerFirstName, "ÀÌ°í/°í"));
-            processedLine = processedLine.Replace("[¿©ÁÖµµ]", KoreanPostpositionHelper.Josa(playerFirstName, "ÀÌµµ/µµ"));
-            processedLine = processedLine.Replace("[¿©ÁÖ¶ó°í]", KoreanPostpositionHelper.Josa(playerFirstName, "ÀÌ¶ó°í/¶ó°í"));
-            processedLine = processedLine.Replace("[¿©ÁÖÀÌ]", KoreanPostpositionHelper.Josa(playerFirstName, "ÀÌ/"));
-            processedLine = processedLine.Replace("[¿©ÁÖ]", playerFirstName);
-            processedLine = processedLine.Replace("[¿©ÁÖÀÌ¸§ÀÌ¿¡¿ä]", KoreanPostpositionHelper.Josa(playerLastName + playerFirstName, "ÀÌ¿¡¿ä/¿¹¿ä"));
-            processedLine = processedLine.Replace("[¿©ÁÖÀÌ¸§ÀÌ°í]", KoreanPostpositionHelper.Josa(playerLastName + playerFirstName, "ÀÌ°í/°í"));
-            processedLine = processedLine.Replace("[¿©ÁÖÀÌ¸§]", playerLastName + playerFirstName);
+            processedLine = processedLine.Replace("[ì—¬ì£¼ëŠ”]", KoreanPostpositionHelper.Josa(playerFirstName, "ì´ëŠ”/ëŠ”"));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ê°€]", KoreanPostpositionHelper.Josa(playerFirstName, "ì´ê°€/ê°€"));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ë¥¼]", KoreanPostpositionHelper.Josa(playerFirstName, "ì´ë¥¼/ë¥¼"));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ì•¼]", KoreanPostpositionHelper.Josa(playerFirstName, "ì•„/ì•¼"));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ì˜ˆìš”]", KoreanPostpositionHelper.Josa(playerFirstName, "ì´ì—ìš”/ì˜ˆìš”"));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ê³ ]", KoreanPostpositionHelper.Josa(playerFirstName, "ì´ê³ /ê³ "));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ë„]", KoreanPostpositionHelper.Josa(playerFirstName, "ì´ë„/ë„"));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ë¼ê³ ]", KoreanPostpositionHelper.Josa(playerFirstName, "ì´ë¼ê³ /ë¼ê³ "));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ì´]", KoreanPostpositionHelper.Josa(playerFirstName, "ì´/"));
+            processedLine = processedLine.Replace("[ì—¬ì£¼]", playerFirstName);
+            processedLine = processedLine.Replace("[ì—¬ì£¼ì´ë¦„ì´ì—ìš”]", KoreanPostpositionHelper.Josa(playerLastName + playerFirstName, "ì´ì—ìš”/ì˜ˆìš”"));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ì´ë¦„ì´ê³ ]", KoreanPostpositionHelper.Josa(playerLastName + playerFirstName, "ì´ê³ /ê³ "));
+            processedLine = processedLine.Replace("[ì—¬ì£¼ì´ë¦„]", playerLastName + playerFirstName);
         }
         return processedLine;
     }
@@ -387,11 +387,11 @@ public class DialogueManager : MonoBehaviour
 
             if (!conditionMet)
             {
-                choiceText += $" ( {choice.conditionTargetCharacter}ÀÇ È£°¨µµ ºÎÁ·, »óÁ¡¿¡¼­ ¾ÆÀÌÅÛÀ» ±¸¸ÅÇÏ¼¼¿ä.)";
+                choiceText += $" ( {choice.conditionTargetCharacter}ì˜ í˜¸ê°ë„ ë¶€ì¡±, ìƒì ì—ì„œ ì•„ì´í…œì„ êµ¬ë§¤í•˜ì„¸ìš”.)";
             }
             else if (!coinsMet)
             {
-                choiceText += $" ({choice.requiredCoin} ÄÚÀÎ ÇÊ¿ä)";
+                choiceText += $" ({choice.requiredCoin} ì½”ì¸ í•„ìš”)";
             }
 
             buttonText.text = choiceText;
@@ -451,7 +451,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("´ëÈ­ Á¾·á");
+            Debug.Log("ëŒ€í™” ì¢…ë£Œ");
         }
     }
 
@@ -593,7 +593,7 @@ public class DialogueManager : MonoBehaviour
         string[] parts = command.Split(':');
         if (parts.Length < 2)
         {
-            Debug.LogWarning($"Àß¸øµÈ ¸í·É¾î Çü½Ä: {command}");
+            Debug.LogWarning($"ì˜ëª»ëœ ëª…ë ¹ì–´ í˜•ì‹: {command}");
             return;
         }
 
@@ -608,7 +608,7 @@ public class DialogueManager : MonoBehaviour
                     if (bool.TryParse(parts[3], out bool flagValue))
                     {
                         FlagManager.Instance.SetFlag(flagKey, flagValue);
-                        Debug.Log($"ÇÃ·¡±× ¼³Á¤: {flagKey} = {flagValue}");
+                        Debug.Log($"í”Œë˜ê·¸ ì„¤ì •: {flagKey} = {flagValue}");
                     }
                 }
                 break;
@@ -622,7 +622,7 @@ public class DialogueManager : MonoBehaviour
                 break;
 
             default:
-                Debug.LogWarning($"¾Ë ¼ö ¾ø´Â ¸í·É¾îÀÔ´Ï´Ù: {commandType}");
+                Debug.LogWarning($"ì•Œ ìˆ˜ ì—†ëŠ” ëª…ë ¹ì–´ì…ë‹ˆë‹¤: {commandType}");
                 break;
         }
     }

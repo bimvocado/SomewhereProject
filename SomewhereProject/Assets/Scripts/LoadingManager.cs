@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class LoadingManager : MonoBehaviour
 {
@@ -21,13 +21,13 @@ public class LoadingManager : MonoBehaviour
 
     public void ShowLoadingScreen(EpisodeData episodeData)
     {
-        // ÀÎ½ºÅÏ½º°¡ ÆÄ±«µÇ¾ú°Å³ª, »ı¼ºµÈ ÀûÀÌ ¾ø´Ù¸é »õ·Î »ı¼º
+        // ì¸ìŠ¤í„´ìŠ¤ê°€ íŒŒê´´ë˜ì—ˆê±°ë‚˜, ìƒì„±ëœ ì ì´ ì—†ë‹¤ë©´ ìƒˆë¡œ ìƒì„±
         if (loadingScreenInstance == null)
         {
-            // ÇÁ¸®ÆÕÀÌ ºñ¾îÀÖ´ÂÁö ´Ù½Ã ÇÑ¹ø È®ÀÎ
+            // í”„ë¦¬íŒ¹ì´ ë¹„ì–´ìˆëŠ”ì§€ ë‹¤ì‹œ í•œë²ˆ í™•ì¸
             if (loadingScreenPrefab == null)
             {
-                Debug.LogError("LoadingScreenPrefabÀÌ LoadingManager¿¡ ¿¬°áµÇÁö ¾Ê¾Ò½À´Ï´Ù!");
+                Debug.LogError("LoadingScreenPrefabì´ LoadingManagerì— ì—°ê²°ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤!");
                 return;
             }
             loadingScreenInstance = Instantiate(loadingScreenPrefab);
