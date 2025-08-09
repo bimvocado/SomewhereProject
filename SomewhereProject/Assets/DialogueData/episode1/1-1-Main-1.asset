@@ -212,7 +212,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "\uC88B\uC544!"
-    eventName: smile
+    eventName: JueunSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -347,7 +347,7 @@ MonoBehaviour:
   - speaker: "\uC5EC\uC8FC"
     line: "\uC548\uB155\uD558\uC138\uC694! \uD639\uC2DC \uC774\uB984\uC774 \uC5B4\uB5BB\uAC8C
       \uB418\uC138\uC694?\n\uC800\uB294 [\uC5EC\uC8FC\uACE0], \uC7AC\uC218\uD574\uC11C
-      \uC2A4\uBB3C\uD55C \uC0B4\uC774\uC5D0\uC694."
+      21\uC0B4\uC774\uC5D0\uC694."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -357,7 +357,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC544, \uC800\uB294 \uAC15\uC138\uD558\uC785\uB2C8\uB2E4. \uB098\uC774\uB294
-      \uC2A4\uBB3C\uB450 \uC0B4\uC774\uC5D0\uC694."
+      22\uC0B4\uC774\uC5D0\uC694."
     eventName: smile
     conditionType: 0
     conditionKey: 
@@ -387,7 +387,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC800\uB3C4 \uC798 \uBD80\uD0C1\uB4DC\uB824\uC694."
-    eventName: smile
+    eventName: SehaSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -23,7 +23,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\uC2A4\uBB3C\uD55C \uC0B4?"
+    line: "21\uC0B4?"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -32,8 +32,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC774\uC740\uC131"
-    line: "\uC624 \uB9DE\uC544\uC694! \uC2A4\uBB3C\uD55C \uC0B4\uC774\uC5D0\uC694."
-    eventName: smile
+    line: "\uC624 \uB9DE\uC544\uC694! 21\uC0B4\uC774\uC5D0\uC694."
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -50,7 +50,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\uC544! \uC800\uB3C4 \uC2A4\uBB3C\uD55C \uC0B4\uC774\uB77C\uC11C\uC694."
+    line: "\uC544! \uC800\uB3C4 21\uC0B4\uC774\uB77C\uC11C\uC694."
     eventName: 
     conditionType: 0
     conditionKey: 

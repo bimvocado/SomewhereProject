@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC138\uD558 \uC624\uBE60\uC758 \uC606\uC790\uB9AC\uAC00 \uBE44\uC5B4
       \uC788\uB2E4."
-    eventName: 
+    eventName: AppearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

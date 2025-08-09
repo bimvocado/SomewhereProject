@@ -165,7 +165,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uBB54\uAC00 \uAC15\uC544\uC9C0 \uAC19\uB124..."
-    eventName: 
+    eventName: DisappearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -242,7 +242,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uACE0\uAC1C\uB97C \uB3CC\uB9AC\uB2C8 \uC740\uC131\uC774 \uC11C \uC788\uB2E4."
-    eventName: 
+    eventName: AppearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -324,8 +324,42 @@ MonoBehaviour:
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
-    hasChoices: 0
-    choices: []
+    hasChoices: 1
+    choices:
+    - text: "\uB179\uC74C\uD55C \uAC78 \uC900\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 60b54f8362f353d4a860e15dcc939c01
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 1
+      targetCharacterForAffection: "\uC774\uC740\uC131"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uD544\uAE30\uD55C \uAC78 \uC900\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 7b6747d1ab87ad141a8b07253a3b25c9
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 1
+      affectionChange: 3
+      targetCharacterForAffection: "\uC774\uC740\uC131"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 

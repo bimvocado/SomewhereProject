@@ -127,7 +127,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC624\uB298 \uCC98\uC74C \uC598\uAE30\uD574 \uBD24\uB294\uB370 \uB418\uAC8C
       \uB2E4\uC815\uD558\uACE0 \uC12C\uC138\uD55C \uC0AC\uB78C\uC778 \uAC83 \uAC19\uB2E4."
-    eventName: 
+    eventName: DisappearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

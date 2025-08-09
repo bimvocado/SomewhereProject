@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uC798 \uBAA8\uB974\uACA0\uB2E4.\n\uBCF4\uD1B5 \uC2E0\uC785\uC0DD\uC774\uBA74
-      \uC2A4\uBB34 \uC0B4\uC774 \uB9CE\uC73C\uB2C8\uAE4C..."
+      20\uC0B4\uC774 \uB9CE\uC73C\uB2C8\uAE4C..."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -24,7 +24,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\uC2A4\uBB34 \uC0B4?"
+    line: "20\uC0B4?"
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -34,7 +34,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC800 \uC880 \uC5B4\uB824 \uBCF4\uC5EC\uC694?"
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

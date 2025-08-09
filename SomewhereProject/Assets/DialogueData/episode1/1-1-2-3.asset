@@ -53,7 +53,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uD5C9, \uADF8 \uC815\uB3C4\uB098?"
-    eventName: smile
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -61,7 +61,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC774\uC740\uC131"
-    line: "\uC800 \uC2A4\uBB3C\uD55C \uC0B4\uBC16\uC5D0 \uC548 \uB3FC\uC694."
+    line: "\uC800 21\uC0B4\uBC16\uC5D0 \uC548 \uB3FC\uC694."
     eventName: smile
     conditionType: 0
     conditionKey: 

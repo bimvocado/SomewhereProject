@@ -24,8 +24,8 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC640~ \uAE30\uBD84 \uC88B\uB124\uC694. \uC800 \uADFC\uB370 \uC5BC\uB9C8
-      \uCC28\uC774 \uC548 \uB098\uAE34 \uD574\uC694.\n\uC2A4\uBB3C \uD55C \uC0B4\uC774\uAC70\uB4E0\uC694."
-    eventName: smile
+      \uCC28\uC774 \uC548 \uB098\uAE34 \uD574\uC694.\n21\uC0B4\uC774\uAC70\uB4E0\uC694."
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

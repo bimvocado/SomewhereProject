@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC870\uAE08\uC740 \uC815\uC2E0\uC5C6\uB294 \uD558\uB8E8\uC600\uC9C0\uB9CC,
       \uC7AC\uBBF8\uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: DisappearELS
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

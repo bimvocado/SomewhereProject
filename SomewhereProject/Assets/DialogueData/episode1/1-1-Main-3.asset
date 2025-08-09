@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB798, [\uC5EC\uC8FC\uC57C]."
-    eventName: smile
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC548\uB155\uD558\uC138\uC694."
-    eventName: smile
+    eventName: AppearSeha1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -91,7 +91,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC544\uAE4C \uBCF8 \uC608\uC058\uAC8C \uC0DD\uAE34 \uB0A8\uC790\uB2E4."
-    eventName: 
+    eventName: AppearLuka1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -101,7 +101,7 @@ MonoBehaviour:
   - speaker: ???
     line: "\uC548\uB155\uD558\uC138\uC694. \uC55E\uCABD\uC740 \uC870\uAE08 \uC2DC\uB044\uB7EC\uC6CC\uC11C...\n\uC5EC\uAE30
       \uC549\uC544\uB3C4 \uB420\uAE4C\uC694?"
-    eventName: smile
+    eventName: SehaNotTalking
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -110,7 +110,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC549\uC73C\uC154\uB3C4 \uB3FC\uC694!"
-    eventName: smile
+    eventName: EunsungSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -140,8 +140,8 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC800\uD76C \uC790\uAE30\uC18C\uAC1C\uB77C\uB3C4 \uD560\uAE4C\uC694?
-      \uC800\uB294 \uC774\uC740\uC131\uC774\uACE0, \uC2A4\uBB3C\uD55C \uC0B4\uC774\uC5D0\uC694."
-    eventName: smile
+      \uC800\uB294 \uC774\uC740\uC131\uC774\uACE0, 21\uC0B4\uC774\uC5D0\uC694."
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -149,8 +149,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uB8E8\uCE74"
-    line: "\uB8E8\uCE74\uC785\uB2C8\uB2E4. \uB098\uC774\uB294 \uC2A4\uBB34 \uC0B4\uC774\uC694."
-    eventName: smile
+    line: "\uB8E8\uCE74\uC785\uB2C8\uB2E4. \uB098\uC774\uB294 20\uC0B4\uC774\uC694."
+    eventName: LukaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -158,8 +158,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uAC15\uC138\uD558"
-    line: "\uC2A4\uBB3C\uB450 \uC0B4 \uAC15\uC138\uD558\uC785\uB2C8\uB2E4."
-    eventName: smile
+    line: "22\uC0B4 \uAC15\uC138\uD558\uC785\uB2C8\uB2E4."
+    eventName: SehaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -167,9 +167,9 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC774\uC740\uC131"
-    line: "\uC2A4\uBB3C\uD55C \uC0B4\uC774\uC694? \uC640, \uC800\uBCF4\uB2E4 \uC5B4\uB9AC\uC2E4
-      \uC904 \uC54C\uC558\uC5B4\uC694."
-    eventName: smile
+    line: "22\uC0B4\uC774\uC694? \uC640, \uC800\uBCF4\uB2E4 \uC5B4\uB9AC\uC2E4 \uC904
+      \uC54C\uC558\uC5B4\uC694."
+    eventName: EunsungSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -178,7 +178,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB3D9\uC548\uC774\uC2DC\uB124\uC694."
-    eventName: smile
+    eventName: LukaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -188,7 +188,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB7F0 \uB9D0 \uC790\uC8FC \uB4E4\uC5B4\uC694. \uADF8\uB9AC\uACE0
       \uB9D0 \uB193\uC744\uAE4C\uC694?"
-    eventName: smile
+    eventName: SehaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -197,7 +197,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uADF8\uB7EC\uC8E0, \uC138\uD558 \uD615."
-    eventName: smile
+    eventName: LukaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -206,7 +206,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC138\uD558 \uD615..."
-    eventName: smile
+    eventName: ESD1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -225,7 +225,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB7EC\uACE0 \uBCF4\uB2C8,"
-    eventName: smile
+    eventName: SehaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -243,7 +243,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC544! \uC774\uCABD\uC740 [\uC5EC\uC8FC]."
-    eventName: smile
+    eventName: EunsungSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -252,7 +252,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB098\uB791\uC740 \uC544\uAE4C \uC778\uC0AC\uD588\uC9C0?"
-    eventName: smile
+    eventName: SehaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -299,7 +299,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC800\uB791\uC740 \uCD08\uBA74\uC774\uB124\uC694. \uC548\uB155\uD558\uC138\uC694,
       \uB8E8\uCE74\uC785\uB2C8\uB2E4."
-    eventName: smile
+    eventName: LukaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -318,7 +318,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB124, [\uC5EC\uC8FC] \uB204\uB098."
-    eventName: smile
+    eventName: LukaSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -337,7 +337,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC138\uD558 \uD615\uC740 \uACE0\uB4F1\uD559\uC0DD\uC778 \uC904 \uC54C\uC558\uC5B4."
-    eventName: smile
+    eventName: EunsungSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -347,7 +347,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uACE0\uB4F1\uD559\uC0DD\uC774\uB77C\uB2C8, \uB108\uB124\uC57C\uB9D0\uB85C
       \uC878\uC5C5\uD55C \uC9C0 \uC5BC\uB9C8 \uC548 \uB410\uC744 \uAC70\uC796\uC544."
-    eventName: smile
+    eventName: SehaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -356,7 +356,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB798\uB3C4 \uB098\uB294 \uC7AC\uC218\uB3C4 \uD588\uACE0,"
-    eventName: smile
+    eventName: EunsungSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -366,7 +366,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC740\uC131\uC774 \uD615\uB3C4 \uACE0\uB4F1\uD559\uC0DD\uC774\uB77C \uD558\uBA74
       \uBBFF\uC744\uAC78\uC694."
-    eventName: smile
+    eventName: LukaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -376,7 +376,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB798, \uC740\uC131\uC544. [\uC5EC\uC8FC\uB294] \uC5B4\uB5BB\uAC8C
       \uC0DD\uAC01\uD574?"
-    eventName: smile
+    eventName: SehaSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -397,7 +397,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB09C\uB370\uC5C6\uC774 \uAC15\uC758\uC2E4\uC5D0 \uC090- \uC18C\uB9AC\uAC00
       \uC6B8\uB838\uB2E4."
-    eventName: 
+    eventName: DisappearELS
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -467,7 +467,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "[\uC5EC\uC8FC\uC57C]!"
-    eventName: smile
+    eventName: AppearJueun
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -497,7 +497,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uADF8\uB807\uAC8C \uC774\uB3D9\uD55C \uB300\uAC15\uB2F9\uC5D0\uC11C \uB4E4\uC740
       \uC5F0\uC124\uC740..."
-    eventName: 
+    eventName: DisappearJueun
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

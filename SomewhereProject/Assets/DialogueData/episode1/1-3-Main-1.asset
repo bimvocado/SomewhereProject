@@ -64,7 +64,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uAC15\uC758\uC2E4\uC758 \uC815 \uAC00\uC6B4\uB370, \uD55C \uB0A8\uD559\uC0DD\uC758
       \uC606\uC790\uB9AC."
-    eventName: 
+    eventName: AppearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -21,6 +21,13 @@ public class CharacterAnimationController : MonoBehaviour
 
     private Vector3 originalPosition;
 
+    private Vector3 originalScale;
+    private Vector3 targetScale;
+    public float scalePercent = 0.95f;
+    public float duration = 5f;
+
+    private CubismRenderController renderController;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -44,14 +51,22 @@ public class CharacterAnimationController : MonoBehaviour
         }
 
         originalPosition = transform.position;
+
+        renderController = GetComponent<CubismRenderController>();
     }
 
     private void Start()
     {
         SetAlpha(0f);
         gameObject.SetActive(false);
-    }
 
+        originalScale = transform.localScale;
+        targetScale = originalScale;
+    }
+    private void Update()
+    {
+        transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * duration);
+    }
 
     private void SetAlpha(float alpha)
     {
@@ -155,5 +170,29 @@ public class CharacterAnimationController : MonoBehaviour
         transform.DOMoveX(originalPosition.x, moveDuration).SetEase(moveEaseType).OnComplete(() => {
             Debug.Log($"{gameObject.name} 중앙으로 이동");
         });
+    }
+
+    public void NotTalking()
+    {
+        targetScale = originalScale * scalePercent;
+
+        var multiplyColor = new Color(0.7f, 0.7f, 0.7f, 1.0f);
+
+        foreach (var renderer in renderController.Renderers)
+        {
+            renderer.MultiplyColor = multiplyColor;
+        }
+    }
+
+    public void Talking()
+    {
+        targetScale = originalScale;
+
+        var multiplyColor = new Color(1f, 1f, 1f, 1f); // same as Color.white;
+
+        foreach (var renderer in renderController.Renderers)
+        {
+            renderer.MultiplyColor = multiplyColor;
+        }
     }
 }

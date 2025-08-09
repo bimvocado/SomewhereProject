@@ -1972,7 +1972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967223d908bf07b4f90945995bdca68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maskTexture: {fileID: 0}
+  _maskTexture: {fileID: 11400000, guid: 16bf142754640ab4487bb625c30931fd, type: 2}
 --- !u!114 &1632362618098400920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2205,6 +2205,8 @@ MonoBehaviour:
   moveEaseType: 6
   offscreenLeftX: -10
   offscreenRightX: 10
+  scalePercent: 0.95
+  duration: 5
 --- !u!1 &4096249321944646729
 GameObject:
   m_ObjectHideFlags: 0

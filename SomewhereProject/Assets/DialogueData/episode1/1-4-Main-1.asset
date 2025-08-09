@@ -87,7 +87,7 @@ MonoBehaviour:
     line: "\uC5B4\uB514\uB85C \uAC00\uB294\uC9C0 \uAD81\uAE08\uD574 \uB530\uB77C\uAC00
       \uBCF4\uC558\uB354\uB2C8,\n\uACE0\uC591\uC774\uAC00 \uBA48\uCD98 \uACF3\uC5D0
       \uCEE4\uB2E4\uB780 \uB0A8\uC790 \uD55C \uBA85\uC774 \uC11C \uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: AppearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -95,7 +95,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: 45ec6212c4c43a94d9f9f1a609779cf3
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

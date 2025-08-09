@@ -128,7 +128,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uADF8\uB7FC \uAC15\uC758 \uC798 \uB4E4\uC5B4!"
-    eventName: 
+    eventName: DisappearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

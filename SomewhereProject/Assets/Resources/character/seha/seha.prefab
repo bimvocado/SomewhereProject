@@ -4844,6 +4844,8 @@ MonoBehaviour:
   moveEaseType: 6
   offscreenLeftX: -10
   offscreenRightX: 10
+  scalePercent: 0.95
+  duration: 5
 --- !u!1 &8879317548177924139
 GameObject:
   m_ObjectHideFlags: 0

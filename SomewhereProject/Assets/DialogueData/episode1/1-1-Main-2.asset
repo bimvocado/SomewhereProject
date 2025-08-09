@@ -26,7 +26,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC870\uAE08 \uC544\uC27D\uC9C0\uB9CC \uC790\uB9AC\uB97C \uC62E\uACBC\uB2E4."
-    eventName: 
+    eventName: DisappearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -89,7 +89,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uCC98\uC74C\uC5D0 \uBCF8 \uC131\uACA9 \uC548 \uC88B\uC744 \uAC83\uAC19\uC774
       \uC0DD\uAE34 \uB0A8\uC790\uC758 \uC606..?"
-    eventName: 
+    eventName: AppearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -136,7 +136,7 @@ MonoBehaviour:
     choices: []
   - speaker: ???
     line: "\uC5B4?"
-    eventName: smile
+    eventName: EunsungSerious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -174,7 +174,7 @@ MonoBehaviour:
   - speaker: ???
     line: "\uC544\uB2C8, \uC544\uB1E8! \uC790\uB9AC \uC5C6\uC5B4\uC694! \uC549\uC73C\uC154\uB3C4
       \uB3FC\uC694!"
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -252,7 +252,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "[\uC5EC\uC8FC] \uC528. \uB9CC\uB098\uC11C \uBC18\uAC00\uC6CC\uC694."
-    eventName: smile
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

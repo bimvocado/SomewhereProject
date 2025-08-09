@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: "\uC5EC\uC8FC"
-    line: "\uC544... \uADF8\uB0E5 \uC2E0\uC785\uC0DD\uC774\uC154\uC11C \uC2A4\uBB34
-      \uC0B4\uC778 \uC904 \uC54C\uC558\uC5B4\uC694."
+    line: "\uC544... \uADF8\uB0E5 \uC2E0\uC785\uC0DD\uC774\uC154\uC11C 20\uC0B4\uC778
+      \uC904 \uC54C\uC558\uC5B4\uC694."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -34,7 +34,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB798\uB3C4 \uD55C \uC0B4\uBC16\uC5D0 \uCC28\uC774 \uC548 \uB098\uC694.
-      \uC2A4\uBB3C\uD55C \uC0B4\uC774\uC5D0\uC694."
+      21\uC0B4\uC774\uC5D0\uC694."
     eventName: smile
     conditionType: 0
     conditionKey: 

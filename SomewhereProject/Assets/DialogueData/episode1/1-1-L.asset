@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uB8E8\uCE74\uC758 \uC606\uC790\uB9AC\uAC00 \uBE44\uC5B4 \uC788\uB2E4."
-    eventName: 
+    eventName: AppearLuka1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

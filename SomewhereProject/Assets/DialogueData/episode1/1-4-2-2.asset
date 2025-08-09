@@ -156,7 +156,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uC751, \uC798 \uAC00!"
-    eventName: 
+    eventName: DisappearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -43,7 +43,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB798. \uC798 \uBD80\uD0C1\uD574, [\uC5EC\uC8FC\uC57C]."
-    eventName: smile
+    eventName: SehaSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

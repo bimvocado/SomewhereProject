@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC5B4\uC0C9\uD558\uAC8C \uC549\uC544 \uC218\uC5C5\uC744 \uB4E3\uB358
       \uC911\n\uAD50\uC218\uB2D8\uC774 \uAC11\uC790\uAE30 \uB9D0\uC500\uD558\uC168\uB2E4."
-    eventName: 
+    eventName: DisappearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -36,7 +36,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC606\uC5D0 \uC549\uC740 \uC0AC\uB78C..?"
-    eventName: 
+    eventName: AppearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
