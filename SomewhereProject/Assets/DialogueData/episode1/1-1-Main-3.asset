@@ -467,7 +467,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "[\uC5EC\uC8FC\uC57C]!"
-    eventName: AppearJueun1
+    eventName: AppearJueun
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -478,7 +478,7 @@ MonoBehaviour:
     line: "\uC8FC\uC740\uC774\uB2E4! \uADF8\uB798\uC11C \uCC98\uC74C \uC9C0\uC815\uC11D\uB3C4
       \uC606\uC790\uB9AC\uC600\uB358 \uAC74\uAC00?\n\uC544\uB294 \uC0AC\uB78C\uC774\uB77C
       \uB2E4\uD589\uC774\uB2E4."
-    eventName: 
+    eventName: JueunSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -527,7 +527,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC624\uD2F0\uAC00 \uB05D\uB09C \uB4A4, \uB4A4\uD480\uC774\uB97C \uC704\uD574
       \uADFC\uCC98 \uC220\uC9D1\uC73C\uB85C \uD5A5\uD588\uB2E4."
-    eventName: 
+    eventName: GotoAfterparty
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

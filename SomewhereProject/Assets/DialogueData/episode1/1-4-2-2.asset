@@ -51,7 +51,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC815\uB9D0?"
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -60,7 +60,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB7FC \uACE0\uB9D9\uC9C0!"
-    eventName: smile
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -118,7 +118,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uACE0\uB9C8\uC6CC!"
-    eventName: smile
+    eventName: EunsungOk
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -138,7 +138,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uB098 \uB2E4\uC74C \uAC15\uC758 \uC788\uC5B4\uC11C \uBA3C\uC800 \uAC00\uC57C
       \uD560 \uAC83 \uAC19\uC544."
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -147,7 +147,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB2E4\uC74C\uC5D0 \uCEE4\uD53C\uB77C\uB3C4 \uC0AC\uC904\uAC8C!"
-    eventName: smile
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -165,7 +165,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uADF8 \uB0A0 \uC624\uD6C4..."
-    eventName: 
+    eventName: GotoRoom
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

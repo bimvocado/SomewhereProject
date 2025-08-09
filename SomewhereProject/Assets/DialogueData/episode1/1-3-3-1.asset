@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC557 \uADF8\uB7FC \uC81C\uAC00 \uBC25 \uC0AC\uC904\uAC8C\uC694."
-    eventName: smile
+    eventName: YHsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
