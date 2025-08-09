@@ -43,7 +43,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uACE0\uC591\uC774\uAC00 \uB108 \uB418\uAC8C \uC88B\uC544\uD558\uB124."
-    eventName: 
+    eventName: EunsungShy
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

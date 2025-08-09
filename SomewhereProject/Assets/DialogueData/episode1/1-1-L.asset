@@ -42,7 +42,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB124. \uC549\uC73C\uC2DC\uACA0\uC5B4\uC694, [\uC5EC\uC8FC] \uB204\uB098?"
-    eventName: smile
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -70,7 +70,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uAC10\uC0AC\uD569\uB2C8\uB2E4."
-    eventName: smile
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -169,7 +169,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uB300\uCDA9 180\uC774\uC694. \uADF8\uB807\uAC8C\uAE4C\uC9C0 \uD06C\uC9C4
       \uC54A\uC544\uC694."
-    eventName: smile
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC0DD\uAC01\uBCF4\uB2E4 \uAC15\uC758\uC2E4\uC774 \uCEF8\uB2E4."
-    eventName: 
+    eventName: GotoLectureR1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -33,7 +33,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC5B4, \uB3FC! [\uC5EC\uC8FC\uC774\uB984], \uB9DE\uC9C0?"
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -51,7 +51,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB2F9\uC5F0\uD558\uC9C0."
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -98,7 +98,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uBCF4\uC5EC\uC904\uAE4C?"
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -156,7 +156,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC815\uB9D0?"
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -176,7 +176,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC624, \uD559\uC810 \uC798 \uC8FC\uC2E0\uB300?"
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -195,7 +195,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB0E5 \uAC15\uC758 \uB0B4\uC6A9\uC774 \uB9C8\uC74C\uC5D0 \uB4E4\uC5B4\uC11C
       \uB123\uC5C8\uC5B4."
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -282,7 +282,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC740\uC131\uC774\uB294 \uC785 \uBAA8\uC591\uC73C\uB85C \uBBF8\uC548\uD558\uB2E4\uACE0
       \uD558\uBA70 \uB04C\uB824\uAC04\uB2E4..."
-    eventName: 
+    eventName: EunsungDifficult
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -291,7 +291,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: ...
-    eventName: 
+    eventName: DisappearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

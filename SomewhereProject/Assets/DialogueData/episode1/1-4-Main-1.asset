@@ -23,6 +23,15 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
+    line: 
+    eventName: GotoRoom
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uC8FC\uC740\uC774\uAC00 \uD559\uAD50 \uADFC\uCC98\uC5D0 \uADC0\uC5EC\uC6B4
       \uB514\uC800\uD2B8 \uAC00\uAC8C\uB97C \uC54C\uC544\uB0C8\uB2E4\uACE0 \uD574\uC11C
       \uB0B4\uC77C \uAC00\uAE30\uB85C \uD588\uB2E4 \u266A"
@@ -54,7 +63,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC2DC\uAC04 \uB9DE\uCDB0 \uBC16\uC73C\uB85C \uB098\uC654\uB2E4."
-    eventName: 
+    eventName: GotoOutside
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
