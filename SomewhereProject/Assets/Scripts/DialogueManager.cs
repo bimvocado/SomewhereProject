@@ -171,7 +171,11 @@ public class DialogueManager : MonoBehaviour
     {
         isAutoMode = autoOn;
         autoModeTimer = 0f;
-        if (isAutoMode) isSkipping = false;
+
+        if (isAutoMode)
+        {
+            isSkipping = false;
+        }
     }
 
     private void SetDialogueData(DialogueData data, string assetKey)

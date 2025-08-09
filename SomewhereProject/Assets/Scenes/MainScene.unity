@@ -7207,14 +7207,14 @@ MonoBehaviour:
       - m_Target: {fileID: 1906128343}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: ToggleAuto
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 1
 --- !u!114 &1668583450
@@ -7782,7 +7782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueUIPrefab: {fileID: 2833255005653112370, guid: 661145f762b105b45b411c38fdfba5da, type: 3}
   go_DialogueBar: {fileID: 0}
-  autoModeDelay: 0.5
+  autoModeDelay: 0.3
 --- !u!4 &1906128344
 Transform:
   m_ObjectHideFlags: 0
