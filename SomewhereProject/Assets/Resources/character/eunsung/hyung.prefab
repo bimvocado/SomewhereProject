@@ -1298,9 +1298,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Opacity: 1
-  _lastOpacity: 0
-  _isOverriddenModelMultiplyColors: 0
-  _isOverriddenModelScreenColors: 0
+  _lastOpacity: 1
+  _isOverriddenModelMultiplyColors: 1
+  _isOverriddenModelScreenColors: 1
   _modelMultiplyColor: {r: 0, g: 0, b: 0, a: 0}
   _modelScreenColor: {r: 0, g: 0, b: 0, a: 0}
   _sortingLayerId: 0
@@ -1413,7 +1413,7 @@ Animator:
   m_GameObject: {fileID: 1319579056165766100}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f5ede29946b9ae44da7ee0cf1b1e886c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1437,7 +1437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd9e6647bfff7542acb0200ab74bdd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubismFadeMotionList: {fileID: 0}
+  CubismFadeMotionList: {fileID: 11400000, guid: 2b588631f42dba24496d50b771b664c5, type: 2}
 --- !u!114 &2799242993878244423
 MonoBehaviour:
   m_ObjectHideFlags: 0
