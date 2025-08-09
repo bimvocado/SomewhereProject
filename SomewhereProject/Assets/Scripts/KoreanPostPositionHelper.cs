@@ -9,7 +9,7 @@ public static class KoreanPostpositionHelper
         char lastChar = name[name.Length - 1];
         string[] josas = josaFormat.Split('/');
 
-        if (lastChar < '°¡' || lastChar > 'ÆR' || josas.Length != 2)
+        if (lastChar < 'ê°€' || lastChar > 'íž£' || josas.Length != 2)
         {
             return name;
         }
