@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "woojin.moc3",
+		"Textures": [
+			"woojin.1024/texture_00.png"
+		],
+		"Physics": "woojin.physics3.json",
+		"DisplayInfo": "woojin.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
