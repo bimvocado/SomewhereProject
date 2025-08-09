@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403ae2dd693bb1d4b924f6b8d206b053, type: 3}
   m_Name: jueun.fadeMotionList
   m_EditorClassIdentifier: 
-  MotionInstanceIds: 0eecffffd8ebffffdaeaffffb2eaffffece4ffff9ce4ffff74e4ffffe4e2ffff24ddffff
+  MotionInstanceIds: 0eecffffd8ebffffdaeaffffb2eaffff9ce4ffff74e4ffffe4e2ffff24ddffff54a6ffff
   CubismFadeMotionObjects:
   - {fileID: 11400000, guid: 6f3baf6ed1b623e4a8ff8808952099ec, type: 2}
   - {fileID: 11400000, guid: 9e4baed919cfbc34d8fa3b135298d32b, type: 2}
   - {fileID: 11400000, guid: 644c1817f0a0e0348b8b979c24d7c77b, type: 2}
   - {fileID: 11400000, guid: dd9b7a5cb0423464da42d8fa1850a328, type: 2}
-  - {fileID: 11400000, guid: 78a56750ad9de9443bd102dee018d24b, type: 2}
   - {fileID: 11400000, guid: f40e3fc69e6f33445ad09f46673b3ffe, type: 2}
   - {fileID: 11400000, guid: 5d69e063b889dc9468ac8f894a4fa773, type: 2}
   - {fileID: 11400000, guid: 9f717dddcec5c7e49921798ca8aacbbe, type: 2}
   - {fileID: 11400000, guid: ca0b4ff859053bc43bd0bf0b409dc6f8, type: 2}
+  - {fileID: 11400000, guid: 78a56750ad9de9443bd102dee018d24b, type: 2}

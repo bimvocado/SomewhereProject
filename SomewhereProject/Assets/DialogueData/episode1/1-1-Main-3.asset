@@ -574,23 +574,6 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\uC138\uD558 \uC624\uBE60\uC758 \uC606\uC790\uB9AC"
-      nextDialogue:
-        m_AssetGUID: 1e8f3d9e2b02f1b458b7634604ffe855
-        m_SubObjectName: 
-        m_SubObjectType: 
-        m_SubObjectGUID: 
-        m_EditorAssetChanged: 0
-      affectionChange: 7
-      targetCharacterForAffection: "\uAC15\uC138\uD558"
-      resetsAffection: 0
-      requiredCoin: 0
-      flagToSet: OT_Seha
-      flagValue: 1
-      conditionType: 0
-      conditionKey: 
-      conditionTargetCharacter: 
-      conditionValue: 0
     - text: "\uB8E8\uCE74\uC758 \uC606\uC790\uB9AC"
       nextDialogue:
         m_AssetGUID: 8dafb117cf56eb84db4b3fdd3e06e37a
@@ -608,7 +591,7 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
-    - text: "\uC740\uC131\uC758 \uC606\uC790\uB9AC"
+    - text: "\uC740\uC131\uC774\uC758 \uC606\uC790\uB9AC"
       nextDialogue:
         m_AssetGUID: 8ab13fb1fd70dc2498d0e6149ff1ac8b
         m_SubObjectName: 
@@ -620,6 +603,23 @@ MonoBehaviour:
       resetsAffection: 0
       requiredCoin: 0
       flagToSet: OT_Eunsung
+      flagValue: 1
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uC138\uD558 \uC624\uBE60\uC758 \uC606\uC790\uB9AC"
+      nextDialogue:
+        m_AssetGUID: 1e8f3d9e2b02f1b458b7634604ffe855
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 7
+      targetCharacterForAffection: "\uAC15\uC138\uD558"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: OT_Seha
       flagValue: 1
       conditionType: 0
       conditionKey: 

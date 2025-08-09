@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 
 public class ObjectPooler : MonoBehaviour
 {
@@ -55,15 +56,27 @@ public class ObjectPooler : MonoBehaviour
             return null;
         }
 
+        GameObject objectToSpawn;
+
         if (poolDictionary[tag].Count == 0)
         {
-            Debug.LogWarning($"Pool with tag {tag} is empty. Consider increasing the pool size.");
-            GameObject newObj = Instantiate(pools.Find(p => p.tag == tag).prefab);
-            newObj.transform.SetParent(this.transform);
-            return newObj;
-        }
+            Debug.LogWarning($"Pool with tag {tag} is empty. Creating new object and expanding pool.");
 
-        GameObject objectToSpawn = poolDictionary[tag].Dequeue();
+            Pool targetPool = pools.FirstOrDefault(p => p.tag == tag);
+            if (targetPool == null || targetPool.prefab == null)
+            {
+                Debug.LogError($"Prefab for pool tag {tag} not found or is null.");
+                return null;
+            }
+
+            objectToSpawn = Instantiate(targetPool.prefab);
+            objectToSpawn.transform.SetParent(this.transform);
+
+        }
+        else
+        {
+            objectToSpawn = poolDictionary[tag].Dequeue();
+        }
 
         objectToSpawn.SetActive(true);
         objectToSpawn.transform.position = position;
@@ -76,12 +89,15 @@ public class ObjectPooler : MonoBehaviour
     {
         if (!poolDictionary.ContainsKey(tag))
         {
-            Debug.LogWarning($"Pool with tag {tag} doesn't exist.");
+            Debug.LogWarning($"Pool with tag {tag} doesn't exist. Destroying object {objectToReturn.name}.");
             Destroy(objectToReturn);
             return;
         }
 
+
         objectToReturn.SetActive(false);
+
+        objectToReturn.transform.SetParent(this.transform);
         poolDictionary[tag].Enqueue(objectToReturn);
     }
 }

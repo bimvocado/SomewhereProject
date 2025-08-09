@@ -153,7 +153,7 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
-    - text: "\uC740\uC131\uC744 \uBCF4\uACE0 \uC788\uC5C8\uB2E4\uACE0 \uD55C\uB2E4"
+    - text: "\uC740\uC131\uC774\uB97C \uBCF4\uACE0 \uC788\uC5C8\uB2E4\uACE0 \uD55C\uB2E4"
       nextDialogue:
         m_AssetGUID: 2a9e30f9d7f490242b1f1c22a3f13566
         m_SubObjectName: 
