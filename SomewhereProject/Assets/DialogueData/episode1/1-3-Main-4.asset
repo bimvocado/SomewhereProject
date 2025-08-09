@@ -48,7 +48,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC544 \uC9C4\uC9DC\uC694? \uB2E4\uD589\uC774\uB2E4..."
-    eventName: smile
+    eventName: YHsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -68,7 +68,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC774\uAC70 \uBA39\uC5B4\uBD10\uC694. \uC758\uC678\uB85C \uAD1C\uCC2E\uC544\uC694."
-    eventName: smile
+    eventName: YHsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -98,7 +98,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uAD1C\uCC2E\uC544\uC694?"
-    eventName: smile
+    eventName: YHsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -117,7 +117,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC813\uAC00\uB77D \uB5A8\uC5B4\uC9C0\uB294 \uAC70\uB791 \uC774\uB7F0
       \uAC70 \uC880 \uC798 \uBD10\uC694. \uC2B5\uAD00\uC774 \uB3FC\uC11C..."
-    eventName: smile
+    eventName: YHsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

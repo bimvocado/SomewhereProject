@@ -1221,6 +1221,7 @@ GameObject:
   - component: {fileID: 3891012040469400028}
   - component: {fileID: 2799242993878244423}
   - component: {fileID: 7354929170543366701}
+  - component: {fileID: 6184330515799460590}
   m_Layer: 0
   m_Name: hyung
   m_TagString: Untagged
@@ -1349,7 +1350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967223d908bf07b4f90945995bdca68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maskTexture: {fileID: 0}
+  _maskTexture: {fileID: 11400000, guid: 16bf142754640ab4487bb625c30931fd, type: 2}
 --- !u!114 &7317462065369179220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1584,6 +1585,21 @@ MonoBehaviour:
   offscreenRightX: 10
   scalePercent: 0.95
   duration: 5
+--- !u!114 &6184330515799460590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319579056165766100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084c42df15c721f42b28ff9d23a21c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mean: 2.5
+  MaximumDeviation: 2
+  Timescale: 10
 --- !u!1 &1335677732350930035
 GameObject:
   m_ObjectHideFlags: 0

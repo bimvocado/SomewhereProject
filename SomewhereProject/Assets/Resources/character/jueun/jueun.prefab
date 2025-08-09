@@ -1844,6 +1844,7 @@ GameObject:
   - component: {fileID: 421717508898653053}
   - component: {fileID: 3129879505196264376}
   - component: {fileID: 3635933839924158174}
+  - component: {fileID: -1605159355904583075}
   m_Layer: 0
   m_Name: jueun
   m_TagString: Untagged
@@ -2207,6 +2208,21 @@ MonoBehaviour:
   offscreenRightX: 10
   scalePercent: 0.95
   duration: 5
+--- !u!114 &-1605159355904583075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4049501618304134569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084c42df15c721f42b28ff9d23a21c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mean: 2.5
+  MaximumDeviation: 2
+  Timescale: 10
 --- !u!1 &4096249321944646729
 GameObject:
   m_ObjectHideFlags: 0

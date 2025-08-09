@@ -4483,6 +4483,7 @@ GameObject:
   - component: {fileID: 7336285903760984868}
   - component: {fileID: 1299835786810050559}
   - component: {fileID: 8269816544397936322}
+  - component: {fileID: -4295763123906245158}
   m_Layer: 0
   m_Name: seha
   m_TagString: Untagged
@@ -4611,7 +4612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967223d908bf07b4f90945995bdca68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maskTexture: {fileID: 0}
+  _maskTexture: {fileID: 11400000, guid: 16bf142754640ab4487bb625c30931fd, type: 2}
 --- !u!114 &3759707293673587793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4846,6 +4847,21 @@ MonoBehaviour:
   offscreenRightX: 10
   scalePercent: 0.95
   duration: 5
+--- !u!114 &-4295763123906245158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801223290159534351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084c42df15c721f42b28ff9d23a21c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mean: 2.5
+  MaximumDeviation: 2
+  Timescale: 10
 --- !u!1 &8879317548177924139
 GameObject:
   m_ObjectHideFlags: 0

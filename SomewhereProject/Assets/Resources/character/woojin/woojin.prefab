@@ -548,6 +548,7 @@ GameObject:
   - component: {fileID: 110922560446615496}
   - component: {fileID: 6050673216729809495}
   - component: {fileID: -3267752273844477782}
+  - component: {fileID: -613109330153133551}
   m_Layer: 0
   m_Name: woojin
   m_TagString: Untagged
@@ -662,7 +663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967223d908bf07b4f90945995bdca68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maskTexture: {fileID: 0}
+  _maskTexture: {fileID: 11400000, guid: 16bf142754640ab4487bb625c30931fd, type: 2}
 --- !u!114 &4978694094617073778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -841,6 +842,23 @@ MonoBehaviour:
   moveEaseType: 6
   offscreenLeftX: -5
   offscreenRightX: 5
+  scalePercent: 0.95
+  duration: 5
+--- !u!114 &-613109330153133551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688552945591952017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084c42df15c721f42b28ff9d23a21c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mean: 2.5
+  MaximumDeviation: 2
+  Timescale: 10
 --- !u!1 &708781146622076408
 GameObject:
   m_ObjectHideFlags: 0

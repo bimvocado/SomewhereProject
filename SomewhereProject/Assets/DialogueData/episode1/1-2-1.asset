@@ -68,7 +68,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uADF8\uB294 \uB9D0 \uC5C6\uC774 \uD3EC\uC2A4\uD2B8\uC787\uC744 \uB0B4\uB824\uB2E4\uBCF4\uB2E4\uAC00,
       \uC870\uC6A9\uD788 \uB098\uB97C \uD5A5\uD574 \uBAA9\uB840\uD588\uB2E4."
-    eventName: 
+    eventName: WoojinYes
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

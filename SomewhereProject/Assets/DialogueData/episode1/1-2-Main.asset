@@ -308,7 +308,7 @@ MonoBehaviour:
     choices: []
   - speaker: ???
     line: "\uC774\uAC70 \uAEBC\uB0B4\uB824\uACE0 \uD558\uC2E0 \uAC70\uC8E0."
-    eventName: AppearWJ
+    eventName: AppearWJ1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

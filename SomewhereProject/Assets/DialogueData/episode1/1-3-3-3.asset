@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC557 \uADF8\uB7EC\uC9C0 \uB9D0\uC544\uC694. \uC81C\uAC00 \uCC28\uB77C\uB9AC
       \uB2E4\uB978 \uACF3 \uAC00\uC11C \uBA39\uC744\uAC8C\uC694."
-    eventName: smile
+    eventName: YHdang
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -46,7 +46,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC544 \uB124\uB124 \uADF8\uB7FC \uADF8\uB807\uAC8C \uD574\uC694. \uC81C\uAC00
       \uC120\uBC30\uB2C8\uAE4C \uBC25\uC740 \uC0B4\uAC8C\uC694."
-    eventName: smile
+    eventName: YHsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

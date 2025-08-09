@@ -467,7 +467,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "[\uC5EC\uC8FC\uC57C]!"
-    eventName: AppearJueun
+    eventName: AppearJueun1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

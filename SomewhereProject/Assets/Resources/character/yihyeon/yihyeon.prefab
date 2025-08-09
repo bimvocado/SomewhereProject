@@ -1266,6 +1266,7 @@ GameObject:
   - component: {fileID: 4744832495181775787}
   - component: {fileID: 4291407146004366498}
   - component: {fileID: 5942147321364979886}
+  - component: {fileID: -8551790845087454158}
   m_Layer: 0
   m_Name: yihyeon
   m_TagString: Untagged
@@ -1380,7 +1381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967223d908bf07b4f90945995bdca68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maskTexture: {fileID: 0}
+  _maskTexture: {fileID: 11400000, guid: 16bf142754640ab4487bb625c30931fd, type: 2}
 --- !u!114 &1495966275273286827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,6 +1560,23 @@ MonoBehaviour:
   moveEaseType: 6
   offscreenLeftX: -5
   offscreenRightX: 5
+  scalePercent: 0.95
+  duration: 5
+--- !u!114 &-8551790845087454158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800276328969925653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084c42df15c721f42b28ff9d23a21c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mean: 2.5
+  MaximumDeviation: 2
+  Timescale: 10
 --- !u!1 &1936073489219189621
 GameObject:
   m_ObjectHideFlags: 0

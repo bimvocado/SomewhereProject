@@ -156,7 +156,7 @@ MonoBehaviour:
     choices: []
   - speaker: ???
     line: "\uC548\uB155\uD558\uC138\uC694!"
-    eventName: AppearJueun
+    eventName: AppearJueunSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -175,7 +175,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC8FC\uC740"
     line: "\uD639\uC2DC \uC774\uB984\uC774 \uC5B4\uB5BB\uAC8C \uB3FC\uC694?\n\uC800\uB294
       \uAC15\uC8FC\uC740\uC774\uC5D0\uC694."
-    eventName: smile
+    eventName: JueunSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -193,7 +193,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "21\uC0B4\uC774\uC5D0\uC694."
-    eventName: smile
+    eventName: JueunSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
