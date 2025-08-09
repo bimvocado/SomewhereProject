@@ -1444,7 +1444,7 @@ Animator:
   m_GameObject: {fileID: 1800276328969925653}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b8115ad32c5234000a581309f9c11000, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd9e6647bfff7542acb0200ab74bdd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CubismFadeMotionList: {fileID: 0}
+  CubismFadeMotionList: {fileID: 11400000, guid: c0af23fec52704ec981b087af49b8ce9, type: 2}
 --- !u!114 &4291407146004366498
 MonoBehaviour:
   m_ObjectHideFlags: 0
