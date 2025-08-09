@@ -626,8 +626,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Opacity: 1
   _lastOpacity: 1
-  _isOverriddenModelMultiplyColors: 0
-  _isOverriddenModelScreenColors: 0
+  _isOverriddenModelMultiplyColors: 1
+  _isOverriddenModelScreenColors: 1
   _modelMultiplyColor: {r: 0, g: 0, b: 0, a: 0}
   _modelScreenColor: {r: 0, g: 0, b: 0, a: 0}
   _sortingLayerId: 0
