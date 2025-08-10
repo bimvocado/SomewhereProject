@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC5B4?"
-    eventName: 
+    eventName: AppearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -88,7 +88,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
+  - speaker: "\uC5EC\uC8FC"
     line: "\uD0A4\uC624\uC2A4\uD06C 350\uBC88 \uACE0\uAC1D\uB2D8~"
     eventName: 
     conditionType: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
+  - speaker: "\uC5EC\uC8FC"
     line: "\uD0A4\uC624\uC2A4\uD06C 380\uBC88 \uACE0\uAC1D\uB2D8~"
     eventName: 
     conditionType: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
+  - speaker: "\uC5EC\uC8FC"
     line: "\uBE14\uB8E8\uBCA0\uB9AC \uC694\uAC70\uD2B8 \uC2A4\uBB34\uB514 \uB4DC\uB9B4\uAC8C\uC694~"
     eventName: 
     conditionType: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC544, \uB124."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -204,7 +204,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC120\uBC30\uAC00 \uC9D0\uC744 \uC8FC\uC12C\uC8FC\uC12C \uCC59\uACA8\uC11C
       \uB098\uAC14\uB2E4."
-    eventName: 
+    eventName: DisappearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -270,7 +270,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC6B0\xB7\xB7\xB7\uC9C4 \uC120\uBC30\uAE4C\uC9C0 \uC788\uC5B4\uC11C \uB354
       \uD798\uB4E4\uC5C8\uB2E4."
-    eventName: 
+    eventName: GotoCafeOut
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -286,9 +286,18 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+  - speaker: 
+    line: 
+    eventName: AppearWJ
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC5EC\uC8FC\uC57C."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -315,7 +324,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC544, \uBBF8\uC548\uD574."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -344,7 +353,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB108 \uAE30\uB2E4\uB838\uB294\uB370\xB7\xB7\xB7."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -362,7 +371,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC0AC\uACFC\uD558\uACE0 \uC2F6\uC5B4\uC11C."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -381,7 +390,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC0DD\uAC01\uD574 \uBD24\uB294\uB370, \uB124 \uB9D0\uC774 \uB9DE\uB294
       \uAC83 \uAC19\uC544\uC11C."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -390,7 +399,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB9AC\uACE0 \uADF8\uB54C \uB3C4\uB9DD\uAC00\uC11C \uBBF8\uC548\uD574."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

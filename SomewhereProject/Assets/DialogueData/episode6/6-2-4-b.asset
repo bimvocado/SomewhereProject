@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC54C\uBC14 \uBA87 \uC2DC\uCBE4 \uB05D\uB098?"
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -35,7 +35,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\xB7\xB7\xB7 \uC624\uB798 \uC77C\uD558\uB124. \uC9C0\uAE08 \uC544\uC9C1\uB3C4
       3\uC2E0\uB370."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -63,7 +63,16 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uACE0\uB9C8\uC6CC. \uC54C\uBC14 \uD30C\uC774\uD305."
-    eventName: 
+    eventName: SehaSmile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

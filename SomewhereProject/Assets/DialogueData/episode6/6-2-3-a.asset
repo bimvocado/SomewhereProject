@@ -137,23 +137,23 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC5B4\uB77C? \uC775\uC219\uD55C \uC5BC\uAD74\uC774\uB124."
-    eventName: 
+    eventName: AppearLuka
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
+  - speaker: "\uB8E8\uCE74"
     line: "\uC5EC\uAE30\uC11C \uC54C\uBC14\uD558\uC2DC\uB098\uC694?"
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
+  - speaker: "\uC5EC\uC8FC"
     line: "\uBCF4\uB2E4\uC2DC\uD53C?"
     eventName: 
     conditionType: 0
@@ -162,16 +162,16 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
+  - speaker: "\uB8E8\uCE74"
     line: "\uB124, \uBA4D\uCCAD\uD55C \uC9C8\uBB38\uC774\uC5C8\uB124\uC694."
-    eventName: 
+    eventName: LukaDifficult
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
+  - speaker: "\uC5EC\uC8FC"
     line: "\uC544\uB2C8, \uBB50, \uADF8\uB7F4 \uAC83\uAE4C\uC9C0\uC57C\xB7\xB7\xB7"
     eventName: 
     conditionType: 0

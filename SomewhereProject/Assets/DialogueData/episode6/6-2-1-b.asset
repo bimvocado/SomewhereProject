@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC6B0\uB9AC \uC5B4\uC0C9\uD574\uC9C0\uC9C4 \uB9D0\uC790. \uB098\uB3C4
       \uCE5C\uAD6C \uB458\uC740 \uC788\uC5B4\uC57C\uC9C0."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -54,7 +54,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC5B4, \uCE5C\uAD6C."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -93,6 +93,15 @@ MonoBehaviour:
   - speaker: 
     line: "\uC55E\uC73C\uB85C\uC758 \uC0AC\uC774\uAC00 \uAE30\uB300\uB418\uAE30 \uC2DC\uC791\uD588\uB2E4."
     eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

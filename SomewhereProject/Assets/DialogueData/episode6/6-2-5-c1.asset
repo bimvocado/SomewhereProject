@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: ?!
-    eventName: 
+    eventName: EunsungDifficult
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -63,7 +63,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uAE5C\uC9DD\uC774\uC57C, \uC9C0\uAE08 \uB05D\uB0AC\uC5B4?"
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -80,7 +80,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: 8fbafe824c170b24c9f9caa26a6b82d4
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

@@ -1335,7 +1335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6691116940074035988, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 6691116940074035988, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12440,7 +12440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 993330961737337470, guid: 12f8a60a24882e54abc5fe02a48a29cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 993330961737337470, guid: 12f8a60a24882e54abc5fe02a48a29cd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22476,6 +22476,214 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoVHallway
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -1159748146864678306, guid: 59b6a9427ee344389933632f1f16b0a4, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoRecycle
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -9167801505365450836, guid: 26399e8d0e77a4a419dc4d84dc1f0c66, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoBookstore
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoStreet
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoCafeOut1
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -4574241197325454765, guid: d6f6fb4a466ba460f98280d141099d56, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoBuilding
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -7450118289865207465, guid: 6c44028f390f342039b1bde4879684f4, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoBOutside
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -8964338817430115863, guid: 01efd049773914c2ebd3601962ad5509, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoCar1
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -6692443026509082655, guid: 9ea1ab8f5226e401eaa7bf7b25da4071, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoLukaCar
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 6576844974221373419, guid: f1f74ee8d590d42659ae4ca1c245d453, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoPark
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 273593759165669717, guid: 6e503316b628a470d869009964f88943, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoPTCafe
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -4469100644658175287, guid: 758eb7fa21dba49be85da0e741685f02, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: Popup1
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1983177691}
+          m_TargetAssemblyTypeName: PopupEventBridge, Assembly-CSharp
+          m_MethodName: ShowTxtPopupEvt
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "\uC798 \uC7A4\uC5B4?"
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: Popup2
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1983177691}
+          m_TargetAssemblyTypeName: PopupEventBridge, Assembly-CSharp
+          m_MethodName: ShowTxtPopupEvt
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "\uC624\uB798 \uC790\uB358\uB370."
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!4 &1398141799

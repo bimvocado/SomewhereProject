@@ -44,7 +44,16 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB124, \uB2E4\uC74C\uC5D0 \uBD2C\uC694."
-    eventName: 
+    eventName: LukaSaying
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearLuka
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

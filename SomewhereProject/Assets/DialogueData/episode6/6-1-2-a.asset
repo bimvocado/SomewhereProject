@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC9D1\uC5D0 \uC788\uC73C\uBA74 \uC2DC\uAC04\uB9CC \uBD95 \uB5A0\uC11C
       \uAD1C\uD788 \uB3D9\uB124 \uC11C\uC810\uC744 \uCC3E\uC558\uB2E4."
-    eventName: 
+    eventName: GotoBookstore
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -35,7 +35,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB178\uD2B8 \uD558\uB098 \uC0AC\uACE0, \uCC45 \uC880 \uAD6C\uACBD\uD558\uACE0."
-    eventName: 
+    eventName: YihyeonCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -93,7 +93,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC67C\uCABD \uC5B4\uAE68 \uB108\uBA38\uB85C \uC775\uC219\uD55C \uAE30\uCC99\uC774
       \uB290\uAEF4\uC84C\uB2E4."
-    eventName: 
+    eventName: AppearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -102,7 +102,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\xB7\xB7\xB7 [\uC5EC\uC8FC]?"
-    eventName: 
+    eventName: YihyeonSurprised
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -120,7 +120,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uADF8\uB0E5\xB7\xB7\xB7. \uCC45 \uC880 \uBCF4\uB7EC \uC654\uC5B4."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -138,7 +138,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC5EC\uAE30 \uC790\uC8FC \uC640?"
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -166,7 +166,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC751. \uC9D1 \uADFC\uCC98\uACE0, \uC870\uC6A9\uD574\uC11C."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -175,7 +175,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uAD50\uC7AC\uB3C4 \uC5EC\uAE30\uC11C \uB9CE\uC774 \uC0C0\uC5C8\uACE0."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

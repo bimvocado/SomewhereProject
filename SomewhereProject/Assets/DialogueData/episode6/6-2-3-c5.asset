@@ -43,7 +43,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB9D0\uC500\uD558\uC138\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -61,7 +61,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uBB50\uAE38\uB798 \uADF8\uB807\uAC8C \uB738 \uB4E4\uC774\uC2DC\uB098\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -80,7 +80,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uD5DB\uC6C3\uC74C \uCE58\uB294 \uC18C\uB9AC\uAC00 \uB4E4\uB838\uB2E4."
-    eventName: 
+    eventName: LukaOk
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -90,7 +90,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uAC71\uC815 \uB9C8\uC138\uC694. \uC800\uB3C4 \uC81C \uBAA9\uC228\uC740
       \uC18C\uC911\uD788 \uC5EC\uAE30\uAC70\uB4E0\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -107,8 +107,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uB8E8\uCE74\uAC00 \uAE30\uC5B4\uB97C \uBC14\uAFB8\uACE0, \uC561\uC140\uC744
-      \uBC1F\uC790 \uCC28\uAC00 \uCD9C\uBC1C\uD588\uB2E4."
+    line: "\uB8E8\uCE74\uAC00 \uC561\uC140\uC744 \uBC1F\uC790 \uCC28\uAC00 \uCD9C\uBC1C\uD588\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -147,7 +146,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC790\uC8FC\xB7\xB7\xB7 \uAE4C\uC9C4 \uC544\uB2C8\uB354\uB77C\uB3C4,
       \uB098\uB984 \uC775\uC219\uD558\uB2E4\uACE0 \uC0DD\uAC01\uD574\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -165,7 +164,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB178\uB825\uD588\uC8E0."
-    eventName: 
+    eventName: LukaOk
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
