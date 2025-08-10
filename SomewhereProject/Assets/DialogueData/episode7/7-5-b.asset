@@ -62,7 +62,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uADF8\uB098\uC800\uB098, \uC880 \uC77C\uCC0D \uB3C4\uCC29\uD588\uB098?"
-    eventName: 
+    eventName: GotoTrainSt
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -72,7 +72,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC0DD\uAC01\uD558\uB294 \uC21C\uAC04, \uBA40\uB9AC\uC11C \uC791\uC740
       \uAC00\uBC29\uC744 \uBA58 \uC740\uC131\uC774\uAC00 \uB2E4\uAC00\uC654\uB2E4."
-    eventName: 
+    eventName: AppearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -90,7 +90,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "[\uC5EC\uC8FC\uC57C]!"
-    eventName: 
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -108,7 +108,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uBB58 \uC774\uB807\uAC8C \uB9CE\uC774 \uB4E4\uACE0 \uC654\uC5B4."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 1
     conditionKey: large
     conditionTargetCharacter: 
@@ -117,7 +117,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uAC00\uBC29 \uB4E4\uC5B4\uC904\uAE4C?"
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 1
     conditionKey: large
     conditionTargetCharacter: 
@@ -174,7 +174,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC74C\xB7\xB7\xB7 10\uBD84 \uB4A4."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -183,7 +183,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC2AC\uC2AC \uD50C\uB7AB\uD3FC\uC73C\uB85C \uAC08\uAE4C?"
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -212,7 +212,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uAC00\uB2E4 \uBCF4\uBA74 \uBC14\uB2E4 \uBCF4\uC774\uB2C8\uAE4C, \uB124\uAC00
       \uCC3D\uAC00\uC5D0 \uC549\uC544."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uC6B0\uB9AC \uC774\uC81C \uC694\uD2B8 \uC2DC\uAC04 \uB2E4 \uB418\uC5B4
       \uAC00."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -25,7 +25,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uD0C0\uB7EC \uAC00\uC790!"
-    eventName: 
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -73,7 +73,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC870\uC2EC\uD574, \uC7A1\uC544\uC904\uAE4C?"
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -139,7 +139,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB098 \uC9C0\uAE08 \uC644\uC804 \uC5C9\uB9DD\uC77C \uD150\uB370?"
-    eventName: 
+    eventName: EunsungDifficult
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -168,7 +168,7 @@ MonoBehaviour:
     line: "\uADF8\uB807\uAC8C \uC11C\uB85C \uB180\uB9AC\uBA70 \uC0AC\uC9C4\uC744
       \uCC0D\uB2E4 \uBCF4\uB2C8 \uC5B4\uB290\uB367 \uB178\uC744\uC774 \uC9C0\uACE0
       \uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: GotoSunset
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -186,7 +186,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\xB7\xB7\xB7"
-    eventName: 
+    eventName: EunsungShy
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -195,7 +195,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB108\uB3C4 \uC608\uBED0."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 3
     conditionKey: 
     conditionTargetCharacter: "\uC774\uC740\uC131"
@@ -242,7 +242,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC544\uB2C8\uC57C."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 4
     conditionKey: 
     conditionTargetCharacter: "\uC774\uC740\uC131"
@@ -281,7 +281,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uD574\uAC00 \uB2E4 \uB5A8\uC5B4\uC838 \uC5B4\uB450\uC6CC\uC9C0\uC790,
       \uB2E4\uB9AC\uC5D0 \uBD88\uC774 \uCF1C\uC9C0\uB294 \uAC83\uAE4C\uC9C0 \uBD24\uB2E4."
-    eventName: 
+    eventName: GotoMidnight
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -328,7 +328,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "8\uC2DC 10\uBD84."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
