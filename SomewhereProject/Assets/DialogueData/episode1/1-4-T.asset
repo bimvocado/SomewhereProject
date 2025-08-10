@@ -102,7 +102,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uC544, \uC548\uB155 \uC740\uC131\uC544."
-    eventName: 
+    eventName: EunsungCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

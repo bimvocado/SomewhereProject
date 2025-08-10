@@ -73,7 +73,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uBC88\uD638\uB97C \uC800\uC7A5\uD588\uB2E4.\n\uC5F0\uB77D\uCC98\uB97C
       \uD655\uC778 \uD574 \uBCF4\uC790."
-    eventName: SaveContact_Eunsung
+    eventName: CMD:SetFlag:SaveContact_Eunsung:true
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

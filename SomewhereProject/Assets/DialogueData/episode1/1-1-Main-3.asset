@@ -91,7 +91,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC544\uAE4C \uBCF8 \uC608\uC058\uAC8C \uC0DD\uAE34 \uB0A8\uC790\uB2E4."
-    eventName: AppearLuka1
+    eventName: AppearLuka
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -517,7 +517,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: ...
-    eventName: 
+    eventName: SehaCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -539,7 +539,7 @@ MonoBehaviour:
       \uBC14\uB78C\uC5D0 \uD63C\uC790 \uC880 \uB2A6\uAC8C \uB3C4\uCC29\uD588\uB2E4.\n\uB300\uBD80\uBD84\uC758
       \uD559\uC0DD\uB4E4\uC740 \uC774\uBBF8 \uCC29\uC11D\uD574 \uC788\uC5B4\uC11C
       \uB0A8\uC740 \uC790\uB9AC\uAC00 \uBCC4\uB85C \uC5C6\uC5C8\uB2E4."
-    eventName: 
+    eventName: LukaCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -549,7 +549,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC8FC\uC740\uC774\uC758 \uC606\uC790\uB9AC\uC5D0\uB294 \uC774\uBBF8 \uB2E4\uB978
       \uC0AC\uB78C\uC774 \uC549\uC544\uC788\uACE0..."
-    eventName: 
+    eventName: EunsungCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

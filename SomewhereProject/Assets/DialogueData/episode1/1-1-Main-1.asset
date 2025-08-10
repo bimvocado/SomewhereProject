@@ -127,7 +127,7 @@ MonoBehaviour:
     line: "\uC911\uC559\uC5D4 \uC608\uC058\uAC8C \uC0DD\uAE34 \uB0A8\uC790\uAC00
       \uC549\uC544 \uC788\uC5C8\uB2E4.\n\uBBF8\uC18C \uC9C0\uC740 \uC5BC\uAD74\uC774
       \uCE5C\uC808\uD574 \uBCF4\uC778\uB2E4."
-    eventName: AppearLuka
+    eventName: AppearLuka1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -243,6 +243,16 @@ MonoBehaviour:
     line: "\uC2DC\uC791\uBD80\uD130 \uC774\uB7F0 \uB3D9\uAE30\uB97C \uB9CC\uB09C
       \uAC74 \uD589\uC6B4\uC774\uC57C!"
     eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC8FC\uC740\uC774\uC758 \uBC88\uD638\uAC00 \uC800\uC7A5\uB410\uB2E4.
+      \n\uC5F0\uB77D\uCC98\uB97C \uD655\uC778\uD574\uBCF4\uC790!"
+    eventName: CMD:SetFlag:SaveContact_Jueun:true
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
