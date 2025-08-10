@@ -42,6 +42,12 @@ public class GameManager : MonoBehaviour
     private int score;
 
     private int Coin = 0;
+
+    public float threshold;
+    public float elapsedTime1;
+    public TextMeshProUGUI TimeLeft;
+    private bool gameStarted = false;
+
     private void Awake()
     {
         blade = FindAnyObjectByType<Blade>();
@@ -67,10 +73,14 @@ public class GameManager : MonoBehaviour
 
         StartButton.onClick.RemoveAllListeners();
         StartButton.onClick.AddListener(NewGame);
-        
+        elapsedTime1 = 0f;
+        TimeLeft.gameObject.SetActive(false);
     }
     public void NewGame()
     {
+        TimeLeft.gameObject.SetActive(true);
+        elapsedTime1 = 0f;
+        gameStarted = true;
         ScoreInfo.gameObject.SetActive(false);
         StopCoroutine(ExplodeSequence());
         pauseButton.gameObject.SetActive(true); 
@@ -103,6 +113,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(b.gameObject);
         }
+        elapsedTime1 = 0f;
     }
     public void IncreaseScore()
     {
@@ -113,6 +124,7 @@ public class GameManager : MonoBehaviour
     {
         blade.enabled = false;
         spawner.enabled = false;
+        gameStarted = false;
         
         StartCoroutine(ExplodeSequence());
     }
@@ -188,5 +200,16 @@ public class GameManager : MonoBehaviour
             if (isPaused) Resume();
             else Pause();
         }
+        if (gameStarted == true)
+        {
+            float timeleft = threshold - elapsedTime1;
+            TimeLeft.text = timeleft.ToString("#.00");
+            elapsedTime1 += Time.deltaTime;
+            if (elapsedTime1 >= threshold)
+            {
+                Explode();
+            }
+        }
+
     }
 }

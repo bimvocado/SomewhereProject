@@ -315,6 +315,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22f3c5a0c97be3e4db86e4b04f9761e0
+    m_Address: Assets/DialogueData/episode6/6-1-1-c1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 23e9522db0121df4b8279aa4df902319
     m_Address: Assets/DialogueData/episode6/6-2-a.asset
     m_ReadOnly: 0

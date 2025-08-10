@@ -254,7 +254,7 @@ MonoBehaviour:
     choices:
     - text: "\uB5A0\uBCF8\uB2E4"
       nextDialogue:
-        m_AssetGUID: 
+        m_AssetGUID: 22f3c5a0c97be3e4db86e4b04f9761e0
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 
@@ -286,108 +286,6 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
-  - speaker: "\uC5EC\uC8FC"
-    line: "\uD574\uC57C \uD560 \uB9D0\uC774 \uB9DE\uB294 \uAC83 \uAC19\uC740\uB370."
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: "\uC815\uC6B0\uC9C4"
-    line: "\uC5B4?"
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: "\uC5EC\uC8FC"
-    line: "\xB7\xB7\xB7 \uADF8\uB807\uAC8C \uD2F0 \uB2E4 \uB0B4\uB193\uACE0, \uB3C4\uB9DD\uAC00\uB294
-      \uAC8C \uC5B4\uB514 \uC788\uC5B4?"
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: 
-    line: "\uC120\uBC30\uC758 \uD45C\uC815\uC774 \uADF8\uB0A0 \uBC24\uC73C\uB85C
-      \uB3CC\uC544\uAC04 \uAC83 \uAC19\uC558\uB2E4."
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: "\uC815\uC6B0\uC9C4"
-    line: "\xB7\xB7\xB7"
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: 
-    line: "\uC5EC\uC804\uD788 \uB9D0\uC774 \uC5C6\uB2E4."
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: "\uC5EC\uC8FC"
-    line: "\uBA3C\uC800 \uAC08\uAC8C."
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: 
-    line: "\uB9D0\uC740 \uC774\uB807\uAC8C \uD588\uC9C0\uB9CC \uAC70\uC758 \uB3C4\uB9DD\uCE58\uB4EF
-      \uBD84\uB9AC\uC218\uAC70\uC7A5\uC744 \uBE60\uC838\uB098\uC654\uB2E4."
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: 
-    line: "\uC120\uBC30\uB294 \uADF8\uB7FC \uB098\uB97C \uC9C4\uC9DC\uB85C\xB7\xB7\xB7"
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: 
-    line: "\uC88B\xB7\xB7\xB7."
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: 
-    line: "\uC88B\uC544\uD558\uB294 \uAC74\uAC00\xB7\xB7\xB7."
-    eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 
