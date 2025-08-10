@@ -117,7 +117,7 @@ MonoBehaviour:
         m_SubObjectType: 
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
-      affectionChange: 0
+      affectionChange: 5
       targetCharacterForAffection: "\uBB38\uC774\uD604"
       resetsAffection: 0
       requiredCoin: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
         m_SubObjectType: 
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
-      affectionChange: 0
+      affectionChange: -5
       targetCharacterForAffection: "\uBB38\uC774\uD604"
       resetsAffection: 0
       requiredCoin: 0
