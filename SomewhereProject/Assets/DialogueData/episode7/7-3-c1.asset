@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
-    line: "\uC120\uBC18\uC5D0 \uB193\uC778 \uC561\uC790 \uD558\uB098\uAC00 \uBCF4\uC600\uB2E4."
+    line: "\uCC45\uAF42\uC774\uC5D0 \uB193\uC778 \uC561\uC790 \uD558\uB098\uAC00
+      \uBCF4\uC600\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -51,7 +52,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\xB7\xB7\xB7\uB124."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -88,7 +89,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uADF8\uB7F0 \uB9D0 \uB9CE\uC774 \uB4E4\uC5C8\uC5B4\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -107,7 +108,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uADF8 \uB9D0\uB3C4 \uC815\uB9D0 \uB9CE\uC774 \uB4E4\uC5B4\uBD24\uB124\uC694."
-    eventName: 
+    eventName: LukaSigh
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

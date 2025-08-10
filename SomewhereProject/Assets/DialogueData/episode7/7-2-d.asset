@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC88B\uC544. \uBA39\uC73C\uB7EC \uAC00\uC790."
-    eventName: 
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -25,7 +25,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC6B0\uB9AC\uB294 \uD568\uAED8 \uC2DD\uB2F9\uC73C\uB85C \uC774\uB3D9\uD574
       \uC800\uB141\uC744 \uBA39\uC5C8\uB2E4."
-    eventName: 
+    eventName: GotoYHR
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -62,8 +62,17 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearYH
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: 8e251c892179bcc4184c86d0aac1c237
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

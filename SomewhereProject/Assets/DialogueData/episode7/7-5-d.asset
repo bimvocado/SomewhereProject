@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uC774\uC740\uC131"
     line: "\uC88B\uC544."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB4E3\uACE0 \uC2F6\uB358 \uB9D0\uC774\uC5C8\uC5B4."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -33,7 +33,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC544\uAE4C\uBD80\uD130 \uBC30\uACE0\uD320\uAC70\uB4E0."
-    eventName: 
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -51,7 +51,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uAC00\uC790!"
-    eventName: 
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -60,7 +60,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\xB7\xB7\xB7"
-    eventName: 
+    eventName: GotoMarket
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -108,7 +108,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC544\uAE4C\uBCF4\uB2E4 \uB354 \uC2E0\uB0AC\uB124."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -117,7 +117,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uAC00\uC790!"
-    eventName: 
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

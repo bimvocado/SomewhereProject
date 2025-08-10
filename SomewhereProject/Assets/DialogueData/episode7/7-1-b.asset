@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uB3C4\uCC29\uD55C \uACF3\uC740 \uACE0\uAE09 \uD638\uD154 \uB808\uC2A4\uD1A0\uB791\uC774\uC5C8\uB2E4."
-    eventName: 
+    eventName: GotoHotelR
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -63,7 +63,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB7EC\uAC8C, \uC774\uB7F0 \uC77C\uB3C4 \uC0DD\uAE30\uB124."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -129,7 +129,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB0E5 \uBB50\xB7\xB7\xB7. \uC788\uC73C\uBA74 \uBA39\uC9C0."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -149,7 +149,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBA38\uB9AC \uB3CC\uC544\uAC00\uB824\uBA74 \uB2F9 \uCC59\uACA8\uC57C
       \uD574."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -167,7 +167,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB610 \uADF8\uB7F0\uB2E4."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
