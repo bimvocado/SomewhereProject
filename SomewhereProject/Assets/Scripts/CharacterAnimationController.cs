@@ -15,11 +15,10 @@ public class CharacterAnimationController : MonoBehaviour
     [SerializeField] private float moveDuration = 0.8f;
     [SerializeField] private Ease moveEaseType = Ease.OutQuad;
 
-    [Header("Movement Offsets (World Space)")]
+    [Header("Movement Positions (World Space)")]
+    [SerializeField] private float centerX = 0f;
     [SerializeField] private float offscreenLeftX = -5f;
     [SerializeField] private float offscreenRightX = 5f;
-
-    private Vector3 originalPosition;
 
     private Vector3 originalScale;
     private Vector3 targetScale;
@@ -49,8 +48,6 @@ public class CharacterAnimationController : MonoBehaviour
                 Debug.LogWarning($"{gameObject.name}: CubismRenderer 없음");
             }
         }
-
-        originalPosition = transform.position;
 
         renderController = GetComponent<CubismRenderController>();
     }
@@ -167,7 +164,7 @@ public class CharacterAnimationController : MonoBehaviour
 
     public void MoveToCenter()
     {
-        transform.DOMoveX(originalPosition.x, moveDuration).SetEase(moveEaseType).OnComplete(() => {
+        transform.DOMoveX(centerX, moveDuration).SetEase(moveEaseType).OnComplete(() => {
             Debug.Log($"{gameObject.name} 중앙으로 이동");
         });
     }

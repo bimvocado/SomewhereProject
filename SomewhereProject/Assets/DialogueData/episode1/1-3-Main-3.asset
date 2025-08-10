@@ -55,7 +55,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uD639\uC2DC... \uD559\uC2DD \uB4DC\uC2DC\uB7EC \uAC00\uC138\uC694?"
-    eventName: YHsmile
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -73,7 +73,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC557 \uB124. \uC800\uB3C4 \uD559\uC2DD\uB2F9 \uAC11\uB2C8\uB2E4."
-    eventName: YHsaying
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -94,7 +94,7 @@ MonoBehaviour:
     line: "\uB531 \uD558\uB098, \uAD6C\uC11D\uC5D0 2\uC778\uC6A9 \uD14C\uC774\uBE14\uC774
       \uB0A8\uC544 \uC788\uC5C8\uB2E4.\n\uC120\uBC30\uB2D8\uC774 \uB208\uCE58\uB97C
       \uC0B4\uD53C\uBA70 \uBA48\uCE6B\uD588\uB2E4."
-    eventName: 
+    eventName: YihyeonFlustered
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

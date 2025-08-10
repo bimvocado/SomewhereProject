@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC790\uB9AC\uAC00 \uC5EC\uAE30\uBC16\uC5D0 \uC5C6\uB124... \uB098\uB294
       \uADF8\uB0E5 \uB2E4\uB978 \uB370 \uAC00\uBCFC\uAC8C\uC694."
-    eventName: YHdang
+    eventName: YihyeonFlustered
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -35,7 +35,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB0B4 \uB9D0\uC5D0 \uC0B4\uC9DD \uB180\uB780 \uB4EF \uC6C3\uC73C\uBA70
       \uC120\uBC30\uB2D8\uC774 \uACE0\uAC1C\uB97C \uB044\uB355\uC600\uB2E4."
-    eventName: YHyes
+    eventName: YihyeonYes
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uADF8\uB7FC \uB0B4\uAC00 \uBC25 \uC0AC\uC904\uAC8C\uC694."
-    eventName: YHsaying
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

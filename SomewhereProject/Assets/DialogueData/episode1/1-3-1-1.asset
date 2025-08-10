@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: ???
     line: "\uB124? \uC544... \uB124\uB124! \uC549\uC73C\uC138\uC694."
-    eventName: YHsurprise
+    eventName: YihyeonSurprised
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
