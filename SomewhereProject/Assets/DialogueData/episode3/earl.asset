@@ -25,7 +25,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC800\uB3C4\uC694. \uC758\uC678\uB85C \uCDE8\uD5A5\uC774 \uBE44\uC2B7\uD55C
       \uAC83 \uAC19\uB124\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

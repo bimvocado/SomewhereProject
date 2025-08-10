@@ -33,7 +33,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uBB54\uAC00 \uADC0\uCC2E\uC544\uBCF4\uC774\uB294 \uC5BC\uAD74\uC774\uB2E4."
-    eventName: 
+    eventName: LukaSigh
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -42,7 +42,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uADF8\uB7EC\uC8E0. \uC637\uB3C4 \uB9D0\uB824\uC57C \uD558\uACE0."
-    eventName: tiresome
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
