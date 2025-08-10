@@ -24,9 +24,18 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
+    line: 
+    eventName: GotoCampus
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uC5B4\uB290\uB367 \uC624\uD6C4 3\uC2DC, \uC57D\uC18D \uC7A5\uC18C\uC5D0
       \uAC00\uB2C8 \uC120\uBC30\uAC00 \uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: AppearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -36,7 +45,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC557, \uC548\uB155. \uAE09\uD558\uAC8C \uC5F0\uB77D\uD55C \uAC74\uB370
       \uB098\uC640\uC918\uC11C \uACE0\uB9C8\uC6CC."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -55,7 +64,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC815\uB9D0? \uB2E4\uD589\uC774\uB2E4."
-    eventName: 
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -66,7 +75,7 @@ MonoBehaviour:
     line: "\uC624\uB298 \uC544\uCE68\uC5D0 \uC120\uBC30\uAC00 \uD2F0\uCF13 \uB450
       \uC7A5\uC744 \uC8FC\uC168\uB294\uB370, \uB108 \uC0DD\uAC01\uC774 \uB098\uC11C
       \uC5F0\uB77D\uD574 \uBD24\uC5B4."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -96,7 +105,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uBBF8\uC220\uAD00\uC5D0\uB294 \uB2E4\uC591\uD55C \uC11C\uC591\uD654 \uC791\uD488\uC774
       \uC804\uC2DC\uB418\uC5B4 \uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: GotoMuseum
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -145,7 +154,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC557, \uB0B4\uAC00 \uB108\uBB34 \uD63C\uC790 \uBD24\uB098? \uC88B\uC544\uD558\uB294
       \uD3B8\uC774\uAE34 \uD574."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -165,7 +174,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC544, \uB2E4\uD589\uC774\uB124. \uAD81\uAE08\uD55C \uAC70 \uC788\uC73C\uBA74
       \uBB3C\uC5B4\uBD10."
-    eventName: 
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -204,7 +213,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC557, \uC65C \uC6C3\uC5B4?"
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

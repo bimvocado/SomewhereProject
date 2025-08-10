@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uADF8\uB54C, \uCE74\uD398 \uBB38\uC744 \uC5F4\uACE0 \uC775\uC219\uD55C
       \uC5BC\uAD74\uC774 \uBCF4\uC600\uB2E4."
-    eventName: 
+    eventName: EunsungCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

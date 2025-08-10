@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uC774\uC740\uC131"
     line: "\uC7AC\uBC0C\uC5C8\uB2E4\uB2C8 \uB2E4\uD589\uC774\uB2E4."
-    eventName: 
+    eventName: EunsungShy
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -33,7 +33,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB798, \uACE7 \uAE30\uCC28 \uC2DC\uAC04\uC774\uB124."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

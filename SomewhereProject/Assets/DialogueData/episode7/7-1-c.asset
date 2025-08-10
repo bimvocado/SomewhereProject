@@ -25,7 +25,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC2DD\uC0AC\uB97C \uB9C8\uCE58\uACE0\uB3C4 \uC774 \uBD84\uC704\uAE30
       \uADF8\uB300\uB85C \uCC28\uC5D0 \uD0D4\uB2E4."
-    eventName: 
+    eventName: GotoWJCar
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -54,7 +54,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC798 \uB4E4\uC5B4\uAC00."
-    eventName: 
+    eventName: GotoVHallway
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -73,7 +73,7 @@ MonoBehaviour:
   - speaker: 
     line: "9\uCE35 \uBCF5\uB3C4\uC5D0\uC11C \uC791\uBCC4 \uC778\uC0AC\uB97C \uD588\uB2E4.
       \uB2EC\uCF64\uD55C \uC800\uB141 \uC2DC\uAC04\uC774\uC5C8\uB2E4\xB7\xB7\xB7."
-    eventName: 
+    eventName: DisappearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

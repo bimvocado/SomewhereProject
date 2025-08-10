@@ -81,7 +81,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC751\xB7\xB7\xB7 \uBB50 \uD558\uACE0 \uC788\uC5B4?"
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

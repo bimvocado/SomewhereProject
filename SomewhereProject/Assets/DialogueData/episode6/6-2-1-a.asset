@@ -35,7 +35,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uC5B4\uC11C \uC624\uC138\uC694~"
-    eventName: 
+    eventName: WoojinCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

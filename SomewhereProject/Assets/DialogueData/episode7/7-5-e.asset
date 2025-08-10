@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uAE30\uCC28\uC5D0 \uD0C4 \uC6B0\uB9AC\uB294 \uB458 \uB2E4 \uC549\uAE30\uAC00
       \uBB34\uC12D\uAC8C \uC7A0\uC5D0 \uB4E4\uC5C8\uB2E4."
-    eventName: 
+    eventName: GotoTrainSt
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -52,7 +52,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uAD1C\uCC2E\uC544."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -61,7 +61,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC5B4\uCC28\uD53C \uBA40\uC9C0\uB3C4 \uC54A\uC740\uB370."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -70,7 +70,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB4E4\uC5B4\uAC00\uB294 \uAC70 \uBCF4\uACE0 \uAC08\uAC8C."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -125,7 +125,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC798 \uB4E4\uC5B4\uAC00."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -161,7 +161,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB124\uAC00 \uBD80\uB974\uBA74 \uBB50\uB4E0."
-    eventName: 
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -170,7 +170,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC5EC\uD2BC, \uB4E4\uC5B4\uAC00."
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -197,7 +197,16 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB798, \uC798 \uAC00."
-    eventName: 
+    eventName: EunsungSaying
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -205,7 +214,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 3cb08e0db214d0c4faad99d924da500d
+    m_AssetGUID: 8e251c892179bcc4184c86d0aac1c237
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 
