@@ -135,7 +135,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uACE7 \uB8E8\uCE74\uAC00 \uB0B4\uB838\uB2E4."
-    eventName: 
+    eventName: AppearLuka
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -166,7 +166,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uAE30\uB2E4\uB9AC\uC168\uB098\uC694, \uC8C4\uC1A1\uD574\uC694. \uAE38\uC774
       \uC870\uAE08 \uB9C9\uD600\uC11C."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -185,7 +185,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC7A0\uC2DC \uBA38\uBB47\uAC70\uB9AC\uB358 \uB8E8\uCE74\uAC00 \uB4F1
       \uB4A4\uC5D0 \uC228\uAE30\uACE0 \uC788\uB358 \uAC78 \uAC74\uB124\uC8FC\uC5C8\uB2E4."
-    eventName: 
+    eventName: LukaShy
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -203,7 +203,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC9C0\uB098\uAC00\uB2E4\uAC00 \uC0DD\uAC01\uB0AC\uC5B4\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -240,7 +240,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\u2026\uC6C3\uC9C0 \uB9C8\uC138\uC694."
-    eventName: 
+    eventName: LukaShy
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -259,7 +259,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB8E8\uCE74\uAC00 \uD669\uB2F9\uD558\uB2E4\uB294 \uB4EF \uC2E4\uC18C\uB97C
       \uD130\uB728\uB838\uB2E4."
-    eventName: 
+    eventName: LukaSmile
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -268,7 +268,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC9C4\uC9DC \uC774\uC0C1\uD55C \uC0AC\uB78C\uC778 \uAC70 \uC54C\uC544\uC694?"
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -287,7 +287,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uB2F9\uC5F0\uD788 \uB204\uB098\uC8E0\u2026 \uC0B4\uBA74\uC11C \uB204\uB098
       \uAC19\uC740 \uC0AC\uB78C \uCC98\uC74C \uBD24\uC5B4\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -297,7 +297,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC81C\uBA4B\uB300\uB85C\uC5D0 \uB35C\uB801\uAC70\uB9AC\uACE0 \uBED4\uBED4\uD558\uACE0
       \uC0AC\uB78C \uD654\uB098\uAC8C \uD558\uACE0."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -316,7 +316,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uADFC\uB370, \uADF8\uB798\uC11C\u2026 \uACC4\uC18D \uC0DD\uAC01\uB098\uC694.
       \uAD81\uAE08\uD558\uACE0, \uB354 \uC54C\uACE0 \uC2F6\uACE0."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -334,7 +334,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC9C4\uC9DC \uC2EB\uC5B4\uC694\u2026"
-    eventName: 
+    eventName: LukaDifficult
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -364,7 +364,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB8E8\uCE74\uAC00 \uC870\uAE08 \uD1A0\uB77C\uC9C4 \uB4EF \uC2DC\uC120\uC744
       \uD53C\uD588\uB2E4."
-    eventName: 
+    eventName: LukaDifficult
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -373,7 +373,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB2E4 \uC54C\uACE0 \uBB3C\uC5B4\uBCF4\uB294 \uAC70\uC8E0."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -391,7 +391,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC740\uADFC\uD788 \uC131\uACA9 \uC548 \uC88B\uC740 \uAC70 \uC54C\uC544\uC694?"
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -419,7 +419,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB9C8\uC8FC \uBCF8 \uB8E8\uCE74\uC758 \uC5BC\uAD74\uC5D0\uB3C4 \uC5B4\uCA54
       \uC218 \uC5C6\uB2E4\uB294 \uB4EF \uBBF8\uC18C\uAC00 \uB744\uC6CC\uC838 \uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: LukaSmile
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -428,7 +428,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\u2026\uC88B\uC544\uD574\uC694."
-    eventName: 
+    eventName: LukaShy
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -447,7 +447,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC9C4\uC2EC\uC73C\uB85C\u2026 \uC194\uC9C1\uD558\uAC8C \uD558\uB294 \uB9D0\uC774\uC5D0\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -466,7 +466,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "[\uC5EC\uC8FC] \uB204\uB098."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -484,7 +484,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB204\uB098\uB294 \uC800\uD55C\uD14C \uD560 \uB9D0 \uC5C6\uC5B4\uC694?"
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -533,7 +533,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uBEE3\uBEE3\uD558\uAC8C \uAD73\uC5B4\uC788\uB358 \uB8E8\uCE74\uC758 \uBAB8\uC774
       \uC870\uAE08 \uD480\uC5B4\uC9C0\uB294 \uAC8C \uB290\uAEF4\uC84C\uB2E4."
-    eventName: 
+    eventName: LukaShy
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -552,7 +552,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB204\uB098\uB294 \uC9C4\uC9DC\u2026"
-    eventName: 
+    eventName: LukaDifficult
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -581,7 +581,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uAC00\uC57C\uC8E0."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -599,7 +599,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC81C\uAC00 \uC560\uB3C4 \uC544\uB2C8\uACE0."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -617,7 +617,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\u2026\uAC08\uAC8C\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC77C\uC815 \uC5C6\uC5B4\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -673,7 +673,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC544\uB1E8, \uB0B4\uC77C\uC740 \uC81C\uAC00 \uB300\uC811\uD558\uC8E0."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -691,7 +691,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB124. \uAE30\uB300\uD558\uC154\uB3C4 \uC88B\uC544\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -711,7 +711,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB208\uC55E\uC758 \uB8E8\uCE74\uAC00 \uBD80\uB4DC\uB7EC\uC6B4 \uBBF8\uC18C\uB97C
       \uC785\uAC00\uC5D0 \uB744\uC6E0\uB2E4."
-    eventName: 
+    eventName: LukaSmile
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -720,7 +720,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB124, \uB0B4\uC77C \uBD2C\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
@@ -730,7 +730,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB5A0\uB098\uB294 \uAC78 \uBC30\uC6C5\uD574 \uC8FC\uACE0 \uC9D1\uC73C\uB85C
       \uB3CC\uC544\uC654\uB2E4."
-    eventName: 
+    eventName: DisappearLuka
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 
