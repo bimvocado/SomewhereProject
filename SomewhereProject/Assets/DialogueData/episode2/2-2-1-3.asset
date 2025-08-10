@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uBB38\uC744 \uB2EB\uACE0 \uB098\uC654\uB2E4."
-    eventName: 
+    eventName: DisappearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB2E4\uC74C\uC5D0 \uBD59\uACA0\uC2B5\uB2C8\uB2E4?"
-    eventName: 
+    eventName: GotoHallway
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -60,7 +60,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC5F0\uB77D\uCC98\uB97C \uD655\uC778\uD574 \uBCF4\uC790!"
-    eventName: SaveContact_Woojin
+    eventName: CMD:SetFlag:SaveContact_Woojin:true
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -47,7 +47,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC5BC\uAD74\uC740 \uC798 \uC548 \uBCF4\uC600\uB294\uB370, \uC606\uC5D0\uC11C
       \uC790\uAFB8 \uADC0\uAE4C\uC9C0 \uBE68\uAC1C\uC9C0\uB294 \uB4EF\uD588\uB2E4."
-    eventName: 
+    eventName: YihyeonRedface
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -65,7 +65,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC544\uB2C8\uC57C \uBC14\uB78C\uC774 \uCC28\uC11C..."
-    eventName: smile
+    eventName: YihyeonFlustered
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -104,7 +104,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC5EC\uAE30\uAE4C\uC9C0 \uAC08\uAC8C. \uC870\uC2EC\uD574\uC11C \uB4E4\uC5B4\uAC00."
-    eventName: smile
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -123,7 +123,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uADF8 \uC21C\uAC04, \uC774\uD604 \uC120\uBC30\uC758 \uC5BC\uAD74\uC774
       \uC815\uB9D0 \uD655! \uBE68\uAC1C\uC84C\uB2E4."
-    eventName: 
+    eventName: YihyeonRedface
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -133,7 +133,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "...\uADF8\uAC8C... \n\uD639\uC2DC\uB77C\uB3C4 \uBD88\uD3B8\uD560\uAE4C
       \uBD10..."
-    eventName: smile
+    eventName: YihyeonFlustered
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -172,7 +172,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC774 \uB0A8\uC790, \uC870\uAE08 \uADC0\uC5EC\uC6B4 \uAC83 \uAC19\uAE30\uB3C4?"
-    eventName: 
+    eventName: DisappearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

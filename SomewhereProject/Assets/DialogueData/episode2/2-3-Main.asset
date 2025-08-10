@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC804\uACF5 \uC218\uC5C5\uC744 \uB4E4\uC73C\uB7EC \uC654\uB2E4."
-    eventName: 
+    eventName: GotoLectureR1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -55,7 +55,7 @@ MonoBehaviour:
     line: "\uAC15\uC758\uC2E4 \uBB38\uC774 \uC5F4\uB9AC\uACE0, \uAD50\uC218\uB2D8...\uC774
       \uC544\uB2C8\uB77C \uC9C0\uB09C\uBC88 \uC5F0\uAD6C\uC2E4\uC5D0\uC11C \uBD40\uB358
       \uC870\uAD50\uB2D8\uC774 \uB4E4\uC5B4\uC624\uC168\uB2E4."
-    eventName: 
+    eventName: AppearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -65,7 +65,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB178\uD2B8\uBD81\uC744 \uBA87 \uBC88 \uAC74\uB4DC\uB9AC\uC2DC\uB354\uB2C8
       \uB610 \uB098\uAC00\uC2E0\uB2E4. \uC774\uB7F0 \uAC83\uB3C4 \uC870\uAD50 \uC2DC\uD0A4\uB098?"
-    eventName: 
+    eventName: DisappearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -75,7 +75,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uADF8\uB54C, \uAC15\uC758\uC2E4 \uBB38\uC774 \uB2E4\uC2DC \uC5F4\uB9AC\uACE0
       \uC774\uD604 \uC120\uBC30\uAC00 \uB4E4\uC5B4\uC654\uB2E4."
-    eventName: 
+    eventName: AppearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -103,7 +103,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "(\uC548\uB155.)"
-    eventName: smile
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -132,7 +132,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uAC15\uC758\uC2E4 \uBB38\uC774 \uB610 \uC5F4\uB838\uB2E4.\n\uC544...
       \uC774\uBC88\uC5D4 \uAD50\uC218\uB2D8\uC774\uC2DC\uB2E4."
-    eventName: 
+    eventName: NotTalkingYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -142,7 +142,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC218\uC5C5\uC774 \uC2DC\uC791\uB410\uB2E4. \uD55C \uC2DC\uAC04\uCBE4
       \uC9C0\uB0AC\uC744\uAE4C. \uC26C\uB294 \uC2DC\uAC04\uC744 \uC8FC\uC168\uB2E4."
-    eventName: 
+    eventName: NotTalkingWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -152,7 +152,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uADF8\uB9AC\uACE0 \uC870\uAD50\uB2D8\uC774 \uB2E4\uC2DC \uAC15\uC758\uC2E4\uB85C
       \uB4E4\uC5B4\uC624\uC168\uB2E4."
-    eventName: 
+    eventName: AppearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

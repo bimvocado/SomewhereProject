@@ -26,7 +26,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB0A8\uC790\uC758 \uD45C\uC815\uC774 \uAC11\uC790\uAE30 \uAD73\uC5B4\uC84C\uB2E4."
-    eventName: 
+    eventName: WoojinAnnoyed
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -45,7 +45,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB124. \uC9C0\uAC01 \uC81C\uCD9C\uC740 \uB530\uB85C \uC548 \uBC1B\uC2B5\uB2C8\uB2E4."
-    eventName: smile
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -74,7 +74,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB124."
-    eventName: smile
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -83,7 +83,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uBB38\uC744 \uB2EB\uACE0 \uB098\uC654\uB2E4."
-    eventName: 
+    eventName: DisappearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -92,7 +92,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "...\uD558.\n\uC55E\uC73C\uB85C\uB294 \uC815\uB9D0 \uC5F4\uC2EC\uD788 \uD574\uC57C\uACA0\uB2E4."
-    eventName: 
+    eventName: GotoHallway
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -110,7 +110,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC5F0\uB77D\uCC98\uB97C \uD655\uC778\uD574 \uBCF4\uC790!"
-    eventName: SaveContact_Woojin
+    eventName: CMD:SetFlag:SaveContact_Woojin:true
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

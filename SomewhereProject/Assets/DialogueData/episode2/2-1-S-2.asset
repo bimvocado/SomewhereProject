@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC624... \uC774\uB807\uAC8C \uBC14\uB85C \uC624\uCF00\uC774\uB97C?"
-    eventName: smile
+    eventName: SehaSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB2F9\uC5F0\uD558\uC9C0. \uB098 \uAC70\uAE30 \uB2E8\uACE8\uC774\uC57C."
-    eventName: smile
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

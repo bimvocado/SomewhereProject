@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uB2E4\uD589\uC774\uB124. \uCDE8\uD574\uBCF4\uC5EC\uC11C \uBB3C\uC5B4\uBD24\uC5B4.
       \uC870\uC808\uD574\uC11C \uC798 \uB9C8\uC154\uC694."
-    eventName: smile
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -46,7 +46,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC120\uBC30\uB294 \uB0B4 \uC794\uC5D0 \uBB3C\uC744 \uCC44\uC6CC\uC900
       \uD6C4 \uB2E4\uB978 \uD6C4\uBC30\uB97C \uCC59\uAE30\uB7EC \uC774\uB3D9\uD558\uC168\uB2E4."
-    eventName: 
+    eventName: DisappearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

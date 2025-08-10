@@ -25,7 +25,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC218\uC5C5\uC774 \uB05D\uB098\uACE0 \uAC15\uC758\uC2E4 \uBC16\uC73C\uB85C
       \uB098\uC654\uB2E4."
-    eventName: 
+    eventName: GotoHallway
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -36,7 +36,7 @@ MonoBehaviour:
     line: "\uC774 \uACFC\uBAA9 \uAD50\uC218\uB2D8 \uC9C4\uC9DC \uBCC4\uB85C\uC57C...
       \uC870\uAD50\uB2D8\uC740 \uC798\uC0DD\uAE30\uC168\uB294\uB370 \uAD50\uC218\uD55C\uD14C
       \uB9E8\uB0A0 \uAC08\uAD7C \uB2F9\uD558\uB098\uBD10."
-    eventName: 
+    eventName: AppearJueun
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -45,7 +45,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "\uD558\uAE34. \uB2E4\uD06C\uC11C\uD074 \uC5C4\uCCAD\uB098\uC2DC\uB354\uB77C."
-    eventName: smile
+    eventName: JueunSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -65,7 +65,7 @@ MonoBehaviour:
     line: "\uB2E4\uB978 \uAC15\uC758\uAC00 \uC788\uB294 \uC8FC\uC740\uC774\uC640
       \uD5E4\uC5B4\uC9C0\uACE0, \uC9D1\uC5D0 \uAC00\uAE30 \uC704\uD574 \uAC74\uBB3C
       \uBC16\uC73C\uB85C \uB098\uC130\uB2E4."
-    eventName: 
+    eventName: DisappearJueun1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -76,7 +76,7 @@ MonoBehaviour:
     line: "\uD559\uAD50 \uB4A4\uD3B8\uC744 \uAC78\uC5B4\uAC00\uB358 \uC911, \uBCBD\uC5D0
       \uAE30\uB304 \uCC44 \uD1B5\uD654\uD558\uACE0 \uC788\uB294 \uB8E8\uCE74\uAC00
       \uBCF4\uC600\uB2E4."
-    eventName: 
+    eventName: AppearLuka
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -98,7 +98,7 @@ MonoBehaviour:
     line: "\uD56D\uC0C1 \uBBF8\uC18C \uC9D3\uACE0 \uC788\uB294 \uC5BC\uAD74\uB9CC
       \uBCF8 \uAC83 \uAC19\uC740\uB370, \uB4DC\uBB3C\uAC8C \uAD73\uC740 \uD45C\uC815\uC774\uC5C8\uB2E4.
       \uB9D0\uD22C\uB3C4 \uB531\uB531\uD558\uACE0."
-    eventName: 
+    eventName: LukaSerious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -138,7 +138,7 @@ MonoBehaviour:
     line: "\uB124. ...\uB124, \uC81C\uAC00... \uB124. \uADF8\uAC74 \uB204\uB2D8\uAED8,
       \uC544\uB2C8\uC694. \uC800\uB294... \uC544\uBC84\uC9C0. \uC800\uB294 \uACBD\uC601
       \uAC19\uC740\uAC74 \uAD00\uC2EC \uC5C6\uC2B5\uB2C8\uB2E4."
-    eventName: smile
+    eventName: LukaSerious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -168,7 +168,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC798 \uB4E4\uC73C\uC168\uB098\uC694? \uC7AC\uBBF8\uC788\uB294 \uC774\uC57C\uAE30\uB294
       \uC544\uB2C8\uB77C\uACE0 \uC0DD\uAC01\uD588\uB294\uB370."
-    eventName: smile
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

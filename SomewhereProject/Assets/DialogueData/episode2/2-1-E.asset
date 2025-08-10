@@ -37,7 +37,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB0B4\uAC00 \uC65C \uBBF8\uB918\uC9C0..."
-    eventName: 
+    eventName: EunsungCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -49,7 +49,7 @@ MonoBehaviour:
       \uC5F0\uBA85\uD558\uACE0 \uC788\uB294 \uC640\uC911,\n\uB2E4\uB978 \uD14C\uC774\uBE14\uC5D0\uC11C
       \uC628 \uB3D9\uAE30\uB4E4 \uC0AC\uC774\uC5D0 \uC11C \uC788\uB294 \uC740\uC131\uC774\uC640
       \uB208\uC774 \uB9C8\uC8FC\uCE5C\uB2E4."
-    eventName: 
+    eventName: AppearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -58,7 +58,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC5B4? [\uC5EC\uC8FC\uC57C]... \uB108\uB3C4 \uC5EC\uAE30 \uC788\uC5C8\uC5B4?"
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -87,7 +87,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB098 \uC5EC\uAE30 \uC549\uC544\uB3C4 \uB3FC?"
-    eventName: smile
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

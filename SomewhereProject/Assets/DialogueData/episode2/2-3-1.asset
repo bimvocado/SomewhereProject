@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB2E4\uB4E4 \uC27D\uAC8C \uC774\uD574\uD55C \uAC83\uCC98\uB7FC \uBCF4\uC5EC\uC11C
       \uAD50\uC218\uB2D8\uAED8 \uBB3B\uAE30\uC5D4 \uBBFC\uB9DD\uD588\uB2E4."
-    eventName: 
+    eventName: DisappearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -27,7 +27,7 @@ MonoBehaviour:
     line: "\uADF8\uB798\uC11C \uC870\uAD50\uB2D8\uAED8 \uBB3C\uC5B4\uBCF4\uAE30\uB85C
       \uD588\uB2E4.\n\uAC15\uC758\uC2E4\uC744 \uB098\uAC04 \uC870\uAD50\uB2D8\uC744
       \uAE09\uD558\uAC8C \uB530\uB77C\uAC14\uB2E4."
-    eventName: 
+    eventName: TalkingWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -37,7 +37,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC800\uBC88\uC5D0 \uC5F0\uAD6C\uC2E4\uC5D0\uC11C \uBCF8 \uC774\uD6C4\uB85C
       \uC778\uC0C1\uC774 \uBCC0\uD588\uB2E4."
-    eventName: 
+    eventName: GotoHallway
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -94,7 +94,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC800\uC694?"
-    eventName: smile
+    eventName: WoojinSurprised
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

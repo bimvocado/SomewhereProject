@@ -25,7 +25,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uBC14\uC058\uAC8C \uC801\uC751\uD558\uBA70 \uB2E4\uB2C8\uB2E4 \uBCF4\uB2C8
       \uC5B4\uB290\uC0C8 \uAC1C\uAC15\uCD1D\uD68C \uB0A0\uC774 \uB2E4\uAC00\uC654\uB2E4."
-    eventName: 
+    eventName: GotoAfterparty
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
