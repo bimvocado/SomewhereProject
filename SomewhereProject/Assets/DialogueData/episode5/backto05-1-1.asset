@@ -14,6 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: gostage
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uC774\uD604 \uC120\uBC30\uC640 \uC804\uD654\uB97C \uB04A\uACE0 \uD559\uAD50
       \uBC34\uB4DC\uC758 \uBB34\uB300\uB97C \uBCF4\uB2E4 \uBCF4\uB2C8 \uC5B4\uB290\uC0C8
       7\uC2DC 20\uBD84\uC774\uB2E4."
@@ -64,10 +73,19 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
+    line: 
+    eventName: gonightestival
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uBB34\uB300 \uAC1D\uC11D\uC744 \uB098\uC640 \uC785\uAD6C \uCABD\uC73C\uB85C
       \uAC00\uC790, \uC775\uC219\uD55C \uC774\uD604 \uC120\uBC30\uC758 \uC2E4\uB8E8\uC5E3\uC774
       \uBCF4\uC600\uB2E4."
-    eventName: 
+    eventName: yappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -85,7 +103,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC544, \uC0AC\uC2E4 \uB098... \uCD95\uC81C \uC640\uBCF8 \uC801 \uC5C6\uC5B4."
-    eventName: 
+    eventName: yflustered
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

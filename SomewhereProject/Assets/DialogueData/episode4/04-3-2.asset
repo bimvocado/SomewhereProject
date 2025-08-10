@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uC5EC\uC8FC"
     line: "\uD639\uC2DC \uC606\uC5D0 \uC790\uB9AC \uBE44\uC5B4 \uC788\uC5B4?"
-    eventName: 
+    eventName: sappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC5B4, \uBE44\uC5B4 \uC788\uC5B4. \uC549\uC544."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -73,7 +73,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB098\uB984. \uB108\uB294?"
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

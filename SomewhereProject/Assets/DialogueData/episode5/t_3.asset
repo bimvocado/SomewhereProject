@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: "\uC5EC\uC8FC"
     line: "\uB8E8\uCE74 \uC548\uB155! \uB108\uB3C4 \uCD95\uC81C \uAD6C\uACBD \uC911\uC774\uC57C?
       \uBB54\uAC00 \uC758\uC678\uB124, \uC774\uB7F0 \uAC70 \uC2EB\uC5B4\uD560 \uC904."
-    eventName: 
+    eventName: lappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -25,7 +25,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uBCC4\uB85C \uC88B\uC544\uD558\uC9C4 \uC54A\uC544\uC694."
-    eventName: 
+    eventName: lsigh
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uADF8\uB7F0 \uAC70 \uC544\uB2C8\uC5D0\uC694. \uADF8\uB0E5\u2026"
-    eventName: 
+    eventName: lserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -109,7 +109,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB300\uB2F5\uC774 \uC5C6\uB2E4. \uC815\uB2F5\uC778\uAC00 \uBD10!"
-    eventName: 
+    eventName: lshy
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -127,7 +127,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC220 \uB4DC\uC168\uC5B4\uC694?"
-    eventName: 
+    eventName: lannoyed
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -183,7 +183,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC870\uAE08 \uB9DD\uC124\uC774\uB358 \uB8E8\uCE74\uAC00 \uAC00\uBCCD\uAC8C
       \uACE0\uAC1C\uB97C \uB044\uB355\uC600\uB2E4."
-    eventName: 
+    eventName: lok
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -201,7 +201,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC774\uC81C \uB2E4\uC2DC \uACF5\uC5F0\uC7A5\uC73C\uB85C \uB3CC\uC544\uAC00\uC790."
-    eventName: 
+    eventName: ldisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

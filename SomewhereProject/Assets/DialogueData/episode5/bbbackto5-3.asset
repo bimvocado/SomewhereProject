@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB610 \uADF8\uB7EC\uB124. \uBC16\uC5D0 \uC788\uB294 \uAC8C \uB354 \uC704\uD5D8\uD558\uB2E4\uACE0
       \uD588\uC796\uC544."
-    eventName: 
+    eventName: wsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -100,7 +100,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\u2026 \uADF8\uB7FC \uAD1C\uCC2E\uC544\uC9C8 \uB54C \uC54C\uC544\uC11C
       \uC9D1 \uB4E4\uC5B4\uAC00. \uB098 \uAC08\uAC8C."
-    eventName: 
+    eventName: wredface
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -109,7 +109,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC5E5?"
-    eventName: 
+    eventName: wdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -204,7 +204,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC18C\uD30C\uC5D0\uC11C \uC77C\uC5B4\uB098 \uADF8\uB300\uB85C \uD604\uAD00\uC744
       \uB098\uC654\uB2E4. \uBC14\uB85C \uC55E\uC5D0 \uB0B4 \uC9D1 \uBB38\uC774 \uBCF4\uC778\uB2E4."
-    eventName: 
+    eventName: wghall
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

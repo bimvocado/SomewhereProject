@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC5F0\uAD6C\uC2E4 \uC0DD\uAC01\uB098\uB124\u2026"
-    eventName: 
+    eventName: wsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

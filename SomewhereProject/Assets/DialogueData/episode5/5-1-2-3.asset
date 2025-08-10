@@ -62,7 +62,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC5EC\uAE30\uC800\uAE30 \uBD80\uC2A4\uB97C \uB3CC\uC544\uB2E4\uB2C8\uBA70
       \uB3C8\uC744 \uB9CE\uC774 \uC37C\uB2E4."
-    eventName: 
+    eventName: gonightfestival
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -54,7 +54,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uB8E8\uCE74!!"
-    eventName: 
+    eventName: lappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -73,7 +73,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB8E8\uCE74\uAC00 \uC5B8\uC9E2\uC740 \uB4EF\uD55C \uD45C\uC815\uC73C\uB85C
       \uC778\uC0AC\uB97C \uD574\uC628\uB2E4."
-    eventName: 
+    eventName: lsigh
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -82,7 +82,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC548\uB155\uD558\uC138\uC694,"
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -91,7 +91,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uC548\uB155 \uBABB\uD574\u2026"
-    eventName: 
+    eventName: lidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -100,7 +100,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uADF8\uB7EC\uC2E0\uAC00\uC694."
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -110,7 +110,7 @@ MonoBehaviour:
   - speaker: "\uC5EC\uC8FC"
     line: "\uADF8\uB798\uC11C \uB9D0\uC778\uB370, \uD639\uC2DC \uC774 \uADFC\uCC98\uC5D0
       \uD504\uB9B0\uD130 \uC5B4\uB514 \uC788\uB294\uC9C0 \uC54C\uC544??"
-    eventName: 
+    eventName: lidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -129,7 +129,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uAC19\uC774 \uAC00\uB4DC\uB9B4\uAE4C\uC694?"
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

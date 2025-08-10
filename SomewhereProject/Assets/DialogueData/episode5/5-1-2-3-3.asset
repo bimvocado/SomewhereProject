@@ -23,7 +23,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: "\uC774\uC740\uC131"
+  - speaker: "\uC5EC\uC8FC"
     line: "\uAC19\uC774 \uC0AC\uC9C4\uC774\uB77C\uB3C4 \uCC0D\uC744\uB798?"
     eventName: 
     conditionType: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC74C\u2026 \uAC19\uC774 \uCC0D\uB294 \uAC74 \uC88B\uC740\uB370\u2026"
-    eventName: 
+    eventName: hdifficult
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB0B4 \uBAB0\uACE8 \uAD1C\uCC2E\uC544?"
-    eventName: 
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -89,9 +89,9 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
+  - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB798!"
-    eventName: 
+    eventName: lok
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -257,7 +257,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "[\uC5EC\uC8FC\uC57C], \uACF5\uC5F0 \uBCFC \uAC70\uC57C?"
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -275,7 +275,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC65C, \uC6B0\uB9AC\uAC00 \uC5F4\uC2EC\uD788 \uC12D\uC678\uD588\uB294\uB370!"
-    eventName: 
+    eventName: lsurprised
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -284,7 +284,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uACE0\uBBFC\uD558\uB294 \uC774\uC720\uAC00 \uBB50\uC57C?"
-    eventName: 
+    eventName: lserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -304,7 +304,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC740\uC131\uC774\uAC00 \uC2DC\uBB34\uB8E9\uD55C \uD45C\uC815\uC73C\uB85C
       \uCCD0\uB2E4\uBCF8\uB2E4\u2026"
-    eventName: 
+    eventName: lsad
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

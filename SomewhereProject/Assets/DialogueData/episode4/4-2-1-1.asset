@@ -36,7 +36,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uADF8\uB7FC \uC88B\uC740 \uD558\uB8E8 \uBCF4\uB0B4\uC138\uC694."
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -45,7 +45,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uAFB8\uBC85 \uC778\uC0AC\uD558\uACE0 \uB8E8\uCE74\uAC00 \uBA40\uC5B4\uC9C4\uB2E4."
-    eventName: 
+    eventName: ldisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -55,7 +55,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB8E8\uCE74\uAC00 \uC54C\uB824\uC900 \uB300\uB85C \uCC3E\uC544\uAC00\uC11C
       \uBB34\uC0AC\uD788 \uD504\uB9B0\uD2B8\uB97C \uB9C8\uCCE4\uB2E4!"
-    eventName: 
+    eventName: goprint
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -73,7 +73,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: a41b37f96d5cfa54c83c32e722763b44
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

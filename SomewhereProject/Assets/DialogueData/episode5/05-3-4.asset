@@ -25,7 +25,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB7EC\uAC8C\u2026 \uCE35\uC740 \uBB50\u2026 \uC608\uC758?"
-    eventName: 
+    eventName: wsmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

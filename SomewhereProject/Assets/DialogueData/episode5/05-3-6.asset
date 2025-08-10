@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB798? \uB09C \uC880 \uCE5C\uD558\uB2E4\uACE0 \uC0DD\uAC01\uD588\uB294\uB370."
-    eventName: 
+    eventName: wsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -62,7 +62,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\u2026 \uB18D\uB2F4\uD560 \uAE30\uC6B4\uB3C4 \uC788\uB294 \uAC70 \uBCF4\uB2C8
       \uC220 \uB2E4 \uAE7C\uB098 \uBCF4\uB124."
-    eventName: 
+    eventName: wannoyed
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

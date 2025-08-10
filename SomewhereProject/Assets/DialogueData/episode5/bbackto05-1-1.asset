@@ -14,6 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: gostage
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uBB34\uB300 \uCABD\uC5D0 \uB3C4\uCC29\uD558\uB2C8 \uC5F0\uC608\uC778\uC774
       \uACF5\uC5F0\uC744 \uD558\uACE0 \uC788\uC5C8\uB2E4."
     eventName: 
@@ -26,7 +35,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uACE0\uAC1C\uB97C \uB3CC\uB824 \uC774\uD604 \uC120\uBC30\uB97C \uBCF4\uB2C8,
       \uC120\uBC30\uB3C4 \uC990\uAE30\uACE0 \uACC4\uC168\uB2E4."
-    eventName: 
+    eventName: ysmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -45,7 +54,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: 
+    eventName: ydisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -56,6 +65,15 @@ MonoBehaviour:
     line: "\uC774\uD604 \uC120\uBC30\uB791 \uACF5\uC5F0\uC744 \uC990\uAE30\uB358
       \uC911, \uD654\uC7A5\uC2E4\uC774 \uAC00\uACE0 \uC2F6\uC5B4\uC84C\uB2E4."
     eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: gonightc
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

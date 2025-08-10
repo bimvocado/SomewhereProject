@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\u2026 \uC774\uC720\uB098 \uB4E4\uC5B4\uBCF4\uC8E0."
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -42,7 +42,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB124. \uAD00\uC2EC \uC815\uB9D0 \uAC10\uC0AC\uD558\uB124\uC694."
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -69,7 +69,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uCE6D\uCC2C\uC73C\uB85C \uB4E3\uB3C4\uB85D \uD558\uC8E0."
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

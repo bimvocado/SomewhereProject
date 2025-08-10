@@ -36,7 +36,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC5B4\u2026 \uC5B4 \uADF8\uB798 \uBB34\uB300\uB85C \uAC00\uC790."
-    eventName: 
+    eventName: yredface
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -46,7 +46,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uACE0\uAC1C\uB97C \uB3CC\uB824 \uC120\uBC30\uC758 \uC5BC\uAD74\uC744
       \uBCF4\uB2C8 \uD130\uC9C8 \uB4EF \uBE68\uAC1C\uC838 \uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: gostage
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
