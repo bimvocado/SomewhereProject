@@ -34,7 +34,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC774\uD604 \uC120\uBC30\uC5D0\uAC8C\uC11C \uBB38\uC790\uAC00 \uC654\uB2E4."
-    eventName: 
+    eventName: YihyeonCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

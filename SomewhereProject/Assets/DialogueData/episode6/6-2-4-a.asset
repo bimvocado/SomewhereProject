@@ -54,7 +54,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC775\uC219\uD55C \uC5BC\uAD74."
-    eventName: 
+    eventName: SehaCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

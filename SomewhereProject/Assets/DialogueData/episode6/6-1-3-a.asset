@@ -80,7 +80,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC774 \uB0A0\uC528\uC5D0 \uB2E4\uC2DC \uAC78\uC5B4\uAC00\uB294 \uAC74
       \uBB34\uB9AC \uAC19\uB2E4."
-    eventName: 
+    eventName: LukaCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

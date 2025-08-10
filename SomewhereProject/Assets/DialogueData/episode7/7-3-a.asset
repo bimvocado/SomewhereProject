@@ -141,7 +141,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC57D\uC18D \uB2F9\uC77C!"
-    eventName: 
+    eventName: LukaCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
