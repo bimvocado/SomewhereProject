@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC774 \uC219\uCDE8\uD574\uC18C\uC81C \uC77C\uB2E8 \uBA39\uC5B4."
-    eventName: smile
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC9D1 \uAC08 \uC218 \uC788\uACA0\uC5B4?"
-    eventName: smile
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -94,7 +94,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uADF8\uB7FC \uC7A0\uAE50 \uBC14\uB78C \uC880 \uC42C\uACE0 \uC628\uB2E4\uACE0
       \uD558\uACE0 \uB098\uAC00. \uB0B4\uAC00 \uB9D0\uD574\uB458\uAC8C."
-    eventName: smile
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -104,7 +104,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB098\uB294 \uC870\uC6A9\uD788 \uC790\uB9AC\uC5D0\uC11C \uC77C\uC5B4\uB098
       \uBC14\uB78C\uC744 \uC42C\uACE0 \uC628\uB2E4\uBA70 \uBC16\uC73C\uB85C \uB098\uC654\uB2E4."
-    eventName: 
+    eventName: DisappearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -115,7 +115,7 @@ MonoBehaviour:
     line: "\uB2E4\uD589\uD788 \uC774\uD604 \uC120\uBC30\uAC00 \uB0B4 \uC9D0\uC744
       \uCC59\uACA8\uC8FC\uC2E0 \uB355\uC5D0 \uC544\uBB34\uB3C4 \uB0B4\uAC00 \uC9D1\uC73C\uB85C
       \uD284\uB2E4\uACE0 \uC758\uC2EC\uD558\uC9C0 \uC54A\uC558\uB2E4."
-    eventName: 
+    eventName: GoingHome
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -125,7 +125,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC120\uBC30\uB3C4 \uC548\uC5D0\uC11C \uB2E4\uB978 \uC120\uBC30\uB2D8\uAED8
       \uBB54\uAC00 \uB9D0\uC744 \uD558\uC2DC\uB354\uB2C8 \uB530\uB77C \uB098\uC624\uC168\uB2E4."
-    eventName: 
+    eventName: AppearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -135,7 +135,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uD63C\uC790 \uC9D1 \uAC08 \uC218 \uC788\uACA0\uC5B4?\uD798\uB4E4 \uAC83
       \uAC19\uC73C\uBA74 \uADFC\uCC98\uAE4C\uC9C0 \uB370\uB824\uB2E4\uC904\uAC8C."
-    eventName: smile
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

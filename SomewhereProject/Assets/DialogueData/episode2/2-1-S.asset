@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uC5EC\uC8FC"
     line: "\uC74C... \uAC10\uC790\uD280\uAE40?"
-    eventName: 
+    eventName: DisappearLuka1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -34,7 +34,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uAC10\uC790\uD280\uAE40\uC774\uB791 \uB2ED\uB625\uC9D1?"
-    eventName: smile
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -52,7 +52,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB098\uB3C4 \uADF8 \uB458 \uC81C\uC77C \uC88B\uC544\uD558\uB294\uB370."
-    eventName: smile
+    eventName: SehaSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -72,7 +72,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB2C8\uAE4C. \uBAB0\uB790\uB294\uB370 \uC774\uAC70 \uC740\uADFC
       \uD638\uBD88\uD638 \uB9CE\uC774 \uAC08\uB9AC\uB354\uB77C."
-    eventName: smile
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -93,7 +93,7 @@ MonoBehaviour:
     line: "\uB9DE\uC544. \uC6B0\uB9AC \uB098\uC911\uC5D0 \uAC19\uC774 \uB2ED\uB625\uC9D1
       \uBA39\uC73C\uB7EC \uAC08\uB798? \uC544\uB294 \uB370 \uC788\uB294\uB370 \uB418\uAC8C
       \uB9DB\uC788\uC5B4."
-    eventName: smile
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

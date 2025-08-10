@@ -23,8 +23,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uB8E8\uCE74"
-    line: "\uADFC\uCC98\uC5D0 \uBCFC \uC77C\uC774 \uC788\uC5C8\uC5B4\uC694."
-    eventName: 
+    line: "\uADF8\uB7F4 \uC77C\uC774 \uC788\uC5C8\uC5B4\uC694."
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uD559\uAE30 \uC911\uC5D0 \uBBF8\uB904\uB480\uB358 \uC77C\uB4E4\uC774
       \uB9CE\uC544\uC11C \uD558\uACE0 \uC788\uC5B4\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uAF64 \uBC14\uC058\uB124\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -72,7 +72,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uBBF8\uB904\uC11C \uBB38\uC81C\uAC00 \uB418\uC9C0 \uC54A\uB294\uB2E4\uBA74,
       \uCD5C\uB300\uD55C \uBBF8\uB8E8\uACE0 \uC2F6\uC5B4\uC9C0\uB354\uB77C\uACE0\uC694."
-    eventName: 
+    eventName: LukaSigh
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

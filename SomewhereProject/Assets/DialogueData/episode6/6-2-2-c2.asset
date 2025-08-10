@@ -33,7 +33,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB9D0\uB3C4, \uD589\uB3D9\uB3C4 \uB2E4 \uC870\uC6A9\uD55C \uC0AC\uB78C\uC778\uB370."
-    eventName: 
+    eventName: DisappearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

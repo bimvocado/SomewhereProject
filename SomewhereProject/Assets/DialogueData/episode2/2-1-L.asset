@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: "\uC5EC\uC8FC"
     line: "\uD68C... \uC0DD\uC120\uD68C \uAC19\uC740\uAC70. \uC5EC\uAE30\uB294 \uC548
       \uD314\uC9C0\uB9CC."
-    eventName: 
+    eventName: DisappearSeha1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC606\uC5D0 \uC549\uC740 \uB8E8\uCE74\uAC00 \uBBF8\uC18C \uC9D3\uB294
       \uAC8C \uBCF4\uC600\uB2E4."
-    eventName: 
+    eventName: LukaOk
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC220\uC548\uC8FC\uB85C\uB294 \uAD1C\uCC2E\uC8E0."
-    eventName: smile
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

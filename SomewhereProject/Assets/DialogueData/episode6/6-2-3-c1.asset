@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\xB7\xB7\xB7"
-    eventName: 
+    eventName: LukaSurprised
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -33,7 +33,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB124."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

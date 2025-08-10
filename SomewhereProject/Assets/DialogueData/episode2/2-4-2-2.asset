@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC800\uC5D0 \uB300\uD574 \uB9CE\uC774 \uAD81\uAE08\uD558\uC2E0\uAC00
       \uBD10\uC694."
-    eventName: smile
+    eventName: LukaOk
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,8 +44,26 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
+    line: 
+    eventName: DisappearLuka
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uC5F0\uB77D\uCC98\uB97C \uD655\uC778\uD574 \uBCF4\uC790!"
-    eventName: SaveContact_Luka
+    eventName: CMD:SetFlag:SaveContact_Luka:true
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: LoadEpisode3
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

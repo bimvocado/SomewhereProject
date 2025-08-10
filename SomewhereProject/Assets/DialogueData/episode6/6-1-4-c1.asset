@@ -31,6 +31,15 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+  - speaker: 
+    line: 
+    eventName: SehaSaying
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uBD24\uC5B4."
     eventName: 
@@ -61,7 +70,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB0A0, \uB418\uAC8C \uAC11\uC791\uC2A4\uB7EC\uC6E0\uAC70\uB4E0."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -70,7 +79,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB9C8\uC774\uD06C \uC7A1\uACE0\uB3C4 \uAE34\uC7A5 \uB9CE\uC774 \uD588\uC5B4."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -97,7 +106,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uBB58?"
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -116,7 +125,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC138\uD558 \uC624\uBE60\uC758 \uB208\uB3D9\uC790\uAC00 \uC0B4\uC9DD
       \uD754\uB4E4\uB838\uB2E4."
-    eventName: 
+    eventName: SehaSerious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -125,7 +134,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB7F0 \uC601\uC0C1\uAE4C\uC9C0 \uBD24\uAD6C\uB098."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -171,7 +180,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\xB7\xB7\xB7 \uADF8 \uC598\uAE30, \uB098\uC911\uC5D0 \uCC9C\uCC9C\uD788
       \uD574\uC904\uAC8C."
-    eventName: 
+    eventName: SehaSerious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -200,6 +209,15 @@ MonoBehaviour:
     line: "\uC624\uD788\uB824 \uADF8\uB798\uC11C\uC778\uC9C0 \uB354 \uD3B8\uD558\uACE0
       \uC194\uC9C1\uD588\uB358 \uAC83 \uAC19\uB2E4."
     eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

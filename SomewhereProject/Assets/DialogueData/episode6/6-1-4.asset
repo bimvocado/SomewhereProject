@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uADF8\uB798\uBD24\uC790 \uBB50 \uAC70\uCC3D\uD55C \uAC74 \uC544\uB2C8\uACE0,
       \uADF8\uB0E5 \uADFC\uCC98 \uCE74\uD398\uB85C \uD5A5\uD55C \uAC70\uC9C0\uB9CC."
-    eventName: 
+    eventName: SehaCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -36,7 +36,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uCE74\uD398 \uC785\uAD6C \uC720\uB9AC\uBB38\uC744 \uC5F4\uC790, \uC2DC\uC6D0\uD55C
       \uC5D0\uC5B4\uCEE8 \uBC14\uB78C\uC774 \uBC18\uAE34\uB2E4."
-    eventName: 
+    eventName: GotoCafe1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -82,9 +82,18 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+  - speaker: 
+    line: 
+    eventName: AppearSeha
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC5B4, [\uC5EC\uC8FC]?"
-    eventName: 
+    eventName: SehaSurprised
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -122,7 +131,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC6D0\uB798 \uC5EC\uAE30 \uC798 \uC548 \uC624\uB294\uB370\xB7\xB7\xB7."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -132,7 +141,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC624\uB298\uC740 \uAC77\uB2E4 \uBCF4\uB2C8\uAE4C \uADF8\uB0E5 \uB4E4\uC5B4\uC624\uACE0
       \uC2F6\uC5C8\uC5B4. \uB108\uB294?"
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -151,7 +160,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC5EC\uAE30 \uC790\uC8FC \uC640?"
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -169,7 +178,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\xB7\xB7\xB7 \uD639\uC2DC \uC5EC\uAE30 \uC549\uC544\uB3C4 \uB3FC?"
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

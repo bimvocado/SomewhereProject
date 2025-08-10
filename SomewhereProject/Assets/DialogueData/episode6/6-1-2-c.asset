@@ -36,7 +36,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC774\uD604 \uC120\uBC30\uC640 \uC11C\uC810 \uC55E\uC5D0\uC11C \uC778\uC0AC\uB97C
       \uD55C \uD6C4 \uD5E4\uC5B4\uC84C\uB2E4."
-    eventName: 
+    eventName: DisappearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -46,7 +46,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC11C\uC810 \uBC16\uC5D0\uC11C \uAD6C\uB984\uC774 \uC605\uC740 \uD558\uB298\uC744
       \uC62C\uB824\uB2E4\uBD24\uB2E4."
-    eventName: 
+    eventName: GotoStreet
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

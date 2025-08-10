@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uB4DC\uB514\uC5B4 \uC885\uAC15\uD588\uB2E4!"
-    eventName: 
+    eventName: GotoRoom
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

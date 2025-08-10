@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\xB7\xB7\xB7\uAE30\uC5B5\uD558\uC2DC\uB124\uC694."
-    eventName: 
+    eventName: LukaOk
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

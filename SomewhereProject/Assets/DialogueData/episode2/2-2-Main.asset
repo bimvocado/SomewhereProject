@@ -231,7 +231,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB2E4\uC74C \uB0A0"
-    eventName: 
+    eventName: GotoCampus
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -241,7 +241,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uAD50\uC218\uB2D8\uACFC 1:1\uB85C \uB300\uBA74\uD558\uB294 \uAC74 \uCC98\uC74C\uC774\uB77C
       \uAE34\uC7A5\uC774 \uB410\uB2E4."
-    eventName: 
+    eventName: GotoHallway
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -280,7 +280,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uBB38\uC744 \uC5F4\uACE0 \uB4E4\uC5B4\uAC00\uC790, \uC608\uC0C1\uACFC\uB294
       \uC804\uD600 \uB2E4\uB978 \uC0AC\uB78C\uC774 \uC549\uC544 \uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: GotoWJRoom
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -290,7 +290,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uAD50\uC218\uB2D8\uC774\uB77C\uACE0 \uD558\uAE30\uC5D4 \uB108\uBB34 \uC80A\uACE0,
       \uD53C\uACE4\uD574 \uBCF4\uC774\uB294 \uC5BC\uAD74."
-    eventName: 
+    eventName: AppearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -318,7 +318,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB124. \uAE40xx\uAD50\uC218\uB2D8 \uACFC\uC81C \uAD00\uB828\uD574\uC11C
       \uC624\uC2E0 \uAC70\uC8E0? \uC800\uD55C\uD14C \uBB3C\uC5B4\uBCF4\uBA74 \uB3FC\uC694."
-    eventName: smile
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -397,7 +397,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC7A0\uC2DC\uB9CC\uC694. \uD559\uBC88\uC774\uB791 \uC774\uB984 \uB9D0\uC500\uD574
       \uC8FC\uC138\uC694."
-    eventName: smile
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -426,7 +426,7 @@ MonoBehaviour:
     line: "...\uC5EC\uAE30 \uBCF4\uBA74, \uC81C\uCD9C\uB41C \uD30C\uC77C \uB450 \uAC1C\uAC00
       0\uBC14\uC774\uD2B8\uB85C \uC62C\uB77C\uC640 \uC788\uC5B4\uC694. \uBE48 \uD30C\uC77C
       \uC0C1\uD0DC\uB124\uC694."
-    eventName: smile
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -494,7 +494,7 @@ MonoBehaviour:
     line: "\uADF8\uB798\uB3C4 \uACFC\uC81C \uC5EC\uB7EC\uBC88 \uB098\uAC00\uB2C8\uAE4C...
       \uC774\uB7F0 \uC2E4\uC218 \uD55C \uBC88\uC73C\uB85C \uAC08\uB9AC\uC9C4 \uC54A\uC744
       \uAC70\uC608\uC694."
-    eventName: smile
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -504,7 +504,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC2DC\uD5D8\uC774\uB098 \uB2E4\uB978 \uACFC\uC81C \uC798 \uD558\uBA74
       \uCDA9\uBD84\uD788 \uBCF5\uAD6C \uAC00\uB2A5\uD558\uB2C8\uAE4C."
-    eventName: smile
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

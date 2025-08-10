@@ -52,7 +52,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB798."
-    eventName: 
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

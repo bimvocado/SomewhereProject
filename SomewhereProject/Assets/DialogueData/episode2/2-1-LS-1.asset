@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC2DC\uAC04\uB3C4 \uB2A6\uC5B4\uC84C\uACE0, \uC2AC\uC2AC \uC815\uB9AC\uD558\uB294
       \uBD84\uC704\uAE30\uB2E4."
-    eventName: 
+    eventName: AppearLS1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "[\uC5EC\uC8FC\uB3C4]."
-    eventName: smile
+    eventName: LukaNotTalking
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC870\uC2EC\uD788 \uB4E4\uC5B4\uAC00\uC138\uC694."
-    eventName: smile
+    eventName: LukaTalking1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
