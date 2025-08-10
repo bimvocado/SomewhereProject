@@ -227,7 +227,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\u2026\uC544, \uC0B4\uC9DD \uC5B4\uC9C0\uB7FD\uB2E4."
-    eventName: 
+    eventName: SehaFlushed
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
