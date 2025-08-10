@@ -14,6 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: go1
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uB3C4\uC11C\uAD00 \uCABD\uC73C\uB85C \uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: b9951dd538ae95943b8df6daf41c3391
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: "\uB8E8\uCE74"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: printLK
+      flagValue: 1
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "1\uCE35 \uB77C\uC6B4\uC9C0 \uCABD\uC73C\uB85C \uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: f0b672e006c67314e94831880f953b83
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  - speaker: 
     line: "\uC624\uC804 \uAC15\uC758\uB97C \uB4E4\uC73C\uB7EC \uD559\uAD50\uB85C
       \uD5A5\uD588\uB2E4."
     eventName: 

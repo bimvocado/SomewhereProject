@@ -14,6 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: gotest
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uB4DC\uB514\uC5B4 \uC81C\uC77C \uC911\uC694\uD55C \uC804\uACF5\uACFC\uBAA9\uC758
       \uC911\uAC04\uACE0\uC0AC \uB0A0\uC774\uB2E4."
     eventName: 

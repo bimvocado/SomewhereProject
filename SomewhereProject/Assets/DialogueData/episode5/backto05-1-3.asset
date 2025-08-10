@@ -34,7 +34,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uB8E8\uCE74!!"
-    eventName: 
+    eventName: lappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -52,7 +52,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC548\uB155\uD558\uC138\uC694,"
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -70,7 +70,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC800\uB97C\uC694?"
-    eventName: 
+    eventName: lserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -98,7 +98,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC18C\uB9AC\uAC00 \uAEBC\uC838\uC788\uC5B4\uC11C\uC694. \uAE09\uD55C
       \uC77C\uC774\uC2E0\uAC00\uC694?"
-    eventName: 
+    eventName: lidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -118,7 +118,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uBB34\uC2A8 \uC2EC\uAC01\uD55C \uC77C\uC778\uC9C0 \uB4E4\uC5B4\uB098
       \uBCF4\uC8E0."
-    eventName: 
+    eventName: lsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -146,7 +146,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB9D0\uC500\uD558\uC138\uC694."
-    eventName: 
+    eventName: lsayng
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -164,7 +164,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uADF8\uAC83 \uCC38 \uC548\uD0C0\uAE4C\uC6B4 \uC77C\uC774\uB124\uC694."
-    eventName: 
+    eventName: lidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -323,7 +323,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB8E8\uCE74\uC758 \uD314\uC744 \uBD99\uC7A1\uACE0 \uADFC\uCC98\uC758
       \uD478\uB4DC\uD2B8\uB7ED\uC73C\uB85C \uB370\uB824\uAC04\uB2E4."
-    eventName: 
+    eventName: lsigh
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -342,7 +342,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: 
+    eventName: gonightfestival
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

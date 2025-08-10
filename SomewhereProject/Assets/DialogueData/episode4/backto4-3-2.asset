@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC2DC\uD5D8 \uB05D\uB098\uACE0 \uBB50\uD574?"
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -34,7 +34,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB098 \uB9E4\uC6B4 \uAC70 \uB561\uAE30\uB294\uB370\u2026 \uB5A1\uBCF6\uC774
       \uBA39\uC73C\uB7EC \uAC08\uB798?"
-    eventName: 
+    eventName: sidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC6D0\uB798 \uC2A4\uD2B8\uB808\uC2A4\uBC1B\uC73C\uBA74 \uB9E4\uC6B4 \uAC70\uB85C
       \uD480\uC5B4\uC57C \uD558\uC796\uC544."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -71,7 +71,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC74C\u2026 \uC801\uB2F9\uD788?"
-    eventName: 
+    eventName: sserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -89,7 +89,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\u2026 \uB108 \uB9E4\uC6B4 \uAC70 \uADF8\uB807\uAC8C \uC798 \uBA39\uC5B4?"
-    eventName: 
+    eventName: sserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -116,7 +116,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "[\uC5EC\uC8FC]."
-    eventName: 
+    eventName: sidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -134,7 +134,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC2DC\uD5D8 \uC798 \uBD10. \uAE34\uC7A5\uD558\uC9C0 \uB9D0\uACE0."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -144,6 +144,15 @@ MonoBehaviour:
   - speaker: "\uC5EC\uC8FC"
     line: "\uC751, \uACE0\uB9C8\uC6CC. \uC624\uBE60\uB3C4 \uC2DC\uD5D8 \uC798 \uBD10."
     eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: sdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -46,7 +46,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC548\uB155, [\uC5EC\uC8FC]."
-    eventName: 
+    eventName: sappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -55,7 +55,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC5EC\uAE30\uC11C \uBB50 \uD574?"
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -76,7 +76,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uAE09\uD55C \uAC70\uC57C? \uAC00\uC7A5 \uAC00\uAE4C\uC6B4 \uACF3\uB3C4
       \uC5EC\uAE30\uC120 \uC870\uAE08 \uAC70\uB9AC \uC788\uC744 \uD150\uB370."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -136,7 +136,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB7FC \uB0B4\uAC00 \uB300\uC2E0 \uD574\uC904\uAE4C?"
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -155,7 +155,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uBBF8\uC548\uD558\uBA74 \uB098 \uC544\uC774\uC2A4\uD2F0 \uD55C \uC794\uB9CC
       \uC0AC\uC918. \uC5B4\uCC28\uD53C \uB098\uB294 \uC9C0\uAE08 \uD55C\uAC00\uD574."
-    eventName: 
+    eventName: ssmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -175,7 +175,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC5EC\uB984\uC774\uC5C8\uC73C\uBA74 \uC218\uBC15 \uC8FC\uC2A4 \uB9C8\uC168\uC744
       \uD150\uB370, \uC9C0\uAE08\uC740 \uC2DC\uC98C\uC774 \uC544\uB2C8\uB2C8\uAE4C."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -203,7 +203,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uD30C\uC77C \uBCF4\uB0B4\uB194. \uD504\uB9B0\uD2B8\uD558\uACE0 \uAC16\uB2E4\uC904\uAC8C."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -221,7 +221,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "[\uC5EC\uC8FC\uC57C]! \uC5EC\uAE30 \uD504\uB9B0\uD2B8."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -241,7 +241,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC544\uC774\uC2A4\uD2F0\uB294 \uC798 \uB9C8\uC2E4\uAC8C. \uC2AC\uC2AC
       \uB4E4\uC5B4\uAC00\uC57C \uD558\uB294 \uAC70 \uC544\uB2C8\uC57C?"
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -261,7 +261,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB9AC\uD3EC\uD2B8\uB97C \uC18C\uC911\uD788 \uD488\uC5D0 \uC548\uACE0
       \uAC15\uC758\uC2E4\uB85C \uD5A5\uD588\uB2E4."
-    eventName: 
+    eventName: sdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -269,7 +269,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: a41b37f96d5cfa54c83c32e722763b44
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

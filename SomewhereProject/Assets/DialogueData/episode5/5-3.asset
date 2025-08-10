@@ -17,7 +17,7 @@ MonoBehaviour:
     line: "\uACF5\uC5F0\uC774 \uB05D\uB098\uACE0 \uB3D9\uAE30\uB4E4\uC5D0\uAC8C \uBD99\uC7A1\uD600
       \uB9E5\uC8FC\uB97C \uB108\uBB34 \uB9C8\uC2E0 \uD0D3\uC77C\uAE4C. \uC138\uC0C1\uC774
       \uD551\uAE00\uD551\uAE00 \uB3C8\uB2E4."
-    eventName: 
+    eventName: wghouse
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -154,7 +154,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC6B0\uC9C4 \uC120\uBC30\uC600\uB2E4."
-    eventName: 
+    eventName: wappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -172,7 +172,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC6B0\uB9AC \uB9D0 \uB193\uAE30\uB85C \uD588\uC796\uC544."
-    eventName: 
+    eventName: wsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -212,6 +212,15 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
+    line: 
+    eventName: wgelv
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uB0B4 \uD314\uC744 \uC5B4\uC815\uCA61\uD558\uAC8C \uC7A1\uACE0 \uC5D8\uB9AC\uBCA0\uC774\uD130\uB97C
       \uD0C0\uB294 \uC790\uC138\uAC00 \uC880 \uC6C3\uAE30\uB2E4."
     eventName: 
@@ -244,7 +253,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBBF8\uC548\uD558\uB124. \uB0C4\uC0C8\uB294 \uC880\uB9CC \uCC38\uC544.
       \uBA87 \uCE35\uC774\uC57C?"
-    eventName: 
+    eventName: wsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -291,7 +300,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: 
+    eventName: wghall
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -358,7 +367,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uADF8\uB0E5 \uB208\uC744 \uAC10\uC558\uB2E4. \uC194\uC9C1\uD788 \uB2F9\uD669\uD574
       \uC92C\uC73C\uBA74 \uC88B\uACA0\uB2E4\u2026"
-    eventName: 
+    eventName: wdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -450,7 +459,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC6B0\uC9C4 \uC120\uBC30 \uC9D1\uC774\uB2E4."
-    eventName: 
+    eventName: wgroom
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

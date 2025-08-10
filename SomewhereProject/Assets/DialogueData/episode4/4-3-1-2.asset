@@ -53,7 +53,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC751\u2026 \uB9DE\uC544."
-    eventName: 
+    eventName: hdifficult
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -62,7 +62,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB098 \uAD50\uC591\uC5D0\uC11C\uB3C4 \uC5C4\uCCAD \uC878\uC9C0?"
-    eventName: 
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -99,7 +99,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC544, \uC774\uB530 \uC2DC\uD5D8 \uB05D\uB098\uBA74 \uBB50 \uD574?"
-    eventName: 
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -108,7 +108,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uAC19\uC774 \uBC25 \uBA39\uC744\uB798?"
-    eventName: 
+    eventName: hidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC2DC\uD5D8 \uBCF4\uBA74 \uC54C\uACA0\uC9C0."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC5F4\uC2EC\uD788 \uD558\uB294 \uAC74 \uC544\uB2CC\uB370, \uC548 \uD558\uBA74
       \uCC1D\uCC1D\uD558\uC796\uC544."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB798\uC11C \uC5B4\uC81C\uB294 \uC880 \uD588\uB2E4."
-    eventName: 
+    eventName: ssaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

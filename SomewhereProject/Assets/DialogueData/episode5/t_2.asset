@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uC5EC\uC8FC"
     line: "\uC5B4? \uC740\uC131\uC544?"
-    eventName: 
+    eventName: happear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC544, [\uC5EC\uC8FC\uC57C]!"
-    eventName: 
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -52,7 +52,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB10C \uC65C \uACF5\uC5F0 \uC548 \uBCF4\uACE0 \uC5EC\uAE30 \uC788\uC5B4?"
-    eventName: 
+    eventName: hserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -79,7 +79,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB098 \uAC00\uC57C \uD574\uC11C, \uADF8\uB7FC \uB2E4\uC74C\uC5D0 \uBCF4\uC790!"
-    eventName: 
+    eventName: hsmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -97,7 +97,16 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC798 \uAC00! \uACF5\uC5F0 \uC798 \uBCF4\uACE0!"
-    eventName: 
+    eventName: hsaying
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: hdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -14,6 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: gonightfestival
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uC624\uB298\uB530\uB77C \uB2E4\uB4E4 \uC65C \uC774\uB807\uAC8C \uBC14\uC05C
       \uAC70\uC57C\u2026"
     eventName: 
@@ -45,7 +54,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uC740\uC131\uC544!"
-    eventName: 
+    eventName: happear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -54,7 +63,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "[\uC5EC\uC8FC\uC57C]!"
-    eventName: 
+    eventName: hsmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -64,7 +73,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uC804\uD654 \uC8FC\uACA0\uB2E4\uACE0 \uD588\uB294\uB370 \uB108\uBB34
       \uBC14\uBE60\uC11C \uAE4C\uBA39\uC5C8\uB124."
-    eventName: 
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -103,7 +112,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB9DE\uC544, \uC5C4\uCCAD \uBC14\uBE74\uC5B4."
-    eventName: 
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -112,7 +121,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "[\uC5EC\uC8FC\uC774] \uB108\uB294 \uC5C4\uCCAD \uC990\uACBC\uB098 \uBCF8\uB370?"
-    eventName: 
+    eventName: hidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -132,7 +141,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uAE09\uD558\uAC8C \uC190\uC744 \uB4E4\uC5B4 \uC5BC\uAD74\uC744 \uAC00\uB9AC\uC790,
       \uC740\uC131\uC774\uAC00 \uC6C3\uC5C8\uB2E4."
-    eventName: 
+    eventName: hsmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -141,7 +150,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC7AC\uBC0C\uC5C8\uACA0\uB2E4."
-    eventName: 
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -151,7 +160,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uB098\uB3C4 \uD559\uC0DD\uD68C\uB9CC \uC544\uB2C8\uC5C8\uC73C\uBA74 \uB108\uB791
       \uB2E4\uB2C8\uB294 \uAC74\uB370."
-    eventName: 
+    eventName: hidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -169,7 +178,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC9C0\uAE08 \uC26C\uB294 \uC2DC\uAC04\uC774\uAE34 \uD574."
-    eventName: 
+    eventName: hidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

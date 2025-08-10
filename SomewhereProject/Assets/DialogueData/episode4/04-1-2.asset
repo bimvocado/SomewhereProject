@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC5B4 [\uC5EC\uC8FC] \uCE5C\uAD6C \uC65C\uC694?"
-    eventName: 
+    eventName: yappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uD639\uC2DC \uC774 \uBB38\uC81C \uB3C4\uC640\uC8FC\uC2E4 \uC218 \uC788\uB098\uC694?"
-    eventName: 
+    eventName: yidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -33,7 +33,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC544, \uC774\uAC70 \uB0B4\uAC00 \uC791\uB144\uC5D0 \uD588\uB358 \uAC70\uB124."
-    eventName: 
+    eventName: ysaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -43,7 +43,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC7A0\uC2DC\uB9CC\uC694 \uB0B4\uAC00 \uBC1B\uC544\uB454 \uC871\uBCF4\uAC00
       \uC788\uC744 \uAC70\uC57C."
-    eventName: 
+    eventName: yidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -90,7 +90,16 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC544\uB2C8\uC5D0\uC694. \uACF5\uBD80 \uD30C\uC774\uD305."
-    eventName: 
+    eventName: ysmile
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: ydisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

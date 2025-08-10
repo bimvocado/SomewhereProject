@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC5BC\uB9C8\uB098 \uC798 \uC54C\uACE0 \uACC4\uC2E4\uC9C0 \uAD81\uAE08\uD558\uB124\uC694."
-    eventName: 
+    eventName: lserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -34,7 +34,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "[\uC5EC\uC8FC\uC774] \uB108 \uB418\uAC8C \uC900\uBE44\uC131 \uC88B\uB2E4\u2026"
-    eventName: 
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -43,7 +43,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB7FC \uBE68\uB9AC \uBCF4\uACE0 \uB3CC\uB824\uC904\uAC8C!"
-    eventName: 
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -62,7 +62,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB098\uB3C4 \uADF8\uB7FC \uC774\uC81C \uACF5\uBD80\uD574\uC57C\uC9C0."
-    eventName: 
+    eventName: hdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -71,7 +71,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: 
+    eventName: gohall
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
