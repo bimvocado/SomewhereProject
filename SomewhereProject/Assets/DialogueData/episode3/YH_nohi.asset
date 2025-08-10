@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC5B4? \uC548\uB155~."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

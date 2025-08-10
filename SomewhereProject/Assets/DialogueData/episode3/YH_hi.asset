@@ -25,7 +25,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC5B4? [\uC5EC\uC8FC]. \uC8FC\uC740 \uCE5C\uAD6C\uB3C4 \uC788\uB124,
       \uC548\uB155."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

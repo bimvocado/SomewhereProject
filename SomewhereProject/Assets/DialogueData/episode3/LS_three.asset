@@ -25,7 +25,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uBB3C\uC778\uAC00\uC694. \uC548 \uADF8\uB798 \uBCF4\uC774\uB294\uB370."
-    eventName: 
+    eventName: LukaSerious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -62,7 +62,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC790\uC8FC \uD574\uBCF4\uC168\uB098 \uBD10\uC694. \uBCC0\uBA85\uC774
       \uC775\uC219\uD574 \uBCF4\uC774\uC2DC\uB294\uB370."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -126,7 +126,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB9CE\uC774 \uCDE8\uD558\uC168\uB098 \uBD10\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: OT_Luka
     conditionTargetCharacter: 
@@ -146,7 +146,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uB124, \uAC10\uC0AC\uD574\uC694. \n\uCC98\uC74C \uB9CC\uB0AC\uC744 \uB54C\uB3C4
       \uB9D0\uD558\uC168\uC5B4\uC694, \uADF8\uAC70."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: OT_Luka
     conditionTargetCharacter: 
@@ -164,7 +164,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uBB3C\uC774\uB77C\uB3C4 \uAC00\uC838\uB2E4 \uB4DC\uB9B4\uAE4C\uC694?"
-    eventName: 
+    eventName: LukaSaying
     conditionType: 1
     conditionKey: OT_Luka
     conditionTargetCharacter: 

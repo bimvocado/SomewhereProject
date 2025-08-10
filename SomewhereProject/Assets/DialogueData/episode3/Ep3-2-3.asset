@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADFC\uB370 \uB108\uB3C4 \uC798\uD558\uC796\uC544. \uACFC\uC81C \uBCF4\uBA74
       \uB124 \uAC8C \uC81C\uC77C \uB098\uC544."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uBAA8\uB974\uB294 \uAC70 \uB9CE\uC774 \uBB3C\uC5B4\uBD10\uC694. \uCD5C\uB300\uD55C
       \uC54C\uB824\uC904\uAC8C\uC694."
-    eventName: 
+    eventName: YihyeonT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -35,7 +35,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\u2026\uBB54\uAC00 \uC88B\uC740\uB370 \uBD80\uB2F4\uC2A4\uB7FD\uB2E4."
-    eventName: 
+    eventName: YihyeonNT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -54,7 +54,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB0B4\uAC00 \uD3B8\uD558\uAC8C \uD558\uB77C\uACE0 \uD588\uB294\uB370\uB3C4
       \uC774\uB798."
-    eventName: 
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -63,7 +63,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC874\uB313\uB9D0\uC774 \uC775\uC219\uD574\uC11C\uC694\u2026 \uD558\uD558."
-    eventName: shy
+    eventName: YihyeonT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -74,7 +74,7 @@ MonoBehaviour:
     line: "\uC2DD\uC0AC\uAC00 \uB098\uC654\uB2E4. \uC774\uB7F0\uC800\uB7F0 \uC774\uC57C\uAE30\uB97C
       \uB098\uB204\uBA70 \uBC25\uC744 \uBA39\uB2E4 \uBCF4\uB2C8, \uC2DC\uAC04\uC774
       \uAE08\uBC29 \uD758\uB800\uB2E4."
-    eventName: 
+    eventName: YihyeonNT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -95,7 +95,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uADF8\uB7FC \uC800\uB294 \uB3C4\uC11C\uAD00 \uAC00\uBCFC\uAC8C\uC694.
       \uB458 \uB2E4 \uB2E4\uC74C\uC5D0 \uBD10\uC694~."
-    eventName: 
+    eventName: YihyeonT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -104,7 +104,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB798, \uC798 \uAC00."
-    eventName: 
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -113,7 +113,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uB124\u2026!!"
-    eventName: 
+    eventName: WoojinNT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

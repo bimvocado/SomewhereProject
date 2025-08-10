@@ -46,7 +46,7 @@ MonoBehaviour:
     line: "\uC6B0\uC9C4\uC774 \uD615 \uBB50, \uC5C4\uCCAD \uB2E8 \uAC70\uB098 \uC5C4\uCCAD
       \uB290\uB07C\uD55C \uAC70 \uC544\uB2C8\uBA74 \uB2E4 \uC798 \uBA39\uC5B4\uC11C
       \uAD1C\uCC2E\uC544\uC694."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -56,7 +56,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC544, \uAC00\uC9C0\uB3C4 \uBCC4\uB85C \uC548 \uC88B\uC544\uD558\uAE34
       \uD574\uC694."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -85,7 +85,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC8FC\uBB38\uC774\uC694!"
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -113,7 +113,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBB50 \uC2DC\uCF30\uC5B4?"
-    eventName: 
+    eventName: ApperWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -122,7 +122,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uADF8\uB0E5 \uC0DD\uC120\uAD6C\uC774 \uC815\uC2DD 3\uAC1C."
-    eventName: 
+    eventName: YihyeonT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -142,7 +142,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC88B\uB124. \uC544, \uB9D0 \uD3B8\uD558\uAC8C \uD574\uC694. \uADF8\uB0E5
       \uC120\uBC30\uB77C\uB3C4 \uBD88\uB7EC\uB3C4 \uB3FC."
-    eventName: 
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -160,7 +160,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\u2026\uBA87 \uC0B4 \uAC19\uC740\uB370?"
-    eventName: 
+    eventName: WoohinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -169,7 +169,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: 
-    eventName: laugh
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

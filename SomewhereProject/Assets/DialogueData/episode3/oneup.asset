@@ -25,7 +25,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\u2026\uC9C4\uC9DC?"
-    eventName: 
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -34,7 +34,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uD45C\uC815\uC774 \uBBF8\uBB18\uD558\uB2E4."
-    eventName: 
+    eventName: WoojinNT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uD55C \uBC88\uC5D0 \uB9DE\uD78C \uC0AC\uB78C \uCC98\uC74C \uBD10\uC694.
       \uB208\uC370\uBBF8 \uC88B\uC740\uB370\uC694?"
-    eventName: laugh
+    eventName: YihyeonT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -55,7 +55,7 @@ MonoBehaviour:
     line: "\uC774\uD604 \uC120\uBC30\uAC00 \uACC4\uC18D \uC6C3\uB294\uB2E4. \uD655\uC2E4\uD788
       \uCE5C\uD55C \uC0AC\uB78C\uC774\uB791 \uC788\uC5B4\uC11C \uADF8\uB7F0\uC9C0
       \uBD84\uC704\uAE30\uAC00 \uBC1D\uB2E4."
-    eventName: 
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

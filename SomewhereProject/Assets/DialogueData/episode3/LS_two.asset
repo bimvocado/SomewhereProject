@@ -35,7 +35,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC2E0\uACBD \uC4F0\uC9C0 \uC54A\uC73C\uC154\uB3C4 \uB3FC\uC694. \uBCC4\uB85C
       \uB9CE\uC774 \uC816\uC740 \uAC83\uB3C4 \uC544\uB2C8\uACE0."
-    eventName: 
+    eventName: LukaSerious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
