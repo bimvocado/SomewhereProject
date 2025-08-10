@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB108\uB3C4 \uC544\uC774\uC2A4\uC544\uBA54\uB9AC\uCE74\uB178\uC57C? \uB098\uB3C8\uB370."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

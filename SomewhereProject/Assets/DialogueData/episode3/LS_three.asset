@@ -80,7 +80,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: 
-    eventName: laugh
+    eventName: LukaSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
