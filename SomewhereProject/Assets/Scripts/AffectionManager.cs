@@ -1,10 +1,20 @@
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq; // LINQ를 위해 필요합니다.
+using System.Linq;
+
+[System.Serializable]
+public class InitialAffection
+{
+    public string characterName;
+    public int initialValue;
+}
 
 public class AffectionManager : MonoBehaviour
 {
     public static AffectionManager Instance { get; private set; }
+
+    [Header("초기 호감도 설정")]
+    [SerializeField] private List<InitialAffection> initialAffections;
 
     private Dictionary<string, int> affections = new Dictionary<string, int>();
     private int defaultAffection = 0;
@@ -24,9 +34,23 @@ public class AffectionManager : MonoBehaviour
 
     private void Start()
     {
+        InitializeAffections();
+
         if (EventManager.Instance != null)
         {
             EventManager.Instance.StartListening("ResetAffection", ResetAllAffections);
+        }
+    }
+
+    private void InitializeAffections()
+    {
+        foreach (var affectionSetting in initialAffections)
+        {
+            if (!string.IsNullOrEmpty(affectionSetting.characterName))
+            {
+                affections[affectionSetting.characterName] = affectionSetting.initialValue;
+                Debug.Log($"초기 호감도 설정: {affectionSetting.characterName} = {affectionSetting.initialValue}");
+            }
         }
     }
 
@@ -40,12 +64,17 @@ public class AffectionManager : MonoBehaviour
         }
         affections[characterName] += amount;
         Debug.Log($"캐릭터 '{characterName}'의 호감도 {amount} 변경, 현재 호감도: {affections[characterName]}");
+
+        if (EventManager.Instance != null)
+        {
+            EventManager.Instance.TriggerEvent($"AffectionChanged_{characterName}");
+        }
     }
 
     public void ResetAllAffections()
     {
         affections = new Dictionary<string, int>();
-        Debug.Log("모든 캐릭터의 호감도가 초기화되었습니다.");
+        InitializeAffections();
     }
 
     public void ResetAffection(string characterName)
@@ -55,6 +84,18 @@ public class AffectionManager : MonoBehaviour
         if (affections.ContainsKey(characterName))
         {
             affections.Remove(characterName);
+        }
+
+        var initialSetting = initialAffections.FirstOrDefault(x => x.characterName == characterName);
+        if (initialSetting != null)
+        {
+            affections[characterName] = initialSetting.initialValue;
+        }
+
+
+        if (EventManager.Instance != null)
+        {
+            EventManager.Instance.TriggerEvent($"AffectionChanged_{characterName}");
         }
     }
 
@@ -90,5 +131,6 @@ public class AffectionManager : MonoBehaviour
     public void LoadAffections(Dictionary<string, int> data)
     {
         affections = new Dictionary<string, int>(data);
+        Debug.Log("저장된 호감도 데이터를 불러옴.");
     }
 }

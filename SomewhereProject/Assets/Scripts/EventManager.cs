@@ -36,6 +36,17 @@ public class EventManager : MonoBehaviour
         }
     }
 
+    public void StopListening(string eventName, UnityAction listener)
+    {
+        if (Instance == null) return;
+        if (eventDictionary.TryGetValue(eventName, out UnityEvent thisEvent))
+        {
+            thisEvent.RemoveListener(listener);
+            Debug.Log($"이벤트 리스닝 중지 '{eventName}'");
+        }
+    }
+
+
     public void TriggerEvent(string eventName)
     {
         if (eventDictionary.TryGetValue(eventName, out UnityEvent thisEvent))

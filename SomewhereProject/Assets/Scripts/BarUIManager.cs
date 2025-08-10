@@ -9,7 +9,12 @@ public class BarUIManager : MonoBehaviour
     [SerializeField]
     private GameObject phone;
 
+
+    [SerializeField]
+    private GameObject applicationsContainer;
+
     private Animator phoneAnimator;
+
     private void Awake()
     {
         if (Instance == null)
@@ -32,21 +37,27 @@ public class BarUIManager : MonoBehaviour
         }
     }
 
+
     public void ShowPhone()
     {
         if (backPanel != null)
         {
             backPanel.SetActive(true);
         }
-
         if (phoneAnimator != null)
         {
             phoneAnimator.SetTrigger("Phone");
         }
     }
 
-    public void HidePhone() { 
-        if (phone != null)
+    public void HidePhone()
+    {
+        if (applicationsContainer != null)
+        {
+            applicationsContainer.SetActive(false);
+        }
+
+        if (phoneAnimator != null)
         {
             phoneAnimator.SetTrigger("Hide");
         }
@@ -54,6 +65,25 @@ public class BarUIManager : MonoBehaviour
         {
             backPanel.SetActive(false);
         }
+    }
+
+    public void ShowApp(GameObject appPanelToShow)
+    {
+        if (applicationsContainer == null || appPanelToShow == null) return;
+
+        applicationsContainer.SetActive(true);
+
+        foreach (Transform app in applicationsContainer.transform)
+        {
+            app.gameObject.SetActive(false);
+        }
+
+        appPanelToShow.SetActive(true);
+    }
+
+    public void OnBackPanelClick()
+    {
+        HidePhone();
     }
 
     public bool IsPhoneUIShowing()
