@@ -49,8 +49,9 @@ public class DialogueManager : MonoBehaviour
 
     private bool isSkipping = false;
     private bool isAutoMode = false;
+    private bool wasAutoModeActiveBeforeChoice = false;
     private float autoModeTimer = 0f;
-    [SerializeField] private float autoModeDelay = 2.0f;
+    [SerializeField] private float autoModeDelay = 0.05f;
 
     private void Awake()
     {
@@ -69,10 +70,33 @@ public class DialogueManager : MonoBehaviour
             instantiatedDialogueUI = Instantiate(dialogueUIPrefab);
             DontDestroyOnLoad(instantiatedDialogueUI);
 
-            go_DialogueBar = instantiatedDialogueUI.transform.Find("UI_Dialogue/DialogueBar")?.gameObject;
-            go_NameBar = instantiatedDialogueUI.transform.Find("UI_Dialogue/NameBar")?.gameObject;
-            choicePanel = instantiatedDialogueUI.transform.Find("UI_Dialogue/ChoicePanel");
-            nextIndicator = instantiatedDialogueUI.transform.Find("UI_Dialogue/nextIndicator")?.gameObject;
+            Transform dialogueBarTransform = instantiatedDialogueUI.transform.Find("UI_Dialogue/DialogueBar");
+            if (dialogueBarTransform != null)
+            {
+                go_DialogueBar = dialogueBarTransform.gameObject;
+                txt_dialogue = go_DialogueBar.GetComponentInChildren<TMP_Text>();
+                img_DialogueBackground = go_DialogueBar.GetComponentInChildren<Image>();
+            }
+
+            Transform nameBarTransform = instantiatedDialogueUI.transform.Find("UI_Dialogue/NameBar");
+            if (nameBarTransform != null)
+            {
+                go_NameBar = nameBarTransform.gameObject;
+                txt_name = go_NameBar.GetComponentInChildren<TMP_Text>();
+                img_NameBackground = go_NameBar.GetComponentInChildren<Image>();
+            }
+
+            Transform choicePanelTransform = instantiatedDialogueUI.transform.Find("UI_Dialogue/ChoicePanel");
+            if (choicePanelTransform != null)
+            {
+                choicePanel = choicePanelTransform;
+            }
+
+            Transform nextIndicatorTransform = instantiatedDialogueUI.transform.Find("UI_Dialogue/nextIndicator");
+            if (nextIndicatorTransform != null)
+            {
+                nextIndicator = nextIndicatorTransform.gameObject;
+            }
 
             if (go_DialogueBar != null)
             {
@@ -96,12 +120,14 @@ public class DialogueManager : MonoBehaviour
         }
 
         typingSpeed = PlayerPrefs.GetFloat("TypingSpeed", 0.05f);
+        autoModeDelay = PlayerPrefs.GetFloat("AutoModeDelay", 0.5f);
+
         if (nextIndicator != null) nextIndicator.SetActive(false);
     }
 
     private void Update()
     {
-        if (BarUIManager.Instance != null && BarUIManager.Instance.IsPhoneUIShowing())
+        if ((BarUIManager.Instance != null && BarUIManager.Instance.IsPhoneUIShowing()) || (SaveNSettingUI.Instance != null && SaveNSettingUI.Instance.IsUIShowing()))
         {
             return;
         }
@@ -124,6 +150,33 @@ public class DialogueManager : MonoBehaviour
                 isSkipping = false;
                 return;
             }
+            DisplayNext();
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (EventSystem.current.IsPointerOverGameObject())
+            {
+                PointerEventData eventData = new PointerEventData(EventSystem.current);
+                eventData.position = Input.mousePosition;
+                List<RaycastResult> results = new List<RaycastResult>();
+                EventSystem.current.RaycastAll(eventData, results);
+
+                bool clickedOnDialogueBar = false;
+                foreach (var result in results)
+                {
+                    if (result.gameObject == go_DialogueBar)
+                    {
+                        clickedOnDialogueBar = true;
+                        break;
+                    }
+                }
+
+                if (!clickedOnDialogueBar)
+                {
+                    return;
+                }
+            }
+
             DisplayNext();
         }
         else
@@ -176,6 +229,13 @@ public class DialogueManager : MonoBehaviour
         {
             isSkipping = false;
         }
+    }
+    public void SetAutoModeDelay(float newDelay)
+    {
+
+        autoModeDelay = Mathf.Lerp(0.1f, 1.0f, newDelay);
+        PlayerPrefs.SetFloat("AutoModeDelay", autoModeDelay);
+        PlayerPrefs.Save();
     }
 
     private void SetDialogueData(DialogueData data, string assetKey)
@@ -343,7 +403,19 @@ public class DialogueManager : MonoBehaviour
         txt_dialogue.text = _fullyProcessedLine;
         isTyping = false;
         lastInteractionTime = Time.time;
-        if (nextIndicator != null) nextIndicator.SetActive(true);
+        if (isWaitingForChoiceClick)
+        {
+            if (isAutoMode)
+            {
+                wasAutoModeActiveBeforeChoice = true;
+                ToggleAuto(false);
+            }
+            ShowChoices(currentDialogues[dialogueIndex - 1].choices);
+        }
+        else
+        {
+            if (nextIndicator != null) nextIndicator.SetActive(true);
+        }
     }
 
     private IEnumerator TypeDialogue(string line)
@@ -359,16 +431,26 @@ public class DialogueManager : MonoBehaviour
         typingCoroutine = null;
         lastInteractionTime = Time.time;
 
-        if (!isWaitingForChoiceClick && nextIndicator != null)
+        if (isWaitingForChoiceClick)
         {
-            nextIndicator.SetActive(true);
+            if (isAutoMode)
+            {
+                wasAutoModeActiveBeforeChoice = true;
+                ToggleAuto(false);
+            }
+            ShowChoices(currentDialogues[dialogueIndex - 1].choices);
+        }
+        else
+        {
+            if (nextIndicator != null)
+            {
+                nextIndicator.SetActive(true);
+            }
         }
     }
 
     void ShowChoices(Choice[] choices)
     {
-        go_DialogueBar.gameObject.SetActive(false);
-        go_NameBar.gameObject.SetActive(false);
         if (nextIndicator != null) nextIndicator.SetActive(false);
         choicePanel.gameObject.SetActive(true);
 
@@ -408,6 +490,12 @@ public class DialogueManager : MonoBehaviour
     void OnChoiceSelected(Choice choice)
     {
         if (isLoadingNextDialogue) return;
+
+        if (wasAutoModeActiveBeforeChoice)
+        {
+            ToggleAuto(true);
+            wasAutoModeActiveBeforeChoice = false;
+        }
 
         if (choice.requiredCoin > 0)
         {
@@ -585,9 +673,10 @@ public class DialogueManager : MonoBehaviour
         playerLastName = lastName;
     }
 
-    public void SetTypingSpeed(float newSpeed)
+    public void SetTypingSpeed(float sliderValue)
     {
-        typingSpeed = Mathf.Max(0.01f, newSpeed);
+        typingSpeed = Mathf.Lerp(0.1f, 0.01f, sliderValue);
+
         PlayerPrefs.SetFloat("TypingSpeed", typingSpeed);
         PlayerPrefs.Save();
     }

@@ -48,7 +48,9 @@ public class BarUIManager : MonoBehaviour
         {
             phoneAnimator.SetTrigger("Phone");
         }
+
     }
+
 
     public void HidePhone()
     {
@@ -65,6 +67,7 @@ public class BarUIManager : MonoBehaviour
         {
             backPanel.SetActive(false);
         }
+
     }
 
     public void ShowApp(GameObject appPanelToShow)

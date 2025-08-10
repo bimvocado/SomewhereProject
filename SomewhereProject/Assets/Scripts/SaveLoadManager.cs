@@ -55,7 +55,7 @@ public class SaveLoadManager : MonoBehaviour
         CoinManager.Instance.LoadCoin(data.playerCoin);
         AffectionManager.Instance.LoadAffections(data.affectionData);
         FlagManager.Instance.LoadFlags(data.flagData);
-        NameInputManager.Instance.LoadName(data.playerFirstName, data.playerLastName);
+        NameChangeManager.Instance.LoadName(data.playerFirstName, data.playerLastName);
         ReadLogManager.Instance.LoadReadLog(data.readDialogueLog);
         DialogueManager.Instance.LoadDialogueState(data.currentDialogueAssetKey, data.currentDialogueIndex);
 
@@ -90,8 +90,8 @@ public class SaveLoadManager : MonoBehaviour
         gameData.affectionData = AffectionManager.Instance.GetAffections();
         gameData.flagData = FlagManager.Instance.GetFlags();
         DialogueManager.Instance.GetCurrentDialogueState(out gameData.currentDialogueAssetKey, out gameData.currentDialogueIndex);
-        gameData.playerFirstName = NameInputManager.PlayerFirstName;
-        gameData.playerLastName = NameInputManager.PlayerLastName;
+        gameData.playerFirstName = NameChangeManager.PlayerFirstName;
+        gameData.playerLastName = NameChangeManager.PlayerLastName;
         gameData.currentSceneName = SceneManager.GetActiveScene().name;
         gameData.readDialogueLog = ReadLogManager.Instance.GetReadLog();
 

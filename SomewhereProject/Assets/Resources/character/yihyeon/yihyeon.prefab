@@ -1558,6 +1558,7 @@ MonoBehaviour:
   fadeEaseType: 3
   moveDuration: 0.8
   moveEaseType: 6
+  centerX: 0
   offscreenLeftX: -5
   offscreenRightX: 5
   scalePercent: 0.95

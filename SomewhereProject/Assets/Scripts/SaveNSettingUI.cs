@@ -21,15 +21,28 @@ public class SaveNSettingUI : MonoBehaviour
         }
     }
 
-
+    public bool IsUIShowing()
+    {
+        return (settingUI != null && settingUI.activeSelf) || (saveUI != null && saveUI.activeSelf);
+    }
 
     public void ShowSettingUI()
     {
         settingUI.SetActive(true);
     }
 
-    public void ShowSaveUI ()
+    public void ShowSaveUI()
     {
         saveUI.SetActive(true);
-    } 
+    }
+
+    public void CloseSettingUI()
+    {
+        settingUI.SetActive(false);
+    }
+
+    public void CloseSaveUI()
+    {
+        saveUI.SetActive(false);
+    }
 }

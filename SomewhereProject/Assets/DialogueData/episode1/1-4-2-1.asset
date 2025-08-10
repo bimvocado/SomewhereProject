@@ -51,7 +51,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC740\uC131\uC774 \uC790\uAE30 \uD578\uB4DC\uD3F0\uC5D0 \uBC88\uD638\uB97C
+    line: "\uC740\uC131\uC774\uAC00 \uC790\uAE30 \uD578\uB4DC\uD3F0\uC5D0 \uBC88\uD638\uB97C
       \uC801\uC5B4\uC11C \uBCF4\uC5EC\uC900\uB2E4."
     eventName: 
     conditionType: 0

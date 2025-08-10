@@ -77,7 +77,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uB098\uB294 \uD0A4\uD328\uB4DC\uB97C \uCF1C \uC740\uC131\uC5D0\uAC8C
+    line: "\uB098\uB294 \uD0A4\uD328\uB4DC\uB97C \uCF1C \uC740\uC131\uC774\uC5D0\uAC8C
       \uD578\uB4DC\uD3F0\uC744 \uAC74\uB138\uB2E4."
     eventName: 
     conditionType: 0
@@ -88,7 +88,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uBC88\uD638\uAC00 \uC800\uC7A5\uB410\uB2E4. \uC5F0\uB77D\uCC98\uB97C
-      \uD655\uC778 \uD574 \uBCF4\uC790."
+      \uD655\uC778\uD574 \uBCF4\uC790."
     eventName: CMD:SetFlag:SaveContact_Eunsung:true
     conditionType: 0
     conditionKey: 
@@ -97,7 +97,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC740\uC131\uC5D0\uAC8C\uC11C \uD734\uB300\uD3F0\uC744 \uB3CC\uB824\uBC1B\uC544
+    line: "\uC740\uC131\uC774\uC5D0\uAC8C\uC11C \uD734\uB300\uD3F0\uC744 \uB3CC\uB824\uBC1B\uC544
       \uBA54\uC2E0\uC800\uB97C \uCF30\uB2E4."
     eventName: 
     conditionType: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC0DD\uAC01\uD558\uAE30 \uBB34\uC12D\uAC8C \uC740\uC131\uC5D0\uAC8C\uC11C
+    line: "\uC0DD\uAC01\uD558\uAE30 \uBB34\uC12D\uAC8C \uC740\uC131\uC774\uC5D0\uAC8C\uC11C
       \uBA54\uC2DC\uC9C0\uAC00 \uC654\uB2E4."
     eventName: 
     conditionType: 0

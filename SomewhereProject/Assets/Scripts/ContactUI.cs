@@ -17,10 +17,21 @@ public class ContactUI : MonoBehaviour
 
     private bool isUnlocked = false;
 
+    private void OnEnable()
+    {
+        FlagManager.OnFlagChanged += HandleFlagChange;
+    }
+
+    private void OnDisable()
+    {
+        FlagManager.OnFlagChanged -= HandleFlagChange;
+    }
+
     private void Start()
     {
         if (contactData == null)
         {
+            Debug.LogError($"오류: '{gameObject.name}'");
             gameObject.SetActive(false);
             return;
         }
@@ -30,27 +41,28 @@ public class ContactUI : MonoBehaviour
         {
             affectionSlider.gameObject.SetActive(false);
         }
+
+        CheckUnlockConditions();
     }
 
     private void Update()
     {
-        if (!isUnlocked)
-        {
-            CheckUnlockConditions();
-        }
-
         if (isUnlocked && affectionSlider != null && affectionSlider.gameObject.activeSelf)
         {
             UpdateAffectionBar();
         }
     }
 
+    private void HandleFlagChange(string changedFlagKey)
+    {
+        if (isUnlocked) return;
+
+        CheckUnlockConditions();
+    }
+
     private void CheckUnlockConditions()
     {
-        if (FlagManager.Instance == null || contactData.requiredFlags == null || contactData.requiredFlags.Count == 0)
-        {
-            return;
-        }
+        if (isUnlocked || FlagManager.Instance == null) return;
 
         bool conditionsMet = contactData.requiredFlags.Any(flag => FlagManager.Instance.GetFlag(flag));
 
@@ -63,6 +75,7 @@ public class ContactUI : MonoBehaviour
 
     private void EnableContact()
     {
+        Debug.Log($"'{contactData.contactName}' 연락처 저장");
         contactRoot.SetActive(true);
         nameText.text = contactData.contactName;
         messageText.text = contactData.contactMessage;
