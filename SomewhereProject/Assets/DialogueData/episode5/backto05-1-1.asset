@@ -117,8 +117,42 @@ MonoBehaviour:
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
-    hasChoices: 0
-    choices: []
+    hasChoices: 1
+    choices:
+    - text: "\uC774\uD604\uC758 \uC190\uBAA9\uC744 \uC7A1\uB294\uB2E4"
+      nextDialogue:
+        m_AssetGUID: bbf1c06a93cea31489eaee3bc3a145f9
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 10
+      targetCharacterForAffection: "\uBB38\uC774"
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uADF8\uB0E5 \uAC78\uC5B4\uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: b828804d8bb5d9443b8796e2e388d629
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 
