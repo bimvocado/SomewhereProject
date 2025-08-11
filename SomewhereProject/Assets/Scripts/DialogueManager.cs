@@ -39,6 +39,7 @@ public class DialogueManager : MonoBehaviour
     private bool isLoadingNextDialogue = false;
     private bool isProcessingDisplayNext = false;
     private string _currentDialogueAssetKey;
+    private AsyncOperationHandle<DialogueData> _currentDialogueHandle;
 
     private float typingSpeed = 0.05f;
     private string playerLastName = "김";
@@ -276,19 +277,31 @@ public class DialogueManager : MonoBehaviour
         isLoadingNextDialogue = true;
         string key = assetRef.AssetGUID;
 
-        assetRef.LoadAssetAsync<DialogueData>().Completed += handle =>
+        if (_currentDialogueHandle.IsValid())
         {
-            isLoadingNextDialogue = false;
-            if (handle.Status == AsyncOperationStatus.Succeeded)
-            {
-                SetDialogueData(handle.Result, key);
-            }
-            else
-            {
-                Debug.LogError($"Dialogue load failed from AssetReference: {key}");
-                EndDialogue();
-            }
+            Addressables.Release(_currentDialogueHandle);
+        }
+
+        AsyncOperationHandle<DialogueData> newHandle = assetRef.LoadAssetAsync<DialogueData>();
+        newHandle.Completed += handle =>
+        {
+            OnDialogueLoaded(handle, key);
         };
+    }
+
+    private void OnDialogueLoaded(AsyncOperationHandle<DialogueData> handle, string assetKey)
+    {
+        if (handle.Status == AsyncOperationStatus.Succeeded)
+        {
+            _currentDialogueHandle = handle;
+            SetDialogueData(handle.Result, assetKey);
+        }
+        else
+        {
+            Debug.LogError($"Dialogue load failed from AssetReference: {assetKey}");
+            Addressables.Release(handle);
+        }
+        isLoadingNextDialogue = false;
     }
 
     public void DisplayNext()
@@ -316,12 +329,25 @@ public class DialogueManager : MonoBehaviour
                 return;
             }
 
-            if (isWaitingForChoiceClick)
+            ClearChoices();
+
+            if (dialogueIndex >= currentDialogues.Length)
             {
+                Dialogue lastDialogueLine = currentDialogues[dialogueIndex - 1];
+                if (lastDialogueLine.overrideNextDialogue != null && lastDialogueLine.overrideNextDialogue.RuntimeKeyIsValid())
+                {
+                    StartDialogueFromReference(lastDialogueLine.overrideNextDialogue);
+                }
+                else if (_currentDialogueData != null && _currentDialogueData.nextDialogueOnCompletion.RuntimeKeyIsValid())
+                {
+                    StartDialogueFromReference(_currentDialogueData.nextDialogueOnCompletion);
+                }
+                else
+                {
+                    EndDialogue();
+                }
                 return;
             }
-
-            ClearChoices();
 
             while (dialogueIndex < currentDialogues.Length)
             {
@@ -385,8 +411,6 @@ public class DialogueManager : MonoBehaviour
 
                 return;
             }
-
-            EndDialogue();
         }
         finally
         {
@@ -581,6 +605,7 @@ public class DialogueManager : MonoBehaviour
             Debug.Log("대화 종료");
         }
     }
+
 
     private void ClearChoices()
     {

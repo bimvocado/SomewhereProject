@@ -158,8 +158,8 @@ MonoBehaviour:
       flagToSet: 
       flagValue: 0
       conditionType: 10
-      conditionKey: "\uC815\uC6B0\uC9C4,\uBB38\uC774\uD604,\uB8E8\uCE74,\uAC15\uC138\uD558,\uC774\uC740\uC131\""
-      conditionTargetCharacter: 90"
+      conditionKey: "\uC815\uC6B0\uC9C4,\uBB38\uC774\uD604,\uB8E8\uCE74,\uAC15\uC138\uD558,\uC774\uC740\uC131"
+      conditionTargetCharacter: 90
       conditionValue: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 

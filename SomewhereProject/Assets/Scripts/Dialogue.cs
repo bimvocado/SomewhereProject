@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.Events;
 
 public enum ConditionType { None, FlagTrue, FlagFalse, AffectionGreater, AffectionLess, AffectionEqual,
@@ -23,6 +24,5 @@ public class Dialogue
     public bool hasChoices;
     public Choice[] choices;
 
-
-
+    public AssetReferenceT<DialogueData> overrideNextDialogue;
 }

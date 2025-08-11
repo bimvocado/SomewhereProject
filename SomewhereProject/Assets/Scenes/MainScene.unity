@@ -16343,8 +16343,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e23331a2d370f87448ef7decb8697133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: episode3
-  episodeData: {fileID: 11400000, guid: 91eba54aec1772d48a207a153c2d9ffa, type: 2}
+  sceneNameToLoad: episode6
+  episodeData: {fileID: 11400000, guid: ce80195fd68cf5543a2ce1d9c22a1f0a, type: 2}
 --- !u!1 &1432413765
 GameObject:
   m_ObjectHideFlags: 0
@@ -22501,7 +22501,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 15
+  m_characterSpacing: 10
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -23630,7 +23630,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 15
+  m_characterSpacing: 10
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
