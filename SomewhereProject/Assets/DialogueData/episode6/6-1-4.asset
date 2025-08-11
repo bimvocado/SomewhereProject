@@ -36,7 +36,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uCE74\uD398 \uC785\uAD6C \uC720\uB9AC\uBB38\uC744 \uC5F4\uC790, \uC2DC\uC6D0\uD55C
       \uC5D0\uC5B4\uCEE8 \uBC14\uB78C\uC774 \uBC18\uAE34\uB2E4."
-    eventName: GotoCafe1
+    eventName: GotoAfterparty
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

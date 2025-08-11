@@ -22,18 +22,9 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: "\uBB38\uC774\uD604"
-    line: "\uC8FC\uC740 \uD6C4\uBC30 \uC798 \uAC00\uC694."
-    eventName: OnlyYHT
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-  - speaker: "\uAC15\uC8FC\uC740"
-    line: "\uB124, \uB0B4\uC77C \uBD2C\uC694. [\uC5EC\uC8FC] \uBE60\uC774~"
-    eventName: DisappearJueun
+  - speaker: 
+    line: 
+    eventName: Fadeout
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -42,7 +33,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: Fadeout
+    eventName: YHTalking
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -112,7 +103,7 @@ MonoBehaviour:
       conditionTargetCharacter: 
       conditionValue: 0
   nextDialogueOnCompletion:
-    m_AssetGUID: 67a4e9c3933240243844b2cd032d2e42
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

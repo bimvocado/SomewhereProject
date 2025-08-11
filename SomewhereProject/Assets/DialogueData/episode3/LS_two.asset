@@ -61,8 +61,17 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearLuka
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: a7a0d253fe3a933479ab5f32d96248b0
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

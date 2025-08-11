@@ -25,7 +25,7 @@ public class DialogueManager : MonoBehaviour
     private Image img_DialogueBackground;
     private Image img_NameBackground;
     private GameObject nextIndicator;
-
+    private GameObject choiceBlockerPanel;
 
     private GameObject instantiatedDialogueUI;
 
@@ -98,6 +98,13 @@ public class DialogueManager : MonoBehaviour
                 nextIndicator = nextIndicatorTransform.gameObject;
             }
 
+            Transform blockerPanelTransform = instantiatedDialogueUI.transform.Find("UI_Dialogue/choiceblockpanel");
+            if (blockerPanelTransform != null)
+            {
+                choiceBlockerPanel = blockerPanelTransform.gameObject;
+            }
+
+
             if (go_DialogueBar != null)
             {
                 txt_dialogue = go_DialogueBar.GetComponentInChildren<TMP_Text>();
@@ -109,6 +116,7 @@ public class DialogueManager : MonoBehaviour
                 img_NameBackground = go_NameBar.GetComponentInChildren<Image>();
             }
 
+            if (choiceBlockerPanel != null) choiceBlockerPanel.SetActive(false);
             if (nextIndicator != null) nextIndicator.SetActive(false);
             if (choicePanel != null) choicePanel.gameObject.SetActive(false);
             if (go_DialogueBar != null) go_DialogueBar.SetActive(false);
@@ -127,10 +135,16 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
+        if (choicePanel != null && choicePanel.gameObject.activeSelf)
+        {
+            return;
+        }
+
         if ((BarUIManager.Instance != null && BarUIManager.Instance.IsPhoneUIShowing()) || (SaveNSettingUI.Instance != null && SaveNSettingUI.Instance.IsUIShowing()))
         {
             return;
         }
+
         if (isAutoMode && !isTyping && !isWaitingForChoiceClick && go_DialogueBar.activeSelf)
         {
             autoModeTimer += Time.deltaTime;
@@ -156,22 +170,24 @@ public class DialogueManager : MonoBehaviour
         {
             if (EventSystem.current.IsPointerOverGameObject())
             {
-                PointerEventData eventData = new PointerEventData(EventSystem.current);
-                eventData.position = Input.mousePosition;
+                PointerEventData eventData = new PointerEventData(EventSystem.current)
+                {
+                    position = Input.mousePosition
+                };
                 List<RaycastResult> results = new List<RaycastResult>();
                 EventSystem.current.RaycastAll(eventData, results);
 
-                bool clickedOnDialogueBar = false;
+                bool clickedOnDialogueArea = false;
                 foreach (var result in results)
                 {
-                    if (result.gameObject == go_DialogueBar)
+                    if (result.gameObject == go_DialogueBar || result.gameObject.transform.IsChildOf(go_DialogueBar.transform))
                     {
-                        clickedOnDialogueBar = true;
+                        clickedOnDialogueArea = true;
                         break;
                     }
                 }
 
-                if (!clickedOnDialogueBar)
+                if (!clickedOnDialogueArea)
                 {
                     return;
                 }
@@ -186,8 +202,10 @@ public class DialogueManager : MonoBehaviour
             {
                 if (EventSystem.current != null)
                 {
-                    PointerEventData eventData = new PointerEventData(EventSystem.current);
-                    eventData.position = Input.mousePosition;
+                    PointerEventData eventData = new PointerEventData(EventSystem.current)
+                    {
+                        position = Input.mousePosition
+                    };
                     List<RaycastResult> results = new List<RaycastResult>();
                     EventSystem.current.RaycastAll(eventData, results);
 
@@ -298,6 +316,11 @@ public class DialogueManager : MonoBehaviour
                 return;
             }
 
+            if (isWaitingForChoiceClick)
+            {
+                return;
+            }
+
             ClearChoices();
 
             while (dialogueIndex < currentDialogues.Length)
@@ -405,6 +428,8 @@ public class DialogueManager : MonoBehaviour
         lastInteractionTime = Time.time;
         if (isWaitingForChoiceClick)
         {
+            if (choiceBlockerPanel != null) choiceBlockerPanel.SetActive(true);
+
             if (isAutoMode)
             {
                 wasAutoModeActiveBeforeChoice = true;
@@ -433,6 +458,8 @@ public class DialogueManager : MonoBehaviour
 
         if (isWaitingForChoiceClick)
         {
+            if (choiceBlockerPanel != null) choiceBlockerPanel.SetActive(true);
+
             if (isAutoMode)
             {
                 wasAutoModeActiveBeforeChoice = true;
@@ -451,6 +478,11 @@ public class DialogueManager : MonoBehaviour
 
     void ShowChoices(Choice[] choices)
     {
+        foreach (Transform child in choicePanel)
+        {
+            ObjectPooler.Instance.ReturnToPool("ChoiceButton", child.gameObject);
+        }
+
         if (nextIndicator != null) nextIndicator.SetActive(false);
         choicePanel.gameObject.SetActive(true);
 
@@ -491,6 +523,8 @@ public class DialogueManager : MonoBehaviour
     {
         if (isLoadingNextDialogue) return;
 
+        isWaitingForChoiceClick = false;
+
         if (wasAutoModeActiveBeforeChoice)
         {
             ToggleAuto(true);
@@ -505,6 +539,7 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
+        if (choiceBlockerPanel != null) choiceBlockerPanel.SetActive(false);
         ClearChoices();
 
         if (choice.resetsAffection)

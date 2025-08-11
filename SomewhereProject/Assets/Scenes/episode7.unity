@@ -23691,6 +23691,86 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
+  - eventName: GotoSVT
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -4795847156282783352, guid: 7dcee6969d4044ffcb8ce8c9ff0f36a4, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoOcean
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -5203821322395993923, guid: 4dbb35b49a0414aba837515e32b0c5f0, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoTS2
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -1330368989271010821, guid: 8f5929ca62e9c164d8220b226e8fec20, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoMuseum
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -3345930775074556174, guid: f1ce25338750544c4a468007552e6454, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoYHR
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 5206390406620372331, guid: 28030caa5c1dd4776a733869f98fcf7f, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &1398141799
 Transform:
   m_ObjectHideFlags: 0

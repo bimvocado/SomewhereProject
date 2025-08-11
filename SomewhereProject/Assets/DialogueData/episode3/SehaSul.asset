@@ -97,7 +97,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uD39C\uC158 \uBC14\uAE65\uC73C\uB85C \uC774\uC5B4\uC9C0\uB294 \uC791\uC740
       \uB9C8\uB2F9, \uADF8 \uC606\uC5D4 \uBCA4\uCE58 \uBA87 \uAC1C\uAC00 \uB193\uC5EC\uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: GotoMTOut
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -106,7 +106,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uADF8\uC911 \uD558\uB098\uC5D0 \uC549\uC544 \uC788\uB294 \uC0AC\uB78C."
-    eventName: 
+    eventName: AppearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -332,6 +332,15 @@ MonoBehaviour:
     line: "\uB2EC\uBE5B \uC544\uB798 \uBD89\uC740 \uBA38\uB9AC\uAC00 \uD754\uB4E4\uB9AC\uACE0,\n\uB0B4
       \uC5B4\uAE68\uC5D0 \uAE30\uB304 \uC628\uAE30\uAC00 \uC870\uC6A9\uD788 \uC804\uD574\uC838\uC654\uB2E4."
     eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: Disappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -447,9 +447,8 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uCEE4\uD53C\uB97C \uAC74\uB124\uBA70 \uC778\uC0AC\uB97C \uD558\uC790,
-      \uC120\uBC30\uB294 \uAC00\uBCCD\uAC8C \uACE0\uAC1C\uB97C \uC219\uC774\uACE0
-      \uC870\uC6A9\uD788 \uBB38\uC744 \uC5F4\uACE0 \uB098\uAC14\uB2E4."
-    eventName: 
+      \uC120\uBC30\uB294 \uAC00\uBCCD\uAC8C \uACE0\uAC1C\uB97C \uC219\uC600\uB2E4."
+    eventName: YihyeonYes
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -457,8 +456,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uBB38\uC774 \uB2EB\uD788\uB294 \uCC30\uB098, \uC720\uB9AC\uCC3D \uB108\uBA38\uB85C
-      \uBCF4\uC774\uB294 \uB4B7\uBAA8\uC2B5."
+    line: "\uBB38\uC73C\uB85C \uD5A5\uD558\uB294 \uB4B7\uBAA8\uC2B5."
     eventName: 
     conditionType: 0
     conditionKey: 

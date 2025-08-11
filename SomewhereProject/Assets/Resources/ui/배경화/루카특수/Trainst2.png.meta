@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f869b23449e2f4ddba8a482aa4713826
+guid: 8f5929ca62e9c164d8220b226e8fec20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6444599872426519659
-    second: "4\u110B\u116F\u11AF_0"
+      213: -1330368989271010821
+    second: Trainst2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "4\u110B\u116F\u11AF_0"
+      name: Trainst2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 30
-        width: 1355
-        height: 834
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6ca2836071df6950800000000000000
-      internalID: 6444599872426519659
+      spriteID: bf15e4ee374998de0800000000000000
+      internalID: -1330368989271010821
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "4\u110B\u116F\u11AF_0": 6444599872426519659
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

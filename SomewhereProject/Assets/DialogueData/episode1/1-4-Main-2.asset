@@ -32,7 +32,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: "\uC5EC\uC8FC"
-    line: "\uC751, \uC5C4\uCCAD"
+    line: "\uC751, \uC5C4\uCCAD."
     eventName: 
     conditionType: 0
     conditionKey: 

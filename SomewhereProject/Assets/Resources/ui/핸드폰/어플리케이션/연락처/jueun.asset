@@ -15,6 +15,7 @@ MonoBehaviour:
   requiredFlags:
   - SaveContact_Jueun
   contactName: "\uAC15\uC8FC\uC740"
-  contactMessage: 
+  contactMessage: "\uC798\uBD80\uD0C1\uB4DC\uB824\uC694!"
   contactImage: {fileID: -2751974875384327088, guid: 5703e6ba1a1518440bf913d04b54ba16, type: 3}
   characterName: "\uAC15\uC8FC\uC740"
+  profileImageStates: []

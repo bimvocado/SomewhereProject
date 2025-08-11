@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC8FC\uBB38\uD55C \uC74C\uB8CC\uB97C \uBAA8\uB450 \uBC1B\uACE0 \uD559\uAD50\uB85C
       \uD5A5\uD588\uB2E4."
-    eventName: 
+    eventName: AllNT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC870\uAE08 \uAC77\uB2E4 \uBCF4\uB2C8 \uB3C4\uC11C\uAD00 \uC548\uC758
       \uADF8\uB8F9 \uC2A4\uD130\uB514\uB8F8\uC5D0 \uB3C4\uCC29\uD588\uB2E4."
-    eventName: 
+    eventName: GotoStudyroom
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -251,7 +251,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC544 \uBD80\uB044\uB7EC\uC6CC\u2026"
-    eventName: 
+    eventName: EunsungSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -390,7 +390,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uADF8\uB7FC \uB2E4\uC74C \uC9C8\uBB38."
-    eventName: 
+    eventName: AllNT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -439,7 +439,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uB098 \uC0AC\uAE30\uB2F9\uD560\uC9C0\uB3C4 \uBAB0\uB77C\uC11C \uC77C\uB2E8
       \uB123\uC5B4\uB450\uACE0 \uBD10\uC57C \uD574\u2026"
-    eventName: OnlyEST
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -601,7 +601,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB0B4 \uD559\uC810\u2026..."
-    eventName: 
+    eventName: DisappearAll
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uAE30\uCC28\uC5D0 \uD0C4 \uC6B0\uB9AC\uB294 \uB458 \uB2E4 \uC549\uAE30\uAC00
       \uBB34\uC12D\uAC8C \uC7A0\uC5D0 \uB4E4\uC5C8\uB2E4."
-    eventName: GotoTrainSt
+    eventName: GotoSVT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
