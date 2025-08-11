@@ -56,7 +56,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uC120\uBC30\uB294 \uBC14\uC05C\uB370 \uBD09\uC0AC\uB3C4 \uD574?"
-    eventName: 
+    eventName: AppearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -65,7 +65,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uACFC \uC0AC\uB78C\uB4E4 \uAC00\uB294 \uAE40\uC5D0 \uAC00\uB294 \uAC70\uC9C0."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -83,7 +83,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uACE0\uC591\uC774\uB3C4 \uC88B\uC9C0."
-    eventName: 
+    eventName: WoojinSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -123,7 +123,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC544 \uC598 \uBC1C\uD1B1\uC774 \uB108\uBB34 \uB0A0\uCE74\uB86D\uB124."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -163,7 +163,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB7EC\uB124. [\uC5EC\uC8FC\uC57C], \uC800\uAE30\uC11C \uBC1C\uD1B1\uAE4E\uC774
       \uC880 \uAC00\uC838\uC640 \uC918."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -191,7 +191,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC548\uC544\uBCFC\uB798? \uB0B4\uAC00 \uAE4E\uC744\uAC8C."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -251,7 +251,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC790, \uC190 \uD55C\uBC88 \uBCF4\uC790..."
-    eventName: 
+    eventName: WoojinSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -356,7 +356,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC6B0\uC9C4\uC740 \uBBF8\uC18C\uB9CC \uC9C0\uC5C8\uB2E4."
-    eventName: 
+    eventName: WoojinSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

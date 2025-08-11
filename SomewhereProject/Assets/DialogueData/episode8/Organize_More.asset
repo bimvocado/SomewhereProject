@@ -26,7 +26,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uB204\uB098\uCC98\uB7FC \uACE0\uBBFC \uC5C6\uC774 \uC0B4 \uC218 \uC788\uB2E4\uBA74
       \uD3B8\uD558\uACA0\uB124\uC694."
-    eventName: 
+    eventName: LukaAnnoyed
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -54,7 +54,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB204\uB098\uB3C4 \uB9CC\uB9CC\uCE58 \uC54A\uC544\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

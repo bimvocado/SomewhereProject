@@ -25,7 +25,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC544\uB2C8\uC9C0."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -43,7 +43,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC0AC\uC2E4 \uC6B0\uB9AC \uC9D1\uAE4C\uC9C0 \uC548 \uC640\uB3C4 \uB410\uB294\uB370."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -52,7 +52,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC774\uC655 \uD558\uB294 \uAC70,"
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -70,7 +70,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBCF4\uACE0 \uC2F6\uC5B4\uC11C \uBD88\uB800\uC5B4."
-    eventName: 
+    eventName: WoojinSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -79,7 +79,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB410\uC9C0?"
-    eventName: 
+    eventName: WoojinRedface
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -115,7 +115,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBB50 \uC774\uB7F0 \uAC78\uB85C \uADF8\uB798."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -151,7 +151,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB798."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -190,7 +190,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC774\uB7F4 \uAC70\uBA74 \uD559\uAD50\uB294 \uC65C \uB2E4\uB2C8\uB294
       \uAC70\uC57C, \uC9D1\uB3C4 \uAC00\uAE4C\uC6B0\uBA74\uC11C."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -209,7 +209,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBB50... \uAD1C\uCC2E\uAE34 \uD558\uB124."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -218,7 +218,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC774\uAC74 \uB4E3\uC9C0 \uB9D0\uACE0."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -236,7 +236,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC774\uAC74 \uC6EC\uB9CC\uD558\uBA74 \uC131\uACF5\uD574."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -274,7 +274,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB0B4\uAC00 \uC800 \uAD50\uC218\uB2D8 \uC5F0\uAD6C\uC2E4\uC5D0 \uC788\uC796\uC544."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -283,7 +283,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB108 \uACFC\uC81C \uD558\uB294 \uAC70 \uBCF4\uAC8C."
-    eventName: 
+    eventName: WoojinRedface
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -320,7 +320,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC65C?"
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -339,7 +339,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB798\uC57C\uC9C0."
-    eventName: 
+    eventName: WoojinSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -357,7 +357,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBC8C\uC368 \uAC00? \uAC19\uC774 \uBC25 \uBA39\uC790."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -386,7 +386,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB798. \uB098\uB294 \uCE5C\uAD6C \uC5C6\uC73C\uB2C8\uAE4C \uD63C\uC790
       \uBA39\uC744\uAC8C."
-    eventName: 
+    eventName: WoojinAnnoyed
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -435,7 +435,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC5B4, \uAC00."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

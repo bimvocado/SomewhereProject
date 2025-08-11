@@ -47,7 +47,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC120\uBC30\uC758 \uC5BC\uAD74\uC744 \uBC14\uB77C\uBCF4\uB2C8 \uC794\uB729
       \uAE34\uC7A5\uD574 \uC788\uB294 \uAC8C \uBCF4\uC5EC \uB369\uB2EC\uC544 \uBBFC\uB9DD\uD574\uC84C\uB2E4."
-    eventName: 
+    eventName: YihyeonRedface
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
