@@ -21716,6 +21716,38 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
+  - eventName: GotoSH
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -6500431411679883553, guid: b1933930059dc45c9a3a56d826a9807c, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoES
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &1398141799
 Transform:
   m_ObjectHideFlags: 0
