@@ -107,7 +107,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uAC00\uB294 \uAE38\uC5D0 \uC120\uBC30\uAC00 \uC790\uAFB8 \uC6C3\uB294\uB2E4."
-    eventName: 
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -2820,7 +2820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6691116940074035988, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6691116940074035988, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3315,7 +3315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1057293794586298747, guid: 5245bcd25e920444db00b33644d85bdd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.06
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 1057293794586298747, guid: 5245bcd25e920444db00b33644d85bdd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9389,7 +9389,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7421054966711510041, guid: 83feb29eb99d5394e9a8dec534d63570, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 7421054966711510041, guid: 83feb29eb99d5394e9a8dec534d63570, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11087,7 +11087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5678359883225755293, guid: b3d088c247c104f47b2104ce86197793, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5678359883225755293, guid: b3d088c247c104f47b2104ce86197793, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21965,6 +21965,18 @@ MonoBehaviour:
     onEventTriggered:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 805893784}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: NotTalking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
         - m_Target: {fileID: 2136945918}
           m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
           m_MethodName: Talking
@@ -21977,7 +21989,23 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 805893784}
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: YihyeonSaying1
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 207554942}
           m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
           m_MethodName: NotTalking
           m_Mode: 1
@@ -21987,6 +22015,70 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Talking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: JueunSaying2
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 207554942}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Talking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: NotTalking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 207554942}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
             m_BoolArgument: 0
           m_CallState: 2
   - eventName: WoojinT1
@@ -22015,6 +22107,18 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 805893784}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
             m_BoolArgument: 0
           m_CallState: 2
   - eventName: AllTalking
@@ -22121,6 +22225,18 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 297500772}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: NotTalking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
         - m_Target: {fileID: 825536103}
           m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
           m_MethodName: Talking
@@ -22133,16 +22249,16 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 297500772}
+        - m_Target: {fileID: 825536103}
           m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
-          m_MethodName: NotTalking
-          m_Mode: 1
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: shy
+            m_StringArgument: saying
             m_BoolArgument: 0
           m_CallState: 2
   - eventName: OnlyLukaT
@@ -22209,6 +22325,18 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 297500772}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventName: OnlyEST
     onEventTriggered:
       m_PersistentCalls:
@@ -22237,18 +22365,6 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1053821477}
-          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
-          m_MethodName: Talking
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: shy
-            m_BoolArgument: 0
-          m_CallState: 2
         - m_Target: {fileID: 825536103}
           m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
           m_MethodName: NotTalking
@@ -22273,11 +22389,7 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
-  - eventName: OnlyYHT
-    onEventTriggered:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2136945918}
+        - m_Target: {fileID: 1053821477}
           m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
           m_MethodName: Talking
           m_Mode: 1
@@ -22289,6 +22401,22 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 1053821477}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: OnlyYHT
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 805893784}
           m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
           m_MethodName: NotTalking
@@ -22335,6 +22463,30 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Talking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
             m_BoolArgument: 0
           m_CallState: 2
   - eventName: OnlyWJT
@@ -22353,18 +22505,6 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 805893784}
-          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
-          m_MethodName: Talking
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: shy
-            m_BoolArgument: 0
-          m_CallState: 2
         - m_Target: {fileID: 1053821477}
           m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
           m_MethodName: NotTalking
@@ -22396,6 +22536,46 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 805893784}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Talking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 805893784}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoMT
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -1964108010593161144, guid: f2ae3329217024ec2a8c361e114dcdda, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: shy
@@ -22460,6 +22640,250 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: DT323
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 805893784}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Talking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Talking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 805893784}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Disappear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Disappear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoStudyroom
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -8838941876204103243, guid: 2516895a51d6b4e359fa69600dbdee7e, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: AppearAll
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 805893784}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1053821477}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 825536103}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 297500772}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: DisappearAll
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2136945918}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Disappear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 805893784}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Disappear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1053821477}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Disappear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 825536103}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Disappear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 297500772}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Disappear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: ESNT
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1053821477}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: NotTalking
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoStreet1
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -8415215387863306407, guid: 5268d362647353e4ca4aa2decddd2ac1, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: GotoMTOut
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -5626363213094752900, guid: ac297573f61396a45843b46114ecee77, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: shy
@@ -33042,7 +33466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6676753945219555917, guid: 0ddd3457ffec0482693284188dcc7add, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 6676753945219555917, guid: 0ddd3457ffec0482693284188dcc7add, type: 3}
       propertyPath: m_LocalPosition.y

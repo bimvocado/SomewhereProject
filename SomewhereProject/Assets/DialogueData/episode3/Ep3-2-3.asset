@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADFC\uB370 \uB108\uB3C4 \uC798\uD558\uC796\uC544. \uACFC\uC81C \uBCF4\uBA74
       \uB124 \uAC8C \uC81C\uC77C \uB098\uC544."
-    eventName: WoojinSaying
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -114,6 +114,15 @@ MonoBehaviour:
   - speaker: "\uC5EC\uC8FC"
     line: "\uB124\u2026!!"
     eventName: WoojinNT
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: DT323
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

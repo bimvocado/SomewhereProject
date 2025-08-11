@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uAC15\uC758\uAC00 \uB05D\uB098\uACE0 \uC8FC\uC740\uC774\uB791 \uD568\uAED8
       \uD559\uAD50\uB97C \uB098\uC654\uB2E4."
-    eventName: 
+    eventName: GotoCampus
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -99,7 +99,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC9C0\uAE08 \uC6B0\uC9C4\u2026 \uC120\uBC30\uB791 \uAC19\uC774 \uBC25
       \uBA39\uAE30\uB85C \uD588\uB294\uB370, \uAC19\uC774 \uAC08\uB798\uC694?"
-    eventName: YihyeonSaying
+    eventName: YihyeonSaying1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -115,9 +115,70 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+  - speaker: "\uBB38\uC774\uD604"
+    line: "\uC8FC\uC740 \uD6C4\uBC30 \uC798\uAC00\uC694."
+    eventName: YihyeonSaying1
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uAC15\uC8FC\uC740"
+    line: "\uB139 \uB0B4\uC77C \uBD10\uC694. \uC5EC\uC8FC \uBE60\uC774~"
+    eventName: JueunSaying2
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearJueun
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 5e1f31defcbbff44fa62b829237923d4
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uC548 \uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 7c42c60c3d3bca84683ff5f00889e981
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC6B0\uC9C4 \uC120\uBC30\uBA74\u2026 \uADF8 \uC870\uAD50\uB2D8\uC774\uC694?"
-    eventName: 
+    eventName: YihyeonT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

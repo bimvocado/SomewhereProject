@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uC120\uBC30\uB791 \uAC19\uC774 \uC2DD\uB2F9\uC5D0 \uB3C4\uCC29\uD588\uB2E4."
-    eventName: 
+    eventName: GotoAfterparty
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -104,7 +104,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC870\uAE08 \uB4A4, \uC870\uAD50\uB2D8\uC774 \uB4E4\uC5B4\uC654\uB2E4.
       \uC73C\uC544\uC544\u2026"
-    eventName: 
+    eventName: AppearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -113,7 +113,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBB50 \uC2DC\uCF30\uC5B4?"
-    eventName: ApperWJ
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -160,14 +160,14 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\u2026\uBA87 \uC0B4 \uAC19\uC740\uB370?"
-    eventName: WoohinSaying
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: "\uBB38\uC774\uD604"
+  - speaker: 
     line: 
     eventName: YihyeonSmile
     conditionType: 0

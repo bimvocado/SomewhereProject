@@ -34,7 +34,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uD45C\uC815\uC774 \uBBF8\uBB18\uD558\uB2E4."
-    eventName: WoojinNT
+    eventName: WoojinSurprised
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

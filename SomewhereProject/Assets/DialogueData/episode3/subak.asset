@@ -25,7 +25,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB098\uB3C4 \uC218\uBC15 \uC8FC\uC2A4. \uC6B0\uB9AC \uD1B5\uD588\uB2E4,
       \uADF8\uCE58."
-    eventName: SehaSaying
+    eventName: OnlySehaT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
