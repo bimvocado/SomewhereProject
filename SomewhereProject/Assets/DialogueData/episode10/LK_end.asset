@@ -97,7 +97,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB300\uCDA9 \uC2DC\uAC04\uC744 \uD655\uC778\uD558\uACE0 \uC9D1 \uC55E\uC73C\uB85C
       \uD5A5\uD588\uB2E4."
-    eventName: 
+    eventName: GotoLuka
     conditionType: 1
     conditionKey: lk7Done
     conditionTargetCharacter: 

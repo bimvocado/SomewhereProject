@@ -168,7 +168,7 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: 
+    line: "\uBA87 \uC0B4 \uAC19\uB2E4\uACE0 \uD574\uC57C\uD558\uC9C0?"
     eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 

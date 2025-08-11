@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC8FC\uC740\uC774\uB294 \uBB54\uAC00 \uB534\uC9D3 \uC911\uC774\uACE0,\n\uC870\uAD50\uB2D8\uC740
       \uBC14\uBE60 \uBCF4\uC774\uC2E0\uB2E4."
-    eventName: 
+    eventName: DisappearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

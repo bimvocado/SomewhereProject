@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
+  m_Name: Ep3-2-1-1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - speaker: "\uBB38\uC774\uD604"
+    line: "\uC9C0\uAE08 \uC6B0\uC9C4\u2026 \uC120\uBC30\uB791 \uAC19\uC774 \uBC25
+      \uBA39\uAE30\uB85C \uD588\uB294\uB370, \uAC19\uC774 \uAC08\uB798\uC694?"
+    eventName: YihyeonSaying
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uAC15\uC8FC\uC740"
+    line: "\uC544~~ \uC800\uB294 \uC878\uB824\uC11C \uC9D1 \uAC08\uB798\uC694."
+    eventName: JueunSaying2
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uBB38\uC774\uD604"
+    line: "\uC8FC\uC740 \uD6C4\uBC30 \uC798\uAC00\uC694."
+    eventName: YihyeonSaying1
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: "\uAC15\uC8FC\uC740"
+    line: "\uB139 \uB0B4\uC77C \uBD10\uC694. \uC5EC\uC8FC \uBE60\uC774~"
+    eventName: JueunSaying2
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearJueun
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 5e1f31defcbbff44fa62b829237923d4
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uC548 \uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 7c42c60c3d3bca84683ff5f00889e981
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC6B0\uC9C4 \uC120\uBC30\uBA74\u2026 \uADF8 \uC870\uAD50\uB2D8\uC774\uC694?"
+    eventName: YihyeonT
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC870\uAD50\uB2D8\uC774\uB791 \uC120\uBC30\uB791 \uC14B\uC774\uC11C \uBC25\uC744
+      \uBA39\uB294\uB2E4\uACE0..? \uB108\uBB34 \uBED8\uCB58\uD558\uC796\uC544!"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 1
+    choices:
+    - text: "\uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 5e1f31defcbbff44fa62b829237923d4
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+    - text: "\uC548 \uAC04\uB2E4"
+      nextDialogue:
+        m_AssetGUID: 7c42c60c3d3bca84683ff5f00889e981
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_SubObjectGUID: 
+        m_EditorAssetChanged: 0
+      affectionChange: 0
+      targetCharacterForAffection: 
+      resetsAffection: 0
+      requiredCoin: 0
+      flagToSet: 
+      flagValue: 0
+      conditionType: 0
+      conditionKey: 
+      conditionTargetCharacter: 
+      conditionValue: 0
+  nextDialogueOnCompletion:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0

@@ -14,10 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: LukaCenter
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: ...
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uC220\uC744 \uC26C\uC9C0 \uC54A\uACE0 \uB9C8\uC154\uC11C \uCDE8\uD588\uB294\uC9C0,
       \uC606\uC5D0 \uC9C0\uB098\uAC00\uB358 \uB8E8\uCE74\uB791 \uBD80\uB52A\uD600\uC11C
       \uC220\uC744 \uC3DF\uC558\uB2E4."
-    eventName: ApperLuka
+    eventName: AppearLuka
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

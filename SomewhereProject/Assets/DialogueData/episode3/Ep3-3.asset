@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uBC30\uBD88\uB7EC\u2026 \uC5EC\uAE30 \uC9C4\uC9DC \uB9DB\uC788\uB124."
-    eventName: ApperSeha
+    eventName: AppearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
