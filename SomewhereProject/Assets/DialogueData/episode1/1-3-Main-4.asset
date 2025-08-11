@@ -135,8 +135,17 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\uC5F0\uB77D\uCC98\uB97C \uD655\uC778\uD574 \uBCF4\uC790!"
+    line: "\uC774\uD604 \uC120\uBC30\uC758 \uC5F0\uB77D\uCC98\uAC00 \uCD94\uAC00\uB418\uC5C8\uB2E4!"
     eventName: CMD:SetFlag:SaveContact_Yihyeon:true
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: "\uC5F0\uB77D\uCC98\uB97C \uD655\uC778\uD574 \uBCF4\uC790!"
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

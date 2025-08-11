@@ -63,7 +63,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uC774\uAC70 \uB0B4 \uBC88\uD63C\uB370, \uC5EC\uAE30\uB85C \uBCF4\uB0B4\uC904
       \uC218 \uC788\uC744\uAE4C?"
-    eventName: EunsungSaying
+    eventName: CMD:SetFlag:SaveContact_Eunsung:true
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -73,7 +73,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uBC88\uD638\uB97C \uC800\uC7A5\uD588\uB2E4.\n\uC5F0\uB77D\uCC98\uB97C
       \uD655\uC778 \uD574 \uBCF4\uC790."
-    eventName: CMD:SetFlag:SaveContact_Eunsung:true
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

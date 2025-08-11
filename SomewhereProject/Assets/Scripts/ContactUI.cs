@@ -15,77 +15,85 @@ public class ContactUI : MonoBehaviour
     [SerializeField] private Image profileImage;
     [SerializeField] private Slider affectionSlider;
 
-    private bool isUnlocked = false;
-
-    private void OnEnable()
-    {
-        FlagManager.OnFlagChanged += HandleFlagChange;
-    }
-
-    private void OnDisable()
-    {
-        FlagManager.OnFlagChanged -= HandleFlagChange;
-    }
 
     private void Start()
     {
         if (contactData == null)
         {
-            Debug.LogError($"오류: '{gameObject.name}'");
-            gameObject.SetActive(false);
+            return;
+        }
+        if (contactRoot == null)
+        {
+            return;
+        }
+        contactRoot.SetActive(false);
+    }
+
+    public void UpdateContactState()
+    {
+        if (contactData == null || FlagManager.Instance == null)
+        {
             return;
         }
 
-        contactRoot.SetActive(false);
-        if (affectionSlider != null)
-        {
-            affectionSlider.gameObject.SetActive(false);
-        }
-
-        CheckUnlockConditions();
-    }
-
-    private void Update()
-    {
-        if (isUnlocked && affectionSlider != null && affectionSlider.gameObject.activeSelf)
-        {
-            UpdateAffectionBar();
-        }
-    }
-
-    private void HandleFlagChange(string changedFlagKey)
-    {
-        if (isUnlocked) return;
-
-        CheckUnlockConditions();
-    }
-
-    private void CheckUnlockConditions()
-    {
-        if (isUnlocked || FlagManager.Instance == null) return;
-
         bool conditionsMet = contactData.requiredFlags.Any(flag => FlagManager.Instance.GetFlag(flag));
+
+        string flagsChecked = string.Join(", ", contactData.requiredFlags.Select(f => $"'{f}' = {FlagManager.Instance.GetFlag(f)}"));
 
         if (conditionsMet)
         {
-            isUnlocked = true;
             EnableContact();
+        }
+        else
+        {
+            DisableContact();
         }
     }
 
     private void EnableContact()
     {
-        Debug.Log($"'{contactData.contactName}' 연락처 저장");
+        if (!contactRoot.activeSelf)
+        {
+            Debug.Log($"<color=green>ContactUI ({contactData.contactName}):</color> 활성화합니다.");
+        }
+
         contactRoot.SetActive(true);
+
         nameText.text = contactData.contactName;
         messageText.text = contactData.contactMessage;
-        profileImage.sprite = contactData.contactImage;
+        UpdateProfileImage();
 
-        if (affectionSlider != null && !string.IsNullOrEmpty(contactData.characterName))
+        if (affectionSlider != null)
         {
-            affectionSlider.gameObject.SetActive(true);
-            UpdateAffectionBar();
+            bool hasAffection = !string.IsNullOrEmpty(contactData.characterName);
+            affectionSlider.gameObject.SetActive(hasAffection);
+            if (hasAffection)
+            {
+                UpdateAffectionBar();
+            }
         }
+    }
+
+    private void DisableContact()
+    {
+        contactRoot.SetActive(false);
+    }
+
+    private void UpdateProfileImage()
+    {
+        if (profileImage == null) return;
+        Sprite newSprite = contactData.contactImage;
+        if (contactData.profileImageStates != null)
+        {
+            foreach (var state in contactData.profileImageStates)
+            {
+                if (!string.IsNullOrEmpty(state.requiredFlag) && FlagManager.Instance.GetFlag(state.requiredFlag))
+                {
+                    newSprite = state.sprite;
+                }
+            }
+        }
+        profileImage.sprite = newSprite;
     }
 
     private void UpdateAffectionBar()

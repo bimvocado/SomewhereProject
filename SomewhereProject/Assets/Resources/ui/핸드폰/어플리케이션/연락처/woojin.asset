@@ -18,3 +18,4 @@ MonoBehaviour:
   contactMessage: "\uAE09\uD55C \uC77C\uC740 \uC804\uD654\uC8FC\uC138\uC694."
   contactImage: {fileID: 4656514843327532515, guid: beae07620856a4447a6276301ffbe1ef, type: 3}
   characterName: "\uC815\uC6B0\uC9C4"
+  profileImageStates: []

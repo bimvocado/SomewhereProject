@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c5560e8310873c4282bb265d1d37b9f, type: 3}
   m_Name: seha
   m_EditorClassIdentifier: 
-  requiredFlags: []
+  requiredFlags:
+  - SaveContact_Seha
   contactName: "\uAC15\uC138\uD558"
   contactMessage: "\u266A Colde - I'm in love"
   contactImage: {fileID: 7322660705862257109, guid: c679e9f35f3cef74bb6c0b20dfbd2871, type: 3}
   characterName: "\uAC15\uC138\uD558"
+  profileImageStates: []
