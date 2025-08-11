@@ -17,9 +17,22 @@ public class NameChangeManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null) Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            LoadNameFromPlayerPrefs();
+        }
         else Destroy(gameObject);
     }
+
+    private void LoadNameFromPlayerPrefs()
+    {
+        PlayerLastName = PlayerPrefs.GetString("PlayerLastName", "김");
+        PlayerFirstName = PlayerPrefs.GetString("PlayerFirstName", "여주");
+
+        Debug.Log($"PlayerPrefs에서 이름 불러오기 완료: {PlayerLastName}{PlayerFirstName}");
+    }
+
 
     private void Start()
     {
@@ -52,7 +65,7 @@ public class NameChangeManager : MonoBehaviour
         PlayerFirstName = firstNameInputField_Settings.text;
 
         DialogueManager.Instance.SetPlayerName(PlayerFirstName, PlayerLastName);
-
+        PlayerPrefs.Save();
         CloseNameChangePanel();
     }
 

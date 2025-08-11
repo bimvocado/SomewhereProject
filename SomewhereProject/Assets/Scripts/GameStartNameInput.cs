@@ -35,6 +35,14 @@ public class GameStartNameInput : MonoBehaviour
         NameChangeManager.PlayerLastName = lastNameInputField.text;
         NameChangeManager.PlayerFirstName = firstNameInputField.text;
 
+        PlayerPrefs.SetString("PlayerLastName", NameChangeManager.PlayerLastName);
+        PlayerPrefs.SetString("PlayerFirstName", NameChangeManager.PlayerFirstName);
+
+        if (DialogueManager.Instance != null)
+        {
+            DialogueManager.Instance.SetPlayerName(NameChangeManager.PlayerFirstName, NameChangeManager.PlayerLastName);
+        }
+
         PlayerPrefs.SetInt(InitialSetupKey, 1);
         PlayerPrefs.Save();
         Debug.Log("이름 설정 완료");
