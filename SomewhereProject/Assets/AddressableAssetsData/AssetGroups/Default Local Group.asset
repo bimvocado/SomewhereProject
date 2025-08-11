@@ -1928,6 +1928,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0350062a87d7d842996f848f8de8b86
+    m_Address: Assets/DialogueData/episode3/Ep3-2-1-1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f0a3b9c643bd89a4ab491dd9cbe2eec5
     m_Address: Assets/DialogueData/episode9/GoodMoon1.asset
     m_ReadOnly: 0

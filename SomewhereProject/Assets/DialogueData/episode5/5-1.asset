@@ -64,7 +64,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: 
+    eventName: AppearJueun
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -74,7 +74,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC8FC\uC740"
     line: "[\uC5EC\uC8FC\uC57C] \uC9C4\uC9DC \uBBF8\uC548\uD55C\uB370 \uB098 \uC9D1\uC5D0
       \uC77C\uC774 \uC0DD\uACA8\uC11C \uAC00\uBD10\uC57C \uD560 \uAC83 \uAC19\uC544\u2026"
-    eventName: 
+    eventName: JueunSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -94,7 +94,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC8FC\uC740"
     line: "\uC9C4\uC9DC \uBBF8\uC548\uD574\u2026 \uB2E4\uC74C\uC5D0 \uB0B4\uAC00
       \uCEE4\uD53C \uC0B4\uAC8C\u2026"
-    eventName: 
+    eventName: JueunSerious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -122,7 +122,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: 
+    eventName: JueunDisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

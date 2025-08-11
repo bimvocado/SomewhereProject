@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC548\uC5D0 \uC788\uC73C\uB2C8 \uC790\uAFB8 \uC220\uC744 \uBA39\uC774\uB824\uACE0
       \uD574\uC11C \uBC16\uC73C\uB85C \uB098\uC640 \uBCA4\uCE58\uC5D0 \uC549\uC558\uB2E4."
-    eventName: 
+    eventName: GotoMTOut
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -35,7 +35,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uBA87 \uBD84\uC774 \uC9C0\uB0AC\uC744\uAE4C\u2026"
-    eventName: 
+    eventName: EunsungCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

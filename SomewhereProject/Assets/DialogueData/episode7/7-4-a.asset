@@ -60,7 +60,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uADF8\uB807\uAC8C \uB3C4\uCC29\uD55C \uC791\uC740 \uCE74\uD398."
-    eventName: GotoCafeSH
+    eventName: GotoCafeteria
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

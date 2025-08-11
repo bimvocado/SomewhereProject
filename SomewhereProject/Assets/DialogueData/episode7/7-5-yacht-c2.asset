@@ -84,7 +84,7 @@ MonoBehaviour:
     line: "\uC228\uC744 \uBAB0\uC544\uC26C\uBA70 \uAE30\uCC28\uC5ED \uD50C\uB7AB\uD3FC\uC5D0
       \uB3C4\uCC29\uD558\uB2C8, \uD0C0\uC57C \uD558\uB294 \uAE30\uCC28\uAC00 \uC624\uACE0
       \uC788\uC5C8\uB2E4."
-    eventName: GotoTrainSt
+    eventName: GotoSVT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

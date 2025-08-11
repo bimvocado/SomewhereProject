@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB098\uB3C4. \uC640~ \uD1B5\uD588\uB124."
-    eventName: EunsungSaying
+    eventName: OnlyEST
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

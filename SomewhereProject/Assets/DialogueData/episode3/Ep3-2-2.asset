@@ -70,7 +70,7 @@ MonoBehaviour:
       conditionValue: 0
     - text: "\uB458\uC744 \uCE6D\uCC2C\uD55C\uB2E4"
       nextDialogue:
-        m_AssetGUID: cc49cea49ff356d46b6017a13c6e0141
+        m_AssetGUID: bd4d89b0d9be7e54ca6566830e3fccdb
         m_SubObjectName: 
         m_SubObjectType: 
         m_SubObjectGUID: 

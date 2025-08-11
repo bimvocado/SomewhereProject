@@ -97,7 +97,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uD39C\uC158 \uBC14\uAE65\uC73C\uB85C \uC774\uC5B4\uC9C0\uB294 \uC791\uC740
       \uB9C8\uB2F9, \uADF8 \uC606\uC5D4 \uBCA4\uCE58 \uBA87 \uAC1C\uAC00 \uB193\uC5EC\uC788\uC5C8\uB2E4."
-    eventName: 
+    eventName: GotoMTOut
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -340,7 +340,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: Disappear
+    eventName: DisappearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

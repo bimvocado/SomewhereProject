@@ -21748,6 +21748,22 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
+  - eventName: GotoLuka
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 8568967691993115062, guid: 7c8a7aba7076c434c97d94de9ad0c83b, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &1398141799
 Transform:
   m_ObjectHideFlags: 0

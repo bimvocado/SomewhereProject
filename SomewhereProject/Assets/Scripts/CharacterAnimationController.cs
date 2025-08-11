@@ -10,14 +10,14 @@ public class CharacterAnimationController : MonoBehaviour
     private Animator animator;
 
     [Header("DOTween Animation Settings")]
-    [SerializeField] private float fadeDuration = 0.5f;
+    [SerializeField] private float fadeDuration = 0.3f;
     [SerializeField] private Ease fadeEaseType = Ease.OutSine;
-    [SerializeField] private float moveDuration = 0.8f;
+    [SerializeField] private float moveDuration = 0.5f;
     [SerializeField] private Ease moveEaseType = Ease.OutQuad;
 
     [Header("Movement Positions (World Space)")]
     [SerializeField] private float centerX = 0f;
-    [SerializeField] private float offscreenLeftX = -5f;
+    [SerializeField] private float offscreenLeftX = -3f;
     [SerializeField] private float offscreenRightX = 5f;
 
     private Vector3 originalScale;
