@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC8FC\uC740 \uD6C4\uBC30 \uC798 \uAC00\uC694."
-    eventName: 
+    eventName: OnlyYHT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -33,7 +33,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "\uB124, \uB0B4\uC77C \uBD2C\uC694. [\uC5EC\uC8FC] \uBE60\uC774~"
-    eventName: 
+    eventName: DisappearJueun
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -41,8 +41,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
-    line: "\u2026"
-    eventName: 
+    line: 
+    eventName: Fadeout
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -70,7 +70,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC6B0\uC9C4\uC774 \uD615 \uC88B\uC740 \uC0AC\uB78C\uC774\uB2C8\uAE4C\u2026?"
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

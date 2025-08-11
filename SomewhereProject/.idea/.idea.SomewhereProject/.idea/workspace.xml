@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee30841-f986-46b8-91ab-eb7b16e14680" name="변경" comment="" />
+    <list default="true" id="9ee30841-f986-46b8-91ab-eb7b16e14680" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyung.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyung.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.fadeMotionList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.fadeMotionList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/idle.fade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueunAction/idle.fade.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/woojin/woojin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/woojin/woojin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/yihyeon/yihyeon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/yihyeon/yihyeon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/episode8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/episode8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/episode9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/episode9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,21 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Yuri",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Yuri&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Unity 에디터에 연결.Unity 에디터에 연결">
     <configuration name="유닛 테스트(배치 모드)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Unity.exe" />
@@ -122,6 +135,7 @@
       <workItem from="1754484803835" duration="1415000" />
       <workItem from="1754624302595" duration="142000" />
       <workItem from="1754660829899" duration="2247000" />
+      <workItem from="1754850848481" duration="427000" />
     </task>
     <servers />
   </component>

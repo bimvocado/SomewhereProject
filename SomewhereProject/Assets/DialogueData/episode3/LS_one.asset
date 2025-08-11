@@ -25,7 +25,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB124, \uB204\uAD6C \uB355\uBD84\uC5D0\uC694."
-    eventName: 
+    eventName: LukaAnnoyed
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

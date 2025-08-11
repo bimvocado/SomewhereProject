@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uB0B4\uAC00 \uAC19\uC774 \uACF5\uBD80\uD560 \uC0AC\uB78C \uCC3E\uB2E4\uAC00\u2026"
-    eventName: 
+    eventName: YihyeonT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -34,7 +34,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uAC19\uC774 \uACF5\uBD80\uD588\uC9C0. \uC774\uD604\uC774 \uC5F4\uC815\uC801\uC774\uACE0
       \uACF5\uBD80\uB3C4 \uC798\uD558\uC796\uC544."
-    eventName: 
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB108\uB3C4 \uB9C9 \uBB3C\uC5B4\uBD10. \uB098\uD55C\uD14C\uB9CC \uBB3B\uC9C0
       \uB9D0\uACE0."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB798, \uB098 \uC0AC\uC2E4 40\uC0B4\uC774\uC57C."
-    eventName: 
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -42,7 +42,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uD615, \uC5B4\uB514\uAE4C\uC9C0 \uAC00\uB294 \uAC70\uC608\uC694."
-    eventName: laugh
+    eventName: YihyeonT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
     line: "\uC120\uBC30\uAC00 \uACC4\uC18D \uC6C3\uB294\uB2E4. \uD655\uC2E4\uD788
       \uCE5C\uD55C \uC0AC\uB78C\uC774\uB791 \uC788\uC5B4\uC11C \uADF8\uB7F0\uC9C0
       \uD3C9\uC18C\uBCF4\uB2E4 \uB354 \uBC1D\uACE0 \uBA85\uB791\uD55C \uBD84\uC704\uAE30\uB2E4."
-    eventName: 
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -63,7 +63,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uAC70\uC9D3\uB9D0\uC774\uACE0\u2026 \uC774\uD604\uC774\uBCF4\uB2E4 \uD55C
       \uC0B4 \uB9CE\uC544. [\uC5EC\uC8FC\uB294]?"
-    eventName: 
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -72,7 +72,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uC544 \uC800\uB294\u2026"
-    eventName: 
+    eventName: WoojinNT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -90,7 +90,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC5B4\uB9AC\uB124\u2026"
-    eventName: 
+    eventName: WoojinT1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -99,7 +99,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uD615, \uB204\uAC00 \uBCF4\uBA74 \uC9C4\uC9DC 40\uC0B4\uC778 \uC904 \uC54C\uACA0\uC5B4\uC694."
-    eventName: 
+    eventName: YihyeonNT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

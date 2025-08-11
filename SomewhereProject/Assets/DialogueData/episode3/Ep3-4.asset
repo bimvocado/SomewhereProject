@@ -57,7 +57,7 @@ MonoBehaviour:
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB0B4\uAC00 \uC8FC\uBB38 \uD55C\uAEBC\uBC88\uC5D0 \uD560\uAC8C. \uBA54\uB274
       \uC54C\uB824\uC918."
-    eventName: 
+    eventName: AppearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -66,7 +66,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uAC01\uC790 \uC6D0\uD558\uB294 \uAC78 \uC774\uC57C\uAE30\uD55C\uB2E4."
-    eventName: 
+    eventName: WoojinNT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -75,7 +75,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "[\uC5EC\uC8FC\uB294] \uBB50 \uB9C8\uC2E4\uB798?"
-    eventName: 
+    eventName: AppearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
