@@ -43,7 +43,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC218\uAC15 \uC2E0\uCCAD \uB2F9\uC77C\u2026"
-    eventName: AppearLuka
+    eventName: GotoPC
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB5A8\uB9AC\uB294 \uB9C8\uC74C\uC73C\uB85C \uCEF4\uD4E8\uD130 \uC55E\uC5D0
       \uC549\uC558\uB2E4."
-    eventName: 
+    eventName: AppearLuka
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

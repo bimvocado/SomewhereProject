@@ -117,7 +117,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC138\uD558 \uC624\uBE60\uC640 \uC57D\uC18D\uD55C \uD53C\uC2DC\uBC29
       \uC55E\uC5D0 \uB3C4\uCC29\uD588\uB2E4."
-    eventName: 
+    eventName: GotoPC
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uB0B4\uAC00 \uC9C0\uAE08 \uC5B4\uB514\uB0D0\uBA74..."
-    eventName: 
+    eventName: GotoPet
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

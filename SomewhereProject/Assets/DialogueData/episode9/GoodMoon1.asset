@@ -88,7 +88,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC120\uBC30\uC640 \uD559\uAD50 \uC55E \uCE74\uD398\uC5D0\uC11C \uB9CC\uB0AC\uB2E4."
-    eventName: AppearYH
+    eventName: GotoMCafe
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -98,7 +98,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC120\uBC30\uB294 \uC5EC\uB7EC \uAFC0\uAC15\uC744 \uBE44\uAD50\uD558\uACE0
       \uC815\uB9AC\uD55C \uC790\uB8CC\uB97C \uB098\uC5D0\uAC8C \uBCF4\uC5EC\uC8FC\uC5C8\uB2E4."
-    eventName: 
+    eventName: AppearYH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

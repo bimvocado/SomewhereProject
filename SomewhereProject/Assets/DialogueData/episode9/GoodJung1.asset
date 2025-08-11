@@ -166,7 +166,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uD558\uC774."
-    eventName: 
+    eventName: GotoWJRoom
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
