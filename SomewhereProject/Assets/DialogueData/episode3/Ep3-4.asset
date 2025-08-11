@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uADF8\uB8F9 \uC2A4\uD130\uB514\uB97C \uD558\uAC8C \uB418\uC5C8\uB2E4.
       \uC5F4\uC2EC\uD788 \uACF5\uBD80\uD574\uC11C \uD559\uC810 \uC798 \uBC1B\uC544\uC57C\uC9C0!!"
-    eventName: 
+    eventName: GotoCampus
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -37,7 +37,7 @@ MonoBehaviour:
     line: "\uB2E4\uAC19\uC774 \uD559\uAD50 \uC55E\uC5D0\uC11C \uB9CC\uB098\uC11C,
       \uB3C4\uC11C\uAD00\uC73C\uB85C \uAC00\uAE30 \uC804\uC5D0 \uCE74\uD398\uC5D0
       \uB4E4\uB974\uAE30\uB85C \uD588\uB2E4."
-    eventName: 
+    eventName: GotoCafeteria
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -91,7 +91,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 1
     choices:
-    - text: "\"\uC544\uC774\uC2A4 \uC544\uBA54\uB9AC\uCE74\uB178"
+    - text: "\uC544\uC774\uC2A4 \uC544\uBA54\uB9AC\uCE74\uB178"
       nextDialogue:
         m_AssetGUID: bcf6e43fe74a04b40968e403f768d3d6
         m_SubObjectName: 

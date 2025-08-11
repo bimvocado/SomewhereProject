@@ -63,7 +63,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: gshstage
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -192,7 +192,7 @@ MonoBehaviour:
   - speaker: MC
     line: "\uB124, \uD68C\uC0C9 \uD6C4\uB4DC \uD2F0 \uC528. \uC790\uAE30\uC18C\uAC1C\uBD80\uD130
       \uBD80\uD0C1\uB4DC\uB9B4\uAC8C\uC694."
-    eventName: 
+    eventName: gshstage
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

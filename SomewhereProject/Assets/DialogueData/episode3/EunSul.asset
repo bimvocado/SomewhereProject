@@ -35,7 +35,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uBA87 \uBD84\uC774 \uC9C0\uB0AC\uC744\uAE4C\u2026"
-    eventName: 
+    eventName: EunsungCenter
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

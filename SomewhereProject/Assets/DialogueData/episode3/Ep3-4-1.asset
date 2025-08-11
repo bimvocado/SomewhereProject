@@ -446,7 +446,7 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: "\uC138\uD558"
+  - speaker: "\uAC15\uC138\uD558"
     line: "\uC74C\u2026 \uB098\uB3C4 \uC77C\uB2E8 \uC800\uCD95\uD574\uB458\uB798.
       \uB2F9\uC7A5 \uD558\uACE0 \uC2F6\uC740 \uAC74 \uC5C6\uB124."
     eventName: OnlySehaT

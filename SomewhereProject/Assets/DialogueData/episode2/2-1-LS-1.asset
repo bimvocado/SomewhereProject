@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC2DC\uAC04\uB3C4 \uB2A6\uC5B4\uC84C\uACE0, \uC2AC\uC2AC \uC815\uB9AC\uD558\uB294
       \uBD84\uC704\uAE30\uB2E4."
-    eventName: AppearLS1
+    eventName: AppearLS
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

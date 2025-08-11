@@ -340,7 +340,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: Disappear
+    eventName: DisappearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
