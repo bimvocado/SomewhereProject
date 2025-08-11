@@ -26,7 +26,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uADF8\uC911\uC5D0\uC11C\uB3C4 \uC544\uAE30 \uACE0\uC591\uC774."
-    eventName: 
+    eventName: AppearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -35,7 +35,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC5B4. \uB108\uB3C4 \uACE0\uC591\uC774 \uCABD\uC73C\uB85C \uC654\uB124."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC751. \uC804\uBD80\uD130 \uD55C\uBC88 \uC640\uBCF4\uACE0 \uC2F6\uC5C8\uAC70\uB4E0."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -105,7 +105,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC598 \uBD10\uBD10. \uB208 \uB561\uAE00\uD55C \uAC8C \uB108\uB791 \uB2EE\uC558\uB2E4."
-    eventName: 
+    eventName: SehaSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -123,7 +123,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC88B\uB2E4\uB294 \uB9D0\uC778\uB370. \uADC0\uC5FD\uB2E4\uACE0."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -184,7 +184,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC774\uB7F0 \uC2DC\uAC04 \uC88B\uB2E4."
-    eventName: 
+    eventName: SehaSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

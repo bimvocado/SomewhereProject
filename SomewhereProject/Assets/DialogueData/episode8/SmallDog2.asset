@@ -16,7 +16,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC120\uBC30\uB294 \uC528\uC775 \uC6C3\uC73C\uBA70 \uAC15\uC544\uC9C0\uB4E4\uC744
       \uC4F0\uB2E4\uB4EC\uC5C8\uB2E4."
-    eventName: 
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

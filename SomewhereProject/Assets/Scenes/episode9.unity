@@ -1987,6 +1987,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
+--- !u!114 &156759515 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7354929170543366701, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
+  m_PrefabInstance: {fileID: 156759514}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &177811255
 Mesh:
   m_ObjectHideFlags: 0
@@ -6281,6 +6292,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83feb29eb99d5394e9a8dec534d63570, type: 3}
+--- !u!114 &673983036 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8269816544397936322, guid: 83feb29eb99d5394e9a8dec534d63570, type: 3}
+  m_PrefabInstance: {fileID: 673983035}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &678606587
 Mesh:
   m_ObjectHideFlags: 0
@@ -7609,6 +7631,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12f8a60a24882e54abc5fe02a48a29cd, type: 3}
+--- !u!114 &834903593 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 934971707806942411, guid: 12f8a60a24882e54abc5fe02a48a29cd, type: 3}
+  m_PrefabInstance: {fileID: 834903592}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &838930806
 Mesh:
   m_ObjectHideFlags: 0
@@ -8599,6 +8632,17 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &903177922 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -3267752273844477782, guid: b3d088c247c104f47b2104ce86197793, type: 3}
+  m_PrefabInstance: {fileID: 1452705791}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &906626652
 GameObject:
   m_ObjectHideFlags: 0
@@ -13744,6 +13788,310 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: AppearYH
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2011925641}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: 'YihyeonSaying '
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2011925641}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: YihyeonSmile
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2011925641}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: smile
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: YihyeonRedface
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2011925641}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: redface
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: AppearWJ
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 903177922}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: redface
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: WoojinSaying
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 903177922}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: WoojinSaying
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 903177922}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: smile
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: WoojinRedface
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 903177922}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: redface
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: WoojinAnnoyed
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 903177922}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: annoyed
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: AppearES
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 156759515}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: annoyed
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: EunsungSmile
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 156759515}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: smile
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: EunsungSaying
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 156759515}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: EunsungSad
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 156759515}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: sad
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: AppearSeha
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 673983036}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: sad
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: SehaSaying
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 673983036}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: SehaSmile
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 673983036}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: smile
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: AppearLuka
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 834903593}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: smile
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: LukaSaying
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 834903593}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: saying
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: LukaAnnoyed
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 834903593}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: SetAnimationTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: annoyed
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!4 &1398141799
@@ -18908,6 +19256,17 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &2011925641 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5942147321364979886, guid: 0ddd3457ffec0482693284188dcc7add, type: 3}
+  m_PrefabInstance: {fileID: 1835104303}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d33cfd3331c61c4fa1d859fe7003c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &2068102920
 Mesh:
   m_ObjectHideFlags: 0

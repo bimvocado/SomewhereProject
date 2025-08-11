@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC548 \uADF8\uB798\uB3C4 \uB3FC."
-    eventName: 
+    eventName: YihyeonSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -34,7 +34,7 @@ MonoBehaviour:
   - speaker: "\uBB38\uC774\uD604"
     line: "\uB0B4\uAC00 \uC0B4 \uD14C\uB2C8\uAE4C \uC800\uB141 \uBA39\uC73C\uB7EC
       \uAC00\uC790."
-    eventName: 
+    eventName: YihyeonSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

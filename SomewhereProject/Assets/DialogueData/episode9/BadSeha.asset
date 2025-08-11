@@ -13,6 +13,15 @@ MonoBehaviour:
   m_Name: BadSeha
   m_EditorClassIdentifier: 
   dialogues:
+  - speaker: 
+    line: "\uC138\uD558 \uC624\uBE60\uC5D0\uAC8C \uBB38\uC790\uB97C \uBCF4\uB0B4\uBCF4\uC790"
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uD639\uC2DC \uD559\uAD50 \uADFC\uCC98\uC5D0 \uAD1C\uCC2E\uC740 \uD53C\uC2DC\uBC29
       \uC54C\uC544?"
@@ -137,7 +146,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uBA40\uB9AC\uC11C \uC190\uC744 \uD754\uB4DC\uB294 \uC138\uD558\uAC00
       \uBCF4\uC600\uB2E4."
-    eventName: 
+    eventName: AppearSeha
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -146,7 +155,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "[\uC5EC\uC8FC\uC57C], \uC77C\uCC0D \uC654\uB124?"
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -239,7 +248,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uAE34\uC7A5\uD558\uC9C0 \uB9C8."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -334,7 +343,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC624 \uBB50\uC57C? \uC644\uC804 \uC798\uD588\uB294\uB370?"
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -352,7 +361,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB098\uB3C4 \uC131\uACF5\uD588\uB294\uB370?"
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -379,7 +388,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC544\uB2C8 \uAC19\uC774 \uBC25 \uBA39\uC790. \uCD95\uD558 \uACB8."
-    eventName: 
+    eventName: SehaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -398,7 +407,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC751. \uB098 \uB108\uB791 \uBC25 \uBA39\uACE0 \uC2F6\uC5B4\uC11C \uC77C\uBD80\uB7EC
       \uC624\uB298 \uC2DC\uAC04 \uBE44\uC6CC\uB1A8\uB294\uB370."
-    eventName: 
+    eventName: SehaSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
