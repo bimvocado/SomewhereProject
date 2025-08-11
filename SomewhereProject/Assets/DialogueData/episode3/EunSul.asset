@@ -46,7 +46,7 @@ MonoBehaviour:
     line: "\uC2AC\uC2AC \uB3D9\uAE30\uB4E4\uC774 \uBB50 \uD558\uB098 \uC2F6\uC5B4
       \uB3CC\uC544\uAC08\uAE4C \uC2F6\uC744 \uB54C,\n\uC740\uC131\uC774\uAC00 \uBC16\uC73C\uB85C
       \uB098\uC640 \uC549\uC544 \uC788\uB358 \uB098\uB791 \uB208\uC774 \uB9C8\uC8FC\uCE5C\uB2E4."
-    eventName: 
+    eventName: AppearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -468,7 +468,7 @@ MonoBehaviour:
       conditionTargetCharacter: 
       conditionValue: 0
   nextDialogueOnCompletion:
-    m_AssetGUID: a7a0d253fe3a933479ab5f32d96248b0
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

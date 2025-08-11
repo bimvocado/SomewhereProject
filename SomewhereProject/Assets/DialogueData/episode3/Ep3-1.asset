@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uB300\uD559\uC758 \uAF43 \uBC14\uB85C \uC5E0\uD2F0\u2026"
-    eventName: 
+    eventName: GotoMT
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
