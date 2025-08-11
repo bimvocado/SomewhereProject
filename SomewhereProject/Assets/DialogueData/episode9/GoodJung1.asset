@@ -148,7 +148,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uADF8\uB7FC \uB610 \uB298 \uBCF4\uB358 \uC120\uBC30\uAC00 \uB098\uC628\uB2E4."
-    eventName: 
+    eventName: AppearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -157,7 +157,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC548\uB155."
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -166,7 +166,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\uD558\uC774."
-    eventName: 
+    eventName: GotoWJRoom
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -175,7 +175,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBB50 \uB9C8\uC2E4\uB798?"
-    eventName: 
+    eventName: WoojinSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

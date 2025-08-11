@@ -108,6 +108,15 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+  - speaker: 
+    line: 
+    eventName: DisappearJueun
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
   nextDialogueOnCompletion:
     m_AssetGUID: de756d28712108446a32b8dc83a44180
     m_SubObjectName: 

@@ -3047,6 +3047,10 @@ PrefabInstance:
       propertyPath: _screenColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3891012040469400028, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
+      propertyPath: CubismFadeMotionList
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b588631f42dba24496d50b771b664c5, type: 2}
     - target: {fileID: 3899980234136631934, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
       propertyPath: _screenColor.a
       value: 1
@@ -3247,6 +3251,10 @@ PrefabInstance:
       propertyPath: _screenColor.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8728238314658466225, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f5ede29946b9ae44da7ee0cf1b1e886c, type: 2}
     - target: {fileID: 8831316918363644347, guid: d343b1d6974827c488867f7c3d25032d, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4294,6 +4302,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 834204899}
+    - target: {fileID: 421717508898653053, guid: 5245bcd25e920444db00b33644d85bdd, type: 3}
+      propertyPath: CubismFadeMotionList
+      value: 
+      objectReference: {fileID: 11400000, guid: 3b3de520073703f43887721978cdfdab, type: 2}
     - target: {fileID: 618855210097673972, guid: 5245bcd25e920444db00b33644d85bdd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4410,6 +4422,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1326129298}
+    - target: {fileID: 6448988263818550595, guid: 5245bcd25e920444db00b33644d85bdd, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 89920f0515c9fdd488cc0acf90158e4c, type: 2}
     - target: {fileID: 7433756982235497548, guid: 5245bcd25e920444db00b33644d85bdd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4463,6 +4479,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 110922560446615496, guid: b3d088c247c104f47b2104ce86197793, type: 3}
+      propertyPath: CubismFadeMotionList
+      value: 
+      objectReference: {fileID: 11400000, guid: 5e67169e6f50044eb9e10140e20d923d, type: 2}
     - target: {fileID: 136820937897836890, guid: b3d088c247c104f47b2104ce86197793, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4719,6 +4739,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1704635034}
+    - target: {fileID: 6220654815990562142, guid: b3d088c247c104f47b2104ce86197793, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6d536405716b64346a2d29bcd44649e0, type: 2}
     - target: {fileID: 6242191646297131866, guid: b3d088c247c104f47b2104ce86197793, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -11177,6 +11201,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 43672405}
+    - target: {fileID: 7336285903760984868, guid: 83feb29eb99d5394e9a8dec534d63570, type: 3}
+      propertyPath: CubismFadeMotionList
+      value: 
+      objectReference: {fileID: 11400000, guid: 02e567fa6d3ffec4fb63abf6c90d911a, type: 2}
     - target: {fileID: 7421054966711510041, guid: 83feb29eb99d5394e9a8dec534d63570, type: 3}
       propertyPath: m_LocalScale.x
       value: 7
@@ -11241,6 +11269,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2049355841}
+    - target: {fileID: 8682184624459465607, guid: 83feb29eb99d5394e9a8dec534d63570, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fb7c4638fa490624c8bc08f58f7b6df2, type: 2}
     - target: {fileID: 8801223290159534351, guid: 83feb29eb99d5394e9a8dec534d63570, type: 3}
       propertyPath: m_Name
       value: seha
@@ -14331,6 +14363,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1691247605}
+    - target: {fileID: 2752635865906382747, guid: 12f8a60a24882e54abc5fe02a48a29cd, type: 3}
+      propertyPath: CubismFadeMotionList
+      value: 
+      objectReference: {fileID: 11400000, guid: f06d3f35481d60543a9fc3975914cba1, type: 2}
     - target: {fileID: 3478642399759927399, guid: 12f8a60a24882e54abc5fe02a48a29cd, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -14399,6 +14435,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 522563043}
+    - target: {fileID: 7844042695586860050, guid: 12f8a60a24882e54abc5fe02a48a29cd, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f1e83494e767c2744af1e4470b54b5bf, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24978,6 +25018,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 213665146}
+    - target: {fileID: 48201228619505499, guid: 0ddd3457ffec0482693284188dcc7add, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b8115ad32c5234000a581309f9c11000, type: 2}
     - target: {fileID: 514914346718017737, guid: 0ddd3457ffec0482693284188dcc7add, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -25066,6 +25110,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1343738894}
+    - target: {fileID: 4744832495181775787, guid: 0ddd3457ffec0482693284188dcc7add, type: 3}
+      propertyPath: CubismFadeMotionList
+      value: 
+      objectReference: {fileID: 11400000, guid: c0af23fec52704ec981b087af49b8ce9, type: 2}
     - target: {fileID: 4792407970808007204, guid: 0ddd3457ffec0482693284188dcc7add, type: 3}
       propertyPath: '_childDrawableRenderers.Array.data[0]'
       value: 

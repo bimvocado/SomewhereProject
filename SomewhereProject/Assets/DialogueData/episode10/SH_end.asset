@@ -99,7 +99,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC5EC\uC8FC"
     line: "\u2026\uC9C4\uC9DC \uC785\uACE0 \uC654\uB124?"
-    eventName: 
+    eventName: GotoSH
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

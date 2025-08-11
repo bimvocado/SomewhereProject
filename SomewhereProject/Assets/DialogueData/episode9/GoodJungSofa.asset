@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC774\uC81C \uC790\uAE30 \uC9D1\uC774\uB124."
-    eventName: 
+    eventName: WoojinSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

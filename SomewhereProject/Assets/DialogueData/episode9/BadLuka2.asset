@@ -43,7 +43,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC218\uAC15 \uC2E0\uCCAD \uB2F9\uC77C\u2026"
-    eventName: 
+    eventName: GotoPC
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -53,7 +53,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB5A8\uB9AC\uB294 \uB9C8\uC74C\uC73C\uB85C \uCEF4\uD4E8\uD130 \uC55E\uC5D0
       \uC549\uC558\uB2E4."
-    eventName: 
+    eventName: AppearLuka
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -63,7 +63,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uADF8 \uC815\uB3C4\uB85C \uAE34\uC7A5\uD560 \uD544\uC694\uB294 \uC5C6\uC9C0
       \uC54A\uB098\uC694?"
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -102,7 +102,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC774\uC81C 2\uBD84 \uB0A8\uC558\uB124\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -120,7 +120,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uC798\uB420 \uAC70\uB2C8\uAE4C, \uC190\uC5D0 \uD798 \uC880 \uD478\uC138\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -129,7 +129,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB9C8\uC6B0\uC2A4 \uBD80\uC11C\uC9C0\uACA0\uC5B4\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -214,7 +214,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uB8E8\uCE74"
     line: "\uB2F9\uC5F0\uD558\uC8E0."
-    eventName: 
+    eventName: LukaAnnoyed
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -243,7 +243,7 @@ MonoBehaviour:
   - speaker: "\uB8E8\uCE74"
     line: "\uC544\uB2C8\uC5D0\uC694, [\uC5EC\uC8FC] \uB204\uB098 \uB355\uBD84\uC5D0
       \uC800\uB3C4 \uC218\uAC15 \uC2E0\uCCAD \uC798 \uB05D\uB09C \uAC83 \uAC19\uB124\uC694."
-    eventName: 
+    eventName: LukaSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

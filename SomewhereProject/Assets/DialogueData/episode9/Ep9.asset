@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f829f5997c47a75409cd7ae765518ee1, type: 3}
-  m_Name: Ep8
+  m_Name: Ep9
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
     line: "\uBC29\uD559\uC774\uB77C \uADF8\uB7F0\uAC00, \uC2DC\uAC04\uC774 \uC720\uB09C\uD788
       \uBE68\uB9AC \uD758\uB7EC\uAC00\uB294 \uB4EF\uD558\uB2E4."
-    eventName: 
+    eventName: GotoRoom
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

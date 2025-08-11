@@ -42,7 +42,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC544\uB2C8, \uAD50\uC591 \uC2E4\uD328\uD588\uC5B4."
-    eventName: 
+    eventName: EunsungSad
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -51,7 +51,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uB10C \uC131\uACF5\uD588\uC5B4?"
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -69,7 +69,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uBB50 \uB2F4\uC558\uC5B4?"
-    eventName: 
+    eventName: EunsungSaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -87,7 +87,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uACB0\uAD6D \uADF8\uAC70 \uB123\uC5C8\uAD6C\uB098."
-    eventName: 
+    eventName: EunsungSad
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: "\uC624\uB298\uC740 \uCD95\uC81C \uB9C8\uC9C0\uB9C9 \uB0A0!"
-    eventName: 
+    eventName: gcm2
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -62,10 +62,19 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - speaker: 
+    line: 
+    eventName: gshstage
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
     line: "\uC8FC\uC740\uC774\uB791 \uC794\uB514\uBC2D\uC5D0\uC11C \uD478\uB4DC\uD2B8\uB7ED\uC5D0\uC11C
       \uC0B0 \uC74C\uC2DD\uB4E4\uC744 \uB098\uB220 \uBA39\uC73C\uBA70 \uBB34\uB300\uB97C
       \uBC14\uB77C\uBCF4\uB358 \uC911, MC\uAC00 \uC678\uCCE4\uB2E4."
-    eventName: 
+    eventName: jappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -155,7 +164,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "\uC5B4? \uC138\uD558 \uC624\uBE60 \uC544\uB2C8\uC57C?"
-    eventName: 
+    eventName: jsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -173,7 +182,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uC138\uD558 \uC624\uBE60\uB77C\uACE0?"
-    eventName: 
+    eventName: jdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -192,7 +201,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC544, \uB124\u2026 xx\uD559\uBC88, \uAC15\uC138\uD558\uB77C\uACE0 \uD569\uB2C8\uB2E4."
-    eventName: 
+    eventName: sappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -230,7 +239,7 @@ MonoBehaviour:
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC74C, \uADF8\uB7FC\u2026 \uC9E7\uAC8C\uB9CC \uD560\uAC8C\uC694. \uAE30\uB300\uB294
       \uB9D0\uACE0\u2026"
-    eventName: 
+    eventName: sserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -281,7 +290,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uCC98\uC74C \uB4E4\uC5B4\uBCF4\uB294, \uADF8\uB7F0\uB370 \uBB18\uD558\uAC8C
       \uC775\uC219\uD55C \uC74C\uC0C9\uC774\uC5C8\uB2E4."
-    eventName: 
+    eventName: ssimile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -339,7 +348,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: 
+    eventName: sdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -348,7 +357,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uB2E4\uC74C \uB0A0."
-    eventName: 
+    eventName: groom
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
