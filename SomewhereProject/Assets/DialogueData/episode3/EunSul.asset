@@ -468,7 +468,7 @@ MonoBehaviour:
       conditionTargetCharacter: 
       conditionValue: 0
   nextDialogueOnCompletion:
-    m_AssetGUID: a7a0d253fe3a933479ab5f32d96248b0
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 
