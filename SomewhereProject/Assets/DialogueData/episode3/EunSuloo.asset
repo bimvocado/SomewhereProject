@@ -52,7 +52,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uAC15\uC544\uC9C0 \uAC19\uB2E4\u2026"
-    eventName: 
+    eventName: DisappearES
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
