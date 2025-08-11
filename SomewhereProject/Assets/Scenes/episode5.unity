@@ -21735,6 +21735,54 @@ MonoBehaviour:
             m_StringArgument: difficult
             m_BoolArgument: 0
           m_CallState: 2
+  - eventName: gcm2
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4019735837670779648, guid: 96d45621dfeea47adb761b33351a2576, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: difficult
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: gshstage
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: -8593498512772189305, guid: 3da3460d2e9ed4160991888935e9f4f5, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: difficult
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: groom
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1007628052}
+          m_TargetAssemblyTypeName: BackgroundController, Assembly-CSharp
+          m_MethodName: ChangeBackground
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4303031809754200275, guid: d942fb0fd65e541f193c489b48ffb864, type: 3}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: difficult
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &1398141799
 Transform:
   m_ObjectHideFlags: 0
