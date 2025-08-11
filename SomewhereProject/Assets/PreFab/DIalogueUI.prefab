@@ -984,7 +984,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18.8, y: 371}
+  m_AnchoredPosition: {x: -14.6, y: 366.8}
   m_SizeDelta: {x: 890.0323, y: 52.1805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2051782632051196683
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -2
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
