@@ -119,23 +119,8 @@ MonoBehaviour:
       m_SubObjectType: 
       m_SubObjectGUID: 
       m_EditorAssetChanged: 0
-  - speaker: 
-    line: 
-    eventName: LoadEpisode7
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-    overrideNextDialogue:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
-    m_AssetGUID: 
+    m_AssetGUID: 23e9522db0121df4b8279aa4df902319
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

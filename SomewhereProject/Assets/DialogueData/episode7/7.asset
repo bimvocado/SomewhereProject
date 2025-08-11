@@ -22,6 +22,12 @@ MonoBehaviour:
     conditionValue: 60
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 0779ada5c3e71a04899f111016880f7c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: 
@@ -31,6 +37,12 @@ MonoBehaviour:
     conditionValue: 60
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 12396fd0a71224447a88647b91ae2925
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: 
@@ -40,6 +52,12 @@ MonoBehaviour:
     conditionValue: 60
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: f388631546a02224790882b411cf8938
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: 
@@ -49,6 +67,12 @@ MonoBehaviour:
     conditionValue: 60
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 5fc6cd758c7d61747b53bdc0f0cd56b4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: 
@@ -58,6 +82,28 @@ MonoBehaviour:
     conditionValue: 60
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 5fc6cd758c7d61747b53bdc0f0cd56b4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: "...\uC544\uBB34\uC5D0\uAC8C\uB3C4 \uC5F0\uB77D\uC774 \uC624\uC9C0 \uC54A\uC558\uB2E4."
+    eventName: 
+    conditionType: 10
+    conditionKey: 
+    conditionTargetCharacter: "\uC815\uC6B0\uC9C4, \uBB38\uC774\uD604, \uAC15\uC138\uD558,
+      \uB8E8\uCE74, \uC774\uC740\uC131"
+    conditionValue: 60
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: LoadEpisode8
@@ -67,8 +113,14 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
-    m_AssetGUID: 0779ada5c3e71a04899f111016880f7c
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_SubObjectGUID: 

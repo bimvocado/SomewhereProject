@@ -23,6 +23,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uD578\uB4DC\uD3F0\uC744 \uCF1C\uC11C \uC6B0\uC9C4 \uC120\uBC30\uD55C\uD14C
       \uBB38\uC790\uB97C \uBCF4\uB0C8\uB2E4."
@@ -33,6 +39,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC6B0\uC9C4 \uC120\uBC30 \uBA38\uD568"
     eventName: 
@@ -42,6 +54,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC77C\uD568"
     eventName: 
@@ -51,6 +69,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC624, \uCE7C\uB2F5."
     eventName: 
@@ -60,6 +84,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uB098 \uB2E4\uC74C \uD559\uAE30 \uC2DC\uAC04\uD45C \uC9DC\uC57C \uD558\uB294\uB370
       \uC870\uC5B8\uC774 \uD544\uC694\uD574"
@@ -70,6 +100,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uADF8\uB7FC \uC6B0\uB9AC \uC9D1\uC73C\uB85C \uC640"
     eventName: 
@@ -79,6 +115,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uBCF4\uD1B5 \uC2DC\uAC04\uD45C \uC774\uC57C\uAE30\uB97C \uC9D1\uAE4C\uC9C0
       \uAC00\uC11C \uD558\uB098?"
@@ -89,6 +131,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC900\uBE44\uD560 \uC2DC\uAC04 \uC548 \uD544\uC694\uD574?"
     eventName: 
@@ -98,6 +146,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC6B0\uB9AC \uC9D1\uC740 \uC6D0\uB798 \uAE68\uB057\uD574\uC11C \uAD1C\uCC2E\uC544"
     eventName: 
@@ -107,6 +161,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC54C\uC368 \uB098 \uADF8\uB7FC \uC9C0\uAE08 \uAC04\uB2E4 \u314B\u314B"
     eventName: 
@@ -116,6 +176,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uD558\uAE34 \uC800\uBC88\uC5D0 \uBC24\uC5D0 \uAC14\uC744 \uB54C\uB3C4
       \uAE68\uB057\uD574 \uBCF4\uC774\uAE34 \uD588\uB2E4."
@@ -126,6 +192,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC544\uB2C8 \uAE68\uB057\uD558\uB2E4\uAE30\uBCF4\uB2E8 \uADF8\uB0E5 \uBB3C\uAC74\uC774
       \uB9CE\uC774 \uC5C6\uB294 \uAC83 \uAC19\uAE30\uB3C4\u2026"
@@ -136,6 +208,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uB300\uCDA9 \uC704\uC5D0 \uC637\uB9CC \uAC08\uC544\uC785\uACE0 \uB098\uAC00\uC11C
       \uBB38\uC744 \uB450\uB4DC\uB838\uB2E4."
@@ -146,6 +224,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uADF8\uB7FC \uB610 \uB298 \uBCF4\uB358 \uC120\uBC30\uAC00 \uB098\uC628\uB2E4."
     eventName: AppearWJ
@@ -155,6 +239,27 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: GotoWJRoom
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC548\uB155."
     eventName: WoojinSaying
@@ -164,15 +269,27 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uD558\uC774."
-    eventName: GotoWJRoom
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBB50 \uB9C8\uC2E4\uB798?"
     eventName: WoojinSaying
@@ -182,6 +299,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC544\uB2C8, \uAD1C\uCC2E\uC544. \uAE08\uBC29 \uAC08 \uAC74\uB370."
     eventName: 
@@ -191,6 +314,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC5B4\uB514 \uC549\uC744\uAE4C?"
     eventName: 
@@ -234,6 +363,12 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 

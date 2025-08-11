@@ -11463,7 +11463,7 @@ MonoBehaviour:
     textColor: {r: 1, g: 1, b: 1, a: 1}
   defaultColor:
     characterName: 
-    backgroundColor: {r: 1, g: 0.86477983, b: 0.9590113, a: 1}
+    backgroundColor: {r: 1, g: 1, b: 1, a: 1}
     textColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1060358541
 GameObject:
@@ -18410,8 +18410,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 628.6508, y: 0}
-  m_SizeDelta: {x: 1257.2817, y: 1080}
+  m_AnchoredPosition: {x: 659.9923, y: -0.00017166}
+  m_SizeDelta: {x: 1319.9863, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1622202643
 MonoBehaviour:
