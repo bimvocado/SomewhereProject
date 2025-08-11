@@ -24,7 +24,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC88B\uC544!"
-    eventName: lsmile
+    eventName: hsmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -34,7 +34,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8 \uC804\uC5D0 \uC7A0\uC2DC\uB9CC, \uD559\uC0DD\uD68C\uC5D0 \uACF5\uC5F0
       \uBD10\uB3C4 \uB418\uB0D0\uACE0 \uBB3C\uC5B4\uBCF4\uACE0 \uC62C\uAC8C."
-    eventName: lsaying
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -44,7 +44,7 @@ MonoBehaviour:
   - speaker: "\uC774\uC740\uC131"
     line: "\uC774\uC81C \uD560 \uC77C \uAC70\uC758 \uC5C6\uC5B4\uC11C \uC544\uB9C8
       \uBCF4\uB0B4\uC8FC\uC2E4 \uAC70\uC57C."
-    eventName: lidle
+    eventName: hidle
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -62,7 +62,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: ldisappear
+    eventName: hdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -80,7 +80,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: 
-    eventName: lappear
+    eventName: happear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -89,7 +89,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "[\uC5EC\uC8FC\uC57C] \uACF5\uC5F0\uC7A5 \uB4E4\uC5B4\uAC00\uC790!"
-    eventName: lsaying
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -98,7 +98,7 @@ MonoBehaviour:
     choices: []
   - speaker: 
     line: "\uADF8\uB807\uAC8C \uACF5\uC5F0\uC7A5\uC73C\uB85C \uD5A5\uD588\uB2E4."
-    eventName: ldisappear
+    eventName: hdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -91,7 +91,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uADF8\uB798!"
-    eventName: lok
+    eventName: hok
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -111,7 +111,7 @@ MonoBehaviour:
     line: "\uD3EC\uD1A0 \uBD80\uC2A4\uAC00 \uC788\uB294 \uCABD\uC73C\uB85C \uAC00\uB2C8,
       \uC0AC\uB78C\uC774 \uBCC4\uB85C \uC5C6\uC5B4\uC11C \uBC14\uB85C \uBD80\uC2A4\uB85C
       \uB4E4\uC5B4\uAC14\uB2E4."
-    eventName: 
+    eventName: GotoPB
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -257,7 +257,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "[\uC5EC\uC8FC\uC57C], \uACF5\uC5F0 \uBCFC \uAC70\uC57C?"
-    eventName: lsaying
+    eventName: hsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -275,7 +275,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uC65C, \uC6B0\uB9AC\uAC00 \uC5F4\uC2EC\uD788 \uC12D\uC678\uD588\uB294\uB370!"
-    eventName: lsurprised
+    eventName: hsurprised
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -284,7 +284,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uC774\uC740\uC131"
     line: "\uACE0\uBBFC\uD558\uB294 \uC774\uC720\uAC00 \uBB50\uC57C?"
-    eventName: lserious
+    eventName: hserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -304,7 +304,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC740\uC131\uC774\uAC00 \uC2DC\uBB34\uB8E9\uD55C \uD45C\uC815\uC73C\uB85C
       \uCCD0\uB2E4\uBCF8\uB2E4\u2026"
-    eventName: lsad
+    eventName: hsad
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
