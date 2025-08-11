@@ -33,6 +33,15 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "\uB124, \uB0B4\uC77C \uBD2C\uC694. [\uC5EC\uC8FC] \uBE60\uC774~"
+    eventName: JueunSaying2
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+  - speaker: 
+    line: 
     eventName: DisappearJueun
     conditionType: 0
     conditionKey: 

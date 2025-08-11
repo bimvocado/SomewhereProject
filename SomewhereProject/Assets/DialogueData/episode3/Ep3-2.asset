@@ -108,7 +108,7 @@ MonoBehaviour:
     choices: []
   - speaker: "\uAC15\uC8FC\uC740"
     line: "\uC544~~ \uC800\uB294 \uC878\uB824\uC11C \uC9D1 \uAC08\uB798\uC694."
-    eventName: JueunSaying
+    eventName: JueunSaying2
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
