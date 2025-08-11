@@ -131,9 +131,12 @@ public class PotionBoard : MonoBehaviour
                     
                         if (matchedPotions.connectedPotions.Count >= 3)
                         {
-                            potionsToRemove.AddRange(matchedPotions.connectedPotions);
 
-                            foreach (Potion pot in matchedPotions.connectedPotions)
+                            MatchResult superMatchedPotions = SuperMatch(matchedPotions);
+
+                            potionsToRemove.AddRange(superMatchedPotions.connectedPotions);
+
+                            foreach (Potion pot in superMatchedPotions.connectedPotions)
                                 pot.isMatched = true;
 
                             hasMatched = true;
@@ -144,6 +147,68 @@ public class PotionBoard : MonoBehaviour
         }
         return hasMatched;
     }
+
+    private MatchResult SuperMatch(MatchResult _matchedResults)
+    {
+        if (_matchedResults.direction == MatchDirection.Horizontal || _matchedResults.direction == MatchDirection.LongHorizontal)
+        {
+            foreach (Potion pot in _matchedResults.connectedPotions)
+            {
+                List<Potion> extraConnectedPotions = new();
+
+                CheckDirection(pot, new Vector2Int(0, 1), extraConnectedPotions);
+
+                CheckDirection(pot, new Vector2Int(0, -1), extraConnectedPotions );
+
+                if (extraConnectedPotions.Count >= 2)
+                {
+                    Debug.Log("I have a super Horizontal Match");
+                    extraConnectedPotions.AddRange(_matchedResults.connectedPotions);
+
+                    return new MatchResult
+                    {
+                        connectedPotions = extraConnectedPotions,
+                        direction = MatchDirection.Super
+                    };
+                }
+            }
+            return new MatchResult
+            {
+                connectedPotions = _matchedResults.connectedPotions,
+                direction = _matchedResults.direction
+            };
+        }
+        else if (_matchedResults.direction == MatchDirection.Vertical || _matchedResults.direction == MatchDirection.LongVertical)
+        {
+            foreach (Potion pot in _matchedResults.connectedPotions)
+            {
+                List<Potion> extraConnectedPotions = new();
+
+                CheckDirection(pot, new Vector2Int(1, 0), extraConnectedPotions);
+
+                CheckDirection(pot, new Vector2Int(-1, 0), extraConnectedPotions);
+
+                if (extraConnectedPotions.Count >= 2)
+                {
+                    Debug.Log("I have a super Vertical Match");
+                    extraConnectedPotions.AddRange(_matchedResults.connectedPotions);
+
+                    return new MatchResult
+                    {
+                        connectedPotions = extraConnectedPotions,
+                        direction = MatchDirection.Super
+                    };
+                }
+            }
+            return new MatchResult
+            {
+                connectedPotions = _matchedResults.connectedPotions,
+                direction = _matchedResults.direction
+            };
+        }
+        return null;
+    }
+
     MatchResult IsConnected(Potion potion)
     {
         List<Potion> connectedPotions = new();
