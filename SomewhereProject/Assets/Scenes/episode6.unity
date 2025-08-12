@@ -21935,6 +21935,22 @@ MonoBehaviour:
             m_StringArgument: "\uC548\uB155\uD558\uC2DC\uC624"
             m_BoolArgument: 0
           m_CallState: 2
+  - eventName: DisppearLuka
+    onEventTriggered:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 297500772}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Disappear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "\uC548\uB155\uD558\uC2DC\uC624"
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventName: DisappearELS
     onEventTriggered:
       m_PersistentCalls:
