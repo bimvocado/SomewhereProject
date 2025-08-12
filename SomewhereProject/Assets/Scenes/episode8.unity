@@ -20167,7 +20167,7 @@ MonoBehaviour:
           m_MethodName: ChangeBackground
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 6201045044170851582, guid: 1e4d4149ae4e4493b99ed37c98c91b1d, type: 3}
+            m_ObjectArgument: {fileID: 5476736269977939138, guid: 17c6c8f17d8b43d4e8e57da3c17d265f, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
