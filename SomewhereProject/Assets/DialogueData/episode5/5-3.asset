@@ -14,6 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: CMD:FadeInOut
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
     line: "\uACF5\uC5F0\uC774 \uB05D\uB098\uACE0 \uB3D9\uAE30\uB4E4\uC5D0\uAC8C \uBD99\uC7A1\uD600
       \uB9E5\uC8FC\uB97C \uB108\uBB34 \uB9C8\uC2E0 \uD0D3\uC77C\uAE4C. \uC138\uC0C1\uC774
       \uD551\uAE00\uD551\uAE00 \uB3C8\uB2E4."

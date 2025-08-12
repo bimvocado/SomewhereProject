@@ -23,6 +23,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC557 \uADF8\uB7EC\uC9C0 \uB9D0\uC544\uC694. \uC81C\uAC00 \uCC28\uB77C\uB9AC
       \uB2E4\uB978 \uACF3 \uAC00\uC11C \uBA39\uC744\uAC8C\uC694."
@@ -33,6 +39,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC544.. \uADF8\uB7EC\uBA74 \uADF8\uB0E5 \uAC19\uC774 \uBA39\uC744\uAE4C\uC694
       \uC6B0\uB9AC..?"
@@ -43,6 +55,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uBB38\uC774\uD604"
     line: "\uC544 \uB124\uB124 \uADF8\uB7FC \uADF8\uB807\uAC8C \uD574\uC694. \uC81C\uAC00
       \uC120\uBC30\uB2C8\uAE4C \uBC25\uC740 \uC0B4\uAC8C\uC694."
@@ -53,6 +71,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC5B4\uCA4C\uB2E4\uBCF4\uB2C8 \uC120\uBC30\uB2D8\uAED8 \uBC25\uC744 \uC5BB\uC5B4\uBA39\uAC8C
       \uB418\uC5C8\uB2E4."
@@ -63,6 +87,27 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:FadeInOut
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: c737a5cb902de5a49a19538aed45cb1f
     m_SubObjectName: 
