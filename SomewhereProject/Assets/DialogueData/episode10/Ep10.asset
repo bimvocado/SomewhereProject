@@ -22,6 +22,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC0C8\uB85C\uC6B4 \uD559\uAE30\uB97C \uC55E\uB454 \uC9C0\uAE08."
     eventName: 
@@ -31,6 +37,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uAD1C\uD788 \uC124\uB808\uAE30\uB3C4 \uD558\uACE0, \uC660\uC9C0 \uB204\uAD70\uAC00\uC5D0\uAC8C
       \uC5F0\uB77D\uC774 \uC62C \uAC83\uB9CC \uAC19\uB2E4."
@@ -41,6 +53,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uADF8\uB54C, \uD734\uB300\uD3F0 \uC54C\uB9BC\uC774 \uC6B8\uB838\uB2E4."
     eventName: 
@@ -50,6 +68,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uB204\uAD6C\uD55C\uD14C \uC5F0\uB77D\uC774 \uC654\uC744\uAE4C?"
     eventName: 
@@ -73,9 +97,9 @@ MonoBehaviour:
       flagToSet: 
       flagValue: 0
       conditionType: 3
-      conditionKey: 90
-      conditionTargetCharacter: 
-      conditionValue: 0
+      conditionKey: 
+      conditionTargetCharacter: "\uC815\uC6B0\uC9C4"
+      conditionValue: 89
     - text: "\uBB38\uC774\uD604"
       nextDialogue:
         m_AssetGUID: f87de1515ad754d48b2fa9e8d3b89917
@@ -90,9 +114,9 @@ MonoBehaviour:
       flagToSet: 
       flagValue: 0
       conditionType: 3
-      conditionKey: 90
-      conditionTargetCharacter: 
-      conditionValue: 0
+      conditionKey: 
+      conditionTargetCharacter: "\uBB38\uC774\uD604"
+      conditionValue: 89
     - text: "\uB8E8\uCE74"
       nextDialogue:
         m_AssetGUID: 0e23210d9c96bce49ab6e74b9cc370f5
@@ -107,9 +131,9 @@ MonoBehaviour:
       flagToSet: 
       flagValue: 0
       conditionType: 3
-      conditionKey: 90
-      conditionTargetCharacter: 
-      conditionValue: 0
+      conditionKey: 
+      conditionTargetCharacter: "\uB8E8\uCE74"
+      conditionValue: 89
     - text: "\uAC15\uC138\uD558"
       nextDialogue:
         m_AssetGUID: 78048495d247a994c9469d67e40bfe03
@@ -124,9 +148,9 @@ MonoBehaviour:
       flagToSet: 
       flagValue: 0
       conditionType: 3
-      conditionKey: 90
-      conditionTargetCharacter: 
-      conditionValue: 0
+      conditionKey: 
+      conditionTargetCharacter: "\uAC15\uC138\uD558"
+      conditionValue: 89
     - text: "\uC774\uC740\uC131"
       nextDialogue:
         m_AssetGUID: 01b269f6f045155478a3b26fe2c88186
@@ -141,9 +165,9 @@ MonoBehaviour:
       flagToSet: 
       flagValue: 0
       conditionType: 3
-      conditionKey: 90
-      conditionTargetCharacter: 
-      conditionValue: 0
+      conditionKey: 
+      conditionTargetCharacter: "\uC774\uC740\uC131"
+      conditionValue: 89
     - text: "\uAC15\uC8FC\uC740"
       nextDialogue:
         m_AssetGUID: 910e9e74ed71d184db895a8d26155cc7
@@ -158,9 +182,15 @@ MonoBehaviour:
       flagToSet: 
       flagValue: 0
       conditionType: 10
-      conditionKey: "\uC815\uC6B0\uC9C4,\uBB38\uC774\uD604,\uB8E8\uCE74,\uAC15\uC138\uD558,\uC774\uC740\uC131"
-      conditionTargetCharacter: 90
-      conditionValue: 0
+      conditionKey: 
+      conditionTargetCharacter: "\uC815\uC6B0\uC9C4,\uBB38\uC774\uD604,\uB8E8\uCE74,\uAC15\uC138\uD558,\uC774\uC740\uC131"
+      conditionValue: 89
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 

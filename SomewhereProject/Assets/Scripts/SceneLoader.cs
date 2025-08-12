@@ -32,6 +32,16 @@ public class SceneLoader : MonoBehaviour
         LoadingManager.Instance.ShowLoadingScreen(episodeData);
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
+        asyncLoad.allowSceneActivation = false;
+
+        while (asyncLoad.progress < 0.9f)
+        {
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(1.0f);
+
+        asyncLoad.allowSceneActivation = true;
 
         while (!asyncLoad.isDone)
         {

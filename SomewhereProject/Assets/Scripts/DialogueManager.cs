@@ -538,7 +538,46 @@ public class DialogueManager : MonoBehaviour
         if (nextIndicator != null) nextIndicator.SetActive(false);
         choicePanel.gameObject.SetActive(true);
 
+        List<Choice> normalChoices = new List<Choice>();
+        Choice allFailChoice = null;
+        bool anyNormalChoiceIsActive = false;
+
         foreach (Choice choice in choices)
+        {
+            if (choice.conditionType == ConditionType.AllCharacterAffectionLess)
+            {
+                allFailChoice = choice;
+            }
+            else
+            {
+                normalChoices.Add(choice);
+            }
+        }
+
+        foreach (Choice choice in normalChoices)
+        {
+            if (CheckChoiceCondition(choice) && CoinManager.Instance.PlayerCoin >= choice.requiredCoin)
+            {
+                anyNormalChoiceIsActive = true;
+                break;
+            }
+        }
+
+        List<Choice> choicesToShow = new List<Choice>();
+        if (anyNormalChoiceIsActive)
+        {
+            choicesToShow.AddRange(normalChoices);
+        }
+        else
+        {
+            choicesToShow.AddRange(normalChoices);
+            if (allFailChoice != null)
+            {
+                choicesToShow.Add(allFailChoice);
+            }
+        }
+
+        foreach (Choice choice in choicesToShow)
         {
             GameObject buttonGO = ObjectPooler.Instance.SpawnFromPool("ChoiceButton", Vector3.zero, Quaternion.identity);
             if (buttonGO == null) continue;
@@ -550,22 +589,30 @@ public class DialogueManager : MonoBehaviour
             var buttonText = buttonGO.GetComponentInChildren<TMP_Text>();
             string choiceText = choice.text;
 
-            bool conditionMet = CheckChoiceCondition(choice);
-            bool coinsMet = CoinManager.Instance.PlayerCoin >= choice.requiredCoin;
-
-            button.interactable = conditionMet && coinsMet;
-
-            if (!conditionMet)
+            bool isInteractable = false;
+            if (choice.conditionType == ConditionType.AllCharacterAffectionLess)
             {
-                choiceText += $" ( {choice.conditionTargetCharacter}의 호감도 부족, 상점에서 아이템을 구매하세요.)";
+                isInteractable = !anyNormalChoiceIsActive;
             }
-            else if (!coinsMet)
+            else
             {
-                choiceText += $" ({choice.requiredCoin} 코인 필요)";
+                isInteractable = CheckChoiceCondition(choice) && CoinManager.Instance.PlayerCoin >= choice.requiredCoin;
+            }
+            button.interactable = isInteractable;
+
+            if (!button.interactable && choice.conditionType != ConditionType.AllCharacterAffectionLess)
+            {
+                if (!CheckChoiceCondition(choice))
+                {
+                    choiceText += $" (호감도 부족, 상점에서 아이템을 구매하세요.)";
+                }
+                else
+                {
+                    choiceText += $" ({choice.requiredCoin} 코인 필요)";
+                }
             }
 
             buttonText.text = choiceText;
-
             button.onClick.RemoveAllListeners();
             button.onClick.AddListener(() => OnChoiceSelected(choice));
         }
@@ -717,11 +764,11 @@ public class DialogueManager : MonoBehaviour
             case ConditionType.FlagFalse:
                 return !FlagManager.Instance.GetFlag(choice.conditionKey);
             case ConditionType.AffectionGreater:
-                return AffectionManager.Instance.GetAffection(choice.targetCharacterForAffection) > choice.conditionValue;
+                return AffectionManager.Instance.GetAffection(choice.conditionTargetCharacter) > choice.conditionValue;
             case ConditionType.AffectionLess:
-                return AffectionManager.Instance.GetAffection(choice.targetCharacterForAffection) < choice.conditionValue;
+                return AffectionManager.Instance.GetAffection(choice.conditionTargetCharacter) < choice.conditionValue;
             case ConditionType.AffectionEqual:
-                return AffectionManager.Instance.GetAffection(choice.targetCharacterForAffection) == choice.conditionValue;
+                return AffectionManager.Instance.GetAffection(choice.conditionTargetCharacter) == choice.conditionValue;
             case ConditionType.AllCharacterAffectionLess:
                 if (string.IsNullOrEmpty(choice.conditionTargetCharacter)) return true;
                 string[] characters = choice.conditionTargetCharacter.Split(',');
