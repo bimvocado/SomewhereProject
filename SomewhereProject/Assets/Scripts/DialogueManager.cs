@@ -331,37 +331,37 @@ public class DialogueManager : MonoBehaviour
 
             ClearChoices();
 
-            if (dialogueIndex >= currentDialogues.Length)
-            {
-                Dialogue lastDialogueLine = currentDialogues[dialogueIndex - 1];
-                if (lastDialogueLine.overrideNextDialogue != null && lastDialogueLine.overrideNextDialogue.RuntimeKeyIsValid())
-                {
-                    StartDialogueFromReference(lastDialogueLine.overrideNextDialogue);
-                }
-                else if (_currentDialogueData != null && _currentDialogueData.nextDialogueOnCompletion.RuntimeKeyIsValid())
-                {
-                    StartDialogueFromReference(_currentDialogueData.nextDialogueOnCompletion);
-                }
-                else
-                {
-                    EndDialogue();
-                }
-                return;
-            }
-
             while (dialogueIndex < currentDialogues.Length)
             {
                 Dialogue line = currentDialogues[dialogueIndex];
 
-                if (string.IsNullOrEmpty(line.line))
+                if (!CheckCondition(line))
                 {
-                    if (!string.IsNullOrEmpty(line.eventName)) EventManager.Instance.TriggerEvent(line.eventName);
                     dialogueIndex++;
                     continue;
                 }
 
-                if (!CheckCondition(line))
+                if (string.IsNullOrEmpty(line.line))
                 {
+                    if (!string.IsNullOrEmpty(line.eventName))
+                    {
+                        if (line.eventName.StartsWith("CMD:"))
+                        {
+                            ProcessCommand(line.eventName);
+                        }
+                        else
+                        {
+                            EventManager.Instance.TriggerEvent(line.eventName);
+                        }
+                    }
+
+                    if (line.overrideNextDialogue != null && line.overrideNextDialogue.RuntimeKeyIsValid())
+                    {
+                        StartDialogueFromReference(line.overrideNextDialogue);
+                        return;
+                    }
+
+
                     dialogueIndex++;
                     continue;
                 }
@@ -410,6 +410,27 @@ public class DialogueManager : MonoBehaviour
                 }
 
                 return;
+            }
+
+            if (dialogueIndex > 0)
+            {
+                Dialogue lastDialogueLine = currentDialogues[dialogueIndex - 1];
+                if (lastDialogueLine.overrideNextDialogue != null && lastDialogueLine.overrideNextDialogue.RuntimeKeyIsValid())
+                {
+                    StartDialogueFromReference(lastDialogueLine.overrideNextDialogue);
+                }
+                else if (_currentDialogueData != null && _currentDialogueData.nextDialogueOnCompletion.RuntimeKeyIsValid())
+                {
+                    StartDialogueFromReference(_currentDialogueData.nextDialogueOnCompletion);
+                }
+                else
+                {
+                    EndDialogue();
+                }
+            }
+            else
+            {
+                EndDialogue();
             }
         }
         finally
@@ -663,6 +684,17 @@ public class DialogueManager : MonoBehaviour
                 return FlagManager.Instance.GetFlag(d.conditionKey) && AffectionManager.Instance.GetAffection(d.conditionTargetCharacter) > d.conditionValue;
             case ConditionType.FlagTrueAndAffectionLess:
                 return FlagManager.Instance.GetFlag(d.conditionKey) && AffectionManager.Instance.GetAffection(d.conditionTargetCharacter) < d.conditionValue;
+            case ConditionType.AllCharacterAffectionLess:
+                if (string.IsNullOrEmpty(d.conditionTargetCharacter)) return true;
+                string[] characters = d.conditionTargetCharacter.Split(',');
+                foreach (string character in characters)
+                {
+                    if (AffectionManager.Instance.GetAffection(character.Trim()) >= d.conditionValue)
+                    {
+                        return false;
+                    }
+                }
+                return true;
         }
         return true;
     }
@@ -684,11 +716,14 @@ public class DialogueManager : MonoBehaviour
             case ConditionType.AffectionEqual:
                 return AffectionManager.Instance.GetAffection(choice.targetCharacterForAffection) == choice.conditionValue;
             case ConditionType.AllCharacterAffectionLess:
-                if (string.IsNullOrEmpty(choice.targetCharacterForAffection)) return true;
+                if (string.IsNullOrEmpty(choice.conditionTargetCharacter)) return true;
                 string[] characters = choice.conditionTargetCharacter.Split(',');
                 foreach (string character in characters)
                 {
-                    if (AffectionManager.Instance.GetAffection(character.Trim()) <= choice.conditionValue) { return false; }
+                    if (AffectionManager.Instance.GetAffection(character.Trim()) >= choice.conditionValue)
+                    {
+                        return false;
+                    }
                 }
                 return true;
         }

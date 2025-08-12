@@ -84,11 +84,12 @@ public class SaveLoadManager : MonoBehaviour
 
     public void SaveGame(int slotIndex)
     {
-        GameData gameData = new GameData();
-
-        gameData.playerCoin = CoinManager.Instance.PlayerCoin;
-        gameData.affectionData = AffectionManager.Instance.GetAffections();
-        gameData.flagData = FlagManager.Instance.GetFlags();
+        GameData gameData = new GameData
+        {
+            playerCoin = CoinManager.Instance.PlayerCoin,
+            affectionData = AffectionManager.Instance.GetAffections(),
+            flagData = FlagManager.Instance.GetFlags()
+        };
         DialogueManager.Instance.GetCurrentDialogueState(out gameData.currentDialogueAssetKey, out gameData.currentDialogueIndex);
         gameData.playerFirstName = NameChangeManager.PlayerFirstName;
         gameData.playerLastName = NameChangeManager.PlayerLastName;

@@ -95,7 +95,7 @@ MonoBehaviour:
     conditionKey: 
     conditionTargetCharacter: "\uC815\uC6B0\uC9C4, \uBB38\uC774\uD604, \uAC15\uC138\uD558,
       \uB8E8\uCE74, \uC774\uC740\uC131"
-    conditionValue: 60
+    conditionValue: 59
     hasChoices: 0
     choices: []
     overrideNextDialogue:

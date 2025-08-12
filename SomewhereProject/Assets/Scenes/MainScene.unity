@@ -11463,7 +11463,7 @@ MonoBehaviour:
     textColor: {r: 1, g: 1, b: 1, a: 1}
   defaultColor:
     characterName: 
-    backgroundColor: {r: 1, g: 1, b: 1, a: 1}
+    backgroundColor: {r: 1, g: 0.8196079, b: 0.8196079, a: 1}
     textColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1060358541
 GameObject:
@@ -12343,6 +12343,10 @@ MonoBehaviour:
   initialAffections:
   - characterName: "\uAC15\uC8FC\uC740"
     initialValue: 100
+  - characterName: "\uC774\uC740\uC131"
+    initialValue: 45
+  - characterName: "\uAC15\uC138\uD558"
+    initialValue: 45
 --- !u!1 &1133920896
 GameObject:
   m_ObjectHideFlags: 0
@@ -16343,8 +16347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e23331a2d370f87448ef7decb8697133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: episode1
-  episodeData: {fileID: 11400000, guid: 7402bcacfed667f4e97aeb7d3f188ced, type: 2}
+  sceneNameToLoad: episode6
+  episodeData: {fileID: 11400000, guid: ce80195fd68cf5543a2ce1d9c22a1f0a, type: 2}
 --- !u!1 &1432413765
 GameObject:
   m_ObjectHideFlags: 0

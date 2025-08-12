@@ -40,7 +40,6 @@ public class EventManager : MonoBehaviour
         if (eventDictionary.TryGetValue(eventName, out UnityEvent thisEvent))
         {
             thisEvent.RemoveListener(listener);
-            Debug.Log($"이벤트 리스닝 중지 '{eventName}'");
         }
     }
 
