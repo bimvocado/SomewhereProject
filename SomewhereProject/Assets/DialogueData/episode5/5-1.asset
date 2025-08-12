@@ -22,6 +22,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC624\uB298\uC740 \uB4DC\uB514\uC5B4 \uCD95\uC81C \uCCAB\uB0A0!"
     eventName: 
@@ -31,6 +37,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uD3C9\uC18C\uB77C\uBA74 \uAC15\uC758 \uB05D\uB098\uACE0 \uBC14\uB85C
       \uC9D1\uC5D0 \uB4E4\uC5B4\uAC14\uACA0\uC9C0\uB9CC, \uC774\uBC88\uC5D4 \uC880
@@ -42,6 +54,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uBD84\uC704\uAE30\uB3C4 \uC88B\uACE0, \uC8FC\uC740\uC774\uB791 \uC57D\uC18D\uB3C4
       \uC7A1\uC544\uB480\uACE0\u2026"
@@ -52,6 +70,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uADF8\uB9AC\uACE0 \uBB34\uC5C7\uBCF4\uB2E4 \uBB54\uAC00 \u2018\uC774\uBCA4\uD2B8\u2019\uAC00
       \uC77C\uC5B4\uB0A0 \uAC83\uB9CC \uAC19\uC740 \uB290\uB08C\uC774 \uC628\uB2E4."
@@ -62,25 +86,43 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: AppearJueun
+    eventName: jappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC8FC\uC740"
     line: "[\uC5EC\uC8FC\uC57C] \uC9C4\uC9DC \uBBF8\uC548\uD55C\uB370 \uB098 \uC9D1\uC5D0
       \uC77C\uC774 \uC0DD\uACA8\uC11C \uAC00\uBD10\uC57C \uD560 \uAC83 \uAC19\uC544\u2026"
-    eventName: JueunSaying
+    eventName: jsaying
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uD5D0 \uC9C4\uC9DC? \uC548\uB3FC! \uADF8\uB7FC, \uB098 \uB204\uAD6C\uB791
       \uB180\uC544!"
@@ -91,26 +133,44 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC8FC\uC740"
     line: "\uC9C4\uC9DC \uBBF8\uC548\uD574\u2026 \uB2E4\uC74C\uC5D0 \uB0B4\uAC00
       \uCEE4\uD53C \uC0B4\uAC8C\u2026"
-    eventName: JueunSerious
+    eventName: jserious
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC8FC\uC740\uC774\uAC00 \uC6B0\uB294 \uD45C\uC815\uC744 \uD55C\uB2E4.
       \uADF8\uB798 \uBCF4\uB0B4\uC918\uC57C\uC9C0."
-    eventName: 
+    eventName: jsad
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC54C\uC558\uC5B4\u2026 \uC870\uC2EC\uD788 \uAC00."
     eventName: 
@@ -120,15 +180,27 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: JueunDisappear
+    eventName: jdisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC8FC\uC740\uC774\uAC00 \uAC00\uBC84\uB9AC\uB2C8 \uCD95\uC81C\uB97C \uAC19\uC774
       \uC990\uAE38 \uCE5C\uAD6C\uAC00 \uC5C6\uC5B4\uC838 \uBC84\uB838\uB2E4\u2026"
@@ -139,6 +211,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uD63C\uC790 \uCD95\uC81C\uB97C \uC990\uAE30\uAE30\uC5D0\uB294 \uC2EC\uC2EC\uD55C\uB370\u2026"
     eventName: 
@@ -148,6 +226,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uB204\uAD6C\uD55C\uD14C \uC5F0\uB77D\uC774\uB77C\uB3C4 \uD574\uBD10\uC57C
       \uD560\uAE4C?"
@@ -209,6 +293,12 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 
