@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: bbbackto05-1-3
   m_EditorClassIdentifier: 
   dialogues:
-  - speaker: 
+  - speaker: "\uC5EC\uC8FC"
     line: "\uD5D0 \uC774\uC81C \uACE7 \uACF5\uC5F0 \uC2DC\uAC04\uC774\uB124. \uBCF4\uB7EC
       \uAC00\uC790!"
     eventName: 
@@ -23,6 +23,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uB8E8\uCE74\uB97C \uBD99\uC7A1\uACE0 \uACF5\uC5F0\uC7A5\uC73C\uB85C \uD5A5\uD588\uB2E4."
     eventName: 
@@ -32,15 +38,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
-    line: 
-    eventName: ldisappear
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uB8E8\uCE74\uB791 \uACF5\uC5F0\uC744 \uC990\uAE30\uB358 \uC911, \uD654\uC7A5\uC2E4\uC774
       \uAC00\uACE0 \uC2F6\uC5B4\uC84C\uB2E4."
@@ -51,6 +54,27 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: ldisappear
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uACF5\uC5F0\uC7A5\uC744 \uB098\uC640 \uD654\uC7A5\uC2E4\uB85C \uAC78\uC5B4\uAC00\uB294\uB370,
       \uC775\uC219\uD55C \uB4A4\uD1B5\uC218\uAC00 \uBCF4\uC778\uB2E4."
@@ -95,6 +119,12 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 
