@@ -345,6 +345,13 @@ public class DialogueManager : MonoBehaviour
                 {
                     if (!string.IsNullOrEmpty(line.eventName))
                     {
+                        if (line.eventName.Contains("FadeIn") || line.eventName.Contains("FadeOut"))
+                        {
+                            dialogueIndex++;
+                            ProcessCommand(line.eventName);
+                            return;
+                        }
+
                         if (line.eventName.StartsWith("CMD:"))
                         {
                             ProcessCommand(line.eventName);
@@ -786,6 +793,41 @@ public class DialogueManager : MonoBehaviour
         }
 
         string commandType = parts[1];
+
+        if (commandType.StartsWith("Fade"))
+        {
+            if (ScreenFadeManager.Instance == null)
+            {
+                Debug.LogWarning("ScreenFadeManager를 찾을 수 없습니다.");
+                return;
+            }
+
+            float duration = 1.0f;
+            if (parts.Length > 2 && float.TryParse(parts[2], out float parsedDuration))
+            {
+                duration = parsedDuration;
+            }
+
+            Action onStartCallback = () => SettingUI(false);
+            Action onCompleteCallback = () => DisplayNext();
+
+            switch (commandType)
+            {
+                case "FadeOut":
+                    ScreenFadeManager.Instance.FadeOut(duration, onStartCallback, onCompleteCallback);
+                    return;
+
+                case "FadeIn":
+                    ScreenFadeManager.Instance.FadeIn(duration, onStartCallback, onCompleteCallback);
+                    return;
+
+                case "FadeInOut":
+                    ScreenFadeManager.Instance.FadeInOut(onStart: onStartCallback, onComplete: onCompleteCallback);
+                    return;
+            }
+        }
+
+
 
         switch (commandType)
         {

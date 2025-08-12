@@ -364,7 +364,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: FadeOut
+    eventName: CMD:FadeInOut
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

@@ -15,6 +15,21 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: 
+    eventName: CMD:FadeIn
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
     eventName: GotoPTCafe
     conditionType: 0
     conditionKey: 
