@@ -22,6 +22,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC5E0\uD2F0\uAE4C\uC9C0 \uC654\uB294\uB370 \uC220\uC744 \uB9C8\uC154\uBCFC\uAE4C?"
     eventName: 
@@ -59,7 +65,7 @@ MonoBehaviour:
       targetCharacterForAffection: "\uAC15\uC138\uD558"
       resetsAffection: 0
       requiredCoin: 0
-      flagToSet: 
+      flagToSet: shcon
       flagValue: 0
       conditionType: 0
       conditionKey: 
@@ -82,6 +88,12 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 
