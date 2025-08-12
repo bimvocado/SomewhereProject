@@ -14,6 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: GotoRoom
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
     line: "\uBC16\uC73C\uB85C \uB098\uAC00\uC790\uB9C8\uC790 \uB354\uC6B4 \uC5F4\uAE30\uAC00
       \uB07C\uCE5C\uB2E4.\n\uB098\uAC08 \uC5C4\uB450\uB3C4 \uC548 \uB098\uB124..."
     eventName: 
