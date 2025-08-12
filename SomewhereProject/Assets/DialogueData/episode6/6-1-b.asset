@@ -31,7 +31,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: "\uADF8\uB0E5 \uB2E4\uC2DC \uC9D1\uC73C\uB85C \uB3CC\uC544\uAC14\uB2E4."
-    eventName: 
+    eventName: CMD:FadeOut
     conditionType: 10
     conditionKey: 
     conditionTargetCharacter: "\uC815\uC6B0\uC9C4,\uBB38\uC774\uD604,\uB8E8\uCE74,\uAC15\uC138\uD558,\uC774\uC740\uC131"
@@ -91,7 +91,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: FadeIn
+    eventName: 
     conditionType: 8
     conditionKey: shDone
     conditionTargetCharacter: "\uAC15\uC138\uD558"
@@ -106,7 +106,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: FadeIn
+    eventName: 
     conditionType: 8
     conditionKey: esDone
     conditionTargetCharacter: "\uC774\uC740\uC131"
@@ -115,6 +115,21 @@ MonoBehaviour:
     choices: []
     overrideNextDialogue:
       m_AssetGUID: dc58999f9e5746847ba7dc76971b6228
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
       m_SubObjectName: 
       m_SubObjectType: 
       m_SubObjectGUID: 
