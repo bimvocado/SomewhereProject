@@ -287,8 +287,8 @@ MonoBehaviour:
       targetCharacterForAffection: "\uB8E8\uCE74"
       resetsAffection: 0
       requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
+      flagToSet: festival_LK
+      flagValue: 1
       conditionType: 0
       conditionKey: 
       conditionTargetCharacter: 
