@@ -12344,7 +12344,7 @@ MonoBehaviour:
   - characterName: "\uAC15\uC8FC\uC740"
     initialValue: 100
   - characterName: "\uC774\uC740\uC131"
-    initialValue: 45
+    initialValue: 30
   - characterName: "\uAC15\uC138\uD558"
     initialValue: 45
 --- !u!1 &1133920896
@@ -17098,7 +17098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0024414062, y: -0.0025024414}
+  m_AnchoredPosition: {x: -0.0024414062, y: -0.0024414062}
   m_SizeDelta: {x: 0.005127, y: -0.0048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1489615660
