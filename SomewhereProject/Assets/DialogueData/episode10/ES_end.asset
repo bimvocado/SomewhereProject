@@ -196,8 +196,38 @@ MonoBehaviour:
       m_SubObjectGUID: 
       m_EditorAssetChanged: 0
   - speaker: 
-    line: "\uBB38\uC744 \uC5F4\uACE0 \uB0B4\uB824\uAC00\uB2C8 \uC800 \uBA40\uB9AC
-      \uC740\uC131\uC774 \uBCF4\uC778\uB2E4."
+    line: 
+    eventName: CMD:FadeInOut
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: GotoES
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: "\uC9D1 \uC55E\uC73C\uB85C \uB098\uAC00\uB2C8 \uBA40\uB9AC\uC5D0 \uC740\uC131\uC774\uAC00
+      \uBCF4\uC778\uB2E4."
     eventName: AppearES
     conditionType: 0
     conditionKey: 
