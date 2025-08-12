@@ -14,6 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: CMD:FadeInOut
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
     line: "\uBC29\uD559\uC774\uB77C \uADF8\uB7F0\uAC00, \uC2DC\uAC04\uC774 \uC720\uB09C\uD788
       \uBE68\uB9AC \uD758\uB7EC\uAC00\uB294 \uB4EF\uD558\uB2E4."
     eventName: GotoRoom
@@ -23,6 +38,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC21C\uC2DD\uAC04\uC5D0 8\uC6D4 \uB9D0\uC774 \uB2E4\uAC00\uC654\uB2E4.
       \uBC8C\uC368 \uC218\uAC15 \uC2E0\uCCAD\uC744 \uD560 \uB54C\uAC00 \uC628 \uAC74\uAC00."
@@ -33,6 +54,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "1\uD559\uAE30 \uB54C \uC778\uAE30 \uAC15\uC88C\uC5D0\uC11C \uAD11\uD0C8\uB2F9\uD588\uB358
       \uC545\uBABD\uC774\u2026"
@@ -43,6 +70,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC218\uAC15 \uC2E0\uCCAD \uAFC0\uD301 \uAC19\uC740 \uAC78 \uB4E4\uC5B4\uB450\uBA74
       \uC88B\uC744\uAE4C?"
@@ -87,6 +120,12 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 
