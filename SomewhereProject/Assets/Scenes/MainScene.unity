@@ -12343,10 +12343,8 @@ MonoBehaviour:
   initialAffections:
   - characterName: "\uAC15\uC8FC\uC740"
     initialValue: 100
-  - characterName: "\uC774\uC740\uC131"
-    initialValue: 30
-  - characterName: "\uAC15\uC138\uD558"
-    initialValue: 10
+  - characterName: "\uC815\uC6B0\uC9C4"
+    initialValue: 90
 --- !u!1 &1133920896
 GameObject:
   m_ObjectHideFlags: 0
