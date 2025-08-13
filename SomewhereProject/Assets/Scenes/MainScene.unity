@@ -2562,7 +2562,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.000019073, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 506.1671}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &267319007
 MonoBehaviour:
@@ -3185,7 +3185,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 342972870}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2031797655}
+        m_TargetAssemblyTypeName: SaveSlotButton, Assembly-CSharp
+        m_MethodName: OnDeleteButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &342972870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5944,7 +5956,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 566748586}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1669091621}
+        m_TargetAssemblyTypeName: SaveSlotButton, Assembly-CSharp
+        m_MethodName: OnDeleteButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &566748586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6948,7 +6972,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 684789693}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1280241070}
+        m_TargetAssemblyTypeName: SaveSlotButton, Assembly-CSharp
+        m_MethodName: OnDeleteButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &684789693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13108,9 +13144,9 @@ RectTransform:
   - {fileID: 1791138120}
   m_Father: {fileID: 267319006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1632.4332, y: -260.58356}
   m_SizeDelta: {x: 340.5407, y: 491.1671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1140230763
@@ -14552,9 +14588,9 @@ RectTransform:
   - {fileID: 684789691}
   m_Father: {fileID: 267319006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 921.3518, y: -260.58356}
   m_SizeDelta: {x: 340.5407, y: 491.1671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280241070
@@ -14690,7 +14726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1282045751
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17685,9 +17721,9 @@ RectTransform:
   - {fileID: 1938314795}
   m_Father: {fileID: 267319006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 565.81104, y: -260.58356}
   m_SizeDelta: {x: 340.5407, y: 491.1671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475789384
@@ -20541,9 +20577,9 @@ RectTransform:
   - {fileID: 566748584}
   m_Father: {fileID: 267319006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1276.8925, y: -260.58356}
   m_SizeDelta: {x: 340.5407, y: 491.1671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1669091621
@@ -21827,7 +21863,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1791138122}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1140230763}
+        m_TargetAssemblyTypeName: SaveSlotButton, Assembly-CSharp
+        m_MethodName: OnDeleteButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1791138122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23733,7 +23781,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1938314797}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1475789384}
+        m_TargetAssemblyTypeName: SaveSlotButton, Assembly-CSharp
+        m_MethodName: OnDeleteButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1938314797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24849,9 +24909,9 @@ RectTransform:
   - {fileID: 342972868}
   m_Father: {fileID: 267319006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 210.27036, y: -260.58356}
   m_SizeDelta: {x: 340.5407, y: 491.1671}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2031797652
