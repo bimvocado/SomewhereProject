@@ -6,17 +6,53 @@ public class ShopItemButton : MonoBehaviour
 {
     [Header("아이템 데이터 연결")]
     public ItemData itemData;
+
+    [Header("UI 컴포넌트 연결")]
     [SerializeField] private TMP_Text itemPriceText;
 
+    private Button buttonComponent;
 
-    void Start()
+    void Awake()
     {
-        if (itemData != null)
+        buttonComponent = GetComponent<Button>();
+    }
+
+    void OnEnable()
+    {
+        UpdateDisplay();
+        GameProgressionManager.OnItemPurchased += HandleItemPurchased;
+    }
+
+    void OnDisable()
+    {
+        GameProgressionManager.OnItemPurchased -= HandleItemPurchased;
+    }
+
+    private void HandleItemPurchased(string purchasedItemID)
+    {
+        if (itemData == null) return;
+
+        if (itemData.itemID == purchasedItemID)
         {
-            if (itemPriceText != null)
-            {
-                itemPriceText.text = itemData.price.ToString();
-            }
+            UpdateDisplay();
+        }
+    }
+
+    public void UpdateDisplay()
+    {
+        if (itemData == null) return;
+
+        bool isPurchased = GameProgressionManager.Instance.HasItemBeenPurchased(itemData.itemID);
+
+        if (isPurchased)
+        {
+            itemPriceText.text = "판매 완료";
+            buttonComponent.interactable = false;
+        }
+        else
+        {
+            itemPriceText.text = itemData.price.ToString();
+            buttonComponent.interactable = true;
         }
     }
 
@@ -30,7 +66,7 @@ public class ShopItemButton : MonoBehaviour
 
         if (ItemDetailPopup.Instance != null)
         {
-            ItemDetailPopup.Instance.Show(itemData);
+            ItemDetailPopup.Instance.Show(itemData, this);
         }
     }
 }

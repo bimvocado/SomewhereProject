@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5545e1564f6d0a4b9371f73cc61bac7, type: 3}
   m_Name: hand
   m_EditorClassIdentifier: 
+  itemID: lk_hand
   itemName: "\uC190\uC218\uAC74"
   itemDescription: "\uB8E8\uCE74\uC640 \uC5B4\uC6B8\uB9B4 \uAC83 \uAC19\uC740\n\uACE0\uAE09\uC9C4
     \uC190\uC218\uAC74. \uBE44\uC2F8 \uBCF4\uC774\uB294 \uAC8C...\n\uC660\uC9C0 \uB8E8\uCE74\uC640

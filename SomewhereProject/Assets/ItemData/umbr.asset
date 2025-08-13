@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5545e1564f6d0a4b9371f73cc61bac7, type: 3}
   m_Name: umbr
   m_EditorClassIdentifier: 
+  itemID: yh_umbr
   itemName: "\uC811\uC774\uC2DD \uC6B0\uC0B0"
   itemDescription: "\uC6D0\uD130\uCE58 \uC811\uC774\uC2DD \uC6B0\uC0B0\uC774\uB2E4.\n\uC774\uD604
     \uC120\uBC30\uAC00 \uCD08\uB85D\uC0C9 \uC88B\uC544\uD55C\uB2E4\uACE0\n\uD588\uB358

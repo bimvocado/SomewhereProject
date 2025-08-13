@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5545e1564f6d0a4b9371f73cc61bac7, type: 3}
   m_Name: char
   m_EditorClassIdentifier: 
+  itemID: wj_charger
   itemName: "\uACE0\uC18D\uCDA9\uC804\uAE30"
   itemDescription: "\uACE0\uC18D \uCDA9\uC804\uAE30\uAC00 \uC544\uB2C8\uBA74 \uC131\uC5D0
     \uC548 \uCC2C\uB2E4.\n\uC131\uACA9\uC774 \uAE09\uD560 \uAC83 \uAC19\uC740\n\uC6B0\uC9C4

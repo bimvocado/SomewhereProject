@@ -10,6 +10,9 @@ public struct AffectionChangeData
 [CreateAssetMenu(fileName = "New ItemData", menuName = "Item Data")]
 public class ItemData : ScriptableObject
 {
+    [Header("아이템 고유 ID")]
+    public string itemID;
+
     [Header("기본 정보")]
     public string itemName;
     [TextArea(3, 5)]

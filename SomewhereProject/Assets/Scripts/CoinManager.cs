@@ -40,7 +40,7 @@ public class CoinManager : MonoBehaviour
 
     public bool SpendCoin(int amount)
     {
-        if (amount <= 0) return false;
+        if (amount < 0) return false;
 
         if (PlayerCoin >= amount)
         {

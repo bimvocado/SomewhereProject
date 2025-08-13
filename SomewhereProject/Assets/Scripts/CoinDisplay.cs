@@ -8,6 +8,11 @@ public class CoinDisplay : MonoBehaviour
     private void OnEnable()
     {
         CoinManager.OnCoinChanged += UpdateCoinText;
+
+        if (CoinManager.Instance != null)
+        {
+            UpdateCoinText(CoinManager.Instance.PlayerCoin);
+        }
     }
 
     private void OnDisable()

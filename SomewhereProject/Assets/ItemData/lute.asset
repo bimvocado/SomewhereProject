@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5545e1564f6d0a4b9371f73cc61bac7, type: 3}
   m_Name: lute
   m_EditorClassIdentifier: 
+  itemID: wj_lute
   itemName: "\uB8E8\uD14C\uC778"
   itemDescription: "\uD604\uB300\uC778\uC758 \uD544\uC218\uD488, \uB8E8\uD14C\uC778.\n\uBAA8\uB2C8\uD130\uB9CC
     \uCCD0\uB2E4\uBCF4\uB294\n\uC6B0\uC9C4 \uC870\uAD50\uB2D8\uC5D0\uAC8C \uB531\uC77C

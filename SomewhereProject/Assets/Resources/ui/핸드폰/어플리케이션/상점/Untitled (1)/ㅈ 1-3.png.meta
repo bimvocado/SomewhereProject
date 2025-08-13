@@ -103,12 +103,12 @@ TextureImporter:
       name: "\u3148 1-3_0"
       rect:
         serializedVersion: 2
-        x: 99
-        y: 79
-        width: 159
-        height: 169
+        x: 0
+        y: 0
+        width: 344
+        height: 319
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 88efc6addeabaf3429beaedf996af340
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\u3148 1-3_0": -2814802043968307152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

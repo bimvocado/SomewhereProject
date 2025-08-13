@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5545e1564f6d0a4b9371f73cc61bac7, type: 3}
   m_Name: key
   m_EditorClassIdentifier: 
+  itemID: es_ring
   itemName: "\uACE0\uC591\uC774 \uD0A4\uB9C1"
   itemDescription: "\uC0BC\uC0C9\uC774\uAC00 \uC0DD\uAC01\uB098\uB294 \uACE0\uC591\uC774
     \uD0A4\uB9C1.\n\uC740\uC131\uC774\uD55C\uD14C\uB3C4 \uBCF4\uC5EC\uC8FC\uACE0

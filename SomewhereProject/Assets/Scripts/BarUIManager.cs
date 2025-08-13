@@ -6,7 +6,6 @@ public class BarUIManager : MonoBehaviour
 
     [SerializeField]
     private GameObject backPanel;
-    [SerializeField]
     public GameObject phone;
 
 
@@ -66,6 +65,14 @@ public class BarUIManager : MonoBehaviour
         if (backPanel != null)
         {
             backPanel.SetActive(false);
+        }
+        if (ItemDetailPopup.Instance != null)
+        {
+            ItemDetailPopup.Instance.Hide();
+        }
+        if (ConfirmationPopup.Instance != null)
+        {
+            ConfirmationPopup.Instance.ClosePopup();
         }
 
     }

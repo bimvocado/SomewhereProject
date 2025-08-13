@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5545e1564f6d0a4b9371f73cc61bac7, type: 3}
   m_Name: juice
   m_EditorClassIdentifier: 
+  itemID: sh_juice
   itemName: "\uC218\uBC15 \uC8FC\uC2A4"
   itemDescription: "\uC138\uD558 \uC624\uBE60\uC758 \uBA38\uB9AC\uC0C9\uC774\n\uC0DD\uAC01\uB098\uB294
     \uB2EC\uCF64\uD55C \uC218\uBC15 \uC8FC\uC2A4.\n\uC624\uBE60\uAC00 \uC218\uBC15

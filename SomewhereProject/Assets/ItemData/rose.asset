@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5545e1564f6d0a4b9371f73cc61bac7, type: 3}
   m_Name: rose
   m_EditorClassIdentifier: 
+  itemID: lk_rose
   itemName: "\uC7A5\uBBF8\uAF43"
   itemDescription: "\uC6B0\uC5F0\uD788 \uBC1C\uACAC\uD55C\n\uB8E8\uCE74\uC758 \uB208
     \uC0C9\uACFC \uB611\uAC19\uC740 \uC7A5\uBBF8\uAF43.\n\uB8E8\uCE74\uC5D0\uAC8C

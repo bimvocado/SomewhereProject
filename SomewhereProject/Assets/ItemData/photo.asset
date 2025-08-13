@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5545e1564f6d0a4b9371f73cc61bac7, type: 3}
   m_Name: photo
   m_EditorClassIdentifier: 
+  itemID: sh_photo
   itemName: "\uD544\uB984 \uC0AC\uC9C4"
   itemDescription: "\uC138\uD558 \uC624\uBE60\uC640\uC758 \uCD94\uC5B5\uC774 \uB2F4\uAE34\n\uD544\uB984
     \uCE74\uBA54\uB77C \uC0AC\uC9C4.\n\uC138\uD558 \uC624\uBE60\uD55C\uD14C \uBCF4\uC5EC\uC904\uAE4C?"
