@@ -106,6 +106,21 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: 
+    eventName: CMD:SaveProgress
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
     eventName: LoadEpisode8
     conditionType: 0
     conditionKey: 
