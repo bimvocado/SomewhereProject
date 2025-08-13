@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManagerCh : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class GameManagerCh : MonoBehaviour
     public int points;
 
     public bool isGameEnded;
+
+    public TMP_Text Points;
+    public TMP_Text Goals;
+    public TMP_Text Moves;
 
     private void Awake()
     {
@@ -33,7 +38,9 @@ public class GameManagerCh : MonoBehaviour
 
     void Update()
     {
-        
+        Points.text = "Points: " + points.ToString();
+        Moves.text = "Moves: " + points.ToString();
+        Goals.text = "Goals: " + points.ToString();
     }
 
     public void ProcessTurn(int _pointsToGain, bool _subtractMoves)
