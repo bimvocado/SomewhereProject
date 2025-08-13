@@ -22,6 +22,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC6B0\uB9AC\uB294 \uD568\uAED8 \uC2DD\uB2F9\uC73C\uB85C \uC774\uB3D9\uD574
       \uC800\uB141\uC744 \uBA39\uC5C8\uB2E4."
@@ -32,6 +38,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uCC28\uBD84\uD558\uACE0 \uC870\uC6A9\uD788 \uB9CE\uC740 \uB300\uD654\uB97C
       \uB098\uB204\uB294 \uB3D9\uC548, \uC660\uC9C0 \uBAA8\uB974\uAC8C \uD3B8\uC548\uD574\uC11C
@@ -43,6 +55,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uB9D0\uC774 \uB9CE\uC9C0 \uC54A\uC740\uB370\uB3C4 \uC774\uB807\uAC8C
       \uC0AC\uB78C\uC744 \uD3B8\uD558\uAC8C \uD574\uC900\uB2E4\uB2C8."
@@ -53,6 +71,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC774\uD604 \uC120\uBC30\uB294 \uCC38 \uC2E0\uAE30\uD55C \uC0AC\uB78C\uC774\uB124."
     eventName: 
@@ -62,6 +86,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: DisappearYH
@@ -71,6 +101,27 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:SaveProgress
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 8e251c892179bcc4184c86d0aac1c237
     m_SubObjectName: 

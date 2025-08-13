@@ -23,6 +23,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC138\uD558"
     line: "\xB7\xB7\xB7"
     eventName: SehaSerious
@@ -32,6 +38,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC624\uBE60\uAC00 \uBB58 \uD588\uB4E0, \uC9C0\uAE08 \uC5EC\uAE30\uC11C
       \uB098\uB791 \uC774\uB807\uAC8C \uC598\uAE30\uD558\uB294 \uC624\uBE60\uAC00
@@ -43,6 +55,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC9C0\uAE08\uAE4C\uC9C0\uB3C4 \uCDA9\uBD84\uD788 \uC798 \uC9C0\uB0C8\uC796\uC544,
       \uC6B0\uB9AC."
@@ -53,6 +71,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB108, \uC9C4\uC9DC\xB7\xB7\xB7. \uADF8\uB807\uAC8C \uB9D0\uD558\uBA74
       \uB0B4\uAC00 \uD5F7\uAC08\uB9AC\uC796\uC544."
@@ -63,6 +87,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\xB7\xB7\xB7\uD5F7\uAC08\uB824? \uBB50\uAC00?"
     eventName: 
@@ -72,6 +102,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC138\uD558"
     line: "\xB7\xB7\xB7"
     eventName: SehaSerious
@@ -81,6 +117,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC138\uD558"
     line: "\uC544\uB2C8\uC57C. \uC544\uBB34\uD2BC, \uB0B4\uAC00 \uD560 \uC598\uAE30\uB294
       \uB2E4 \uD588\uC5B4."
@@ -91,6 +133,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC751\xB7\xB7\xB7 \uB9D0\uD574\uC918\uC11C \uACE0\uB9C8\uC6CC."
     eventName: 
@@ -100,6 +148,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: DisappearSeha
@@ -109,6 +163,27 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:SaveProgress
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 8e251c892179bcc4184c86d0aac1c237
     m_SubObjectName: 

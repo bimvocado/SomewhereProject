@@ -22,6 +22,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC2DD\uC0AC\uB97C \uB9C8\uCE58\uACE0\uB3C4 \uC774 \uBD84\uC704\uAE30
       \uADF8\uB300\uB85C \uCC28\uC5D0 \uD0D4\uB2E4."
@@ -32,6 +38,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uCD5C\uADFC\uC5D0 \uC885\uC885 \uD0C0\uB294 \uC6B0\uC9C4 \uC120\uBC30\uC758
       \uCC28\uB294 \xB7\xB7\xB7"
@@ -42,6 +54,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC815\uB9D0 \uAE54\uB054\uD558\uACE0 \uC801\uB2F9\uD55C \uC0AC\uC6A9\uAC10\uB9CC
       \uB290\uAEF4\uC84C\uB2E4."
@@ -52,6 +70,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uC798 \uB4E4\uC5B4\uAC00."
     eventName: GotoVHallway
@@ -61,6 +85,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC120\uBC30\uB3C4."
     eventName: 
@@ -70,6 +100,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "9\uCE35 \uBCF5\uB3C4\uC5D0\uC11C \uC791\uBCC4 \uC778\uC0AC\uB97C \uD588\uB2E4.
       \uB2EC\uCF64\uD55C \uC800\uB141 \uC2DC\uAC04\uC774\uC5C8\uB2E4\xB7\xB7\xB7."
@@ -80,6 +116,27 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:SaveProgress
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 8e251c892179bcc4184c86d0aac1c237
     m_SubObjectName: 

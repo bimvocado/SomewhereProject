@@ -22,6 +22,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC138\uD558"
     line: "\uACE0\uB9D9\uB2E4\uACE0?"
     eventName: SehaSaying
@@ -31,6 +37,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC194\uC9C1\uD788, \uB098 \uADF8 \uC598\uAE30 \uB4E4\uC740 \uC774\uD6C4\uB85C
       \uC624\uBE60\uAC00 \uC880 \uB0AF\uC124\uC5C8\uC5B4."
@@ -41,6 +53,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uAD1C\uD788 \uAC70\uB9AC\uAC10 \uB290\uAEF4\uC9C0\uACE0, \uC774\uC0C1\uD558\uAC8C
       \uC2E0\uACBD \uC4F0\uC774\uACE0\xB7\xB7\xB7 \uB098 \uD63C\uC790 \uBC14\uBCF4
@@ -52,6 +70,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC138\uD558"
     line: "\uADF8\uB798\uC11C \uC774\uB807\uAC8C \uC598\uAE30\uD55C \uAC70\uC57C.
       \uC0AC\uC2E4 \uB354 \uC77C\uCC0D \uB9D0\uD574\uC57C \uD588\uB098 \uC2F6\uAE30\uB3C4
@@ -63,6 +87,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC138\uD558"
     line: "\uAD1C\uD788 \uB108\uB791 \uB098 \uC0AC\uC774\uC5D0 \uBCBD \uB9CC\uB4E0
       \uAC70 \uAC19\uC544\uC11C."
@@ -73,6 +103,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC9C0\uAE08 \uC598\uAE30\uD574\uC918\uC11C \uB410\uC5B4. \uC0AC\uC2E4
       \uB098\uB3C4 \uB098 \uD63C\uC790 \uACFC\uD558\uAC8C \uD589\uB3D9\uD55C \uAC83
@@ -84,6 +120,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uAC15\uC138\uD558"
     line: "\uB2E4\uD589\uC774\uB2E4. \uADF8\uB7FC, \uC6B0\uB9AC \uC0AC\uC774\uC5D0
       \uC624\uD574 \uC5C6\uB294 \uAC70\uC9C0?"
@@ -94,6 +136,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC751, \uB2F9\uC5F0\uD558\uC9C0."
     eventName: 
@@ -103,6 +151,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: DisappearSeha
@@ -112,6 +166,27 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:SaveProgress
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 8e251c892179bcc4184c86d0aac1c237
     m_SubObjectName: 
