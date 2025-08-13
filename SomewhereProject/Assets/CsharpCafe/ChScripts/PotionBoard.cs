@@ -110,7 +110,7 @@ public class PotionBoard : MonoBehaviour
         }
     }
 
-    public bool CheckBoard()
+    public bool CheckBoard(bool _takeAction)
     {
         Debug.Log("Checking Board");
         bool hasMatched = false;
@@ -145,8 +145,84 @@ public class PotionBoard : MonoBehaviour
                 }
             }
         }
+
+        if (_takeAction)
+        {
+            RemoveAndRefill(potionsToRemove);
+        }
+
         return hasMatched;
     }
+
+    private void RemoveAndRefill(List<Potion> potionsToRemove)
+    {
+        foreach (Potion potion in  potionsToRemove)
+        {
+            int _xIndex = potion.xIndex;
+            int _yIndex = potion.yIndex;
+
+            Destroy(potion.gameObject);
+
+            potionBoard[_xIndex, _yIndex] = new Node(true, null);
+        }
+
+        for (int x = 0; x < width; x++)
+        {
+            for (int y = 0; y < height; y++)
+            {
+                if (potionBoard[x, y].potion == null)
+                {
+                    Debug.Log("The location X: " +  x + " Y: " +  y + " is empty, attempting to refill it.");
+                    RefillPotion(x, y);
+                }
+                
+            }
+        }
+    }
+
+    private void RefillPotion(int x, int y)
+    {
+        int yOffset = 1;
+
+        while (y + yOffset < height && potionBoard[x,y + yOffset].potion == null)
+        {
+            Debug.Log("The potion above me is null, but o'm not at the top of the board yet, so add to my yOffset and try again. Current Offset is: " + yOffset + " I'm about to add 1.");
+            yOffset++;
+        }
+
+        if (y + yOffset < height && potionBoard[x,y + yOffset].potion != null)
+        {
+            Potion potionAbove = potionBoard[x, y + yOffset].potion.GetComponent<Potion>();
+
+            Vector3 targetPos = new Vector3(x - spacingX, y - spacingY, potionAbove.transform.position.z);
+            Debug.Log("I've found a potion when refilling the board and it was in the location: [" + x + "," + (y + yOffset) + "] we have moved it to the location: " + x + "," + (y + yOffset) + "]");
+
+            potionAbove.MoveToTarget(targetPos);
+
+            potionAbove.SetIndicies(x, y);
+
+            potionBoard[x,y] = potionBoard[x, y+yOffset];
+
+            potionBoard[x, y + yOffset] = new Node(true, null);
+        }
+
+        if (y + yOffset == height)
+        {
+            Debug.Log("I've reached the top of the board without finding a potion");
+            SpawnPotionAtTop(x);
+        }
+    }
+
+    private void SpawnPotionAtTop(int x)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    #region Cascading Potions
+
+
+
+    #endregion
 
     private MatchResult SuperMatch(MatchResult _matchedResults)
     {
