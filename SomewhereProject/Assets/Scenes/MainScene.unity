@@ -12712,7 +12712,7 @@ MonoBehaviour:
   - characterName: "\uC815\uC6B0\uC9C4"
     initialValue: 90
   - characterName: "\uAC15\uC138\uD558"
-    initialValue: 90
+    initialValue: 0
   - characterName: "\uBB38\uC774\uD604"
     initialValue: 90
 --- !u!1 &1133920896

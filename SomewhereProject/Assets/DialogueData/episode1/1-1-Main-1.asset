@@ -62,7 +62,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB4DC\uB514\uC5B4 \uBC1D\uC740 \uC138\uC0C1\uC73C\uB85C \uB098\uC624\uAC8C
       \uB418\uC5C8\uB2E4!"
-    eventName: PopupOn
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
