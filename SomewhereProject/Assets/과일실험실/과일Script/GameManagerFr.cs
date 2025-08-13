@@ -16,7 +16,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 
-public class GameManager : MonoBehaviour
+public class GameManagerFr : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI FinalScore;

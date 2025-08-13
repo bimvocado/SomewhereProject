@@ -11,7 +11,7 @@ public class PauseManager : MonoBehaviour
     public Button retryButton;
     public Button quitButton;
     //public Button pauseButton;
-    private GameManager gameManager;
+    private GameManagerFr gameManager;
 
     private bool isPaused = false;
 
