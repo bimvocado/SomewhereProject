@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee30841-f986-46b8-91ab-eb7b16e14680" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyung.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/eunsung/hyung.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/jueun/jueun.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/luka/luka.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/seha/seha.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/woojin/woojin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/woojin/woojin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/character/yihyeon/yihyeon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/character/yihyeon/yihyeon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/episode8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/episode8.unity" afterDir="false" />
-    </list>
+    <list default="true" id="9ee30841-f986-46b8-91ab-eb7b16e14680" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +36,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Yuri",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -133,6 +125,7 @@
       <workItem from="1754850848481" duration="427000" />
       <workItem from="1754984128943" duration="35000" />
       <workItem from="1754984286906" duration="3000" />
+      <workItem from="1755060723216" duration="787000" />
     </task>
     <servers />
   </component>
@@ -165,6 +158,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/SceneEventManager.cs</url>
+          <line>20</line>
+          <properties documentPath="C:\SomewhereProject\SomewhereProject\SomewhereProject\Assets\Scripts\SceneEventManager.cs" containingFunctionPresentation="메서드 'Start'">
+            <startOffsets>
+              <option value="440" />
+            </startOffsets>
+            <endOffsets>
+              <option value="596" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
