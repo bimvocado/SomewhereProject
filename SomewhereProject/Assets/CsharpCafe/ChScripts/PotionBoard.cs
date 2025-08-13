@@ -18,6 +18,7 @@ public class PotionBoard : MonoBehaviour
     public GameObject potionBoardGo;
 
     public List<GameObject> potionsToDestroy = new();
+    public GameObject potionParent;
 
     [SerializeField]
     private Potion selectedPotion;
@@ -80,6 +81,7 @@ public class PotionBoard : MonoBehaviour
                     int randomIndex = Random.Range(0, potionPrefabs.Length);
 
                     GameObject potion = Instantiate(potionPrefabs[randomIndex], position, Quaternion.identity);
+                    potion.transform.SetParent(potionParent.transform);
                     potion.GetComponent<Potion>().SetIndicies(x, y);
                     potionBoard[x, y] = new Node(true, potion);
                     potionsToDestroy.Add(potion);
@@ -87,7 +89,7 @@ public class PotionBoard : MonoBehaviour
 
             }
         }
-        if (CheckBoard())
+        if (CheckBoard(false))
         {
             Debug.Log("We have matches let's re-create the board");
             InitializeBoard();
@@ -116,6 +118,14 @@ public class PotionBoard : MonoBehaviour
         bool hasMatched = false;
 
         List<Potion> potionsToRemove = new();
+
+        foreach(Node nodePotion in potionBoard)
+        {
+            if (nodePotion.potion != null)
+            {
+                nodePotion.potion.GetComponent<Potion>().isMatched = false;
+            }
+        }
 
         for (int x = 0; x < width; x++)
         {
@@ -148,9 +158,18 @@ public class PotionBoard : MonoBehaviour
 
         if (_takeAction)
         {
-            RemoveAndRefill(potionsToRemove);
-        }
+            foreach (Potion potionToRemove in potionsToRemove)
+            {
+                potionToRemove.isMatched = false;
+            }
 
+            RemoveAndRefill(potionsToRemove);
+
+            if (CheckBoard(false))
+            {
+                CheckBoard(true);
+            }
+        }
         return hasMatched;
     }
 
@@ -215,7 +234,42 @@ public class PotionBoard : MonoBehaviour
 
     private void SpawnPotionAtTop(int x)
     {
-        throw new System.NotImplementedException();
+
+
+        int index = FindIndexOfLowestNull(x);
+
+        if (index == -1)
+        {
+            return;
+        }
+
+        int locationToMoveTo = height - index;
+        Debug.Log("About to spawn a potion, ideally i'd like to put it in the index of: " + index);
+
+        int randomIndex = Random.Range(0, potionPrefabs.Length);
+        GameObject newPotion = Instantiate(potionPrefabs[randomIndex], new Vector2(x - spacingX, height - spacingY), Quaternion.identity);
+        newPotion.transform.SetParent(potionParent.transform);
+
+        newPotion.GetComponent<Potion>().SetIndicies(x, index);
+
+        potionBoard[x, index] = new Node(true, newPotion);
+
+        Vector3 targetPosition = new Vector3(newPotion.transform.position.x, newPotion.transform.position.y - locationToMoveTo, newPotion.transform.position.z);
+        newPotion.GetComponent<Potion>().MoveToTarget(targetPosition);
+    }
+
+    private int FindIndexOfLowestNull(int x)
+    {
+        int lowestNull = -1;
+        for (int y = 0; y < height; y++)
+        {
+            if (potionBoard[x,y].potion == null)
+            {
+                lowestNull = y;
+                break;
+            }
+        }
+        return lowestNull;
     }
 
     #region Cascading Potions
@@ -439,7 +493,7 @@ public class PotionBoard : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
 
-        bool hasMatch = CheckBoard();
+        bool hasMatch = CheckBoard(true);
 
         if (!hasMatch)
         {
