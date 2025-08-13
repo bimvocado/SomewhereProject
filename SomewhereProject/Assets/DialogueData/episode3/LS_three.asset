@@ -23,6 +23,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
     line: "\uBB3C\uC778\uAC00\uC694. \uC548 \uADF8\uB798 \uBCF4\uC774\uB294\uB370."
     eventName: LukaSerious
@@ -32,6 +38,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uBB50, \uADF8\uAC70\uB098 \uADF8\uAC70\uB098\u2026"
     eventName: 
@@ -41,6 +53,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uD669\uB2F9\uD574\uD558\uB294 \uC5BC\uAD74\uC774 \uBCF4\uC778\uB2E4."
     eventName: 
@@ -50,6 +68,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC77C\uBD80\uB7EC \uBFCC\uB838\uB2E4\uB294 \uAC74 \uC544\uB2C8\uACE0\u2026"
     eventName: 
@@ -59,6 +83,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
     line: "\uC790\uC8FC \uD574\uBCF4\uC168\uB098 \uBD10\uC694. \uBCC0\uBA85\uC774
       \uC775\uC219\uD574 \uBCF4\uC774\uC2DC\uB294\uB370."
@@ -69,6 +99,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uADF8\uB7F4 \uB9AC\uAC00 \uC5C6\uC796\uC544!?!"
     eventName: 
@@ -78,6 +114,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
     line: 
     eventName: LukaSmile
@@ -87,6 +129,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uB8E8\uCE74\uAC00 \uC18C\uB9AC \uB0B4 \uC6C3\uC5C8\uB2E4."
     eventName: 
@@ -96,6 +144,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC774\uB807\uAC8C \uC6C3\uB294 \uAC74 \uCC98\uC74C \uBCF4\uB294 \uB4EF\uD55C
       \uB290\uB08C\u2026"
@@ -106,6 +160,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC0C8\uC0BC\uC2A4\uB7FD\uC9C0\uB9CC \uC815\uB9D0 \uC798 \uC0DD\uACBC\uB124\u2026"
     eventName: 
@@ -115,6 +175,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uBB3C \uD6C4\uAD11\uD6A8\uACFC \uC9C4\uC9DC \uC788\uB098?"
     eventName: 
@@ -124,6 +190,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
     line: "\uB9CE\uC774 \uCDE8\uD558\uC168\uB098 \uBD10\uC694."
     eventName: LukaSaying
@@ -133,6 +205,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uC544\uB2C8\uC57C, \uADF8\uB807\uAC8C \uB9CE\uC774 \uC548 \uB9C8\uC168\uC5B4.
       \n\uADF8\uB098\uC800\uB098 \uC9C4\uC9DC \uC798\uC0DD\uACBC\uB2E4, \uB108."
@@ -143,6 +221,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
     line: "\uB124, \uAC10\uC0AC\uD574\uC694. \n\uCC98\uC74C \uB9CC\uB0AC\uC744 \uB54C\uB3C4
       \uB9D0\uD558\uC168\uC5B4\uC694, \uADF8\uAC70."
@@ -153,6 +237,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uADF8\uB7AC\uB098? \uADF8\uB7AC\uB124."
     eventName: 
@@ -162,6 +252,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
     line: "\uBB3C\uC774\uB77C\uB3C4 \uAC00\uC838\uB2E4 \uB4DC\uB9B4\uAE4C\uC694?"
     eventName: LukaSaying
@@ -179,7 +275,7 @@ MonoBehaviour:
         m_SubObjectType: 
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
-      affectionChange: 5
+      affectionChange: 4
       targetCharacterForAffection: "\uB8E8\uCE74"
       resetsAffection: 0
       requiredCoin: 0
@@ -206,6 +302,12 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: DisappearLuka
@@ -215,6 +317,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: 
     eventName: LukaLeft
@@ -224,6 +332,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: a7a0d253fe3a933479ab5f32d96248b0
     m_SubObjectName: 

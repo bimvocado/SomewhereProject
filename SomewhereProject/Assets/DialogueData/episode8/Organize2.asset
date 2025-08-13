@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogues:
   - speaker: 
     line: 
-    eventName: FadeOut
+    eventName: CMD:FadeIn
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
