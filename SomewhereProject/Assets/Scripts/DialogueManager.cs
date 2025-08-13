@@ -898,6 +898,26 @@ public class DialogueManager : MonoBehaviour
                 }
                 break;
 
+            case "SaveProgress":
+                Debug.Log("중간 에피소드 종료: 1번 슬롯에 진행 상황을 자동 저장합니다.");
+                if (SaveLoadManager.Instance != null)
+                {
+                    SaveLoadManager.Instance.SaveGame(0);
+                }
+                break;
+
+            case "CompletePlaythrough":
+                Debug.Log("최종 에피소드 종료: 1회차 완료 처리 및 최종 저장을 시도합니다.");
+                if (GameProgressionManager.Instance != null)
+                {
+                    GameProgressionManager.Instance.MarkFirstPlaythroughComplete();
+                }
+                if (SaveLoadManager.Instance != null)
+                {
+                    SaveLoadManager.Instance.SaveGame(0);
+                }
+                break;
+
             default:
                 Debug.LogWarning($"알 수 없는 명령어입니다: {commandType}");
                 break;

@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -52,7 +53,6 @@ public class SaveLoadManager : MonoBehaviour
 
     private void ApplyGameData(GameData data)
     {
-        CoinManager.Instance.LoadCoin(data.playerCoin);
         AffectionManager.Instance.LoadAffections(data.affectionData);
         FlagManager.Instance.LoadFlags(data.flagData);
         NameChangeManager.Instance.LoadName(data.playerFirstName, data.playerLastName);
@@ -86,7 +86,6 @@ public class SaveLoadManager : MonoBehaviour
     {
         GameData gameData = new GameData
         {
-            playerCoin = CoinManager.Instance.PlayerCoin,
             affectionData = AffectionManager.Instance.GetAffections(),
             flagData = FlagManager.Instance.GetFlags()
         };
@@ -96,10 +95,27 @@ public class SaveLoadManager : MonoBehaviour
         gameData.currentSceneName = SceneManager.GetActiveScene().name;
         gameData.readDialogueLog = ReadLogManager.Instance.GetReadLog();
 
+        gameData.saveTimestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm");
+
         string json = JsonUtility.ToJson(gameData, true);
         string savePath = GetPathForSlot(slotIndex);
         File.WriteAllText(savePath, json);
         Debug.Log($"게임 데이터 저장 완료 (슬롯 {slotIndex}): {savePath}");
+    }
+
+    public void DeleteSaveData(int slotIndex)
+    {
+        string savePath = GetPathForSlot(slotIndex);
+
+        if (File.Exists(savePath))
+        {
+            File.Delete(savePath);
+            Debug.Log($"<color=red>슬롯 {slotIndex + 1}의 저장 파일 삭제 완료:</color> {savePath}");
+        }
+        else
+        {
+            Debug.LogWarning($"삭제할 파일 없음: 슬롯 {slotIndex + 1}에 저장된 데이터가 없습니다.");
+        }
     }
 
 }

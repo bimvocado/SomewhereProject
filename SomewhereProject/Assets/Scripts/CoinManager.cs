@@ -1,12 +1,14 @@
 using UnityEngine;
+using System;
 
 public class CoinManager : MonoBehaviour
 {
     public static CoinManager Instance { get; private set; }
 
-    public int PlayerCoin { get; private set; }
+    public static event Action<int> OnCoinChanged;
 
-    private const string CoinSaveKey = "PlayerCoin";
+    public int PlayerCoin { get; private set; }
+    private const string CoinSaveKey = "GlobalPlayerCoin";
 
     private void Awake()
     {
@@ -19,14 +21,20 @@ public class CoinManager : MonoBehaviour
             Destroy(gameObject);
         }
 
+        PlayerCoin = PlayerPrefs.GetInt(CoinSaveKey, 0);
+    }
 
-        PlayerCoin = 0;
+    private void Start()
+    {
+        OnCoinChanged?.Invoke(PlayerCoin);
     }
 
     public void AddCoin(int amount)
     {
         if (amount <= 0) return;
         PlayerCoin += amount;
+        SaveCoin();
+        OnCoinChanged?.Invoke(PlayerCoin);
         Debug.Log($"코인 {amount} 획득. 현재 코인: {PlayerCoin}");
     }
 
@@ -37,6 +45,8 @@ public class CoinManager : MonoBehaviour
         if (PlayerCoin >= amount)
         {
             PlayerCoin -= amount;
+            SaveCoin();
+            OnCoinChanged?.Invoke(PlayerCoin);
             Debug.Log($"코인 {amount} 사용. 현재 코인: {PlayerCoin}");
             return true;
         }
@@ -45,9 +55,9 @@ public class CoinManager : MonoBehaviour
         return false;
     }
 
-
-    public void LoadCoin(int amount)
+    private void SaveCoin()
     {
-        PlayerCoin = amount;
+        PlayerPrefs.SetInt(CoinSaveKey, PlayerCoin);
+        PlayerPrefs.Save();
     }
 }

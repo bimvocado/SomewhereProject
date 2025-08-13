@@ -12,10 +12,9 @@ public class GameData
     public HashSet<string> readDialogueLog;
     public string playerFirstName;
     public string playerLastName;
-
+    public string saveTimestamp;
     public GameData()
     {
-        playerCoin = 0;
         affectionData = new Dictionary<string, int>();
         flagData = new Dictionary<string, bool>();
         currentDialogueAssetKey = null;
