@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using Unity.VisualScripting;
 
 public class GameManagerCh : MonoBehaviour
 {
@@ -13,12 +14,17 @@ public class GameManagerCh : MonoBehaviour
     public int goal;
     public int moves;
     public int points;
+    public int coins;
 
     public bool isGameEnded;
 
     public TMP_Text Points;
     public TMP_Text Goals;
     public TMP_Text Moves;
+    public TMP_Text Coins;
+
+    public TMP_Text VictoryPoints;
+    public TMP_Text VictoryCoins;
 
     private void Awake()
     {
@@ -35,13 +41,20 @@ public class GameManagerCh : MonoBehaviour
     {
         Initialized(moves, goal);
         points = 0;
+        coins = 0;
     }
 
-    void Update()
+    private void Update()
     {
-        Points.text = "Points: " + points.ToString();
-        Moves.text = "Moves: " + moves.ToString();
-        Goals.text = "Goal: " + goal.ToString();
+        UpdateUI();
+    }
+
+    void UpdateUI()
+    {
+        Points.text = "Points: " + points;
+        Coins.text = "Coins: " + (points/10);
+        Moves.text = "Moves: " + moves;
+        Goals.text = "Goal: " + goal;
     }
 
     public void ProcessTurn(int _pointsToGain, bool _subtractMoves)
@@ -51,6 +64,9 @@ public class GameManagerCh : MonoBehaviour
         {
             moves--;
         }
+
+        UpdateUI();
+
         if (points >= goal)
         {
             isGameEnded = true;
@@ -58,6 +74,10 @@ public class GameManagerCh : MonoBehaviour
             backgroundPanel.SetActive(true);
             victoryPanel.SetActive(true);
             PotionBoard.Instance.potionParent.SetActive(false);
+
+            VictoryPoints.text = "Points: " + points;
+            VictoryCoins.text = "Coins: " + (points / 10);
+
             return;
         }
         if (moves == 0)
