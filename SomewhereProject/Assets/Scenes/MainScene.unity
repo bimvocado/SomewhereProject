@@ -12676,7 +12676,7 @@ MonoBehaviour:
   - characterName: "\uC815\uC6B0\uC9C4"
     initialValue: 90
   - characterName: "\uAC15\uC138\uD558"
-    initialValue: 90
+    initialValue: 0
   - characterName: "\uBB38\uC774\uD604"
     initialValue: 90
 --- !u!1 &1133920896
@@ -17145,8 +17145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e23331a2d370f87448ef7decb8697133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: episode10
-  episodeData: {fileID: 11400000, guid: 5dbbdc3526d05dd4d8e4475d5c2e3b9a, type: 2}
+  sceneNameToLoad: episode7
+  episodeData: {fileID: 11400000, guid: 2395d41b8b598474caf3ac26408ad715, type: 2}
 --- !u!1 &1432413765
 GameObject:
   m_ObjectHideFlags: 0
