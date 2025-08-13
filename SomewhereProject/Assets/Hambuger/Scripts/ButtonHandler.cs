@@ -10,7 +10,8 @@ public enum ButtonType
     Start,
     Exit,
     Continue,
-    How
+    How,
+    GotoPhone
 }
 
 public class ButtonHandler : MonoBehaviour
@@ -34,6 +35,10 @@ public class ButtonHandler : MonoBehaviour
             
             case ButtonType.How:
                 SceneManager.LoadScene("HambugerHow");
+                break;
+            
+            case ButtonType.GotoPhone:
+                SceneManager.LoadScene("MiniGame");
                 break;
         }
     }
