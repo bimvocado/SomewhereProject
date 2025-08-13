@@ -12,7 +12,7 @@ public class Bomb : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             bombParticle.Play();
-            FindAnyObjectByType<GameManager>().Explode();
+            FindAnyObjectByType<GameManagerFr>().Explode();
         }
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
