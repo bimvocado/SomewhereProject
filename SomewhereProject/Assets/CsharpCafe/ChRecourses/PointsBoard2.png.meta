@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7473841b29549ed41a4e60336e59a18a
+guid: fafeb67ccf354ef4f89ed3ea97841a50
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6442504140799524778
-    second: box_coin1_0
+      213: 7334266809247252019
+    second: PointsBoard2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: box_coin1_0
+      name: PointsBoard2_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 4
-        width: 254
-        height: 58
+        x: 0
+        y: 0
+        width: 342
+        height: 272
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 46, y: 24, z: 23, w: 24}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aafb658d16f586950800000000000000
-      internalID: 6442504140799524778
+      spriteID: 33ebe1dedcc88c560800000000000000
+      internalID: 7334266809247252019
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4ad30fbbf150c5549bffc72c44a5135c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      box_coin1_0: 6442504140799524778
+      PointsBoard2_0: 7334266809247252019
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

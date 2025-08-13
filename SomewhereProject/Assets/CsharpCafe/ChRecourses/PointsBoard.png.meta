@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a43784445de8ad748be3bd5a036bffb5
+guid: 37413f3c0ac3615438c382e1dc67d636
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 641162344659252039
-    second: box_login1_0
+      213: -7706627579221279903
+    second: PointsBoard_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: box_login1_0
+      name: PointsBoard_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 14
-        width: 649
-        height: 483
+        x: 0
+        y: 0
+        width: 255
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74375c461cdd5e800800000000000000
-      internalID: 641162344659252039
+      spriteID: 16b79445c0f8c0590800000000000000
+      internalID: -7706627579221279903
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      box_login1_0: 641162344659252039
+      PointsBoard_0: -7706627579221279903
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
