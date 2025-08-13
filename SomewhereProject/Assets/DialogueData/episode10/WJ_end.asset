@@ -151,7 +151,37 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: Fadeout
+    eventName: CMD:FadeOut
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: GotoLibrary
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:FadeIn
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -166,7 +196,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC815\uC2E0\uC744 \uCC28\uB9AC\uACE0 \uBCF4\uB2C8 \uD559\uAD50 \uB3C4\uC11C\uAD00\uC774\uC5C8\uB2E4."
-    eventName: 
+    eventName: AppearWJ
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -183,7 +213,7 @@ MonoBehaviour:
     line: "\uC9D0\uC740 \uC5B8\uC81C \uC2F8\uC11C \uB4E4\uACE0 \uB098\uC654\uB294\uC9C0\uB3C4
       \uBAA8\uB974\uACA0\uACE0, \uB0B4 \uC55E\uC5D0\uB294 \uC6B0\uC9C4 \uC120\uBC30\uAC00
       \uB178\uD2B8\uBD81\uC744 \uB450\uB4DC\uB9AC\uACE0 \uC788\uB2E4."
-    eventName: AppearWJ
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -261,7 +291,37 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: Fadeout
+    eventName: CMD:FadeOut
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: Gotores
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:FadeIn
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -292,7 +352,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: "\uADF8\uB0E5 \uD559\uAD50 \uADFC\uCC98 \uD559\uC0DD\uB4E4\uC774 \uC790\uC8FC
-      \uAC00\uB294 \uD504\uB79C\uCC28\uC774\uC988 \uBC25\uC9D1\uC73C\uB85C."
+      \uAC00\uB294 \uD504\uB79C\uCC28\uC774\uC988 \uBC25\uC9D1\uC774\uB2E4."
     eventName: 
     conditionType: 0
     conditionKey: 
@@ -353,7 +413,37 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: Fadeout
+    eventName: CMD:FadeOut
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: Gocf
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:FadeIn
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

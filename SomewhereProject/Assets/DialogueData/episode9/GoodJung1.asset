@@ -215,9 +215,39 @@ MonoBehaviour:
       m_SubObjectGUID: 
       m_EditorAssetChanged: 0
   - speaker: 
+    line: 
+    eventName: CMD:FadeOut
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: GotoWJHall
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
     line: "\uB300\uCDA9 \uC704\uC5D0 \uC637\uB9CC \uAC08\uC544\uC785\uACE0 \uB098\uAC00\uC11C
       \uBB38\uC744 \uB450\uB4DC\uB838\uB2E4."
-    eventName: 
+    eventName: CMD:FadeIn
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -232,7 +262,22 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: "\uADF8\uB7FC \uB610 \uB298 \uBCF4\uB358 \uC120\uBC30\uAC00 \uB098\uC628\uB2E4."
-    eventName: AppearWJ
+    eventName: 
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:FadeOut
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -248,6 +293,21 @@ MonoBehaviour:
   - speaker: 
     line: 
     eventName: GotoWJRoom
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: CMD:FadeIn
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
