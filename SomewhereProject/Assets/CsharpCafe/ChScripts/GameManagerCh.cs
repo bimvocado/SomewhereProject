@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManagerCh : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class GameManagerCh : MonoBehaviour
 
     public bool isGameEnded;
 
+    public TMP_Text Points;
+    public TMP_Text Goals;
+    public TMP_Text Moves;
+
     private void Awake()
     {
         instance = this;
@@ -28,12 +33,15 @@ public class GameManagerCh : MonoBehaviour
 
     void Start()
     {
-        
+        Initialized(moves, goal);
+        points = 0;
     }
 
     void Update()
     {
-        
+        Points.text = "Points: " + points.ToString();
+        Moves.text = "Moves: " + moves.ToString();
+        Goals.text = "Goals: " + goal.ToString();
     }
 
     public void ProcessTurn(int _pointsToGain, bool _subtractMoves)
@@ -49,6 +57,7 @@ public class GameManagerCh : MonoBehaviour
 
             backgroundPanel.SetActive(true);
             victoryPanel.SetActive(true);
+            PotionBoard.Instance.potionParent.SetActive(false);
             return;
         }
         if (moves == 0)
@@ -56,6 +65,7 @@ public class GameManagerCh : MonoBehaviour
             isGameEnded = true;
             backgroundPanel.SetActive(true);
             losePanel.SetActive(true);
+            PotionBoard.Instance.potionParent.SetActive(false);
             return;
         }
     }

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5545e1564f6d0a4b9371f73cc61bac7, type: 3}
+  m_Name: rose
+  m_EditorClassIdentifier: 
+  itemName: "\uC7A5\uBBF8\uAF43"
+  itemDescription: "\uC6B0\uC5F0\uD788 \uBC1C\uACAC\uD55C\n\uB8E8\uCE74\uC758 \uB208
+    \uC0C9\uACFC \uB611\uAC19\uC740 \uC7A5\uBBF8\uAF43.\n\uB8E8\uCE74\uC5D0\uAC8C
+    \uC904\uAE4C?"
+  itemIcon: {fileID: 3270026065937980965, guid: fcfd57ef3d32b894eb9c5b5a95f669e3, type: 3}
+  price: 0
+  affectionChange:
+    targetCharacter: "\uB8E8\uCE74"
+    changeValue: 10
