@@ -12715,6 +12715,8 @@ MonoBehaviour:
     initialValue: 0
   - characterName: "\uBB38\uC774\uD604"
     initialValue: 90
+  - characterName: "\uB8E8\uCE74"
+    initialValue: 90
 --- !u!1 &1133920896
 GameObject:
   m_ObjectHideFlags: 0
