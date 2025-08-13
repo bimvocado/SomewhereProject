@@ -33,14 +33,15 @@ public class GameManagerCh : MonoBehaviour
 
     void Start()
     {
-        
+        Initialized(moves, goal);
+        points = 0;
     }
 
     void Update()
     {
         Points.text = "Points: " + points.ToString();
-        Moves.text = "Moves: " + points.ToString();
-        Goals.text = "Goals: " + points.ToString();
+        Moves.text = "Moves: " + moves.ToString();
+        Goals.text = "Goals: " + goal.ToString();
     }
 
     public void ProcessTurn(int _pointsToGain, bool _subtractMoves)
@@ -56,6 +57,7 @@ public class GameManagerCh : MonoBehaviour
 
             backgroundPanel.SetActive(true);
             victoryPanel.SetActive(true);
+            PotionBoard.Instance.potionParent.SetActive(false);
             return;
         }
         if (moves == 0)
@@ -63,6 +65,7 @@ public class GameManagerCh : MonoBehaviour
             isGameEnded = true;
             backgroundPanel.SetActive(true);
             losePanel.SetActive(true);
+            PotionBoard.Instance.potionParent.SetActive(false);
             return;
         }
     }
