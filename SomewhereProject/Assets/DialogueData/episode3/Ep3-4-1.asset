@@ -308,7 +308,7 @@ MonoBehaviour:
       m_SubObjectGUID: 
       m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
-    line: "\uAE40oo \uAD50\uC218\uB2D8\uBCF4\uB2E4\uB294\u2026"
+    line: "\uAE40xx \uAD50\uC218\uB2D8\uBCF4\uB2E4\uB294\u2026"
     eventName: OnlyWJT
     conditionType: 0
     conditionKey: 
