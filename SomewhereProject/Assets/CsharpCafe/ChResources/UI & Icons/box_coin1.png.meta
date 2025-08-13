@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d2fd851ccded7fe4595b157af51734cf
+guid: 3751ca70afde30747af9e643e73d8e04
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PotionBoard_0: 7221051596184313625
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
