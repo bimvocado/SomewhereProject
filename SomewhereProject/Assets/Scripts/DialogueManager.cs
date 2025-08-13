@@ -923,4 +923,11 @@ public class DialogueManager : MonoBehaviour
                 break;
         }
     }
+    public void SetDialogueUIVisibility(bool isVisible)
+    {
+        if (instantiatedDialogueUI != null)
+        {
+            instantiatedDialogueUI.SetActive(isVisible);
+        }
+    }
 }

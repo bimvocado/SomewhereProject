@@ -192,4 +192,20 @@ public class CharacterAnimationController : MonoBehaviour
             renderer.MultiplyColor = multiplyColor;
         }
     }
+
+    private void OnEnable()
+    {
+        if (MinigameManager.Instance != null)
+        {
+            MinigameManager.Instance.RegisterCharacter(this);
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (MinigameManager.Instance != null)
+        {
+            MinigameManager.Instance.UnregisterCharacter(this);
+        }
+    }
 }

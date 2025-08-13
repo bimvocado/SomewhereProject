@@ -30,4 +30,29 @@ public class BackgroundController : MonoBehaviour
             quadRenderer.material.mainTexture = newSprite.texture;
         }
     }
+
+    private void OnEnable()
+    {
+        if (BackgroundManager.Instance != null)
+        {
+            BackgroundManager.Instance.RegisterController(this);
+        }
+        if (MinigameManager.Instance != null)
+        {
+            MinigameManager.Instance.RegisterBackground(this);
+        }
+
+        if (initialSprite != null)
+        {
+            ChangeBackground(initialSprite);
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (MinigameManager.Instance != null)
+        {
+            MinigameManager.Instance.UnregisterBackground(this);
+        }
+    }
 }

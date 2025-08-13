@@ -7,7 +7,7 @@ public class BarUIManager : MonoBehaviour
     [SerializeField]
     private GameObject backPanel;
     [SerializeField]
-    private GameObject phone;
+    public GameObject phone;
 
 
     [SerializeField]

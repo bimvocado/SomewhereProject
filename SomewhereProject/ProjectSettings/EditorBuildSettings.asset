@@ -47,6 +47,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Hambuger/Scene/HambugerHow.unity
     guid: 0561cffe24a143742bf15667ef6ae675
+  - enabled: 1
+    path: "Assets/\uACFC\uC77C\uC2E4\uD5D8\uC2E4/Fruit.unity"
+    guid: a392769d18910e04aa404711ec0df363
+  - enabled: 1
+    path: Assets/CsharpCafe/ChScene/CafeGame.unity
+    guid: 3aeb5ef7aeab85f40b1401cbd78da995
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 99b2ccdf867aaee479929f1ccf07270d, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
