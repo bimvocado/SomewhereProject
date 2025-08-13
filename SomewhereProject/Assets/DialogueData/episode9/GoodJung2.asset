@@ -121,7 +121,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB410\uC9C0?"
-    eventName: WoojinRedface
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -181,7 +181,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uBB50 \uC774\uB7F0 \uAC78\uB85C \uADF8\uB798."
-    eventName: WoojinSaying
+    eventName: WoojinSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -457,7 +457,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB108 \uACFC\uC81C \uD558\uB294 \uAC70 \uBCF4\uAC8C."
-    eventName: WoojinRedface
+    eventName: WoojinSmile
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -737,21 +737,6 @@ MonoBehaviour:
   - speaker: 
     line: "\uC218\uAC15 \uC2E0\uCCAD \uAF2D \uC131\uACF5\uD574\uC57C\uC9C0!"
     eventName: 
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
-    overrideNextDialogue:
-      m_AssetGUID: 
-      m_SubObjectName: 
-      m_SubObjectType: 
-      m_SubObjectGUID: 
-      m_EditorAssetChanged: 0
-  - speaker: 
-    line: 
-    eventName: CMD:SaveProgress
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
