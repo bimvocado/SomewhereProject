@@ -127,8 +127,8 @@ MonoBehaviour:
         m_SubObjectType: 
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
-      affectionChange: 5
-      targetCharacterForAffection: "\uB8E8\uCE74"
+      affectionChange: 0
+      targetCharacterForAffection: 
       resetsAffection: 0
       requiredCoin: 0
       flagToSet: 
