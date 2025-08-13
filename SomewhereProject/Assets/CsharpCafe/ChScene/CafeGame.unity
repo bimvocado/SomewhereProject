@@ -697,6 +697,7 @@ MonoBehaviour:
   potionParent: {fileID: 1322572069}
   selectedPotion: {fileID: 0}
   isProcessingMove: 0
+  potionsToRemove: []
   arrayLayout:
     rows:
     - row: 000000000000
@@ -786,19 +787,19 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016288277}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.00556, y: 0.00556, z: 0.00926}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.60048, y: 0.60048, z: 1.00008}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1414293258}
   - {fileID: 2081139635}
   - {fileID: 1946913927}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2014814882}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 770.0001, y: 1080}
+  m_SizeDelta: {x: -1150, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1034970569
 GameObject:
@@ -2006,6 +2007,7 @@ RectTransform:
   - {fileID: 838758545}
   - {fileID: 41736064}
   - {fileID: 660973585}
+  - {fileID: 1016288280}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2158,5 +2160,4 @@ SceneRoots:
   - {fileID: 846437746}
   - {fileID: 1322572070}
   - {fileID: 2014814882}
-  - {fileID: 1016288280}
   - {fileID: 1410240939}
