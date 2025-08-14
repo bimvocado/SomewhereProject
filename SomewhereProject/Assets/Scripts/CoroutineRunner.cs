@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -16,3 +17,4 @@ public class CoroutineRunner : MonoBehaviour
 
     
 }
+#endif

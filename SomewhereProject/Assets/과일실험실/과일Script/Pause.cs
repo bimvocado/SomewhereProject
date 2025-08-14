@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEditor.Animations;
+//using UnityEditor.Animations;
 using Unity.VisualScripting;
 
 public class PauseManager : MonoBehaviour
