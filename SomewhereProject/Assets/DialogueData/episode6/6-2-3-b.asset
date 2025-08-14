@@ -215,7 +215,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: "\uADF8\uB54C \uC870\uC218\uC11D \uCC3D\uBB38\uC774 \uB0B4\uB824\uAC14\uB2E4."
-    eventName: AppearLuka
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -230,7 +230,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
     line: "\uD0C0\uC138\uC694."
-    eventName: LukaSaying
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -246,7 +246,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uB8E8\uCE74\uC778 \uAC78 \uD655\uC778\uD558\uACE0\uB294 \uC870\uC218\uC11D\uC5D0
       \uD0D4\uB2E4."
-    eventName: GotoLukaCar
+    eventName: GotoLukaCar1
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

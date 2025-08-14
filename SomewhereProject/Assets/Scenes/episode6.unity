@@ -23334,7 +23334,7 @@ MonoBehaviour:
             m_StringArgument: shy
             m_BoolArgument: 0
           m_CallState: 2
-  - eventName: GotoLukaCar
+  - eventName: GotoLukaCar1
     onEventTriggered:
       m_PersistentCalls:
         m_Calls:
@@ -23345,6 +23345,18 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 6576844974221373419, guid: f1f74ee8d590d42659ae4ca1c245d453, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: shy
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 297500772}
+          m_TargetAssemblyTypeName: CharacterAnimationController, Assembly-CSharp
+          m_MethodName: Appear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: shy
