@@ -1,22 +1,23 @@
 using UnityEngine;
-using System.Collections.Generic; // List를 사용하기 위해 추가
+using System.Collections.Generic;
 
 public class MinigameButton : MonoBehaviour
 {
-    [Header("불러올 미니게임 씬 목록")]
-    public List<string> minigameSceneNames;
+    [Header("시작할 미니게임 씬 이름")]
+    [Tooltip("미니게임 시작 시 가장 먼저 불러올 씬의 이름 (예: 설명 씬)")]
+    public string startingMinigameScene;
 
     public void LaunchMinigame()
     {
-        if (minigameSceneNames == null || minigameSceneNames.Count == 0)
+        if (string.IsNullOrEmpty(startingMinigameScene))
         {
-            Debug.LogError("MinigameButton에 미니게임 씬 목록이 지정되지 않았습니다!");
+            Debug.LogError("MinigameButton에 시작할 씬 이름이 지정되지 않았습니다!");
             return;
         }
 
         if (MinigameManager.Instance != null)
         {
-            MinigameManager.Instance.StartMinigame(minigameSceneNames);
+            MinigameManager.Instance.StartMinigame(new List<string> { startingMinigameScene });
         }
         else
         {

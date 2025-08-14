@@ -5,7 +5,7 @@ using System.Collections;
 public class SceneLoader : MonoBehaviour
 {
     public static SceneLoader Instance { get; private set; }
-
+    public static EpisodeData CurrentEpisodeData { get; private set; }
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -29,6 +29,7 @@ public class SceneLoader : MonoBehaviour
 
     private IEnumerator LoadSceneAsync(string sceneName, EpisodeData episodeData)
     {
+        CurrentEpisodeData = episodeData;
         LoadingManager.Instance.ShowLoadingScreen(episodeData);
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);

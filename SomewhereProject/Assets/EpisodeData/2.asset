@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904b355334636e946ab2403d734d3acb, type: 3}
   m_Name: 2
   m_EditorClassIdentifier: 
+  EpisodeName: "2. \uC801\uC751"
   EpisodeDescription: "2. \uC801\uC751\n\n\uC0C8\uB85C\uC6B4 \uD559\uAD50\uC5D0\uC11C\uC758
     \uC0DD\uD65C\uC744 \uC2DC\uC791\uD55C\uC9C0\uB3C4\n\uBC8C\uC368 \uC77C\uC8FC\uC77C\uC774
     \uC9C0\uB0AC\uB2E4.\n\uC774\uBC88 \uC8FC\uC5D0\uB294 \uBB34\uC2A8 \uC77C\uC774

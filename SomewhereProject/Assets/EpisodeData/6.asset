@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904b355334636e946ab2403d734d3acb, type: 3}
   m_Name: 6
   m_EditorClassIdentifier: 
+  EpisodeName: "6. \uBC29\uD559"
   EpisodeDescription: "6. \uBC29\uD559\n\n\uB4DC\uB514\uC5B4 \uC885\uAC15\uC774\uB2E4!\n\uBC29\uD559\uC778\uB370,
     \uBB58 \uD574\uC57C \uD558\uC9C0?"

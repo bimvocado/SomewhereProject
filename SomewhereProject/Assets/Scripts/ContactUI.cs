@@ -67,6 +67,7 @@ public class ContactUI : MonoBehaviour
         {
             bool hasAffection = !string.IsNullOrEmpty(contactData.characterName);
             affectionSlider.gameObject.SetActive(hasAffection);
+            affectionSlider.interactable = false;
             if (hasAffection)
             {
                 UpdateAffectionBar();

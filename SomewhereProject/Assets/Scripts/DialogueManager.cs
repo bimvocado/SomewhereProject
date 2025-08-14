@@ -136,7 +136,12 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        if (choicePanel != null && choicePanel.gameObject.activeSelf)
+        if (go_DialogueBar == null || choicePanel == null)
+        {
+            return;
+        }
+
+        if (choicePanel.gameObject.activeSelf)
         {
             return;
         }
@@ -157,6 +162,13 @@ public class DialogueManager : MonoBehaviour
         }
         else if (isSkipping)
         {
+            if (ReadLogManager.Instance == null)
+            {
+                Debug.LogWarning("ReadLogManager가 없어 스킵 기능을 중단합니다.");
+                isSkipping = false;
+                return;
+            }
+
             bool isWaitingOnChoice = dialogueIndex > 0 && currentDialogues[dialogueIndex - 1].hasChoices;
             bool isUnreadDialogue = !ReadLogManager.Instance.IsRead(_currentDialogueAssetKey, dialogueIndex);
 
@@ -167,6 +179,7 @@ public class DialogueManager : MonoBehaviour
             }
             DisplayNext();
         }
+
         if (Input.GetMouseButtonDown(0))
         {
             if (EventSystem.current.IsPointerOverGameObject())
@@ -193,45 +206,19 @@ public class DialogueManager : MonoBehaviour
                     return;
                 }
             }
-
             DisplayNext();
         }
         else
         {
             if (!go_DialogueBar.activeSelf || choicePanel.gameObject.activeSelf) return;
-            if (Input.GetMouseButtonDown(0))
-            {
-                if (EventSystem.current != null)
-                {
-                    PointerEventData eventData = new PointerEventData(EventSystem.current)
-                    {
-                        position = Input.mousePosition
-                    };
-                    List<RaycastResult> results = new List<RaycastResult>();
-                    EventSystem.current.RaycastAll(eventData, results);
 
-                    bool clickedOnDialogueBar = false;
-                    foreach (RaycastResult result in results)
-                    {
-                        if (result.gameObject == go_DialogueBar || result.gameObject.transform.IsChildOf(go_DialogueBar.transform))
-                        {
-                            clickedOnDialogueBar = true;
-                            break;
-                        }
-                    }
-
-                    if (clickedOnDialogueBar)
-                    {
-                        DisplayNext();
-                    }
-                }
-            }
-            else if (Input.GetAxis("Mouse ScrollWheel") != 0f || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetAxis("Mouse ScrollWheel") != 0f || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
             {
                 DisplayNext();
             }
         }
     }
+
 
     public void StartSkip()
     {

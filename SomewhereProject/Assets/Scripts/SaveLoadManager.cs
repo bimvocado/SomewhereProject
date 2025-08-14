@@ -94,7 +94,10 @@ public class SaveLoadManager : MonoBehaviour
         gameData.playerLastName = NameChangeManager.PlayerLastName;
         gameData.currentSceneName = SceneManager.GetActiveScene().name;
         gameData.readDialogueLog = ReadLogManager.Instance.GetReadLog();
-
+        if (SceneLoader.CurrentEpisodeData != null && !string.IsNullOrEmpty(SceneLoader.CurrentEpisodeData.EpisodeName))
+        {
+            gameData.episodeName = SceneLoader.CurrentEpisodeData.EpisodeName;
+        }
         gameData.saveTimestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm");
 
         string json = JsonUtility.ToJson(gameData, true);

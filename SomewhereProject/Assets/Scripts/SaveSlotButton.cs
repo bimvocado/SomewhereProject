@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class SaveSlotButton : MonoBehaviour
 {
     [SerializeField] private int slotIndex;
@@ -22,7 +22,7 @@ public class SaveSlotButton : MonoBehaviour
     [SerializeField] private int unlockCost = 100;
 
     private bool isLockedForPurchase = false;
-
+    private const string MenuSceneName = "MainScene";
     private void OnEnable()
     {
         UpdateSlotInfo();
@@ -35,13 +35,19 @@ public class SaveSlotButton : MonoBehaviour
         isLockedForPurchase = false;
         mainButton.interactable = true;
         if (backgroundGlowImage != null) backgroundGlowImage.color = emptyColor;
-        timestampText?.gameObject.SetActive(false);
+        if (timestampText != null)
+        {
+            timestampText.gameObject.SetActive(false);
+        }
 
         if (slotIndex > 0 && !GameProgressionManager.Instance.IsPastFirstPlaythrough())
         {
             slotInfoText.text = $"슬롯 {slotIndex + 1}\n(2회차부터 사용 가능)";
             mainButton.interactable = false;
-            deleteButtonObject?.SetActive(false);
+            if (deleteButtonObject != null)
+            {
+                deleteButtonObject.SetActive(false);
+            }
             return;
         }
 
@@ -49,15 +55,21 @@ public class SaveSlotButton : MonoBehaviour
         {
             slotInfoText.text = $"슬롯 {slotIndex + 1}\n({unlockCost} 코인으로 열기)";
             isLockedForPurchase = true;
-            deleteButtonObject?.SetActive(false);
+            if (deleteButtonObject != null)
+            {
+                deleteButtonObject.SetActive(false);
+            }
         }
         else
         {
             GameData data = SaveLoadManager.Instance.GetSaveDataInfo(slotIndex);
             if (data != null)
             {
-                slotInfoText.text = $"슬롯 {slotIndex + 1}\n{data.playerLastName}{data.playerFirstName}";
-                deleteButtonObject?.SetActive(true);
+                slotInfoText.text = $"슬롯 {slotIndex + 1}\n{data.episodeName}";
+                if (deleteButtonObject != null)
+                {
+                    deleteButtonObject.SetActive(true);
+                }
                 if (backgroundGlowImage != null) backgroundGlowImage.color = savedColor;
 
                 if (timestampText != null)
@@ -69,21 +81,53 @@ public class SaveSlotButton : MonoBehaviour
             else
             {
                 slotInfoText.text = $"슬롯 {slotIndex + 1}\n(비어있음)";
-                deleteButtonObject?.SetActive(false);
+                if (deleteButtonObject != null)
+                {
+                    deleteButtonObject.SetActive(false);
+                }
             }
         }
     }
 
-    public void OnSaveButtonClick()
+    public void OnSmartButtonClick()
     {
-        if (isLockedForPurchase) { TryUnlockSlot(); }
-        else { SaveLoadManager.Instance.SaveGame(slotIndex); UpdateSlotInfo(); }
-    }
+        string currentScene = SceneManager.GetActiveScene().name;
 
-    public void OnLoadButtonClick()
-    {
-        if (isLockedForPurchase) { TryUnlockSlot(); }
-        else { SaveLoadManager.Instance.LoadGame(slotIndex); }
+        bool isPlaying = (currentScene != MenuSceneName);
+
+        if (isPlaying)
+        {
+            if (isLockedForPurchase)
+            {
+                TryUnlockSlot();
+            }
+            else
+            {
+                SaveLoadManager.Instance.SaveGame(slotIndex);
+                UpdateSlotInfo();
+            }
+        }
+        else
+        {
+            GameData data = SaveLoadManager.Instance.GetSaveDataInfo(slotIndex);
+            if (data != null)
+            {
+                SaveLoadManager.Instance.LoadGame(slotIndex);
+
+                if (SaveNSettingUI.Instance != null)
+                {
+                    SaveNSettingUI.Instance.CloseSaveUI();
+                }
+            }
+            else if (isLockedForPurchase)
+            {
+                TryUnlockSlot();
+            }
+            else
+            {
+                Debug.Log($"슬롯 {slotIndex + 1}은 비어있어 불러올 수 없습니다.");
+            }
+        }
     }
 
     public void OnDeleteButtonClick()

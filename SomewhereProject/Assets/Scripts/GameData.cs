@@ -13,6 +13,7 @@ public class GameData
     public string playerFirstName;
     public string playerLastName;
     public string saveTimestamp;
+    public string episodeName;
     public GameData()
     {
         affectionData = new Dictionary<string, int>();
