@@ -25143,7 +25143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce6893e60c226cb49a77d62072e75f99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingMinigameScene: CafeMenu
+  startingMinigameScene: CafeMain
 --- !u!1 &1859583599
 GameObject:
   m_ObjectHideFlags: 0
