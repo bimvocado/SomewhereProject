@@ -134,26 +134,11 @@ public class GameManagerFr : MonoBehaviour
         yield return new WaitForSecondsRealtime(1f);
         GameOverImage.color = Color.white;
         spawner.StopSpawning();
-        if (score < 30)
-            Coin = 0;
-        else if (score >= 30 && score < 60)
-            Coin = 1;
-        else if (score < 90)
-            Coin = 2;
-        else if (score < 120)
-            Coin = 3;
-        else if (score < 150)
-            Coin = 4;
-        else if (score < 180)
-            Coin = 5;
-        else if (score < 210)
-            Coin = 6;
-        else if (score < 240)
-            Coin = 7;
-        else if (score < 270)
-            Coin = 8;
-        else if (score < 300)
-            Coin = 9;
+        Coin = score / 30;
+        if (CoinManager.Instance != null && Coin > 0)
+        {
+            CoinManager.Instance.AddCoin(Coin);
+        }
         RetryButton.gameObject.SetActive(true);
         BackButton.gameObject.SetActive(true);
         pauseButton.gameObject.SetActive(false);

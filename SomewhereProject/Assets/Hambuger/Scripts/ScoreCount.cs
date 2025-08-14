@@ -32,6 +32,10 @@ public class ScoreCount : MonoBehaviour
 
     public string GetFinalScore()
     {
+        if (CoinManager.Instance != null && Coin > 0)
+        {
+            CoinManager.Instance.AddCoin(Coin);
+        }
         return ScoreText.text;
     }
 

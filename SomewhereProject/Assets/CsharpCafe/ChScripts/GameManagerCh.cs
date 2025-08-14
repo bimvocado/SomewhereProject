@@ -78,6 +78,12 @@ public class GameManagerCh : MonoBehaviour
             VictoryPoints.text = "Points: " + points;
             VictoryCoins.text = "Coins: " + (points / 10);
 
+            coins = points / 10;
+            if (CoinManager.Instance != null)
+            {
+                CoinManager.Instance.AddCoin(coins);
+            }
+
             return;
         }
         if (moves == 0)

@@ -511,9 +511,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1492986902}
-        m_TargetAssemblyTypeName: SceneButton, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
+        m_TargetAssemblyTypeName: MinigameSceneSwitcher, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -569,9 +569,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1492986896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 173c6ac9fa777554b8a60b5902c3e5b9, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d37147adde55e44caa48075472e9777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: CafeGame
+  sceneToUnload: CafeMain
 --- !u!1 &1748987916
 GameObject:
   m_ObjectHideFlags: 0

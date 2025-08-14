@@ -1985,8 +1985,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1409649195}
-        m_TargetAssemblyTypeName: MinigameReturnButton, Assembly-CSharp
-        m_MethodName: ReturnToMainGame
+        m_TargetAssemblyTypeName: MinigameSceneSwitcher, Assembly-CSharp
+        m_MethodName: Switch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2043,9 +2043,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1409649190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf710b8269d69be488e3577cbb27ebb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d37147adde55e44caa48075472e9777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: CafeMain
+  sceneToUnload: CafeGame
 --- !u!1 &1410240936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,8 +2558,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1946913931}
-        m_TargetAssemblyTypeName: MinigameReturnButton, Assembly-CSharp
-        m_MethodName: ReturnToMainGame
+        m_TargetAssemblyTypeName: MinigameSceneSwitcher, Assembly-CSharp
+        m_MethodName: Switch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2614,9 +2616,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1946913926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf710b8269d69be488e3577cbb27ebb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d37147adde55e44caa48075472e9777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: CafeMain
+  sceneToUnload: CafeGame
 --- !u!1 &2014814878
 GameObject:
   m_ObjectHideFlags: 0
