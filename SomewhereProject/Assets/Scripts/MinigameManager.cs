@@ -38,7 +38,11 @@ public class MinigameManager : MonoBehaviour
         }
         if (activeBackground != null && activeBackground.gameObject.activeSelf) { deactivatedObjects.Add(activeBackground.gameObject); activeBackground.gameObject.SetActive(false); }
         if (DialogueManager.Instance != null) DialogueManager.Instance.SetDialogueUIVisibility(false);
-        if (BarUIManager.Instance != null) BarUIManager.Instance.HidePhone();
+        if (BarUIManager.Instance != null)
+        {
+            BarUIManager.Instance.SetBarUIVisibility(false);
+        }
+
 
         for (int i = 0; i < sceneNames.Count; i++)
         {
@@ -65,7 +69,11 @@ public class MinigameManager : MonoBehaviour
         {
             DialogueManager.Instance.SetDialogueUIVisibility(true);
         }
-        if (BarUIManager.Instance != null) BarUIManager.Instance.ShowPhone();
+        if (BarUIManager.Instance != null)
+        {
+            BarUIManager.Instance.SetBarUIVisibility(true);
+        }
+
         foreach (GameObject obj in deactivatedObjects)
         {
             if (obj != null) obj.SetActive(true);

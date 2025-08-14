@@ -13,13 +13,18 @@ public class BarUIManager : MonoBehaviour
     private GameObject applicationsContainer;
 
     private Animator phoneAnimator;
-
+    private CanvasGroup canvasGroup;
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            canvasGroup = GetComponent<CanvasGroup>();
+            if (canvasGroup == null)
+            {
+                Debug.LogError("BarUIManager에 CanvasGroup 컴포넌트가 없습니다");
+            }
             if (phone != null)
             {
                 phoneAnimator = phone.GetComponent<Animator>();
@@ -99,5 +104,23 @@ public class BarUIManager : MonoBehaviour
     public bool IsPhoneUIShowing()
     {
         return backPanel != null && backPanel.activeSelf;
+    }
+
+    public void SetBarUIVisibility(bool isVisible)
+    {
+        if (canvasGroup == null) return;
+
+        if (isVisible)
+        {
+            canvasGroup.alpha = 1f;
+            canvasGroup.interactable = true;
+            canvasGroup.blocksRaycasts = true; 
+        }
+        else
+        {
+            canvasGroup.alpha = 0f;
+            canvasGroup.interactable = false;
+            canvasGroup.blocksRaycasts = false;
+        }
     }
 }

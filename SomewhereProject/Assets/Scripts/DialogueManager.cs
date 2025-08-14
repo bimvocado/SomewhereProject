@@ -54,6 +54,15 @@ public class DialogueManager : MonoBehaviour
     private float autoModeTimer = 0f;
     [SerializeField] private float autoModeDelay = 0.05f;
 
+    private void Start()
+    {
+        if (NameChangeManager.Instance != null)
+        {
+            SetPlayerName(NameChangeManager.PlayerFirstName, NameChangeManager.PlayerLastName);
+            Debug.Log($"<color=green>DialogueManager가 전역 이름을 성공적으로 가져왔습니다: {NameChangeManager.PlayerLastName}{NameChangeManager.PlayerFirstName}</color>");
+        }
+    }
+
     private void Awake()
     {
         if (Instance == null)
