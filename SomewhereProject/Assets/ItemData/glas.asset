@@ -18,7 +18,7 @@ MonoBehaviour:
     \uC548\uACBD\uB2E6\uC774.\n\uC783\uC5B4\uBC84\uB838\uB2E4\uB294 \uAC78 \uB4E4\uC5C8\uB294\uB370,\n\uD558\uB098
     \uC0AC\uC904\uAE4C?"
   itemIcon: {fileID: -6010679327369311821, guid: 0fa2727a17245184384701e296f681e1, type: 3}
-  price: 0
+  price: 20
   affectionChange:
     targetCharacter: "\uC774\uC740\uC131"
     changeValue: 10
