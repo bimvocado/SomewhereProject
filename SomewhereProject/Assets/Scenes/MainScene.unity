@@ -14735,10 +14735,14 @@ MonoBehaviour:
   - characterName: "\uAC15\uC8FC\uC740"
     initialValue: 100
   - characterName: "\uC815\uC6B0\uC9C4"
-    initialValue: 90
-  - characterName: "\uAC15\uC138\uD558"
-    initialValue: 90
+    initialValue: 0
   - characterName: "\uBB38\uC774\uD604"
+    initialValue: 0
+  - characterName: "\uAC15\uC138\uD558"
+    initialValue: 0
+  - characterName: "\uC774\uC740\uC131"
+    initialValue: 0
+  - characterName: "\uB8E8\uCE74"
     initialValue: 0
 --- !u!1 &1133920896
 GameObject:
