@@ -33,6 +33,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0171fde7db707408b96484a56c355843
+    m_Address: stage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 01b269f6f045155478a3b26fe2c88186
     m_Address: Assets/DialogueData/episode10/ES_end.asset
     m_ReadOnly: 0
@@ -45,11 +50,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01efd049773914c2ebd3601962ad5509
+    m_Address: "\uC124\uB9C8\uB8E8\uCE74\uAC74\uBB3C"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 02d6ec83645567946aff23c7986b3d5c
     m_Address: Assets/DialogueData/episode6/6-1-3-c2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05d4e1cbf8f0a4dfe807e12019c9b30e
+    m_Address: "\uB3C4\uC11C\uAD00-1"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 05fd16ebe8f1e0a43bb45aa37455c025
     m_Address: Assets/DialogueData/episode5/t_3.asset
@@ -93,11 +108,26 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08f1f174c250349e9b2a7aedc6c01003
+    m_Address: "\uC778\uC0DD\uB124\uCEE5"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0a95bd27bf397e04db137307ef3d14f3
     m_Address: Assets/DialogueData/episode7/7-5-a.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b6dcb0c57380472384abc6c8e0426bf
+    m_Address: "\uB8E8\uCE74\uC5B4\uB514\uC9C0"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bb8274130994493b8c877624111d2cb
+    m_Address: "\uBB38\uC774\uD604\uC790\uB9CC\uCD94(\uC11C\uC810)"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0c1da009d50ca2b419e0aa0d3c24a23d
     m_Address: Assets/DialogueData/episode6/6-2-3-c4.asset
@@ -231,11 +261,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1647d121fc0194ce8878cf7a1f3baa90
+    m_Address: "\uC624\uC90C\uD544\uD130\uC7C8\uCCA0"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 16f32ad0b83037f47b5d7c5c21b74d79
     m_Address: Assets/DialogueData/episode6/6-1-2-c.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17c6c8f17d8b43d4e8e57da3c17d265f
+    m_Address: "\uC720\uAE30\uACAC\uBCF4\uD638\uC18C\uBC30\uACBD"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 17dc9c26987373e4587f82302ed9b74e
     m_Address: Assets/DialogueData/episode9/GoodMoon2.asset
@@ -248,6 +288,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b1bf295bd180460ebf07165bd1f5f63
+    m_Address: "\uC740\uC131\uC774\uC2DC\uC7A5"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1b48652fad912874bad77babd7e63fef
     m_Address: Assets/DialogueData/episode1/1-1-Main-2.asset
@@ -266,6 +311,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c75cdef1612040f1abd9224b6fddbf0
+    m_Address: nightc
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e4d4149ae4e4493b99ed37c98c91b1d
+    m_Address: "\uB808\uC804\uB4DC\uCD08\uB85D\uC0C9\uBCF5\uB3C4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1e76b15ab07eb3347a06e0836049c7a7
     m_Address: Assets/DialogueData/episode6/6-2-4-c2.asset
@@ -315,10 +370,16 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 228089893ebcf4e2190a1795458dba93
+    m_Address: "\uC5B4\uB514\uC784"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 22f3c5a0c97be3e4db86e4b04f9761e0
     m_Address: Assets/DialogueData/episode6/6-1-1-c1.asset
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 23e9522db0121df4b8279aa4df902319
     m_Address: Assets/DialogueData/episode6/6-2-a.asset
@@ -332,6 +393,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2516895a51d6b4e359fa69600dbdee7e
+    m_Address: "\uC2A4\uB8F81"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 25395f64aa311634ab0b292a9832a31e
     m_Address: Assets/DialogueData/episode9/BadLeeMy.asset
     m_ReadOnly: 0
@@ -343,6 +409,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25e5bd4266a2342d3a501fad169ba995
+    m_Address: "\uAC80\uC815"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26351a4a4b4b5492c80cf12d5787a2a6
+    m_Address: "\uAC15\uC758\uC2E42"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26399e8d0e77a4a419dc4d84dc1f0c66
+    m_Address: "\uBD84\uB9AC\uC218\uAC70"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 273ae48671d4ef94cbf3d2a8e7616bd1
     m_Address: Assets/DialogueData/episode1/1-1-L-4.asset
@@ -367,6 +448,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28030caa5c1dd4776a733869f98fcf7f
+    m_Address: "\uBB38\uC774\uD604\uC5D0\uD504\uD130(\uC2DD\uB2F9)"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 29138b59951e7ba46b6cc4b1186573b8
     m_Address: Assets/DialogueData/episode7/7-5-c3-c1.asset
@@ -416,6 +502,16 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34a886dbb41774e8daf696d029990226
+    m_Address: "\uB3C4\uC11C\uAD00-2"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34e6fd22ca5404b588611189362b69c8
+    m_Address: "\uAF43\uC758\uC790"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 35b314b6aeccfb64e818a5dd4a56b544
     m_Address: Assets/DialogueData/episode2/2-3-2.asset
     m_ReadOnly: 0
@@ -446,11 +542,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 383c065cf576947e9ad858566e7d9312
+    m_Address: "\uC791\uC740\uAC15\uC758\uC2E4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 38c0e76cd3b075348bc4e79b8ec59324
     m_Address: Assets/DialogueData/episode6/6-1-1-c2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 397d62404dabf40119d3458059cc7b6c
+    m_Address: "\uD53C\uC528\uBC29"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 39e4046d7eb43f043ba59f1ebdc33f5e
     m_Address: Assets/DialogueData/episode3/Ep3-2-2.asset
@@ -476,6 +582,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c951074ce4894610b0320684d27a3ef
+    m_Address: "\uCEA0\uD37C\uC2A4 1"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3ca1ff2f48d25ae418f7e3dfe90a822d
     m_Address: Assets/DialogueData/episode9/End.asset
     m_ReadOnly: 0
@@ -493,6 +604,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3da3460d2e9ed4160991888935e9f4f5
+    m_Address: "\uC138\uD558 \uAE38\uAC70\uB9AC-2"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4090d6111f2134643afda670c990b53f
     m_Address: Assets/DialogueData/episode7/7-1-c1.asset
@@ -572,11 +688,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c8b5983f2dea43df83040d9f59fe4a9
+    m_Address: "\uB8E8\uCE74\uC2DD\uB2F9_"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4cf2d89dc24280047aa2991aea1413f3
     m_Address: Assets/DialogueData/episode3/ohoh.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dbb35b49a0414aba837515e32b0c5f0
+    m_Address: "\uC740\uC131\uBC14\uB2E4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4dc1d2a2f5268f942b3f53e063438c79
     m_Address: Assets/DialogueData/episode6/6-1-5-c1.asset
@@ -620,6 +746,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5268d362647353e4ca4aa2decddd2ac1
+    m_Address: street2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 53800292505bba44e80939f42083801c
     m_Address: Assets/DialogueData/episode10/WJ_end.asset
     m_ReadOnly: 0
@@ -638,11 +769,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59b6a9427ee344389933632f1f16b0a4
+    m_Address: "\uBE4C\uB77C\uBCF5\uB3C4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 59c48e723eb6acd4494514b60a0bec0d
     m_Address: Assets/DialogueData/episode3/Ep3-3.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a3fadb9ca4d84c2580f9a37da4348b2
+    m_Address: "\uAC15\uC758\uC2E41"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5a9a275b790973e45b92dcf0fffb3f66
     m_Address: Assets/DialogueData/episode2/2-4-Main.asset
@@ -734,6 +875,16 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 635eedf9620916f4ca0673353e5d15d5
+    m_Address: "\uD750\uB9B0\uAC70\uB9AC"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66da305547abf4d7087d1d61458fe175
+    m_Address: "\uCD08\uB85D\uBCF5\uB3C4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 66f554777dcb76a4591334184ddc33db
     m_Address: Assets/DialogueData/episode5/5-1-3-4.asset
     m_ReadOnly: 0
@@ -764,6 +915,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c44028f390f342039b1bde4879684f4
+    m_Address: "\uB77C\uC6B4\uC9C0.._"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6ce4639485ab2564c896972fdb9635c5
     m_Address: Assets/DialogueData/episode1/1-1-Main-1.asset
     m_ReadOnly: 0
@@ -776,11 +932,26 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6da4ba856bb73491eb26af52cba8fc86
+    m_Address: "\uBB38\uC774\uD604\uC54C\uBC14(\uCE74\uD398)"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dcc3cae42fea4a548d56434a8bb5619
+    m_Address: toilet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6e14b5cd4a089ab44b07001cd72a9eb8
     m_Address: Assets/DialogueData/episode9/BadSeha.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e503316b628a470d869009964f88943
+    m_Address: "\uD480\uC758\uC790"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6e928fbea9377ff4f8b61f5f0caa6858
     m_Address: Assets/DialogueData/episode5/backto05-1-3.asset
@@ -799,6 +970,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 703e2fb4ebb1c49e5975691858afa45d
+    m_Address: "\uD504\uB9B0\uD2B8\uC2E4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 708b83f7e39b5a846a10909132591470
     m_Address: Assets/DialogueData/episode6/6-1-2-c3.asset
@@ -824,11 +1000,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 758eb7fa21dba49be85da0e741685f02
+    m_Address: "\uCE74\uD398"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 76593546655910040907c659659ea35e
     m_Address: Assets/DialogueData/episode7/7-5-d.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76f52f7f308b96b44ad49b83efd3fcad
+    m_Address: "\uB8E8\uCE74\uBC29dark"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 771be1dfb1b403f48bbf69c52a0a114c
     m_Address: Assets/DialogueData/episode1/1-2-2.asset
@@ -914,11 +1100,31 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c8456a0682574c7898df71bebed5b5b
+    m_Address: "\uC9C0\uD558\uCCA0\uC5ED"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c8a7aba7076c434c97d94de9ad0c83b
+    m_Address: "\uC9D1\uC55E"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7daec2f964002451884bcdb668c2e937
+    m_Address: "\uB3C4\uC11C\uAD00"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7dc4e760d52ec1e4489aef783b412afd
     m_Address: Assets/DialogueData/episode9/BadLee2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dcee6969d4044ffcb8ce8c9ff0f36a4
+    m_Address: "\uC740\uC131\uBC14\uB2E42"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7e7164c0fc6461a45b700330d6b0f79d
     m_Address: Assets/DialogueData/episode5/backto5-3.asset
@@ -1010,6 +1216,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d670fe020abe4f1a99dd596d53c7821
+    m_Address: "\uC2A4\uB8F82"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8d837286016363b4297420b163240955
     m_Address: Assets/DialogueData/episode6/6-1-5-b.asset
     m_ReadOnly: 0
@@ -1033,6 +1244,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ee5894cdad6d42958cfe3bb1ce275fb
+    m_Address: "\uBC24\uC721\uAD50"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f5929ca62e9c164d8220b226e8fec20
+    m_Address: Trainst2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8fbafe824c170b24c9f9caa26a6b82d4
     m_Address: Assets/DialogueData/episode6/6-2-5-b.asset
@@ -1064,11 +1285,26 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9126e5006198b4056b772dd68f19f3b9
+    m_Address: "\uD638\uD154\uB808\uC2A4\uD1A0\uB791"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 915dbd6f70726e94bbd8b78f9999b446
     m_Address: Assets/DialogueData/episode5/05-3-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 917164d588e0440a5bf53bed0bf98b27
+    m_Address: "\uC5F0\uAD6C\uC2E4(\uC6B0\uC9C4\uC624\uBE75\uC774\uBC29)"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 922559ad4f409459588292dc58e59c4e
+    m_Address: eveningfestival
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9289dfa381e1c0145821d5b9f0cafcf5
     m_Address: Assets/DialogueData/episode10/WJ_endo.asset
@@ -1100,11 +1336,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96d45621dfeea47adb761b33351a2576
+    m_Address: "\uCEA0\uD37C\uC2A4 2"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 97e40b798cf811b43af9a7d90feabb47
     m_Address: Assets/DialogueData/episode1/1-1-2-1-2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9843bcf6cabd248a7956460febb14e0a
+    m_Address: "\uC138\uD558 \uAE38\uAC70\uB9AC-3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 999dda73a8776d546a6c64feac04ac75
     m_Address: Assets/DialogueData/episode7/7-5-yacht.asset
@@ -1153,6 +1399,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ea1ab8f5226e401eaa7bf7b25da4071
+    m_Address: "\uB8E8\uCE74\uCC28\uB0B4\uBD80"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9ef57e2cb54e3394a8520d047ca932e2
     m_Address: Assets/DialogueData/episode2/2-1-S.asset
@@ -1262,6 +1513,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a687db45d1718c04897aad8a09b78828
+    m_Address: "\uC774\uD604\uC5D4\uB529"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a6fe485136a6a2b4aa7f4bd081bddd92
     m_Address: Assets/DialogueData/episode9/Ep12.asset
     m_ReadOnly: 0
@@ -1322,17 +1578,32 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aacca690e87aa4fd5ac12812fa04b68b
+    m_Address: "\uCEA0\uD37C\uC2A4 3"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aaef2631078681b469d1cc9ae20955b4
     m_Address: Assets/DialogueData/episode3/choco.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac297573f61396a45843b46114ecee77
+    m_Address: MTOut
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ade0a873933c920439f689cd3ee63c16
     m_Address: Assets/DialogueData/episode6/6-2-5-c2.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af1a263f98a374a928cf9b363806694b
+    m_Address: "\uB178\uC744\uC721\uAD50"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: af3d9c0f45d77464a9663c1b746583c1
     m_Address: Assets/DialogueData/episode4/4-1.asset
@@ -1376,6 +1647,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1933930059dc45c9a3a56d826a9807c
+    m_Address: "\uC138\uD558 \uAE38\uAC70\uB9AC-1"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b20fca71d27287e4a92607a96d21d239
     m_Address: Assets/DialogueData/episode2/2-3-1.asset
     m_ReadOnly: 0
@@ -1393,6 +1669,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b60aeeb4275b7497d9f2b4c33206ee00
+    m_Address: "\uCE74\uD398\uB2E4\uD06C"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b61eda01e6048e04e9aeece1da106ef6
     m_Address: Assets/DialogueData/episode1/1-2-1.asset
@@ -1459,6 +1740,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc9878a4dc1954138a28bd81d1853985
+    m_Address: "\uC740\uC131\uC774\uAE38\uAC70\uB9AC"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bcc3b1157cdcb9b479b4b6f237ba0509
     m_Address: Assets/DialogueData/episode3/earl.asset
@@ -1532,11 +1818,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5ec519d6bf7f42d4bd4e0f2059697d6
+    m_Address: "\uC568\uB9AC\uBCA0\uC774\uD130"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c649fb79a21ee50499c3fb96e675b880
     m_Address: Assets/DialogueData/episode6/6-2-5-c4.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c695bab4bebbe469aad341a32ae5c5c7
+    m_Address: "\uC138\uD558 \uAE38\uAC70\uB9AC"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c737a5cb902de5a49a19538aed45cb1f
     m_Address: Assets/DialogueData/episode1/1-3-Main-4.asset
@@ -1610,11 +1906,21 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc2d3e4790026b04a97f495280651d57
+    m_Address: "\uB8E8\uCE74\uBC29light"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cc49cea49ff356d46b6017a13c6e0141
     m_Address: Assets/DialogueData/episode9/Good.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cca73242aa5f6489f924a5e0a89cff29
+    m_Address: "\uCE74\uD398\uACB8\uC2DD\uB2F9"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cd8a2add984acd44eb1bee844417bf62
     m_Address: Assets/DialogueData/episode2/2-1-Main.asset
@@ -1646,6 +1952,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb8ff3bb9f1c4b47bc8c29adb612531
+    m_Address: people-9594926_1920
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cfef01c1c10c46140beab33ed355a21e
     m_Address: Assets/DialogueData/episode6/6-2-4-b.asset
     m_ReadOnly: 0
@@ -1670,6 +1981,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2da9dddec7de48c2ba96564e78291b6
+    m_Address: "\uC778\uC0DD\uB124\uCEE5-1"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d3a27c6ec83c7fc4e942d1484d637488
     m_Address: Assets/DialogueData/episode5/5-1-1-1.asset
     m_ReadOnly: 0
@@ -1693,6 +2009,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6f6fb4a466ba460f98280d141099d56
+    m_Address: "\uCE74\uD398\uBC16"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d72c00b7b3845924eadac498ff512767
     m_Address: Assets/DialogueData/episode7/7-5-c4.asset
@@ -1730,6 +2051,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d942fb0fd65e541f193c489b48ffb864
+    m_Address: "\uC5EC\uC8FC\uBC292"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d963b9be84444054981e1272d5f9a9e9
     m_Address: Assets/DialogueData/episode2/2-1-Y.asset
     m_ReadOnly: 0
@@ -1747,6 +2073,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbbbe85ffff89407b9f83877241c6ce4
+    m_Address: "\uC77C\uCCB4\uD615\uAC15\uC758\uC2E4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dc14e415856fe864ba0ec0089e79100e
     m_Address: Assets/DialogueData/episode8/SmallCat.asset
@@ -1880,6 +2211,16 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8a5f8eb451eb444f831c43ed8e9abdf
+    m_Address: "\uC138\uD558 \uAE38\uAC70\uB9AC-2"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e932d9de8def14e8faaf5f6f9ae68f5a
+    m_Address: "\uAE30\uCC28"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e93a0df7a3c985a4ca5e35a5f596b355
     m_Address: Assets/DialogueData/episode8/SmallDog_Dog.asset
     m_ReadOnly: 0
@@ -1891,6 +2232,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb524c7e219f14f6d9b235787d005ba6
+    m_Address: "\uCC28 \uB0B4\uBD80(\uBC24)"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edb4a92ac3c1247859c4438d44ba0688
+    m_Address: "\uC57D\uAC04\uBCF5\uB3C4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ee848d6bc929a514a8f13ffdad09e11f
     m_Address: Assets/DialogueData/episode8/Organize2.asset
@@ -1931,7 +2282,8 @@ MonoBehaviour:
   - m_GUID: f0350062a87d7d842996f848f8de8b86
     m_Address: Assets/DialogueData/episode3/Ep3-2-1-1.asset
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f0a3b9c643bd89a4ab491dd9cbe2eec5
     m_Address: Assets/DialogueData/episode9/GoodMoon1.asset
@@ -1951,6 +2303,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0be8cccb7654482db3d7a1fd106ce44
+    m_Address: "\uB2E4\uD06C\uBCF5\uB3C4"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f0fde8219226ca048b97d2a089e4767d
     m_Address: Assets/DialogueData/episode2/2-3-1-2.asset
     m_ReadOnly: 0
@@ -1962,6 +2319,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1ce25338750544c4a468007552e6454
+    m_Address: "\uBB38\uC774\uD604\uC5D0\uD504\uD130(\uBBF8\uC220\uAD00)"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1f74ee8d590d42659ae4ca1c245d453
+    m_Address: "\uB8E8\uCE74\uCC28"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f2325a17ce3b6cd47b46bbe48e3aec2b
     m_Address: Assets/DialogueData/episode3/LST_two.asset
@@ -1981,6 +2348,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2ae3329217024ec2a8c361e114dcdda
+    m_Address: "\uC5E0\uD2F0"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f388631546a02224790882b411cf8938
     m_Address: Assets/DialogueData/episode7/7-3-a.asset
     m_ReadOnly: 0
@@ -1992,6 +2364,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3b7b81b251364c00b091147eefb6fb7
+    m_Address: "\uC5EC\uC8FC\uBC29"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f4acafccb2b9b2642883184d3b52822d
     m_Address: Assets/DialogueData/episode7/7-5-cafeES-c1.asset
@@ -2010,6 +2387,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f61d1b5d243964217b52bb8db97466f1
+    m_Address: nightfestival
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f6532da161847df44a2c567be453964c
     m_Address: Assets/DialogueData/episode5/5-1-2-3-3.asset
@@ -2047,6 +2429,16 @@ MonoBehaviour:
     m_SerializedLabels:
     - Dialogue
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fac01592116c14881ba692e23403c05e
+    m_Address: "\uC6B0\uC9C4\uBC29"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc9a0ef8a83d4493097429e0fd1fab51
+    m_Address: "\uB2E4\uD06C\uC2A4\uB8F8"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fcc1d9ec20d846b419330371aa607037
     m_Address: Assets/DialogueData/episode8/SmallDog_Cat.asset
     m_ReadOnly: 0
@@ -2058,6 +2450,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Dialogue
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe31cf0d57d3942a2966b27e37c97768
+    m_Address: "\uC0AC\uBB3C\uD568"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ff2752f9747c09c448b37af303214c87
     m_Address: Assets/DialogueData/episode7/7-5-cafeES-c2.asset

@@ -14,6 +14,7 @@ public class GameData
     public string playerLastName;
     public string saveTimestamp;
     public string episodeName;
+    public string currentBackgroundName;
     public GameData()
     {
         affectionData = new Dictionary<string, int>();

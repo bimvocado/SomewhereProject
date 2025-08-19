@@ -5,6 +5,7 @@ public class BackgroundController : MonoBehaviour
     private Renderer quadRenderer;
     public Sprite initialSprite;
 
+    public string currentBackgroundName {  get; private set; }
     void Awake()
     {
         quadRenderer = GetComponent<Renderer>();
@@ -28,6 +29,7 @@ public class BackgroundController : MonoBehaviour
         if (newSprite != null && quadRenderer != null)
         {
             quadRenderer.material.mainTexture = newSprite.texture;
+            this.currentBackgroundName = newSprite.texture.name;
         }
     }
 

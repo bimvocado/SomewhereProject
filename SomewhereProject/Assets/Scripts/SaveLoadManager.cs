@@ -57,8 +57,27 @@ public class SaveLoadManager : MonoBehaviour
         FlagManager.Instance.LoadFlags(data.flagData);
         NameChangeManager.Instance.LoadName(data.playerFirstName, data.playerLastName);
         ReadLogManager.Instance.LoadReadLog(data.readDialogueLog);
-        DialogueManager.Instance.LoadDialogueState(data.currentDialogueAssetKey, data.currentDialogueIndex);
 
+        if (BackgroundManager.Instance != null && !string.IsNullOrEmpty(data.currentBackgroundName))
+        {
+            var handle = UnityEngine.AddressableAssets.Addressables.LoadAssetAsync<Texture2D>(data.currentBackgroundName);
+
+            handle.Completed += (op) =>
+            {
+                if (op.Status == UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus.Succeeded)
+                {
+                    var texture = op.Result;
+                    Sprite newSprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
+                    BackgroundManager.Instance.ChangeBackground(newSprite);
+                }
+                else
+                {
+                    Debug.LogError($"어드레서블 로딩 실패! 키: {data.currentBackgroundName}");
+                }
+            };
+        }
+
+        DialogueManager.Instance.LoadDialogueState(data.currentDialogueAssetKey, data.currentDialogueIndex);
         Debug.Log("적용완료");
     }
 
@@ -84,6 +103,13 @@ public class SaveLoadManager : MonoBehaviour
 
     public void SaveGame(int slotIndex)
     {
+        if (BackgroundManager.Instance == null)
+        {
+            return;
+        }
+
+        string backgroundName = BackgroundManager.Instance.GetCurrentBackgroundName();
+
         GameData gameData = new GameData
         {
             affectionData = AffectionManager.Instance.GetAffections(),
@@ -94,10 +120,11 @@ public class SaveLoadManager : MonoBehaviour
         gameData.playerLastName = NameChangeManager.PlayerLastName;
         gameData.currentSceneName = SceneManager.GetActiveScene().name;
         gameData.readDialogueLog = ReadLogManager.Instance.GetReadLog();
-        if (SceneLoader.CurrentEpisodeData != null && !string.IsNullOrEmpty(SceneLoader.CurrentEpisodeData.EpisodeName))
-        {
-            gameData.episodeName = SceneLoader.CurrentEpisodeData.EpisodeName;
-        }
+
+        if (SceneLoader.CurrentEpisodeData != null) gameData.episodeName = SceneLoader.CurrentEpisodeData.EpisodeName;
+
+        gameData.currentBackgroundName = backgroundName;
+
         gameData.saveTimestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm");
 
         string json = JsonUtility.ToJson(gameData, true);
