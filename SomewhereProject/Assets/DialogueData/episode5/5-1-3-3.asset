@@ -22,7 +22,13 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: "\uB8E8\uCE74"
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
     line: "\uB8E8\uCE74\uAC00 \uC2DC\uC120\uC744 \uD53C\uD55C\uB2E4."
     eventName: lshy
     conditionType: 0
@@ -31,6 +37,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\u2026"
     eventName: 
@@ -40,6 +52,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uAD1C\uD788 \uC6C3\uC74C\uC774 \uB098\uC654\uB2E4."
     eventName: 
@@ -49,6 +67,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC194\uC9C1\uD558\uC9C0 \uBABB\uD558\uAE34."
     eventName: 
@@ -58,6 +82,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
     line: "\u2026 \uB124."
     eventName: lsaying
@@ -67,6 +97,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uADF8\uB7FC \uD560 \uB9D0\uC740?"
     eventName: 
@@ -76,6 +112,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
     line: "\uAC10\uC0AC\uD569\uB2C8\uB2E4\u2026"
     eventName: lshy
@@ -85,6 +127,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: 
     line: "\uC758\uC678\uB85C \uACE0\uBD84\uACE0\uBD84\uD55C \uBA74\uB3C4 \uC788\uB2E8
       \uB9D0\uC774\uC9C0."
@@ -95,6 +143,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
     line: "\uCC98\uC74C\uBD80\uD130 \uADF8\uB807\uAC8C \uB9D0\uD558\uBA74 \uC5BC\uB9C8\uB098
       \uC88B\uC544."
@@ -105,17 +159,14 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
-  - speaker: 
-    line: 
-    eventName: ldisappear
-    conditionType: 0
-    conditionKey: 
-    conditionTargetCharacter: 
-    conditionValue: 0
-    hasChoices: 0
-    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uB8E8\uCE74"
-    line: 
+    line: "...\uAE30\uC5B5\uD574 \uB450\uB3C4\uB85D \uD558\uC8E0."
     eventName: lsaying
     conditionType: 0
     conditionKey: 
@@ -123,6 +174,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: d6a232970a2e091488f9e95921593a5c
     m_SubObjectName: 
