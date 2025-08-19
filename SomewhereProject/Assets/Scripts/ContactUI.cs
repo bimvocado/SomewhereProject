@@ -15,52 +15,24 @@ public class ContactUI : MonoBehaviour
     [SerializeField] private Image profileImage;
     [SerializeField] private Slider affectionSlider;
 
-
-    private void Start()
-    {
-        if (contactData == null)
-        {
-            return;
-        }
-        if (contactRoot == null)
-        {
-            return;
-        }
-        contactRoot.SetActive(false);
-    }
-
     public void UpdateContactState()
     {
-        if (contactData == null || FlagManager.Instance == null)
-        {
-            return;
-        }
+        if (contactData == null || FlagManager.Instance == null || contactRoot == null) return;
 
-        bool conditionsMet = contactData.requiredFlags.Any(flag => FlagManager.Instance.GetFlag(flag));
+        bool isActivated = contactData.requiredFlags.Any(flag => FlagManager.Instance.GetFlag(flag));
 
-        string flagsChecked = string.Join(", ", contactData.requiredFlags.Select(f => $"'{f}' = {FlagManager.Instance.GetFlag(f)}"));
+        contactRoot.SetActive(isActivated);
 
-        if (conditionsMet)
+        if (isActivated)
         {
-            EnableContact();
-        }
-        else
-        {
-            DisableContact();
+            UpdateContactDetails();
         }
     }
 
-    private void EnableContact()
+    private void UpdateContactDetails()
     {
-        if (!contactRoot.activeSelf)
-        {
-            Debug.Log($"<color=green>ContactUI ({contactData.contactName}):</color> 활성화합니다.");
-        }
-
-        contactRoot.SetActive(true);
-
-        nameText.text = contactData.contactName;
-        messageText.text = contactData.contactMessage;
+        if (nameText != null) nameText.text = contactData.contactName;
+        if (messageText != null) messageText.text = contactData.contactMessage;
         UpdateProfileImage();
 
         if (affectionSlider != null)
@@ -73,11 +45,6 @@ public class ContactUI : MonoBehaviour
                 UpdateAffectionBar();
             }
         }
-    }
-
-    private void DisableContact()
-    {
-        contactRoot.SetActive(false);
     }
 
     private void UpdateProfileImage()

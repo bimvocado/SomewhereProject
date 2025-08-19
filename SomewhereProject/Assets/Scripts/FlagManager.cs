@@ -35,6 +35,16 @@ public class FlagManager : MonoBehaviour
 
     public void LoadFlags(Dictionary<string, bool> data)
     {
+        if (data == null)
+        {
+            return;
+        }
+
         flags = new Dictionary<string, bool>(data);
+
+        foreach (var flag in flags)
+        {
+            Debug.Log($"[FlagManager] > {flag.Key} = {flag.Value}");
+        }
     }
 }

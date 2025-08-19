@@ -123,4 +123,16 @@ public class BarUIManager : MonoBehaviour
             canvasGroup.blocksRaycasts = false;
         }
     }
+
+    public void RefreshContacts()
+    {
+        if (applicationsContainer == null) return;
+
+        ContactManager contactManager = applicationsContainer.GetComponentInChildren<ContactManager>(true);
+        if (contactManager != null)
+        {
+            contactManager.UpdateAllContactsStatus();
+            Debug.Log("<color=green>연락처 목록 갱신 성공</color>");
+        }
+    }
 }

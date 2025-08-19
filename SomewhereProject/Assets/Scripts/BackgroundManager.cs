@@ -39,12 +39,9 @@ public class BackgroundManager : MonoBehaviour
     {
         if (activeBackgroundController == null)
         {
-            Debug.LogWarning("진단 정보: GetCurrentBackgroundName()이 null을 반환합니다.");
-            Debug.LogWarning("원인: BackgroundController가 BackgroundManager에게 등록(Register)된 적이 없습니다. Script Execution Order 문제일 가능성이 가장 높습니다.");
             return null;
         }
 
-        Debug.Log("3차 진단 통과: activeBackgroundController가 정상적으로 등록되어 있습니다.");
         return activeBackgroundController.currentBackgroundName;
     }
 

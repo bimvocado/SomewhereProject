@@ -5,8 +5,10 @@ public class GameData
 {
     public int playerCoin;
     public string currentSceneName;
-    public Dictionary<string, int> affectionData;
-    public Dictionary<string, bool> flagData;
+    public List<string> affectionKeys;
+    public List<int> affectionValues;
+    public List<string> flagKeys;
+    public List<bool> flagValues;
     public string currentDialogueAssetKey;
     public int currentDialogueIndex;
     public HashSet<string> readDialogueLog;
@@ -17,8 +19,10 @@ public class GameData
     public string currentBackgroundName;
     public GameData()
     {
-        affectionData = new Dictionary<string, int>();
-        flagData = new Dictionary<string, bool>();
+        affectionKeys = new List<string>();
+        affectionValues = new List<int>();
+        flagKeys = new List<string>();
+        flagValues = new List<bool>();
         currentDialogueAssetKey = null;
         currentDialogueIndex = 0;
         readDialogueLog = new HashSet<string>();
