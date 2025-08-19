@@ -262,8 +262,8 @@ MonoBehaviour:
   - speaker: "\uC5EC\uC8FC"
     line: "\uC640\xB7\xB7\xB7 \uC800\uBC88\uC774\uB791 \uB2E4\uB978 \uCC28?"
     eventName: 
-    conditionType: 0
-    conditionKey: 
+    conditionType: 1
+    conditionKey: MeetLuka
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
@@ -278,8 +278,8 @@ MonoBehaviour:
     line: "\uC608. \uC800\uBC88\uC5D4 \uAE30\uC0AC\uB2D8\uC774 \uB370\uB824\uB2E4\uC8FC\uC2E0
       \uAC70\uACE0, \uC774\uAC74 \uC81C \uCC28\uC608\uC694."
     eventName: LukaOk
-    conditionType: 0
-    conditionKey: 
+    conditionType: 1
+    conditionKey: MeetLuka
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0
@@ -291,7 +291,22 @@ MonoBehaviour:
       m_SubObjectGUID: 
       m_EditorAssetChanged: 0
   - speaker: "\uC5EC\uC8FC"
-    line: "\uC640\xB7\xB7\xB7 \uBA4B\uC9C0\uB2E4. \uBA74\uD5C8\uB3C4 \uC788\uC5B4?"
+    line: "\uC640\xB7\xB7\xB7 \uBA4B\uC9C0\uB2E4."
+    eventName: 
+    conditionType: 1
+    conditionKey: MeetLuka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uBA74\uD5C8\uB3C4 \uC788\uC5B4?"
     eventName: 
     conditionType: 0
     conditionKey: 

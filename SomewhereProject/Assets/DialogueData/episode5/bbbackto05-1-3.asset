@@ -31,7 +31,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: "\uB8E8\uCE74\uB97C \uBD99\uC7A1\uACE0 \uACF5\uC5F0\uC7A5\uC73C\uB85C \uD5A5\uD588\uB2E4."
-    eventName: 
+    eventName: ldisappear
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

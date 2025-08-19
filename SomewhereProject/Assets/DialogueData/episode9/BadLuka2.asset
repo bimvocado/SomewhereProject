@@ -415,7 +415,7 @@ MonoBehaviour:
       m_SubObjectType: 
       m_SubObjectGUID: 
       m_EditorAssetChanged: 0
-  - speaker: 
+  - speaker: "\uC5EC\uC8FC"
     line: "\uADF8\uB7FC \uC774\uC81C \uAC1C\uAC15\uD558\uACE0 \uBCF4\uC790."
     eventName: 
     conditionType: 0
