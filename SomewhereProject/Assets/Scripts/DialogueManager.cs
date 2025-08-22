@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -47,7 +48,7 @@ public class DialogueManager : MonoBehaviour
 
     private float lastInteractionTime = 0f;
     private const float interactionCooldown = 0.2f;
-
+    private Dictionary<AssetReferenceT<DialogueData>, AsyncOperationHandle<DialogueData>> _preloadedChoiceHandles = new Dictionary<AssetReferenceT<DialogueData>, AsyncOperationHandle<DialogueData>>();
     private bool isSkipping = false;
     private bool isAutoMode = false;
     private bool wasAutoModeActiveBeforeChoice = false;
@@ -272,11 +273,6 @@ public class DialogueManager : MonoBehaviour
 
         isLoadingNextDialogue = true;
         string key = assetRef.AssetGUID;
-
-        if (_currentDialogueHandle.IsValid())
-        {
-            Addressables.Release(_currentDialogueHandle);
-        }
 
         AsyncOperationHandle<DialogueData> newHandle = assetRef.LoadAssetAsync<DialogueData>();
         newHandle.Completed += handle =>
@@ -526,9 +522,14 @@ public class DialogueManager : MonoBehaviour
 
     void ShowChoices(Choice[] choices)
     {
-        foreach (Transform child in choicePanel)
+        ClearChoicesAndReleaseHandles();
+        foreach (var choice in choices.Where(c => c.nextDialogue != null && c.nextDialogue.RuntimeKeyIsValid()))
         {
-            ObjectPooler.Instance.ReturnToPool("ChoiceButton", child.gameObject);
+            if (!_preloadedChoiceHandles.ContainsKey(choice.nextDialogue))
+            {
+                var handle = Addressables.LoadAssetAsync<DialogueData>(choice.nextDialogue);
+                _preloadedChoiceHandles.Add(choice.nextDialogue, handle);
+            }
         }
 
         if (nextIndicator != null) nextIndicator.SetActive(false);
@@ -634,32 +635,40 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-        if (choiceBlockerPanel != null) choiceBlockerPanel.SetActive(false);
-        ClearChoices();
-
-        if (choice.resetsAffection)
-        {
-            AffectionManager.Instance.ResetAffection(choice.targetCharacterForAffection);
-        }
-        else
-        {
-            AffectionManager.Instance.ChangeAffection(choice.targetCharacterForAffection, choice.affectionChange);
-        }
-
         if (!string.IsNullOrEmpty(choice.flagToSet))
         {
             FlagManager.Instance.SetFlag(choice.flagToSet, choice.flagValue);
         }
+        AffectionManager.Instance.ChangeAffection(choice.targetCharacterForAffection, choice.affectionChange);
 
         if (choice.nextDialogue != null && choice.nextDialogue.RuntimeKeyIsValid())
         {
-            StartDialogueFromReference(choice.nextDialogue);
+            if (_preloadedChoiceHandles.TryGetValue(choice.nextDialogue, out var handle))
+            {
+                isLoadingNextDialogue = true;
+                handle.Completed += h => OnDialogueLoaded(h, choice.nextDialogue.AssetGUID);
+                var otherKeys = _preloadedChoiceHandles.Keys.Where(k => k != choice.nextDialogue).ToList();
+                foreach (var key in otherKeys)
+                {
+                    if (_preloadedChoiceHandles.TryGetValue(key, out var handleToRelease))
+                    {
+                        Addressables.Release(handleToRelease);
+                    }
+                    _preloadedChoiceHandles.Remove(key);
+                }
+            }
+            else
+            {
+                StartDialogueFromReference(choice.nextDialogue);
+            }
         }
-        else if (!isLoadingNextDialogue)
+        else
         {
-            SettingUI(true);
+            ClearChoices();
             DisplayNext();
         }
+
+        if (choiceBlockerPanel != null) choiceBlockerPanel.SetActive(false);
     }
 
     private void EndDialogue()
@@ -677,7 +686,17 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-
+    private void ClearChoicesAndReleaseHandles()
+    {
+        foreach (var handle in _preloadedChoiceHandles.Values)
+        {
+            if (handle.IsValid())
+            {
+                Addressables.Release(handle);
+            }
+        }
+        _preloadedChoiceHandles.Clear();
+    }
     private void ClearChoices()
     {
         choicePanel.gameObject.SetActive(false);
@@ -685,6 +704,7 @@ public class DialogueManager : MonoBehaviour
         {
             ObjectPooler.Instance.ReturnToPool("ChoiceButton", child.gameObject);
         }
+        ClearChoicesAndReleaseHandles();
     }
 
     private void SettingUI(bool active)
