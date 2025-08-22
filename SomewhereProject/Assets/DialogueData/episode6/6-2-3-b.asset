@@ -338,8 +338,38 @@ MonoBehaviour:
   - speaker: "\uC5EC\uC8FC"
     line: "\uAE30\uC0AC\uBD84\uB3C4 \uACC4\uC2E0\uB370?"
     eventName: 
-    conditionType: 0
-    conditionKey: 
+    conditionType: 1
+    conditionKey: MeetLuka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: "\uC5EC\uC8FC"
+    line: "\uC6B4\uC804\uAE30\uC0AC...\uAC19\uC740 \uBD84\uC740 \uC548 \uACC4\uC154?"
+    eventName: 
+    conditionType: 2
+    conditionKey: MeetLuka
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: "\uB8E8\uCE74"
+    line: "\uACC4\uC154\uC694. \uADF8\uB798\uB3C4,"
+    eventName: 
+    conditionType: 2
+    conditionKey: MeetLuka
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0

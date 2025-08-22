@@ -46,18 +46,24 @@ public class PotionBoard : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+            if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+                return;
 
-            if (hit.collider != null && hit.collider.gameObject.GetComponent<Potion>())
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos2D = new Vector2(mouseWorldPos.x, mouseWorldPos.y);
+
+            Collider2D hit = Physics2D.OverlapPoint(mousePos2D);
+            if (hit != null)
             {
-                if (isProcessingMove)
-                    return;
-
-                Potion potion = hit.collider.gameObject.GetComponent<Potion>();
-                Debug.Log("I have  a clicked a potion it is: " + potion.gameObject);
-
-                SelectPotion(potion);
+                Potion potion = hit.GetComponent<Potion>();
+                if (potion != null)
+                {
+                    if (!isProcessingMove)
+                    {
+                        Debug.Log("Clicked potion: " + potion.gameObject.name);
+                        SelectPotion(potion);
+                    }
+                }
             }
         }
     }
