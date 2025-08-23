@@ -747,8 +747,8 @@ MonoBehaviour:
       m_SubObjectGUID: 
       m_EditorAssetChanged: 0
   - speaker: 
-    line: "\"\uC7A0\uC2DC \uD6C4, \uC120\uBC30\uAC00 \uB0B4 \uD314\uC744 \uBD99\uB4E4\uACE0
-      \uB2E4\uC2DC \uC6C0\uC9C1\uC600\uB2E4\"."
+    line: "\uC7A0\uC2DC \uD6C4, \uC120\uBC30\uAC00 \uB0B4 \uD314\uC744 \uBD99\uB4E4\uACE0
+      \uB2E4\uC2DC \uC6C0\uC9C1\uC600\uB2E4. "
     eventName: 
     conditionType: 0
     conditionKey: 

@@ -79,8 +79,8 @@ MonoBehaviour:
       targetCharacterForAffection: "\uC774\uC740\uC131"
       resetsAffection: 0
       requiredCoin: 0
-      flagToSet: 
-      flagValue: 0
+      flagToSet: ESCall
+      flagValue: 1
       conditionType: 0
       conditionKey: 
       conditionTargetCharacter: 

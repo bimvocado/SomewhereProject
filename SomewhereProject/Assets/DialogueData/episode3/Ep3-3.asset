@@ -17,7 +17,7 @@ MonoBehaviour:
     line: "\uC138\uD558\uC758 \uC5F0\uB77D\uCC98\uB97C \uC5BB\uC5C8\uB2E4!"
     eventName: CMD:SetFlag:SaveContact_Seha:true
     conditionType: 2
-    conditionKey: shcon
+    conditionKey: Seha_Contact
     conditionTargetCharacter: 
     conditionValue: 0
     hasChoices: 0

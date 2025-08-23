@@ -80,8 +80,8 @@ MonoBehaviour:
       targetCharacterForAffection: "\uAC15\uC138\uD558"
       resetsAffection: 0
       requiredCoin: 0
-      flagToSet: shcon
-      flagValue: 0
+      flagToSet: Seha_Contact
+      flagValue: 1
       conditionType: 0
       conditionKey: 
       conditionTargetCharacter: 
