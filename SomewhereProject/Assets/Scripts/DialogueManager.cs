@@ -914,6 +914,15 @@ public class DialogueManager : MonoBehaviour
                 }
                 break;
 
+            case "ChangeAffection":
+                if (parts.Length > 2)
+                {
+                    string target = parts[2];
+                    int amount = int.Parse(parts[3]);
+                    AffectionManager.Instance.ChangeAffection(target, amount);
+                }
+                break;
+
             case "SaveProgress":
                 Debug.Log("중간 에피소드 종료: 1번 슬롯에 진행 상황을 자동 저장합니다.");
                 if (SaveLoadManager.Instance != null)
