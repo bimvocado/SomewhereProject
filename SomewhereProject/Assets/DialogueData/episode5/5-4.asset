@@ -806,7 +806,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: "\uAC15\uC138\uD558\uB77C\uB294 \uC0AC\uB78C\uC744."
-    eventName: 
+    eventName: "CMD:ChangeAffection:\uAC15\uC138\uD558:7"
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 

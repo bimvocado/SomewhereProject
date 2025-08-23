@@ -14,6 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - speaker: 
+    line: 
+    eventName: CMD:FadeOut
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: GotoCafeteria
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
     line: "\uC138\uD558\uC758 \uC5F0\uB77D\uCC98\uB97C \uC5BB\uC5C8\uB2E4!"
     eventName: CMD:SetFlag:SaveContact_Seha:true
     conditionType: 2
@@ -499,7 +529,22 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: CMD:FadeInOut
+    eventName: DisappearSeha
+    conditionType: 0
+    conditionKey: 
+    conditionTargetCharacter: 
+    conditionValue: 0
+    hasChoices: 0
+    choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+  - speaker: 
+    line: 
+    eventName: "CMD:ChangeAffection:\uAC15\uC138\uD558:7"
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
