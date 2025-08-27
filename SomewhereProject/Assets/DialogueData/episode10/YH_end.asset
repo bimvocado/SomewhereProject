@@ -153,7 +153,7 @@ MonoBehaviour:
   - speaker: 
     line: "\uC120\uBC30\uC640 \uC800\uB141\uC5D0 \uB9CC\uB098 \uBD88\uAF43\uB180\uC774
       \uC7A5\uC18C\uB85C \uAC77\uAE30 \uC2DC\uC791\uD588\uB2E4."
-    eventName: AppearYH
+    eventName: AppearYHpark
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -168,7 +168,7 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
   - speaker: 
     line: 
-    eventName: Fadeout
+    eventName: 
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
@@ -310,7 +310,7 @@ MonoBehaviour:
   - speaker: "\uC5EC\uC8FC"
     line: "\uC544, \uBD88\uAF43\uB180\uC774 \uBC8C\uC368 \uC2DC\uC791\uD588\uB098
       \uBD10\uC694."
-    eventName: 
+    eventName: GotoYHend
     conditionType: 0
     conditionKey: 
     conditionTargetCharacter: 
