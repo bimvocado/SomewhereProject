@@ -22,6 +22,12 @@ MonoBehaviour:
     conditionValue: 0
     hasChoices: 0
     choices: []
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   - speaker: "\uC815\uC6B0\uC9C4"
     line: "\uB098\uB3C4 \uCD5C\uADFC\uC5D0 \uC54C\uC558\uB294\uB370, \uB108\uB791
       \uB098\uB791 \uC606\uC9D1\uC774\uB354\uB77C. \uB9D0\uD574\uC8FC\uB294 \uAC78
@@ -57,7 +63,7 @@ MonoBehaviour:
         m_SubObjectType: 
         m_SubObjectGUID: 
         m_EditorAssetChanged: 0
-      affectionChange: 2
+      affectionChange: 5
       targetCharacterForAffection: "\uC815\uC6B0\uC9C4"
       resetsAffection: 0
       requiredCoin: 0
@@ -67,6 +73,12 @@ MonoBehaviour:
       conditionKey: 
       conditionTargetCharacter: 
       conditionValue: 0
+    overrideNextDialogue:
+      m_AssetGUID: 
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
   nextDialogueOnCompletion:
     m_AssetGUID: 
     m_SubObjectName: 
